@@ -1,0 +1,52 @@
+{
+  "dependencies": {
+    "@jrc03c/bee": "^0.0.55",
+    "@jrc03c/create-high-dpi-canvas": "^1.0.28",
+    "@jrc03c/fs-extras": "^0.0.23",
+    "@jrc03c/js-convex-hull": "^0.0.25",
+    "@jrc03c/js-crypto-helpers": "^0.0.21",
+    "@jrc03c/js-csv-helpers": "^0.0.34",
+    "@jrc03c/js-data-science-helpers": "^0.0.86",
+    "@jrc03c/js-math-tools": "^0.0.92",
+    "@jrc03c/js-text-tools": "^0.0.62",
+    "@jrc03c/make-key": "^0.0.36",
+    "@jrc03c/pause": "^0.0.10",
+    "@jrc03c/radio": "^0.0.12",
+    "@jrc03c/tf-k-means": "^0.0.8",
+    "@jrc03c/vue-component-with-css": "^0.0.20",
+    "@jrc03c/web-worker-helper": "^0.0.7",
+    "@tensorflow/tfjs": "^4.21.0",
+    "@tensorflow/tfjs-backend-wasm": "^4.22.0",
+    "cytoscape": "^3.30.0",
+    "cytoscape-cola": "^2.5.1",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "cytoscape-euler": "^1.2.2",
+    "cytoscape-fcose": "^2.1.0",
+    "cytoscape-klay": "^3.1.4",
+    "localforage": "^1.10.0",
+    "ml-matrix": "^6.10.4",
+    "papaparse": "5.3.2",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@jrc03c/fake-jest": "^0.0.16",
+    "@jrc03c/js-plot-tools": "^0.0.18",
+    "@jrc03c/progress": "^0.0.7",
+    "@jrc03c/timer": "^0.0.6",
+    "@jrc03c/watch": "^0.0.20",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.21.0",
+    "prettier": "^3.5.2"
+  },
+  "main": "./res/js/src/index.mjs",
+  "module": "./res/js/src/index.mjs",
+  "name": "hypothesize-visualizations",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch"
+  },
+  "source": "./res/js/src/index.mjs",
+  "type": "module",
+  "version": "0.0.14"
+}

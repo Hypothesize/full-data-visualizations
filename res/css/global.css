@@ -1,0 +1,470 @@
+:root {
+  --border-radius: 4px;
+  --box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+
+  --color-danger-1: hsl(345deg, 85%, 5%);
+  --color-danger-2: hsl(345deg, 85%, 12.5%);
+  --color-danger-3: hsl(345deg, 85%, 20%);
+  --color-danger-4: hsl(345deg, 85%, 27.5%);
+  --color-danger-5: hsl(345deg, 85%, 35%);
+  --color-danger-6: hsl(345deg, 85%, 42.5%);
+  --color-danger-7: hsl(345deg, 85%, 50%);
+  --color-danger-8: hsl(345deg, 85%, 57.5%);
+  --color-danger-9: hsl(345deg, 85%, 65%);
+  --color-danger-10: hsl(345deg, 85%, 72.5%);
+  --color-danger-11: hsl(345deg, 85%, 80%);
+  --color-danger-12: hsl(345deg, 85%, 87.5%);
+  --color-danger-13: hsl(345deg, 85%, 95%);
+
+  --color-gray-1: hsl(0deg, 0%, 5%);
+  --color-gray-2: hsl(0deg, 0%, 12.5%);
+  --color-gray-3: hsl(0deg, 0%, 20%);
+  --color-gray-4: hsl(0deg, 0%, 27.5%);
+  --color-gray-5: hsl(0deg, 0%, 35%);
+  --color-gray-6: hsl(0deg, 0%, 42.5%);
+  --color-gray-7: hsl(0deg, 0%, 50%);
+  --color-gray-8: hsl(0deg, 0%, 57.5%);
+  --color-gray-9: hsl(0deg, 0%, 65%);
+  --color-gray-10: hsl(0deg, 0%, 72.5%);
+  --color-gray-11: hsl(0deg, 0%, 80%);
+  --color-gray-12: hsl(0deg, 0%, 87.5%);
+  --color-gray-13: hsl(0deg, 0%, 95%);
+
+  --color-info-1: hsl(210deg, 85%, 5%);
+  --color-info-2: hsl(210deg, 85%, 12.5%);
+  --color-info-3: hsl(210deg, 85%, 20%);
+  --color-info-4: hsl(210deg, 85%, 27.5%);
+  --color-info-5: hsl(210deg, 85%, 35%);
+  --color-info-6: hsl(210deg, 85%, 42.5%);
+  --color-info-7: hsl(210deg, 85%, 50%);
+  --color-info-8: hsl(210deg, 85%, 57.5%);
+  --color-info-9: hsl(210deg, 85%, 65%);
+  --color-info-10: hsl(210deg, 85%, 72.5%);
+  --color-info-11: hsl(210deg, 85%, 80%);
+  --color-info-12: hsl(210deg, 85%, 87.5%);
+  --color-info-13: hsl(210deg, 85%, 95%);
+
+  --color-primary-1: hsl(270deg, 85%, 5%);
+  --color-primary-2: hsl(270deg, 85%, 12.5%);
+  --color-primary-3: hsl(270deg, 85%, 20%);
+  --color-primary-4: hsl(270deg, 85%, 27.5%);
+  --color-primary-5: hsl(270deg, 85%, 35%);
+  --color-primary-6: hsl(270deg, 85%, 42.5%);
+  --color-primary-7: hsl(270deg, 85%, 50%);
+  --color-primary-8: hsl(270deg, 85%, 57.5%);
+  --color-primary-9: hsl(270deg, 85%, 65%);
+  --color-primary-10: hsl(270deg, 85%, 72.5%);
+  --color-primary-11: hsl(270deg, 85%, 80%);
+  --color-primary-12: hsl(270deg, 85%, 87.5%);
+  --color-primary-13: hsl(270deg, 85%, 95%);
+
+  --color-success-1: hsl(130deg, 75%, 5%);
+  --color-success-2: hsl(130deg, 75%, 12.5%);
+  --color-success-3: hsl(130deg, 75%, 20%);
+  --color-success-4: hsl(130deg, 75%, 27.5%);
+  --color-success-5: hsl(130deg, 75%, 35%);
+  --color-success-6: hsl(130deg, 75%, 42.5%);
+  --color-success-7: hsl(130deg, 75%, 50%);
+  --color-success-8: hsl(130deg, 75%, 57.5%);
+  --color-success-9: hsl(130deg, 75%, 65%);
+  --color-success-10: hsl(130deg, 75%, 72.5%);
+  --color-success-11: hsl(130deg, 75%, 80%);
+  --color-success-12: hsl(130deg, 75%, 87.5%);
+  --color-success-13: hsl(130deg, 75%, 95%);
+
+  --color-warning-1: hsl(50deg, 100%, 5%);
+  --color-warning-2: hsl(50deg, 100%, 12.5%);
+  --color-warning-3: hsl(50deg, 100%, 20%);
+  --color-warning-4: hsl(50deg, 100%, 27.5%);
+  --color-warning-5: hsl(50deg, 100%, 35%);
+  --color-warning-6: hsl(50deg, 100%, 42.5%);
+  --color-warning-7: hsl(50deg, 100%, 50%);
+  --color-warning-8: hsl(50deg, 100%, 57.5%);
+  --color-warning-9: hsl(50deg, 100%, 65%);
+  --color-warning-10: hsl(50deg, 100%, 72.5%);
+  --color-warning-11: hsl(50deg, 100%, 80%);
+  --color-warning-12: hsl(50deg, 100%, 87.5%);
+  --color-warning-13: hsl(50deg, 100%, 95%);
+
+  --font-family-body: Inter, Roboto, "Helvetica Neue", "Arial Nova",
+    "Nimbus Sans", Arial, sans-serif;
+  --font-family-code: monospace;
+  --font-family-title: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
+    source-sans-pro, sans-serif;
+  --font-size-1: 3rem;
+  --font-size-2: 2.5rem;
+  --font-size-3: 2rem;
+  --font-size-4: 1.5rem;
+  --font-size-5: 1rem;
+  --font-size-6: 0.85rem;
+  --font-size-7: 0.6rem;
+  --font-weight-body: 400;
+  --font-weight-code: 400;
+  --font-weight-title: 700;
+
+  --line-thickness: 2px;
+  --padding: 1.5em;
+
+  /* correlation grid visualization variables */
+  --vis-corr-grid-color-negative: orange;
+  --vis-corr-grid-color-positive: dodgerblue;
+
+  /* correlation network visualization variables */
+  --vis-corr-network-color-negative: orange;
+  --vis-corr-network-color-positive: dodgerblue;
+
+  /* distributions visualization variables */
+  /* prettier-ignore */
+  --vis-dists-colors-continuous:
+    hsl(0deg, 100%, 50%),
+    hsl(60deg, 100%, 50%),
+    hsl(120deg, 100%, 50%),
+    hsl(180deg, 100%, 50%),
+    hsl(240deg, 100%, 50%),
+    hsl(300deg, 100%, 50%);
+  /* prettier-ignore */
+  --vis-dists-colors-discrete:
+    hsl(0deg, 100%, 25%),
+    hsl(60deg, 100%, 25%),
+    hsl(120deg, 100%, 25%),
+    hsl(180deg, 100%, 25%),
+    hsl(240deg, 100%, 25%),
+    hsl(300deg, 100%, 25%);
+
+  /* k-means visualization variables */
+  --vis-k-means-color-background: #666666;
+  /* prettier-ignore */
+  --vis-k-means-colors-cluster:
+    cyan,
+    yellow,
+    magenta,
+    lime,
+    orange,
+    dodgerblue,
+    gray;
+
+  /* pca visualization variables */
+  --vis-pca-color-negative: orange;
+  --vis-pca-color-positive: dodgerblue;
+
+  /* snapshot visualization variables */
+  --vis-snapshot-color-boolean: hsl(348, 100%, 61%);
+  --vis-snapshot-color-date: hsl(48, 100%, 67%);
+  --vis-snapshot-color-empty: rgb(235, 235, 235);
+  --vis-snapshot-color-float: hsl(204, 86%, 53%);
+  --vis-snapshot-color-integer: hsl(204, 86%, 75%);
+  --vis-snapshot-color-null: rgb(235, 235, 235);
+  --vis-snapshot-color-number: hsl(204, 86%, 53%);
+  --vis-snapshot-color-object: #b542e0;
+  --vis-snapshot-color-string: hsl(141, 71%, 48%);
+  --vis-snapshot-cell-border-thickness: 1px;
+}
+
+*,
+body,
+button,
+html,
+input,
+optgroup,
+option,
+select,
+textarea {
+  color: var(--color-gray-3);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-body);
+}
+
+body {
+  margin: var(--padding);
+}
+
+#app {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+}
+
+b {
+  font-weight: 700;
+}
+
+p {
+  margin: 0 0 var(--padding) 0;
+}
+
+button,
+button *,
+input[type="submit"],
+input[type="submit"] * {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-6);
+  font-weight: 600;
+}
+
+button,
+input[type="submit"] {
+  align-content: center;
+  align-items: center;
+  background-color: var(--color-gray-12);
+  border-radius: var(--border-radius);
+  border: 0;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: calc(var(--padding) / 2);
+  justify-content: center;
+  max-width: fit-content;
+  min-width: 128px;
+  padding: calc(var(--padding) / 2) calc(var(--padding) / 2);
+  width: fit-content;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  filter: brightness(105%);
+}
+
+button:active,
+input[type="submit"]:active {
+  filter: brightness(90%);
+}
+
+button[disabled],
+input[type="submit"][disabled] {
+  cursor: not-allowed;
+  filter: saturate(50%) contrast(25%) brightness(175%);
+}
+
+button.is-clear,
+input[type="submit"].is-clear {
+  background-color: transparent;
+}
+
+button.is-clear:hover,
+input[type="submit"].is-clear:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  filter: unset;
+}
+
+button.is-clear:active,
+input[type="submit"].is-clear:active {
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: unset;
+}
+
+button.is-danger,
+input[type="submit"].is-danger {
+  background-color: var(--color-danger-7);
+}
+
+button.is-danger,
+button.is-danger *,
+input[type="submit"].is-danger,
+input[type="submit"].is-danger * {
+  color: white;
+}
+
+button.is-danger img.hvis-icon,
+input[type="submit"].is-danger img.hvis-icon {
+  filter: invert(100%);
+}
+
+button.is-dark,
+input[type="submit"].is-dark {
+  background-color: var(--color-gray-3);
+}
+
+button.is-dark,
+button.is-dark *,
+input[type="submit"].is-dark,
+input[type="submit"].is-dark * {
+  color: white;
+}
+
+button.is-dark img.hvis-icon,
+input[type="submit"].is-dark img.hvis-icon {
+  filter: invert(100%);
+}
+
+button.is-dark:hover,
+input[type="submit"].is-dark:hover {
+  filter: brightness(115%);
+}
+
+button.is-dark:active,
+input[type="submit"].is-dark:active {
+  filter: brightness(75%);
+}
+
+button.is-info,
+input[type="submit"].is-info {
+  background-color: var(--color-info-7);
+}
+
+button.is-info,
+button.is-info *,
+input[type="submit"].is-info,
+input[type="submit"].is-info * {
+  color: white;
+}
+
+button.is-info img.hvis-icon,
+input[type="submit"].is-info img.hvis-icon {
+  filter: invert(100%);
+}
+
+button.is-primary,
+input[type="submit"].is-primary {
+  background-color: var(--color-primary-7);
+}
+
+button.is-primary,
+button.is-primary *,
+input[type="submit"].is-primary,
+input[type="submit"].is-primary * {
+  color: white;
+}
+
+button.is-primary img.hvis-icon,
+input[type="submit"].is-primary img.hvis-icon {
+  filter: invert(100%);
+}
+
+button.is-success,
+input[type="submit"].is-success {
+  background-color: var(--color-success-7);
+}
+
+button.is-warning,
+input[type="submit"].is-warning {
+  background-color: var(--color-warning-7);
+}
+
+button:has(img.hvis-icon:only-child),
+input[type="submit"]:has(img.hvis-icon:only-child) {
+  height: 2em;
+  max-height: 2em;
+  max-width: 2em;
+  min-height: 2em;
+  min-width: 2em;
+  width: 2em;
+}
+
+button.is-rounded:has(img.hvis-icon:only-child),
+input[type="submit"].is-rounded:has(img.hvis-icon:only-child) {
+  border-radius: 100%;
+}
+
+img.hvis-icon {
+  height: 1.25em;
+  max-height: 1.25em;
+  max-width: auto;
+  min-height: 1.25em;
+  min-width: auto;
+  width: auto;
+}
+
+input[type="number"],
+input[type="text"],
+option,
+select,
+textarea {
+  border-radius: var(--border-radius);
+  border: var(--line-thickness) solid var(--color-gray-12);
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+  min-width: 100%;
+  outline: 0;
+  padding: calc(var(--padding) / 4);
+  width: 100%;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+option:focus,
+select:focus,
+textarea:focus {
+  border: var(--line-thickness) solid var(--color-primary-7);
+}
+
+progress {
+  width: 100%;
+}
+
+progress {
+  border-radius: var(--border-radius);
+  border: 0;
+  height: calc(var(--border-radius) * 2);
+  margin-bottom: var(--padding);
+  width: 100%;
+}
+
+progress[value] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--color-gray-13);
+  color: var(--color-primary-6);
+  height: calc(var(--border-radius) * 2);
+}
+
+progress[value]::-webkit-progress-bar {
+  background: var(--color-gray-13);
+  border-radius: var(--border-radius);
+  height: calc(var(--border-radius) * 2);
+}
+
+progress[value]::-webkit-progress-value {
+  background: var(--color-primary-6);
+  border-radius: var(--border-radius);
+  height: calc(var(--border-radius) * 2);
+}
+
+progress[value]::-moz-progress-bar {
+  background: var(--color-primary-6);
+  border-radius: var(--border-radius);
+  height: calc(var(--border-radius) * 2);
+}
+
+.hvis-row {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: var(--padding);
+  justify-content: space-between;
+}
+
+.hvis-row-centered {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: var(--padding);
+  justify-content: center;
+}
+
+.hvis-row-left {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: var(--padding);
+  justify-content: flex-start;
+}
+
+.hvis-row-right {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: var(--padding);
+  justify-content: flex-end;
+}

@@ -1,0 +1,9 @@
+.~lock*
+.DS_Store
+.env.*.local
+.env.local
+.parcel-cache
+.vscode
+.vscode/*
+node_modules
+temp
