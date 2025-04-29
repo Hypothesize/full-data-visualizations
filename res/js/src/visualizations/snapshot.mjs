@@ -315,119 +315,120 @@ async function SnapshotVisualization(options, shouldReturnComponentOnly) {
           }
         }
 
-        // draw on collapsedCanvas
-        const collapsedCanvasHeight = parseInt(width * 0.5)
-        const collapsedCanvas = createHighDPICanvas(
-          width,
-          collapsedCanvasHeight,
-        )
-        const collapsedContext = collapsedCanvas.getContext("2d")
+        // // draw on collapsedCanvas
+        // const collapsedCanvasHeight = parseInt(width * 0.5)
+        // const collapsedCanvas = createHighDPICanvas(
+        //   width,
+        //   collapsedCanvasHeight,
+        // )
+        // const collapsedContext = collapsedCanvas.getContext("2d")
 
-        await pause(100)
+        // await pause(100)
 
-        const fadeImage = await loadImage(
-          urlPathJoin(store.baseURL, store.imageDir, "fade.png"),
-        )
+        // const fadeImage = await loadImage(
+        //   urlPathJoin(store.baseURL, store.imageDir, "fade.png"),
+        // )
 
-        const scalar = expandedCanvas.width / width
+        // const scalar = expandedCanvas.width / width
 
-        collapsedContext.drawImage(
-          expandedCanvas.element,
-          0,
-          0,
-          width,
-          parseInt((scalar * collapsedCanvasHeight) / 2),
-          0,
-          0,
-          width,
-          parseInt(collapsedCanvasHeight / 2),
-        )
+        // collapsedContext.drawImage(
+        //   expandedCanvas.element,
+        //   0,
+        //   0,
+        //   width,
+        //   parseInt((scalar * collapsedCanvasHeight) / 2),
+        //   0,
+        //   0,
+        //   width,
+        //   parseInt(collapsedCanvasHeight / 2),
+        // )
 
-        collapsedContext.drawImage(
-          expandedCanvas.element,
-          0,
-          parseInt(height - collapsedCanvasHeight / 2),
-          width,
-          parseInt((scalar * collapsedCanvasHeight) / 2),
-          0,
-          parseInt(collapsedCanvasHeight / 2),
-          width,
-          parseInt(collapsedCanvasHeight / 2),
-        )
+        // collapsedContext.drawImage(
+        //   expandedCanvas.element,
+        //   0,
+        //   parseInt(height - collapsedCanvasHeight / 2),
+        //   width,
+        //   parseInt((scalar * collapsedCanvasHeight) / 2),
+        //   0,
+        //   parseInt(collapsedCanvasHeight / 2),
+        //   width,
+        //   parseInt(collapsedCanvasHeight / 2),
+        // )
 
-        collapsedContext.drawImage(
-          fadeImage,
-          0,
-          parseInt(collapsedCanvasHeight / 2 - fadeImage.height / 2),
-          width,
-          fadeImage.height,
-        )
+        // collapsedContext.drawImage(
+        //   fadeImage,
+        //   0,
+        //   parseInt(collapsedCanvasHeight / 2 - fadeImage.height / 2),
+        //   width,
+        //   fadeImage.height,
+        // )
 
-        collapsedContext.strokeStyle = "rgb(128, 128, 128)"
-        collapsedContext.lineWidth = lineWidth
+        // collapsedContext.strokeStyle = "rgb(128, 128, 128)"
+        // collapsedContext.lineWidth = lineWidth
 
-        drawDashedLine(
-          collapsedContext,
-          0,
-          parseInt(collapsedCanvasHeight / 2),
-          width,
-          parseInt(collapsedCanvasHeight / 2),
-        )
+        // drawDashedLine(
+        //   collapsedContext,
+        //   0,
+        //   parseInt(collapsedCanvasHeight / 2),
+        //   width,
+        //   parseInt(collapsedCanvasHeight / 2),
+        // )
 
-        collapsedContext.fillStyle = "white"
-        collapsedContext.strokeStyle = "white"
+        // collapsedContext.fillStyle = "white"
+        // collapsedContext.strokeStyle = "white"
 
-        collapsedContext.fillRect(
-          parseInt(width / 2 - 70),
-          parseInt(collapsedCanvasHeight / 2 - 6),
-          140,
-          12,
-        )
+        // collapsedContext.fillRect(
+        //   parseInt(width / 2 - 70),
+        //   parseInt(collapsedCanvasHeight / 2 - 6),
+        //   140,
+        //   12,
+        // )
 
-        if (
-          min([cellSize.x, cellSize.y]) >= smallestCellHeight &&
-          lineWidth > 0
-        ) {
-          collapsedContext.strokeRect(
-            parseInt(width / 2 - 70),
-            parseInt(collapsedCanvasHeight / 2 - 6),
-            140,
-            12,
-          )
-        }
+        // if (
+        //   min([cellSize.x, cellSize.y]) >= smallestCellHeight &&
+        //   lineWidth > 0
+        // ) {
+        //   collapsedContext.strokeRect(
+        //     parseInt(width / 2 - 70),
+        //     parseInt(collapsedCanvasHeight / 2 - 6),
+        //     140,
+        //     12,
+        //   )
+        // }
 
-        collapsedContext.font = `12px monospace`
-        collapsedContext.textAlign = "center"
-        collapsedContext.textBaseline = "middle"
-        collapsedContext.fillStyle = "rgb(74, 74, 74)"
+        // collapsedContext.font = `12px monospace`
+        // collapsedContext.textAlign = "center"
+        // collapsedContext.textBaseline = "middle"
+        // collapsedContext.fillStyle = "rgb(74, 74, 74)"
 
-        collapsedContext.fillText(
-          "(click to expand)",
-          parseInt(width / 2),
-          parseInt(collapsedCanvasHeight / 2),
-        )
+        // collapsedContext.fillText(
+        //   "(click to expand)",
+        //   parseInt(width / 2),
+        //   parseInt(collapsedCanvasHeight / 2),
+        // )
 
-        this.collapsedCanvasDataURL = collapsedCanvas.toDataURL()
+        // this.collapsedCanvasDataURL = collapsedCanvas.toDataURL()
         this.expandedCanvasDataURL = expandedCanvas.toDataURL()
 
-        if (dataAspect < 2 / 3) {
-          this.canExpandAndCollapse = true
-          expandedCanvas.addEventListener("click", () =>
-            this.toggleIsExpanded(),
-          )
-          collapsedCanvas.addEventListener("click", () =>
-            this.toggleIsExpanded(),
-          )
-          expandedCanvas.style.cursor = "pointer"
-          collapsedCanvas.style.cursor = "pointer"
-        } else {
-          this.canExpandAndCollapse = false
-          this.isExpanded = true
-        }
+        // if (dataAspect < 2 / 3) {
+        //   this.canExpandAndCollapse = true
+        //   expandedCanvas.addEventListener("click", () =>
+        //     this.toggleIsExpanded(),
+        //   )
+        //   collapsedCanvas.addEventListener("click", () =>
+        //     this.toggleIsExpanded(),
+        //   )
+        //   expandedCanvas.style.cursor = "pointer"
+        //   collapsedCanvas.style.cursor = "pointer"
+        // } else {
+        //   this.canExpandAndCollapse = false
+        //   this.isExpanded = true
+        // }
 
-        this.collapsedCanvas = collapsedCanvas
+        // this.collapsedCanvas = collapsedCanvas
         this.expandedCanvas = expandedCanvas
         this.isRendering = false
+        this.isExpanded = true
       },
 
       sort,
