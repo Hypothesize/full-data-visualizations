@@ -69,7 +69,7 @@ const template = /* html */ `
     	<div v-if="typeof error === 'string'" class="hvis-card is-warning" style="margin-bottom: 2rem">
 				<div class="hvis-card-content">
 					<div class="hvis-content" style="display: flex; flex-direction: column; gap: 1rem"> 
-						<p style="margin: auto">{{ error }}</p>
+						<p style="margin: auto">A correlation visualization could not be generated for this dataset</p>
 					</div>
 				</div>
 			</div>
