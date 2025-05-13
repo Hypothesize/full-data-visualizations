@@ -24,14 +24,10 @@ const template = /* html */ `
 				:color-negative="colors.negative"
 				:color-positive="colors.positive"
 				:key="col"
-				:loadings="loadings.get(col)"
+				:loadings="loadings.get(null,col)"
 				@rename="onRename(col, $event)"
 				v-for="col in loadings.columns">
 			</hvis-pca-factor-vis>
-
-			<div>
-				<button class="is-primary" @click="download">Download</button>
-			</div>
 		</div>
 	</div>
 `

@@ -21,8 +21,8 @@ async function getPCALoadings(numbersOnlyData) {
     eigenvaluesThatMatter.push(eigenvalues[0])
   }
 
-  if (eigenvaluesThatMatter.length > 10) {
-    eigenvaluesThatMatter = eigenvaluesThatMatter.slice(0, 10)
+  if (eigenvaluesThatMatter.length > 5) {
+    eigenvaluesThatMatter = eigenvaluesThatMatter.slice(0, 5)
   }
 
   loadings = loadings.map(row => row.slice(0, eigenvaluesThatMatter.length))

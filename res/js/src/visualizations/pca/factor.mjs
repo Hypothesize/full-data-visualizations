@@ -137,7 +137,7 @@ async function PCAFactorVisualization(options) {
         css,
         newFactorTitle: "",
         renameModalIsVisible: false,
-        title: "Factor J",
+        title: "Factor 1",
         truncationMode: "end",
       }
     },
@@ -190,7 +190,7 @@ async function PCAFactorVisualization(options) {
         const loadings = this.loadings.values
 
         const points = loadings
-          .filter(v => isNumber(v) && abs(v) > 0.2)
+          .filter(v => isNumber(v))
           .map((value, i) => {
             const fullName = this.loadings.index[i]
             const shortName = truncate(fullName, 16, this.truncationMode)
@@ -274,7 +274,7 @@ async function PCAFactorVisualization(options) {
           if (
             pointThatWasJustDeactivated &&
             Vector2.distance(mouse.position, deactivationPosition) >
-              pointThatWasJustDeactivated.radius * 1.25
+            pointThatWasJustDeactivated.radius * 1.25
           ) {
             pointThatWasJustDeactivated = null
           }
@@ -426,8 +426,8 @@ async function PCAFactorVisualization(options) {
     },
 
     mounted() {
-      this.redraw = debounce(this.redraw, 100, this)
       this.redraw()
+      this.redraw = debounce(this.redraw, 100, this)
       window.addEventListener("resize", this.redraw)
     },
 
