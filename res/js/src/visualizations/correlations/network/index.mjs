@@ -177,8 +177,8 @@ const template = /* html */ `
 
 				<div class="hvis-correlations-legend-container">
 					<hvis-correlations-legend
-						:color-negative="colors.negative"
-						:color-positive="colors.positive"
+						:color-negative="colors.positive"
+						:color-positive="colors.negative"
 						:points="points"
 						@hovered-over-value="highlightRValue">
 					</hvis-correlations-legend>

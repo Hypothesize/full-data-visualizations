@@ -28,7 +28,7 @@ async function tfConvertToNumericalAsync(df, config) {
 
   const maxUniqueValues = isNumber(config.maxUniqueValues)
     ? config.maxUniqueValues
-    : 7
+    : 3
 
   const minNonMissingValues = isNumber(config.minNonMissingValues)
     ? config.minNonMissingValues
@@ -140,16 +140,16 @@ async function tfConvertToNumericalAsync(df, config) {
         (a, b) => b.count - a.count,
       )
 
-      const topNPercent =
-        sum(
-          counts.slice(0, maxUniqueValues).map(item => item.count),
-          shouldIgnoreNaNs,
-        ) / nonMissingValues.length
+      // const topNPercent =
+      //   sum(
+      //     counts.slice(0, maxUniqueValues).map(item => item.count),
+      //     shouldIgnoreNaNs,
+      //   ) / nonMissingValues.length
 
-      if (topNPercent >= 0.9) {
-        if (counts.length < 2) {
-          return
-        }
+      if (counts.length <= maxUniqueValues) {
+        // if (counts.length < 2) {
+        //   return
+        // }
 
         const oneHotEncodings = getOneHotEncodings(col.name, inferred.values)
 

@@ -34,10 +34,8 @@ const css = /* css */ `
 
 	.hvis-correlations-grid-vis .hvis-canvas-container {
 		max-width: 100%;
-		max-height: calc(100vh - 15em);
 		overflow: auto;
 		border-radius: 4px;
-    background-color: var(--color-gray-13);
 	}
 
 	.hvis-correlations-grid-vis canvas {
@@ -81,7 +79,7 @@ const template = /* html */ `
 		</div>
 
 		<div v-else>
-			<div class="hvis-mode-options-container">
+			<div v-if="modeOptions.length > 1" class="hvis-mode-options-container">
 				<button
 					:class="{ 'is-primary': option === chosenModeOption }"
 					:key="option.name"
@@ -94,8 +92,8 @@ const template = /* html */ `
 
 			<div class="hvis-correlations-legend-container">
 				<hvis-correlations-legend
-					:color-negative="colors.negative"
-					:color-positive="colors.positive"
+					:color-negative="colors.positive"
+					:color-positive="colors.negative"
 					:points="points"
 					@hovered-over-value="highlightRValue"
 					v-if="canDownload">
@@ -105,16 +103,6 @@ const template = /* html */ `
 			<div ref="container" class="hvis-canvas-container"></div>
 
 			<br />
-
-			<div class="hvis-row-left hvis-buttons-row" v-if="canDownload">
-				<button @click="downloadMatrix">
-					Download matrix
-				</button>
-
-				<button @click="downloadImage">
-					Download image
-				</button>
-			</div>
 
 			<hvis-floating-label
 				:content="topFloatingLabel.content"
@@ -213,7 +201,7 @@ async function CorrelationsGridVisualization(options) {
         css,
         highlightedRValue: null,
         isComputing: false,
-        modeOptions: [
+        modeOptions: options.modeOptions ?? [
           {
             name: "Pairwise Correlations",
             value: "regularPairwiseCorrelationMode",
@@ -225,15 +213,15 @@ async function CorrelationsGridVisualization(options) {
           x: 0,
           y: 0,
         },
-        partialCorrelations: null,
+        partialCorrelations: options.partialCorrelations ?? null,
         points: [],
         progress: {
           message: "Computing...",
           percent: 0,
         },
         error: null,
-        pValues: null,
-        regularCorrelations: null,
+        pValues: options.pValues ?? null,
+        regularCorrelations: options.regularCorrelations ?? null,
         shouldStop: false,
         topFloatingLabel: {
           content: "",
@@ -307,21 +295,23 @@ async function CorrelationsGridVisualization(options) {
 
         this.isComputing = true
 
-        const results = await store.getCorrelationsAndPValues(null, p => {
-          this.progress.percent = p.progress * 100
-          this.progress.message = p.message
-        })
+        if (this.regularCorrelations === null || (this.modeOptions.length === 2 && this.partialCorrelations === null) || this.pValues === null) {
+          const results = this.regularCorrelations ?? await store.getCorrelationsAndPValues(null, p => {
+            this.progress.percent = p.progress * 100
+            this.progress.message = p.message
+          })
 
-        if (results instanceof Error) {
-          this.error = results.message
-        }
-        else if (!results) {
-          return
-        }
+          if (results instanceof Error) {
+            this.error = results.message
+          }
+          else if (!results) {
+            return
+          }
 
-        this.regularCorrelations = results.regularCorrelations
-        this.partialCorrelations = results.partialCorrelations
-        const pValues = results.pValues
+          this.regularCorrelations = results.regularCorrelations
+          this.partialCorrelations = results.partialCorrelations
+          this.pValues = results.pValues
+        }
 
         this.isComputing = false
 
@@ -415,12 +405,17 @@ async function CorrelationsGridVisualization(options) {
           padding +
           labelLength +
           padding +
-          correlations.shape[1] * blockSize +
-          padding * 3
+          correlations.shape[1] * blockSize
+
+        const containerHeight =
+          padding +
+          labelLength +
+          padding +
+          correlations.shape[0] * blockSize
 
         const onscreenCanvas = createHighDPICanvas(
           containerWidth,
-          containerWidth,
+          containerHeight,
         )
 
         container.appendChild(onscreenCanvas)
@@ -440,7 +435,10 @@ async function CorrelationsGridVisualization(options) {
               return
             }
 
-            onscreenContext.clearRect(0, 0, containerWidth, containerWidth)
+            // We cover the canvas with white before we draw anything on it
+            onscreenContext.fillStyle = "white"
+            onscreenContext.fillRect(0, 0, onscreenCanvas.width, onscreenCanvas.height)
+
             onscreenContext.save()
 
             const row = int((innerMouse.position.y - gridTop) / blockSize)
@@ -563,7 +561,7 @@ async function CorrelationsGridVisualization(options) {
                       rowName,
                       "vs.",
                       colName,
-                      `p = ${pValues.get(rowName, colName).toFixed(2)}`,
+                      `p = ${this.pValues.get(rowName, colName).toFixed(2)}`,
                     ].join("<br>")
                   } else {
                     return [

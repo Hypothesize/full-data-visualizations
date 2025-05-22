@@ -48,5 +48,5 @@
   },
   "source": "./res/js/src/index.mjs",
   "type": "module",
-  "version": "0.0.14"
+  "version": "0.0.15"
 }
