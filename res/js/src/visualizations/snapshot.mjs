@@ -53,13 +53,8 @@ const css = /* css */ `
 
 const template = /* html */ `
 	<div class="hvis-snapshot-vis">
-    <div class="hvis-card is-warning" style="margin-bottom: 2rem">
-      <div class="hvis-card-content">
-        <div class="hvis-content" style="display: flex; flex-direction: column; gap: 1rem"> 
-          <p style="margin: auto">This shows the data type of every value in the columns of your table</p>
-          <p style="margin: auto" v-if="cutMiddleValues">Since the table contains too many rows, only 1000 are shown here: the first and last 500</p>
-        </div>
-      </div>
+    <div class="hvis-content" style="display: flex; flex-direction: column; gap: 1rem"> 
+      <h3 style="margin: auto" v-if="cutMiddleValues">Since the table contains too many rows, only 1000 are shown here: the first and last 500</h3>
     </div>
     <div>
 			<div class="hvis-legend hvis-row-centered">
