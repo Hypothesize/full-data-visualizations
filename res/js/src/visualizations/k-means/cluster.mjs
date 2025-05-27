@@ -88,7 +88,7 @@ class Cluster {
     // draw label
     if (this.centroidIsUnderMouse || this.isSelected) {
       const fontSize = max([width / 50, 8])
-      context.font = `${fontSize}px monospace`
+      context.font = `${Math.min(fontSize, 20)}px monospace`
 
       context.drawLabel({
         text: this.title,

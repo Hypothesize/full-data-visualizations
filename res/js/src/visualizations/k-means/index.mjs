@@ -9,9 +9,8 @@ import {
   max,
   min,
   range,
-  remap,
+  remap
 } from "@jrc03c/js-math-tools"
-
 import { Cluster } from "./cluster.mjs"
 import { CollapsibleComponent } from "../../components/collapsible.mjs"
 import { createApp } from "vue/dist/vue.esm-bundler.js"
@@ -23,7 +22,6 @@ import {
   debounce,
   getCSSVariableValue,
   leftPad,
-  parseCSSColorList,
   truncate,
   urlPathJoin,
 } from "../../utils/index.mjs"
@@ -76,36 +74,13 @@ async function KMeansVisualization(options) {
         "--vis-k-means-color-background",
       )
 
-      const clusterColorsCSSVariable = parseCSSColorList(
-        getCSSVariableValue("--vis-k-means-colors-cluster") || "",
-      )
-
       return {
         centroidsTransformed: null,
         clusters: [],
-        colors: {
-          background:
-            options.colors && options.colors.background
-              ? options.colors.background
-              : backgroundColorCSSVariable || "black",
-          clusters:
-            options.colors && options.colors.clusters
-              ? options.colors.clusters
-              : clusterColorsCSSVariable.length > 0
-                ? clusterColorsCSSVariable
-                : [
-                    "red",
-                    "orange",
-                    "yellow",
-                    "green",
-                    "blue",
-                    "purple",
-                    "brown",
-                    "pink",
-                    "white",
-                    "gray",
-                  ],
-        },
+        background:
+          options.background
+            ? options.background
+            : backgroundColorCSSVariable || "black",
         coreData: null,
         css,
         firstTimeSelectedCentroidData: null,
@@ -113,7 +88,7 @@ async function KMeansVisualization(options) {
         isRunning: false,
         labels: null,
         maxClusters: 15,
-        minClusters: 1,
+        minClusters: 2,
         newTitle: "",
         numbersOnlyCoreData: null,
         progress: 0,
@@ -268,7 +243,7 @@ async function KMeansVisualization(options) {
         container.appendChild(canvas)
 
         const context = canvas.getContext("2d")
-        context.fillStyle = this.colors.background
+        context.fillStyle = this.background
         context.fillRect(0, 0, width, height)
 
         await pause(100)
@@ -332,7 +307,7 @@ async function KMeansVisualization(options) {
               ),
             ],
 
-            color: this.colors.clusters[i % this.colors.clusters.length],
+            color: `hsl(${remap(i, 0, this.tsneCentroids.length, 0, 360)}, 75%, 75%)`,
             points,
             pointsIndices,
           })
@@ -352,7 +327,7 @@ async function KMeansVisualization(options) {
 
           document.body.style.cursor = "default"
 
-          context.fillStyle = this.colors.background
+          context.fillStyle = this.background
           context.fillRect(0, 0, width, height)
 
           for (let i = 0; i < this.clusters.length; i++) {

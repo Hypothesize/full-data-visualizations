@@ -46,146 +46,103 @@ const css = /* css */ `
 // ========================================================================= //
 
 const template = /* html */ `
-	<div class="hvis-correlations-network-vis">
-    <div v-if="typeof error === 'string'" class="hvis-card is-warning" style="margin-bottom: 2rem">
-			<div class="hvis-card-content">
-				<div class="hvis-content" style="display: flex; flex-direction: column; gap: 1rem"> 
-					<p style="margin: auto">A network visualization could not be generated for this dataset</p>
-				</div>
-			</div>
-		</div>
-		<div v-else-if="isComputing">
-			<hvis-progress
-				:message="progress.message"
-				:percent="progress.percent">
-			</hvis-progress>
-		</div>
-
-		<div v-else>
-			<hvis-collapsible
-				:start-expanded="true"
-				@collapsed="recomputeViewportBounds"
-				@expanded="recomputeViewportBounds"
-				title="Settings">
-				<div class="hvis-field">
-					<label class="hvis-label">Mode</label>
-
-					<div class="hvis-select">
-						<select v-model="chosenModeOption">
-							<option
-								:key="modeOption.value"
-								:value="modeOption.value"
-								v-for="modeOption in modeOptions">
-								{{ modeOption.name }}
-							</option>
-						</select>
-					</div>
-				</div>
-
-				<div class="hvis-field">
-					<label class="hvis-label">Node layout algorithm</label>
-
-					<div class="hvis-select">
-						<select v-model="chosenNodeLayoutAlgorithm">
-							<option
-								:key="algorithm.value"
-								:value="algorithm.value"
-								v-for="algorithm in nodeLayoutAlgorithms">
-								{{ algorithm.name }}
-							</option>
-						</select>
-					</div>
-				</div>
-
-				<div class="hvis-row">
-					<div
-						class="hvis-row-item"
-						v-if="chosenModeOption === 'regularPairwiseCorrelationMode'">
-						<div class="hvis-field">
-							<label class="hvis-label">Max p-value</label>
-
-							<div class="hvis-control">
-								<input
-									@blur="parsePValue"
-									@keydown.enter="parsePValueAndSelect"
-									max="1"
-									min="0"
-									step="0.01"
-									type="number"
-									v-model="maxPValueTemp" />
-							</div>
-						</div>
-					</div>
-
-					<div
-						class="hvis-row-item hvis-row-item-skinny"
-						v-if="chosenModeOption === 'regularPairwiseCorrelationMode'">
-						<span class="hvis-icon">
-							<i class="la-link las"></i>
-						</span>
-					</div>
-
-					<div class="hvis-row-item">
-						<div class="hvis-field">
-							<label class="hvis-label">Min correlation magnitude</label>
-
-							<div class="hvis-control">
-								<input
-									@blur="parseMinEdgeWeight"
-									@keydown.enter="parseMinEdgeWeightAndSelect"
-									max="1"
-									min="0"
-									step="0.01"
-									type="number"
-									v-model="minEdgeWeightTemp" />
-							</div>
-						</div>
-					</div>
-
-					<div class="hvis-row-item hvis-row-item-skinny">
-						<span class="hvis-icon">
-							<i class="la-link las"></i>
-						</span>
-					</div>
-
-					<div class="hvis-row-item">
-						<div class="hvis-field">
-							<label class="hvis-label">Max number of edges</label>
-
-							<div class="hvis-control">
-								<input
-									@blur="parseMaxEdgeCount"
-									@keydown.enter="parseMaxEdgeCountAndSelect"
-									min="0"
-									step="1"
-									type="number"
-									v-model="maxEdgeCountTemp" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</hvis-collapsible>
-
-			<div class="hvis-root">
-				<div class="hvis-cytoscape-container" ref="container"></div>
-
-				<div class="hvis-controls-container">
-					<button @click="resetView">
-						Reset view
-					</button>
-				</div>
-
-				<div class="hvis-correlations-legend-container">
-					<hvis-correlations-legend
-						:color-negative="colors.positive"
-						:color-positive="colors.negative"
-						:points="points"
-						@hovered-over-value="highlightRValue">
-					</hvis-correlations-legend>
-				</div>
+<div class="hvis-correlations-network-vis">
+	<div v-if="typeof error === 'string'" class="hvis-card is-warning" style="margin-bottom: 2rem">
+		<div class="hvis-card-content">
+			<div class="hvis-content" style="display: flex; flex-direction: column; gap: 1rem">
+				<p style="margin: auto">A network visualization could not be generated for this dataset</p>
 			</div>
 		</div>
 	</div>
+	<div v-else-if="isComputing">
+		<hvis-progress :message="progress.message" :percent="progress.percent">
+		</hvis-progress>
+	</div>
+
+	<div v-else>
+		<hvis-notification :can-be-closed="false" style="display: flex; align-items: start; padding: 1rem 1rem 0; gap: 1rem">
+    	<div style="display: flex; flex-direction: row; align-items: center; gap: 1rem;">
+			<div class="hvis-field" style="text-align: left">
+				<label class="hvis-label">Mode</label>
+
+				<div class="hvis-select">
+					<select v-model="chosenModeOption" style="height: 3rem;">
+						<option :key="modeOption.value" :value="modeOption.value" v-for="modeOption in modeOptions">
+							{{ modeOption.name }}
+						</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="hvis-field" style="text-align: left">
+				<label class="hvis-label">Node layout algorithm</label>
+
+				<div class="hvis-select" style="margin-right: 4rem">
+					<select v-model="chosenNodeLayoutAlgorithm" style="height: 3rem;">
+						<option :key="algorithm.value" :value="algorithm.value"
+							v-for="algorithm in nodeLayoutAlgorithms">
+							{{ algorithm.name }}
+						</option>
+					</select>
+				</div>
+			</div>
+
+					<div class="hvis-field" v-if="chosenModeOption === 'regularPairwiseCorrelationMode'" style="text-align: left">
+						<label class="hvis-label">Max p-value</label>
+
+						<div class="hvis-control">
+							<input @blur="parsePValue" @keydown.enter="parsePValueAndSelect" max="1" min="0" step="0.01"
+								type="number" v-model="maxPValueTemp" />
+						</div>
+					</div>
+
+				<div class="hvis-field" v-if="chosenModeOption === 'regularPairwiseCorrelationMode'"  style="text-align: left">
+					<span class="hvis-icon">
+						<i class="la-link las"></i>
+					</span>
+				</div>
+
+					<div class="hvis-field" style="text-align: left">
+						<label class="hvis-label">Min correlation magnitude</label>
+
+						<div class="hvis-control">
+							<input @blur="parseMinEdgeWeight" @keydown.enter="parseMinEdgeWeightAndSelect" max="1"
+								min="0" step="0.01" type="number" v-model="minEdgeWeightTemp" />
+						</div>
+					</div>
+
+					<span class="hvis-icon">
+						<i class="la-link las"></i>
+					</span>
+
+					<div class="hvis-field" style="text-align: left">
+						<label class="hvis-label">Max number of edges</label>
+
+						<div class="hvis-control">
+							<input @blur="parseMaxEdgeCount" @keydown.enter="parseMaxEdgeCountAndSelect" min="0"
+								step="1" type="number" v-model="maxEdgeCountTemp" />
+						</div>
+					</div>
+          </div>
+		</hvis-notification>
+
+		<div class="hvis-root">
+			<div class="hvis-cytoscape-container" ref="container"></div>
+
+			<div class="hvis-controls-container">
+				<button @click="resetView">
+					Reset view
+				</button>
+			</div>
+
+			<div class="hvis-correlations-legend-container">
+				<hvis-correlations-legend :color-negative="colors.positive" :color-positive="colors.negative"
+					:points="points" @hovered-over-value="highlightRValue">
+				</hvis-correlations-legend>
+			</div>
+		</div>
+	</div>
+</div>
 `
 
 // ========================================================================= //
@@ -208,7 +165,7 @@ import CytoscapeCoseBilkent from "cytoscape-cose-bilkent"
 import CytoscapeEuler from "cytoscape-euler"
 import CytoscapeFcose from "cytoscape-fcose"
 import CytoscapeKlay from "cytoscape-klay"
-import { partial } from "filesize"
+import { NotificationComponent } from "../../../components/notification.mjs"
 
 cytoscape.use(CytoscapeCola)
 cytoscape.use(CytoscapeCoseBilkent)
@@ -233,6 +190,9 @@ async function CorrelationsNetworkVisualization(options) {
 
     components: {
       "hvis-collapsible": await CollapsibleComponent({
+        shouldReturnComponentOnly: true,
+      }),
+      "hvis-notification": await NotificationComponent({
         shouldReturnComponentOnly: true,
       }),
       "hvis-correlations-legend": await CorrelationsLegendComponent({
