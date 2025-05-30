@@ -27,18 +27,20 @@ function rebuild(file) {
     ]
 
     const workerCommands = [
-      `npx esbuild res/js/src/workers/get-variable-distributions/index.mjs --bundle --outfile=dist/worker-bundles/get-variable-distributions.js`,
-      `npx esbuild res/js/src/workers/get-data-types.mjs --bundle --outfile=dist/worker-bundles/get-data-types.js`,
-      `npx esbuild res/js/src/workers/get-k-means-results.mjs --bundle --outfile=dist/worker-bundles/get-k-means-results.js`,
-      `npx esbuild res/js/src/workers/get-numbers-only-data.mjs --bundle --outfile=dist/worker-bundles/get-numbers-only-data.js`,
-      `npx esbuild res/js/src/workers/get-p-values.mjs --bundle --outfile=dist/worker-bundles/get-p-values.js`,
-      `npx esbuild res/js/src/workers/get-partial-correlations.mjs --bundle --outfile=dist/worker-bundles/get-partial-correlations.js`,
-      `npx esbuild res/js/src/workers/get-pca-loadings.mjs --bundle --outfile=dist/worker-bundles/get-pca-loadings.js`,
-      `npx esbuild res/js/src/workers/get-regular-correlations.mjs --bundle --outfile=dist/worker-bundles/get-regular-correlations.js`,
+      // We never rebuild the workers
+      // `npx esbuild res/js/src/workers/get-variable-distributions/index.mjs --bundle --outfile=dist/worker-bundles/get-variable-distributions.js`,
+      // `npx esbuild res/js/src/workers/get-data-types.mjs --bundle --outfile=dist/worker-bundles/get-data-types.js`,
+      // `npx esbuild res/js/src/workers/get-k-means-results.mjs --bundle --outfile=dist/worker-bundles/get-k-means-results.js`,
+      // `npx esbuild res/js/src/workers/get-numbers-only-data.mjs --bundle --outfile=dist/worker-bundles/get-numbers-only-data.js`,
+      // `npx esbuild res/js/src/workers/get-p-values.mjs --bundle --outfile=dist/worker-bundles/get-p-values.js`,
+      // `npx esbuild res/js/src/workers/get-partial-correlations.mjs --bundle --outfile=dist/worker-bundles/get-partial-correlations.js`,
+      // `npx esbuild res/js/src/workers/get-pca-loadings.mjs --bundle --outfile=dist/worker-bundles/get-pca-loadings.js`,
+      // `npx esbuild res/js/src/workers/get-regular-correlations.mjs --bundle --outfile=dist/worker-bundles/get-regular-correlations.js`,
     ]
 
     const demoCommands = [
-      `npx esbuild demo/src/main.mjs --bundle --outfile=demo/bundle.js`,
+      // We never build the demo
+      // `npx esbuild demo/src/main.mjs --bundle --outfile=demo/bundle.js`,
     ]
 
     if (shouldRunAllCommands) {

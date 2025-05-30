@@ -63,6 +63,7 @@ const template = /* html */ `
 		@mousedown="onMouseDown"
 		@mousemove="onMouseMove"
 		class="hvis-correlations-grid-vis"
+    style="text-align: left"
 		ref="root">
     	<div v-if="typeof error === 'string'" class="hvis-card is-warning" style="margin-bottom: 2rem">
 				<div class="hvis-card-content">
@@ -78,7 +79,7 @@ const template = /* html */ `
 			</hvis-progress>
 		</div>
 
-		<div v-else>
+		<div v-else style="position: relative; display: inline-block">
 			<div v-if="modeOptions.length > 1" class="hvis-mode-options-container">
 				<button
 					:class="{ 'is-primary': option === chosenModeOption }"
@@ -406,6 +407,8 @@ async function CorrelationsGridVisualization(options) {
           labelLength +
           padding +
           correlations.shape[1] * blockSize
+          // If there are not enough columns to fill the screen, we add some width, so the floating legend don't overflow into the matrix
+          + (correlations.shape[1] >= 14 ? 0 : 100)
 
         const containerHeight =
           padding +
