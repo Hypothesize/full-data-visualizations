@@ -44,7 +44,6 @@ const css = /* css */ `
 
 	.hvis-correlations-grid-vis .hvis-correlations-legend-container {
 		position: absolute;
-		top: 100px;
 		right: 24px;
 		z-index: 999;
 	}
