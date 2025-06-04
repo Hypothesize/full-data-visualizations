@@ -146013,7 +146013,6 @@ return a / b;`;
 
 	.hvis-correlations-grid-vis .hvis-correlations-legend-container {
 		position: absolute;
-		top: 100px;
 		right: 24px;
 		z-index: 999;
 	}
@@ -146258,9 +146257,9 @@ return a / b;`;
           const width2 = vint(tempWidth);
           const height2 = vint(tempWidth);
           const padding = vint(tempPadding);
-          const gridTop = padding;
+          const gridTop = 0;
           const gridBottom = height2 - padding - labelLength - blockSize;
-          const gridLeft = padding + labelLength + blockSize;
+          const gridLeft = 0 + labelLength + blockSize;
           const horizontalLabels = [];
           const verticalLabels = [];
           await pauseAsync(10);
@@ -146278,15 +146277,15 @@ return a / b;`;
               truncate(row, 64, store.settings.truncationMode),
               row,
               vint(gridLeft + i * blockSize + blockSize / 2),
-              vint(gridBottom + blockSize),
+              vint(gridBottom + blockSize) - padding,
               Label.VERTICAL
             );
             horizontalLabels.push(horizontalLabel);
             verticalLabels.push(verticalLabel);
           });
           await pauseAsync(10);
-          const containerWidth = padding + labelLength + padding + correlations.shape[1] * blockSize + (correlations.shape[1] >= 14 ? 0 : 100);
-          const containerHeight = padding + labelLength + padding + correlations.shape[0] * blockSize;
+          const containerWidth = 0 + labelLength + 0 + correlations.shape[1] * blockSize + (correlations.shape[1] * blockSize >= 450 ? 0 : blockSize * 5);
+          const containerHeight = 0 + labelLength + padding + correlations.shape[0] * blockSize;
           const onscreenCanvas = createHighDPICanvas(
             containerWidth,
             containerHeight

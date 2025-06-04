@@ -367,9 +367,9 @@ async function CorrelationsGridVisualization(options) {
         const height = int(tempWidth)
         const padding = int(tempPadding)
 
-        const gridTop = padding
+        const gridTop = 0
         const gridBottom = height - padding - labelLength - blockSize
-        const gridLeft = padding + labelLength + blockSize
+        const gridLeft = 0 + labelLength + blockSize
         const horizontalLabels = []
         const verticalLabels = []
 
@@ -390,7 +390,7 @@ async function CorrelationsGridVisualization(options) {
             truncate(row, 64, store.settings.truncationMode),
             row,
             int(gridLeft + i * blockSize + blockSize / 2),
-            int(gridBottom + blockSize),
+            int(gridBottom + blockSize) - padding,
             Label.VERTICAL,
           )
 
@@ -402,15 +402,15 @@ async function CorrelationsGridVisualization(options) {
         await pause(10)
 
         const containerWidth =
-          padding +
+          0 +
           labelLength +
-          padding +
+          0 +
           correlations.shape[1] * blockSize
           // If there are not enough columns to fill the screen, we add some width, so the floating legend don't overflow into the matrix
-          + (correlations.shape[1] >= 14 ? 0 : 100)
+          + (correlations.shape[1] * blockSize >= 450 ? 0 : blockSize * 5)
 
         const containerHeight =
-          padding +
+          0 +
           labelLength +
           padding +
           correlations.shape[0] * blockSize
