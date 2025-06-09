@@ -146394,7 +146394,7 @@ return a / b;`;
                     if (j < startCol) return;
                     if (j > startCol + blocksPerScreen) return;
                     if (j + 1 > i) return;
-                    if (vabs(value - this.highlightedRValue) > 0.025) return;
+                    if (Number.isNaN(value) || vabs(value - this.highlightedRValue) > 0.025) return;
                     if (horizontalLabelsToHighlight.indexOf(i) < 0) {
                       horizontalLabelsToHighlight.push(i);
                     }

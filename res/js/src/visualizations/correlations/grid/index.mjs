@@ -588,6 +588,7 @@ async function CorrelationsGridVisualization(options) {
               this.bottomFloatingLabel.x = x + blockSize / 2
               this.bottomFloatingLabel.y = y + 2 * blockSize
             } else if (this.highlightedRValue) {
+
               correlations.values.forEach((row, i) => {
                 if (i < startRow) return
                 if (i > startRow + blocksPerScreen) return
@@ -596,7 +597,7 @@ async function CorrelationsGridVisualization(options) {
                   if (j < startCol) return
                   if (j > startCol + blocksPerScreen) return
                   if (j + 1 > i) return
-                  if (abs(value - this.highlightedRValue) > 0.025) return
+                  if (Number.isNaN(value) || abs(value - this.highlightedRValue) > 0.025) return
 
                   if (horizontalLabelsToHighlight.indexOf(i) < 0) {
                     horizontalLabelsToHighlight.push(i)
