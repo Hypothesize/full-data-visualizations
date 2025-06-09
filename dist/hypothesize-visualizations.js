@@ -146328,7 +146328,7 @@ return a / b;`;
                   const x2 = gridLeft + j * blockSize;
                   const y2 = gridTop + i * blockSize;
                   onscreenContext.globalAlpha = vabs(value);
-                  onscreenContext.fillStyle = value < 0 ? this.colors.negative : this.colors.positive;
+                  onscreenContext.fillStyle = Number.isNaN(value) ? "#ddd" : value < 0 ? this.colors.negative : this.colors.positive;
                   onscreenContext.fillRect(x2, y2, blockSize, blockSize);
                   onscreenContext.globalAlpha = 1;
                   onscreenContext.strokeStyle = "rgb(200, 200, 200)";

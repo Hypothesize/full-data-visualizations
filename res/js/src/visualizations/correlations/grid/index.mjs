@@ -484,7 +484,11 @@ async function CorrelationsGridVisualization(options) {
                 onscreenContext.globalAlpha = abs(value)
 
                 onscreenContext.fillStyle =
-                  value < 0 ? this.colors.negative : this.colors.positive
+                  Number.isNaN(value)
+                    ? "#ddd"
+                    : value < 0
+                      ? this.colors.negative
+                      : this.colors.positive
 
                 onscreenContext.fillRect(x, y, blockSize, blockSize)
 
