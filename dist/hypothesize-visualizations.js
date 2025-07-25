@@ -35,9 +35,9 @@
     mod7
   ));
 
-  // node_modules/long/src/long.js
+  // node_modules/.pnpm/long@4.0.0/node_modules/long/src/long.js
   var require_long = __commonJS({
-    "node_modules/long/src/long.js"(exports, module) {
+    "node_modules/.pnpm/long@4.0.0/node_modules/long/src/long.js"(exports, module) {
       module.exports = Long2;
       var wasm = null;
       try {
@@ -898,9 +898,9 @@
     }
   });
 
-  // (disabled):node_modules/node-fetch/browser.js
+  // (disabled):node_modules/.pnpm/node-fetch@2.6.13/node_modules/node-fetch/browser.js
   var require_browser = __commonJS({
-    "(disabled):node_modules/node-fetch/browser.js"() {
+    "(disabled):node_modules/.pnpm/node-fetch@2.6.13/node_modules/node-fetch/browser.js"() {
     }
   });
 
@@ -910,9 +910,9 @@
     }
   });
 
-  // node_modules/seedrandom/lib/alea.js
+  // node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/alea.js
   var require_alea = __commonJS({
-    "node_modules/seedrandom/lib/alea.js"(exports, module) {
+    "node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/alea.js"(exports, module) {
       (function(global2, module2, define3) {
         function Alea(seed4) {
           var me = this, mash = Mash();
@@ -1001,9 +1001,9 @@
     }
   });
 
-  // node_modules/seedrandom/lib/xor128.js
+  // node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/xor128.js
   var require_xor128 = __commonJS({
-    "node_modules/seedrandom/lib/xor128.js"(exports, module) {
+    "node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/xor128.js"(exports, module) {
       (function(global2, module2, define3) {
         function XorGen(seed4) {
           var me = this, strseed = "";
@@ -1074,9 +1074,9 @@
     }
   });
 
-  // node_modules/seedrandom/lib/xorwow.js
+  // node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/xorwow.js
   var require_xorwow = __commonJS({
-    "node_modules/seedrandom/lib/xorwow.js"(exports, module) {
+    "node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/xorwow.js"(exports, module) {
       (function(global2, module2, define3) {
         function XorGen(seed4) {
           var me = this, strseed = "";
@@ -1154,9 +1154,9 @@
     }
   });
 
-  // node_modules/seedrandom/lib/xorshift7.js
+  // node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/xorshift7.js
   var require_xorshift7 = __commonJS({
-    "node_modules/seedrandom/lib/xorshift7.js"(exports, module) {
+    "node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/xorshift7.js"(exports, module) {
       (function(global2, module2, define3) {
         function XorGen(seed4) {
           var me = this;
@@ -1245,9 +1245,9 @@
     }
   });
 
-  // node_modules/seedrandom/lib/xor4096.js
+  // node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/xor4096.js
   var require_xor4096 = __commonJS({
-    "node_modules/seedrandom/lib/xor4096.js"(exports, module) {
+    "node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/xor4096.js"(exports, module) {
       (function(global2, module2, define3) {
         function XorGen(seed4) {
           var me = this;
@@ -1354,9 +1354,9 @@
     }
   });
 
-  // node_modules/seedrandom/lib/tychei.js
+  // node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/tychei.js
   var require_tychei = __commonJS({
-    "node_modules/seedrandom/lib/tychei.js"(exports, module) {
+    "node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/lib/tychei.js"(exports, module) {
       (function(global2, module2, define3) {
         function XorGen(seed4) {
           var me = this, strseed = "";
@@ -1439,9 +1439,9 @@
     }
   });
 
-  // node_modules/seedrandom/seedrandom.js
+  // node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/seedrandom.js
   var require_seedrandom = __commonJS({
-    "node_modules/seedrandom/seedrandom.js"(exports, module) {
+    "node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/seedrandom.js"(exports, module) {
       (function(global2, pool3, math) {
         var width2 = 256, chunks = 6, digits = 52, rngname = "random", startdenom = math.pow(width2, chunks), significance = math.pow(2, digits), overflow = significance * 2, mask = width2 - 1, nodecrypto;
         function seedrandom5(seed4, options2, callback) {
@@ -1587,9 +1587,9 @@
     }
   });
 
-  // node_modules/seedrandom/index.js
+  // node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/index.js
   var require_seedrandom2 = __commonJS({
-    "node_modules/seedrandom/index.js"(exports, module) {
+    "node_modules/.pnpm/seedrandom@3.0.5/node_modules/seedrandom/index.js"(exports, module) {
       var alea5 = require_alea();
       var xor128 = require_xor128();
       var xorwow = require_xorwow();
@@ -1607,15 +1607,15 @@
     }
   });
 
-  // (disabled):node_modules/string_decoder/lib/string_decoder.js
+  // (disabled):node_modules/.pnpm/string_decoder@1.3.0/node_modules/string_decoder/lib/string_decoder.js
   var require_string_decoder = __commonJS({
-    "(disabled):node_modules/string_decoder/lib/string_decoder.js"() {
+    "(disabled):node_modules/.pnpm/string_decoder@1.3.0/node_modules/string_decoder/lib/string_decoder.js"() {
     }
   });
 
-  // node_modules/localforage/dist/localforage.js
+  // node_modules/.pnpm/localforage@1.10.0/node_modules/localforage/dist/localforage.js
   var require_localforage = __commonJS({
-    "node_modules/localforage/dist/localforage.js"(exports, module) {
+    "node_modules/.pnpm/localforage@1.10.0/node_modules/localforage/dist/localforage.js"(exports, module) {
       (function(f) {
         if (typeof exports === "object" && typeof module !== "undefined") {
           module.exports = f();
@@ -3758,9 +3758,9 @@
     }
   });
 
-  // node_modules/@jrc03c/js-csv-helpers/node_modules/papaparse/papaparse.min.js
+  // node_modules/.pnpm/papaparse@5.5.3/node_modules/papaparse/papaparse.min.js
   var require_papaparse_min = __commonJS({
-    "node_modules/@jrc03c/js-csv-helpers/node_modules/papaparse/papaparse.min.js"(exports, module) {
+    "node_modules/.pnpm/papaparse@5.5.3/node_modules/papaparse/papaparse.min.js"(exports, module) {
       ((e, t) => {
         "function" == typeof define && define.amd ? define([], t) : "object" == typeof module && "undefined" != typeof exports ? module.exports = t() : e.Papa = t();
       })(exports, function r() {
@@ -4174,9 +4174,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/powergraph.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/powergraph.js
   var require_powergraph = __commonJS({
-    "node_modules/webcola/dist/src/powergraph.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/powergraph.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var PowerEdge = /* @__PURE__ */ function() {
@@ -4505,9 +4505,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/linklengths.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/linklengths.js
   var require_linklengths = __commonJS({
-    "node_modules/webcola/dist/src/linklengths.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/linklengths.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       function unionCount(a, b) {
@@ -4639,9 +4639,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/descent.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/descent.js
   var require_descent = __commonJS({
-    "node_modules/webcola/dist/src/descent.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/descent.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var Locks = function() {
@@ -4995,9 +4995,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/vpsc.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/vpsc.js
   var require_vpsc = __commonJS({
-    "node_modules/webcola/dist/src/vpsc.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/vpsc.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var PositionStats = function() {
@@ -5418,9 +5418,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/rbtree.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/rbtree.js
   var require_rbtree = __commonJS({
-    "node_modules/webcola/dist/src/rbtree.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/rbtree.js"(exports) {
       "use strict";
       var __extends = exports && exports.__extends || /* @__PURE__ */ function() {
         var extendStatics = function(d, b) {
@@ -5802,9 +5802,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/rectangle.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/rectangle.js
   var require_rectangle = __commonJS({
-    "node_modules/webcola/dist/src/rectangle.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/rectangle.js"(exports) {
       "use strict";
       var __extends = exports && exports.__extends || /* @__PURE__ */ function() {
         var extendStatics = function(d, b) {
@@ -6368,9 +6368,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/pqueue.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/pqueue.js
   var require_pqueue = __commonJS({
-    "node_modules/webcola/dist/src/pqueue.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/pqueue.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var PairingHeap = function() {
@@ -6537,9 +6537,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/shortestpaths.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/shortestpaths.js
   var require_shortestpaths = __commonJS({
-    "node_modules/webcola/dist/src/shortestpaths.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/shortestpaths.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var pqueue_1 = require_pqueue();
@@ -6672,9 +6672,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/geom.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/geom.js
   var require_geom = __commonJS({
-    "node_modules/webcola/dist/src/geom.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/geom.js"(exports) {
       "use strict";
       var __extends = exports && exports.__extends || /* @__PURE__ */ function() {
         var extendStatics = function(d, b) {
@@ -7090,9 +7090,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/handledisconnected.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/handledisconnected.js
   var require_handledisconnected = __commonJS({
-    "node_modules/webcola/dist/src/handledisconnected.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/handledisconnected.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var packingOptions = {
@@ -7304,9 +7304,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/layout.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/layout.js
   var require_layout = __commonJS({
-    "node_modules/webcola/dist/src/layout.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/layout.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var powergraph = require_powergraph();
@@ -7912,9 +7912,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/adaptor.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/adaptor.js
   var require_adaptor = __commonJS({
-    "node_modules/webcola/dist/src/adaptor.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/adaptor.js"(exports) {
       "use strict";
       var __extends = exports && exports.__extends || /* @__PURE__ */ function() {
         var extendStatics = function(d, b) {
@@ -7980,9 +7980,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/d3v3adaptor.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/d3v3adaptor.js
   var require_d3v3adaptor = __commonJS({
-    "node_modules/webcola/dist/src/d3v3adaptor.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/d3v3adaptor.js"(exports) {
       "use strict";
       var __extends = exports && exports.__extends || /* @__PURE__ */ function() {
         var extendStatics = function(d, b) {
@@ -8051,9 +8051,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/d3v4adaptor.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/d3v4adaptor.js
   var require_d3v4adaptor = __commonJS({
-    "node_modules/webcola/dist/src/d3v4adaptor.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/d3v4adaptor.js"(exports) {
       "use strict";
       var __extends = exports && exports.__extends || /* @__PURE__ */ function() {
         var extendStatics = function(d, b) {
@@ -8119,9 +8119,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/d3adaptor.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/d3adaptor.js
   var require_d3adaptor = __commonJS({
-    "node_modules/webcola/dist/src/d3adaptor.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/d3adaptor.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var d3v3 = require_d3v3adaptor();
@@ -8140,9 +8140,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/gridrouter.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/gridrouter.js
   var require_gridrouter = __commonJS({
-    "node_modules/webcola/dist/src/gridrouter.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/gridrouter.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var rectangle_1 = require_rectangle();
@@ -8756,9 +8756,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/layout3d.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/layout3d.js
   var require_layout3d = __commonJS({
-    "node_modules/webcola/dist/src/layout3d.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/layout3d.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var shortestpaths_1 = require_shortestpaths();
@@ -8906,9 +8906,9 @@
     }
   });
 
-  // node_modules/webcola/dist/src/batch.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/batch.js
   var require_batch = __commonJS({
-    "node_modules/webcola/dist/src/batch.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/src/batch.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var layout_1 = require_layout();
@@ -9000,9 +9000,9 @@
     }
   });
 
-  // node_modules/webcola/dist/index.js
+  // node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/index.js
   var require_dist = __commonJS({
-    "node_modules/webcola/dist/index.js"(exports) {
+    "node_modules/.pnpm/webcola@3.4.0/node_modules/webcola/dist/index.js"(exports) {
       "use strict";
       function __export2(m) {
         for (var p4 in m) if (!exports.hasOwnProperty(p4)) exports[p4] = m[p4];
@@ -9027,9 +9027,9 @@
     }
   });
 
-  // node_modules/cytoscape-cola/cytoscape-cola.js
+  // node_modules/.pnpm/cytoscape-cola@2.5.1_cytoscape@3.32.1/node_modules/cytoscape-cola/cytoscape-cola.js
   var require_cytoscape_cola = __commonJS({
-    "node_modules/cytoscape-cola/cytoscape-cola.js"(exports, module) {
+    "node_modules/.pnpm/cytoscape-cola@2.5.1_cytoscape@3.32.1/node_modules/cytoscape-cola/cytoscape-cola.js"(exports, module) {
       (function webpackUniversalModuleDefinition(root, factory) {
         if (typeof exports === "object" && typeof module === "object")
           module.exports = factory(require_dist());
@@ -9651,9 +9651,9 @@
     }
   });
 
-  // node_modules/layout-base/layout-base.js
+  // node_modules/.pnpm/layout-base@1.0.2/node_modules/layout-base/layout-base.js
   var require_layout_base = __commonJS({
-    "node_modules/layout-base/layout-base.js"(exports, module) {
+    "node_modules/.pnpm/layout-base@1.0.2/node_modules/layout-base/layout-base.js"(exports, module) {
       (function webpackUniversalModuleDefinition(root, factory) {
         if (typeof exports === "object" && typeof module === "object")
           module.exports = factory();
@@ -12883,9 +12883,9 @@
     }
   });
 
-  // node_modules/cose-base/cose-base.js
+  // node_modules/.pnpm/cose-base@1.0.3/node_modules/cose-base/cose-base.js
   var require_cose_base = __commonJS({
-    "node_modules/cose-base/cose-base.js"(exports, module) {
+    "node_modules/.pnpm/cose-base@1.0.3/node_modules/cose-base/cose-base.js"(exports, module) {
       (function webpackUniversalModuleDefinition(root, factory) {
         if (typeof exports === "object" && typeof module === "object")
           module.exports = factory(require_layout_base());
@@ -13981,9 +13981,9 @@
     }
   });
 
-  // node_modules/cytoscape-cose-bilkent/cytoscape-cose-bilkent.js
+  // node_modules/.pnpm/cytoscape-cose-bilkent@4.1.0_cytoscape@3.32.1/node_modules/cytoscape-cose-bilkent/cytoscape-cose-bilkent.js
   var require_cytoscape_cose_bilkent = __commonJS({
-    "node_modules/cytoscape-cose-bilkent/cytoscape-cose-bilkent.js"(exports, module) {
+    "node_modules/.pnpm/cytoscape-cose-bilkent@4.1.0_cytoscape@3.32.1/node_modules/cytoscape-cose-bilkent/cytoscape-cose-bilkent.js"(exports, module) {
       (function webpackUniversalModuleDefinition(root, factory) {
         if (typeof exports === "object" && typeof module === "object")
           module.exports = factory(require_cose_base());
@@ -14356,9 +14356,9 @@
     }
   });
 
-  // node_modules/cytoscape-euler/cytoscape-euler.js
+  // node_modules/.pnpm/cytoscape-euler@1.2.3_cytoscape@3.32.1/node_modules/cytoscape-euler/cytoscape-euler.js
   var require_cytoscape_euler = __commonJS({
-    "node_modules/cytoscape-euler/cytoscape-euler.js"(exports, module) {
+    "node_modules/.pnpm/cytoscape-euler@1.2.3_cytoscape@3.32.1/node_modules/cytoscape-euler/cytoscape-euler.js"(exports, module) {
       (function webpackUniversalModuleDefinition(root, factory) {
         if (typeof exports === "object" && typeof module === "object")
           module.exports = factory();
@@ -15441,9 +15441,9 @@
     }
   });
 
-  // node_modules/cytoscape-fcose/node_modules/layout-base/layout-base.js
+  // node_modules/.pnpm/layout-base@2.0.1/node_modules/layout-base/layout-base.js
   var require_layout_base2 = __commonJS({
-    "node_modules/cytoscape-fcose/node_modules/layout-base/layout-base.js"(exports, module) {
+    "node_modules/.pnpm/layout-base@2.0.1/node_modules/layout-base/layout-base.js"(exports, module) {
       (function webpackUniversalModuleDefinition(root, factory) {
         if (typeof exports === "object" && typeof module === "object")
           module.exports = factory();
@@ -19275,9 +19275,9 @@
     }
   });
 
-  // node_modules/cytoscape-fcose/node_modules/cose-base/cose-base.js
+  // node_modules/.pnpm/cose-base@2.2.0/node_modules/cose-base/cose-base.js
   var require_cose_base2 = __commonJS({
-    "node_modules/cytoscape-fcose/node_modules/cose-base/cose-base.js"(exports, module) {
+    "node_modules/.pnpm/cose-base@2.2.0/node_modules/cose-base/cose-base.js"(exports, module) {
       (function webpackUniversalModuleDefinition(root, factory) {
         if (typeof exports === "object" && typeof module === "object")
           module.exports = factory(require_layout_base2());
@@ -21832,9 +21832,9 @@
     }
   });
 
-  // node_modules/cytoscape-fcose/cytoscape-fcose.js
+  // node_modules/.pnpm/cytoscape-fcose@2.2.0_cytoscape@3.32.1/node_modules/cytoscape-fcose/cytoscape-fcose.js
   var require_cytoscape_fcose = __commonJS({
-    "node_modules/cytoscape-fcose/cytoscape-fcose.js"(exports, module) {
+    "node_modules/.pnpm/cytoscape-fcose@2.2.0_cytoscape@3.32.1/node_modules/cytoscape-fcose/cytoscape-fcose.js"(exports, module) {
       (function webpackUniversalModuleDefinition(root, factory) {
         if (typeof exports === "object" && typeof module === "object")
           module.exports = factory(require_cose_base2());
@@ -23119,9 +23119,9 @@
     }
   });
 
-  // node_modules/klayjs/klay.js
+  // node_modules/.pnpm/klayjs@0.4.1/node_modules/klayjs/klay.js
   var require_klay = __commonJS({
-    "node_modules/klayjs/klay.js"(exports, module) {
+    "node_modules/.pnpm/klayjs@0.4.1/node_modules/klayjs/klay.js"(exports, module) {
       var klayregister;
       var klaycallback;
       (function() {
@@ -55610,9 +55610,9 @@
     }
   });
 
-  // node_modules/cytoscape-klay/cytoscape-klay.js
+  // node_modules/.pnpm/cytoscape-klay@3.1.4_cytoscape@3.32.1/node_modules/cytoscape-klay/cytoscape-klay.js
   var require_cytoscape_klay = __commonJS({
-    "node_modules/cytoscape-klay/cytoscape-klay.js"(exports, module) {
+    "node_modules/.pnpm/cytoscape-klay@3.1.4_cytoscape@3.32.1/node_modules/cytoscape-klay/cytoscape-klay.js"(exports, module) {
       (function webpackUniversalModuleDefinition(root, factory) {
         if (typeof exports === "object" && typeof module === "object")
           module.exports = factory(require_klay());
@@ -56039,9 +56039,9 @@
     }
   });
 
-  // node_modules/@jrc03c/karpathy-tsne-js/tsne.js
+  // node_modules/.pnpm/github.com+jrc03c+karpathy-tsne-js@b6f572efff9ba741f100f46637d56faaf3b3af6e/node_modules/@jrc03c/karpathy-tsne-js/tsne.js
   var require_tsne = __commonJS({
-    "node_modules/@jrc03c/karpathy-tsne-js/tsne.js"(exports, module) {
+    "node_modules/.pnpm/github.com+jrc03c+karpathy-tsne-js@b6f572efff9ba741f100f46637d56faaf3b3af6e/node_modules/@jrc03c/karpathy-tsne-js/tsne.js"(exports, module) {
       var tsnejs = tsnejs || { REVISION: "ALPHA" };
       (function(global2) {
         "use strict";
@@ -56359,9 +56359,9 @@
     }
   });
 
-  // node_modules/is-any-array/lib/index.js
+  // node_modules/.pnpm/is-any-array@2.0.1/node_modules/is-any-array/lib/index.js
   var require_lib = __commonJS({
-    "node_modules/is-any-array/lib/index.js"(exports) {
+    "node_modules/.pnpm/is-any-array@2.0.1/node_modules/is-any-array/lib/index.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.isAnyArray = void 0;
@@ -56374,9 +56374,9 @@
     }
   });
 
-  // node_modules/ml-array-max/lib/index.js
+  // node_modules/.pnpm/ml-array-max@1.2.4/node_modules/ml-array-max/lib/index.js
   var require_lib2 = __commonJS({
-    "node_modules/ml-array-max/lib/index.js"(exports, module) {
+    "node_modules/.pnpm/ml-array-max@1.2.4/node_modules/ml-array-max/lib/index.js"(exports, module) {
       "use strict";
       var isAnyArray = require_lib();
       function max12(input2, options2 = {}) {
@@ -56405,9 +56405,9 @@
     }
   });
 
-  // node_modules/ml-array-min/lib/index.js
+  // node_modules/.pnpm/ml-array-min@1.2.3/node_modules/ml-array-min/lib/index.js
   var require_lib3 = __commonJS({
-    "node_modules/ml-array-min/lib/index.js"(exports, module) {
+    "node_modules/.pnpm/ml-array-min@1.2.3/node_modules/ml-array-min/lib/index.js"(exports, module) {
       "use strict";
       var isAnyArray = require_lib();
       function min11(input2, options2 = {}) {
@@ -56436,9 +56436,9 @@
     }
   });
 
-  // node_modules/ml-array-rescale/lib/index.js
+  // node_modules/.pnpm/ml-array-rescale@1.3.7/node_modules/ml-array-rescale/lib/index.js
   var require_lib4 = __commonJS({
-    "node_modules/ml-array-rescale/lib/index.js"(exports, module) {
+    "node_modules/.pnpm/ml-array-rescale@1.3.7/node_modules/ml-array-rescale/lib/index.js"(exports, module) {
       "use strict";
       var isAnyArray = require_lib();
       var max12 = require_lib2();
@@ -56487,9 +56487,9 @@
     }
   });
 
-  // node_modules/ml-matrix/matrix.js
+  // node_modules/.pnpm/ml-matrix@6.12.1/node_modules/ml-matrix/matrix.js
   var require_matrix = __commonJS({
-    "node_modules/ml-matrix/matrix.js"(exports) {
+    "node_modules/.pnpm/ml-matrix@6.12.1/node_modules/ml-matrix/matrix.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       var isAnyArray = require_lib();
@@ -61357,7 +61357,7 @@ ${indentData}`);
     SpinnerComponent: () => SpinnerComponent
   });
 
-  // node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
+  // node_modules/.pnpm/@vue+runtime-dom@3.5.18/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
   var runtime_dom_esm_bundler_exports = {};
   __export(runtime_dom_esm_bundler_exports, {
     BaseTransition: () => BaseTransition,
@@ -61530,7 +61530,7 @@ ${indentData}`);
     withScopeId: () => withScopeId
   });
 
-  // node_modules/@vue/shared/dist/shared.esm-bundler.js
+  // node_modules/.pnpm/@vue+shared@3.5.18/node_modules/@vue/shared/dist/shared.esm-bundler.js
   // @__NO_SIDE_EFFECTS__
   function makeMap(str) {
     const map4 = /* @__PURE__ */ Object.create(null);
@@ -61651,7 +61651,7 @@ ${indentData}`);
     [512]: `NEED_PATCH`,
     [1024]: `DYNAMIC_SLOTS`,
     [2048]: `DEV_ROOT_FRAGMENT`,
-    [-1]: `HOISTED`,
+    [-1]: `CACHED`,
     [-2]: `BAIL`
   };
   var slotFlagsText = {
@@ -61899,8 +61899,25 @@ ${indentData}`);
       isSymbol(v) ? `Symbol(${(_a = v.description) != null ? _a : i})` : v
     );
   };
+  function normalizeCssVarValue(value) {
+    if (value == null) {
+      return "initial";
+    }
+    if (typeof value === "string") {
+      return value === "" ? " " : value;
+    }
+    if (typeof value !== "number" || !Number.isFinite(value)) {
+      if (true) {
+        console.warn(
+          "[Vue warn] Invalid value used for CSS binding. Expected a string or a finite number but received:",
+          value
+        );
+      }
+    }
+    return String(value);
+  }
 
-  // node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
+  // node_modules/.pnpm/@vue+reactivity@3.5.18/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
   function warn(msg, ...args) {
     console.warn(`[Vue warn] ${msg}`, ...args);
   }
@@ -62344,6 +62361,7 @@ ${indentData}`);
     }
   };
   var Dep = class {
+    // TODO isolatedDeclarations "__v_skip"
     constructor(computed3) {
       this.computed = computed3;
       this.version = 0;
@@ -62352,6 +62370,7 @@ ${indentData}`);
       this.map = void 0;
       this.key = void 0;
       this.sc = 0;
+      this.__v_skip = true;
       if (true) {
         this.subsHead = void 0;
       }
@@ -63677,7 +63696,7 @@ ${indentData}`);
     return value;
   }
 
-  // node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
+  // node_modules/.pnpm/@vue+runtime-core@3.5.18/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
   var stack = [];
   function pushWarningContext(vnode) {
     stack.push(vnode);
@@ -65928,10 +65947,8 @@ Server rendered element contains fewer child nodes than client vdom.`
     if (instance2.getCssVars && (vnode === root || root && root.type === Fragment && root.children.includes(vnode))) {
       const cssVars = instance2.getCssVars();
       for (const key in cssVars) {
-        expectedMap.set(
-          `--${getEscapedCssVarName(key, false)}`,
-          String(cssVars[key])
-        );
+        const value = normalizeCssVarValue(cssVars[key]);
+        expectedMap.set(`--${getEscapedCssVarName(key, false)}`, value);
       }
     }
     if (vnode === root && instance2.parent) {
@@ -65977,7 +65994,7 @@ Server rendered element contains fewer child nodes than client vdom.`
       if (allowedType === 0 && list.includes("children")) {
         return true;
       }
-      return allowedAttr.split(",").includes(MismatchTypeString[allowedType]);
+      return list.includes(MismatchTypeString[allowedType]);
     }
   }
   var requestIdleCallback = getGlobalThis().requestIdleCallback || ((cb) => setTimeout(cb, 1));
@@ -66132,16 +66149,19 @@ Server rendered element contains fewer child nodes than client vdom.`
       __asyncLoader: load,
       __asyncHydrate(el, instance2, hydrate2) {
         let patched = false;
-        const doHydrate = hydrateStrategy ? () => {
-          const performHydrate = () => {
-            if (patched) {
+        (instance2.bu || (instance2.bu = [])).push(() => patched = true);
+        const performHydrate = () => {
+          if (patched) {
+            if (true) {
               warn$1(
-                `Skipping lazy hydration for component '${getComponentName(resolvedComp)}': it was updated before lazy hydration performed.`
+                `Skipping lazy hydration for component '${getComponentName(resolvedComp) || resolvedComp.__file}': it was updated before lazy hydration performed.`
               );
-              return;
             }
-            hydrate2();
-          };
+            return;
+          }
+          hydrate2();
+        };
+        const doHydrate = hydrateStrategy ? () => {
           const teardown = hydrateStrategy(
             performHydrate,
             (cb) => forEachElement(el, cb)
@@ -66149,8 +66169,7 @@ Server rendered element contains fewer child nodes than client vdom.`
           if (teardown) {
             (instance2.bum || (instance2.bum = [])).push(teardown);
           }
-          (instance2.u || (instance2.u = [])).push(() => patched = true);
-        } : hydrate2;
+        } : performHydrate;
         if (resolvedComp) {
           doHydrate();
         } else {
@@ -67020,15 +67039,15 @@ If this is a native custom element, make sure to exclude it from component resol
     return null;
   }
   function useSlots() {
-    return getContext().slots;
+    return getContext("useSlots").slots;
   }
   function useAttrs() {
-    return getContext().attrs;
+    return getContext("useAttrs").attrs;
   }
-  function getContext() {
+  function getContext(calledFunctionName) {
     const i = getCurrentInstance();
     if (!i) {
-      warn$1(`useContext() called without active instance.`);
+      warn$1(`${calledFunctionName}() called without active instance.`);
     }
     return i.setupContext || (i.setupContext = createSetupContext(i));
   }
@@ -67280,7 +67299,8 @@ If this is a native custom element, make sure to exclude it from component resol
         expose.forEach((key) => {
           Object.defineProperty(exposed, key, {
             get: () => publicThis[key],
-            set: (val) => publicThis[key] = val
+            set: (val) => publicThis[key] = val,
+            enumerable: true
           });
         });
       } else if (!instance2.exposed) {
@@ -67730,7 +67750,7 @@ If you want to remount the same app, move your app creation logic into a factory
     }
   }
   function inject(key, defaultValue, treatDefaultAsFactory = false) {
-    const instance2 = currentInstance || currentRenderingInstance;
+    const instance2 = getCurrentInstance();
     if (instance2 || currentApp) {
       let provides = currentApp ? currentApp._context.provides : instance2 ? instance2.parent == null || instance2.ce ? instance2.vnode.appContext && instance2.vnode.appContext.provides : instance2.parent.provides : void 0;
       if (provides && key in provides) {
@@ -67745,7 +67765,7 @@ If you want to remount the same app, move your app creation logic into a factory
     }
   }
   function hasInjectionContext() {
-    return !!(currentInstance || currentRenderingInstance || currentApp);
+    return !!(getCurrentInstance() || currentApp);
   }
   var internalObjectProto = {};
   var createInternalObject = () => Object.create(internalObjectProto);
@@ -68168,7 +68188,7 @@ If you want to remount the same app, move your app creation logic into a factory
   function isBoolean(...args) {
     return args.some((elem) => elem.toLowerCase() === "boolean");
   }
-  var isInternalKey = (key) => key[0] === "_" || key === "$stable";
+  var isInternalKey = (key) => key === "_" || key === "__" || key === "_ctx" || key === "$stable";
   var normalizeSlotValue = (value) => isArray(value) ? value.map(normalizeVNode) : [normalizeVNode(value)];
   var normalizeSlot = (key, rawSlot, ctx) => {
     if (rawSlot._n) {
@@ -68222,6 +68242,8 @@ If you want to remount the same app, move your app creation logic into a factory
   var initSlots = (instance2, children, optimized) => {
     const slots = instance2.slots = createInternalObject();
     if (instance2.vnode.shapeFlag & 32) {
+      const cacheIndexes = children.__;
+      if (cacheIndexes) def(slots, "__", cacheIndexes, true);
       const type = children._;
       if (type) {
         assignSlots(slots, children, optimized);
@@ -68457,6 +68479,8 @@ For more details, see https://link.vuejs.org/feature-flags.`
       }
       if (ref2 != null && parentComponent) {
         setRef(ref2, n1 && n1.ref, parentSuspense, n2 || n1, !n2);
+      } else if (ref2 == null && n1 && n1.ref != null) {
+        setRef(n1.ref, null, parentSuspense, n1, true);
       }
     };
     const processText = (n1, n2, container2, anchor) => {
@@ -68943,6 +68967,7 @@ For more details, see https://link.vuejs.org/feature-flags.`
         if (!initialVNode.el) {
           const placeholder = instance2.subTree = createVNode(Comment);
           processCommentNode(null, placeholder, container2, anchor);
+          initialVNode.placeholder = placeholder.el;
         }
       } else {
         setupRenderEffect(
@@ -69029,7 +69054,8 @@ For more details, see https://link.vuejs.org/feature-flags.`
               hydrateSubTree();
             }
           } else {
-            if (root.ce) {
+            if (root.ce && // @ts-expect-error _def is private
+            root.ce._def.shadowRoot !== false) {
               root.ce._injectChildStyle(type);
             }
             if (true) {
@@ -69443,7 +69469,11 @@ For more details, see https://link.vuejs.org/feature-flags.`
         for (i = toBePatched - 1; i >= 0; i--) {
           const nextIndex = s22 + i;
           const nextChild = c2[nextIndex];
-          const anchor = nextIndex + 1 < l22 ? c2[nextIndex + 1].el : parentAnchor;
+          const anchorVNode = c2[nextIndex + 1];
+          const anchor = nextIndex + 1 < l22 ? (
+            // #13559, fallback to el placeholder for unresolved async component
+            anchorVNode.el || anchorVNode.placeholder
+          ) : parentAnchor;
           if (newIndexToOldIndexMap[i] === 0) {
             patch(
               null,
@@ -71329,6 +71359,7 @@ Component that was made reactive: `,
       suspense: vnode.suspense,
       ssContent: vnode.ssContent && cloneVNode(vnode.ssContent),
       ssFallback: vnode.ssFallback && cloneVNode(vnode.ssFallback),
+      placeholder: vnode.placeholder,
       el: vnode.el,
       anchor: vnode.anchor,
       ctx: vnode.ctx,
@@ -72128,7 +72159,7 @@ Component that was made reactive: `,
     }
     return true;
   }
-  var version = "3.5.15";
+  var version = "3.5.18";
   var warn2 = true ? warn$1 : NOOP;
   var ErrorTypeStrings = ErrorTypeStrings$1;
   var devtools = true ? devtools$1 : void 0;
@@ -72150,7 +72181,7 @@ Component that was made reactive: `,
   var compatUtils = null;
   var DeprecationTypes = null;
 
-  // node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
+  // node_modules/.pnpm/@vue+runtime-dom@3.5.18/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
   var policy = void 0;
   var tt = typeof window !== "undefined" && window.trustedTypes;
   if (tt) {
@@ -72638,8 +72669,9 @@ Component that was made reactive: `,
       const style3 = el.style;
       let cssText = "";
       for (const key in vars) {
-        style3.setProperty(`--${key}`, vars[key]);
-        cssText += `--${key}: ${vars[key]};`;
+        const value = normalizeCssVarValue(vars[key]);
+        style3.setProperty(`--${key}`, value);
+        cssText += `--${key}: ${value};`;
       }
       style3[CSS_VAR_TEXT] = cssText;
     }
@@ -73111,9 +73143,10 @@ Expected function or array of functions, received type ${typeof value}.`
       };
       const asyncDef = this._def.__asyncLoader;
       if (asyncDef) {
-        this._pendingResolve = asyncDef().then(
-          (def2) => resolve3(this._def = def2, true)
-        );
+        this._pendingResolve = asyncDef().then((def2) => {
+          def2.configureApp = this._def.configureApp;
+          resolve3(this._def = def2, true);
+        });
       } else {
         resolve3(this._def);
       }
@@ -73982,7 +74015,7 @@ Expected function or array of functions, received type ${typeof value}.`
     }
   };
 
-  // node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js
+  // node_modules/.pnpm/@vue+compiler-core@3.5.18/node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js
   var FRAGMENT = Symbol(true ? `Fragment` : ``);
   var TELEPORT = Symbol(true ? `Teleport` : ``);
   var SUSPENSE = Symbol(true ? `Suspense` : ``);
@@ -74860,7 +74893,7 @@ Expected function or array of functions, received type ${typeof value}.`
       this.buffer = input2;
       while (this.index < this.buffer.length) {
         const c = this.buffer.charCodeAt(this.index);
-        if (c === 10) {
+        if (c === 10 && this.state !== 33) {
           this.newlines.push(this.index);
         }
         switch (this.state) {
@@ -75202,7 +75235,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
         return BASE_TRANSITION;
     }
   }
-  var nonIdentifierRE = /^\d|[^\$\w\xA0-\uFFFF]/;
+  var nonIdentifierRE = /^$|^\d|[^\$\w\xA0-\uFFFF]/;
   var isSimpleIdentifier = (name) => !nonIdentifierRE.test(name);
   var validFirstIdentCharRE = /[A-Za-z_$\xA0-\uFFFF]/;
   var validIdentCharRE = /[\.\?\w$\xA0-\uFFFF]/;
@@ -75313,6 +75346,9 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
   }
   function isText$1(node) {
     return node.type === 5 || node.type === 2;
+  }
+  function isVPre(p4) {
+    return p4.type === 7 && p4.name === "pre";
   }
   function isVSlot(p4) {
     return p4.type === 7 && p4.name === "slot";
@@ -75571,7 +75607,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
     ondirarg(start, end) {
       if (start === end) return;
       const arg = getSlice(start, end);
-      if (inVPre) {
+      if (inVPre && !isVPre(currentProp)) {
         currentProp.name += arg;
         setLocEnd(currentProp.nameLoc, end);
       } else {
@@ -75586,7 +75622,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
     },
     ondirmodifier(start, end) {
       const mod7 = getSlice(start, end);
-      if (inVPre) {
+      if (inVPre && !isVPre(currentProp)) {
         currentProp.name += "." + mod7;
         setLocEnd(currentProp.nameLoc, end);
       } else if (currentProp.name === "slot") {
@@ -76015,7 +76051,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
     return c > 64 && c < 91;
   }
   var windowsNewlineRE = /\r\n/g;
-  function condenseWhitespace(nodes3, tag) {
+  function condenseWhitespace(nodes3) {
     const shouldCondense = currentOptions.whitespace !== "preserve";
     let removedWhitespace = false;
     for (let i = 0; i < nodes3.length; i++) {
@@ -76178,12 +76214,12 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
       context2,
       // Root node is unfortunately non-hoistable due to potential parent
       // fallthrough attributes.
-      isSingleElementRoot(root, root.children[0])
+      !!getSingleElementRoot(root)
     );
   }
-  function isSingleElementRoot(root, child) {
-    const { children } = root;
-    return children.length === 1 && child.type === 1 && !isSlotOutlet(child);
+  function getSingleElementRoot(root) {
+    const children = root.children.filter((x2) => x2.type !== 3);
+    return children.length === 1 && children[0].type === 1 && !isSlotOutlet(children[0]) ? children[0] : null;
   }
   function walk(node, parent4, context2, doNotHoistNode = false, inFor = false) {
     const { children } = node;
@@ -76216,6 +76252,11 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
       } else if (child.type === 12) {
         const constantType = doNotHoistNode ? 0 : getConstantType(child, context2);
         if (constantType >= 2) {
+          if (child.codegenNode.type === 14 && child.codegenNode.arguments.length > 0) {
+            child.codegenNode.arguments.push(
+              -1 + (true ? ` /* ${PatchFlagNames[-1]} */` : ``)
+            );
+          }
           toCache.push(child);
           continue;
         }
@@ -76649,15 +76690,15 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
     const { helper: helper10 } = context2;
     const { children } = root;
     if (children.length === 1) {
-      const child = children[0];
-      if (isSingleElementRoot(root, child) && child.codegenNode) {
-        const codegenNode = child.codegenNode;
+      const singleElementRootChild = getSingleElementRoot(root);
+      if (singleElementRootChild && singleElementRootChild.codegenNode) {
+        const codegenNode = singleElementRootChild.codegenNode;
         if (codegenNode.type === 13) {
           convertToBlock(codegenNode, context2);
         }
         root.codegenNode = codegenNode;
       } else {
-        root.codegenNode = child;
+        root.codegenNode = children[0];
       }
     } else if (children.length > 1) {
       let patchFlag = 64;
@@ -77691,7 +77732,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
       arg.children.unshift(`(`);
       arg.children.push(`) || ""`);
     } else if (!arg.isStatic) {
-      arg.content = `${arg.content} || ""`;
+      arg.content = arg.content ? `${arg.content} || ""` : `""`;
     }
     if (modifiers.some((mod7) => mod7.content === "camel")) {
       if (arg.type === 4) {
@@ -78036,7 +78077,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
         let prev;
         while (j--) {
           prev = children[j];
-          if (prev.type !== 3) {
+          if (prev.type !== 3 && isNonWhitespaceContent(prev)) {
             break;
           }
         }
@@ -79284,7 +79325,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
   }
   var noopDirectiveTransform = () => ({ props: [] });
 
-  // node_modules/@vue/compiler-dom/dist/compiler-dom.esm-bundler.js
+  // node_modules/.pnpm/@vue+compiler-dom@3.5.18/node_modules/@vue/compiler-dom/dist/compiler-dom.esm-bundler.js
   var V_MODEL_RADIO = Symbol(true ? `vModelRadio` : ``);
   var V_MODEL_CHECKBOX = Symbol(
     true ? `vModelCheckbox` : ``
@@ -79922,7 +79963,7 @@ Use a v-bind binding combined with a v-on listener that emits update:x event ins
     );
   }
 
-  // node_modules/vue/dist/vue.esm-bundler.js
+  // node_modules/.pnpm/vue@3.5.18/node_modules/vue/dist/vue.esm-bundler.js
   function initDev() {
     {
       initCustomFormatter();
@@ -79981,7 +80022,7 @@ ${codeFrame}` : message);
   }
   registerRuntimeCompiler(compileToFunction);
 
-  // node_modules/@jrc03c/vue-component-with-css/src/index.mjs
+  // node_modules/.pnpm/@jrc03c+vue-component-with-css@0.0.20/node_modules/@jrc03c/vue-component-with-css/src/index.mjs
   function createVueComponentWithCSS(component2) {
     let count5 = 0;
     let styleElement;
@@ -80124,12 +80165,12 @@ ${codeFrame}` : message);
     store: () => store
   });
 
-  // node_modules/@jrc03c/js-math-tools/src/is-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-number.mjs
   function isNumber(x2) {
     return typeof x2 === "number" && !isNaN(x2) || typeof x2 === "bigint";
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-browser.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-browser.mjs
   var isBrowser = new Function(
     `
     try {
@@ -80144,7 +80185,7 @@ ${codeFrame}` : message);
   `
   );
 
-  // node_modules/@jrc03c/js-math-tools/src/math-error.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/math-error.mjs
   var MathError = class extends Error {
     constructor(message) {
       if (isBrowser()) {
@@ -80155,12 +80196,12 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@jrc03c/js-math-tools/src/assert.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/assert.mjs
   function assert2(isTrue, message) {
     if (!isTrue) throw new MathError(message);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/helpers/array-types.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/helpers/array-types.mjs
   var arrayTypes = [
     Array,
     ArrayBuffer,
@@ -80177,12 +80218,12 @@ ${codeFrame}` : message);
     Uint8ClampedArray
   ];
 
-  // node_modules/@jrc03c/js-math-tools/src/is-undefined.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-undefined.mjs
   function isUndefined(x2) {
     return x2 === null || typeof x2 === "undefined";
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-array.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-array.mjs
   var typeStrings = arrayTypes.map((s4) => s4.name);
   function isArray2(obj) {
     try {
@@ -80198,7 +80239,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-dataframe.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-dataframe.mjs
   function isDataFrame(x2) {
     try {
       return !!x2._symbol && x2._symbol === Symbol.for("@jrc03c/js-math-tools/dataframe");
@@ -80207,17 +80248,17 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-function.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-function.mjs
   function isFunction2(fn3) {
     return typeof fn3 === "function";
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-object.mjs
   function isObject2(x2) {
     return typeof x2 === "object" && !isUndefined(x2) && !isArray2(x2);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-series.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-series.mjs
   function isSeries(x2) {
     try {
       return !!x2._symbol && x2._symbol === Symbol.for("@jrc03c/js-math-tools/series");
@@ -80226,7 +80267,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/index-of.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/index-of.mjs
   function indexOf(x2, fn3) {
     if (isDataFrame(x2)) {
       const index = indexOf(x2.values, fn3);
@@ -80306,7 +80347,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/copy.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/copy.mjs
   function copy(x2) {
     function helper10(x3) {
       if (typeof x3 === "object") {
@@ -80400,12 +80441,12 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-date.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-date.mjs
   function isDate2(x2) {
     return x2 instanceof Date && x2.toString() !== "Invalid Date";
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-equal.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-equal.mjs
   var numberTypes = ["number", "int", "float", "bigint"];
   function isEqual(a, b) {
     function helper10(a6, b2) {
@@ -80464,7 +80505,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/helpers/counter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/helpers/counter.mjs
   function makeKey(n) {
     const alpha = "abcdefg1234567890";
     let out = "";
@@ -80537,7 +80578,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@jrc03c/js-math-tools/src/flatten.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/flatten.mjs
   function flatten(arr) {
     if (isDataFrame(arr) || isSeries(arr)) {
       return flatten(arr.values);
@@ -80560,7 +80601,7 @@ ${codeFrame}` : message);
     return helper10(arr);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/stats.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/stats.mjs
   function stats(x2, options2) {
     options2 = options2 || {};
     const counts = new Counter();
@@ -80675,7 +80716,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/count.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/count.mjs
   function count(arr, matcher) {
     const { counts } = stats(arr);
     if (!isUndefined(matcher)) {
@@ -80696,7 +80737,7 @@ ${codeFrame}` : message);
     return counts;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-jagged.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-jagged.mjs
   function helper(x2) {
     if (isDataFrame(x2) || isSeries(x2)) {
       return helper(x2.values);
@@ -80730,7 +80771,7 @@ ${codeFrame}` : message);
     return helper(decycle(x2));
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-nested.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-nested.mjs
   function isNested(x2) {
     if (isDataFrame(x2) || isSeries(x2)) {
       return isNested(x2.values);
@@ -80747,7 +80788,7 @@ ${codeFrame}` : message);
     return false;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/ndarray.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/ndarray.mjs
   var error = "You must pass a natural number or a one-dimensional array of natural numbers into the `ndarray` function!";
   function ndarray(shape4) {
     assert2(!isUndefined(shape4), error);
@@ -80776,7 +80817,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/reverse.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/reverse.mjs
   function reverse(arr) {
     if (isDataFrame(arr) || isSeries(arr)) {
       const out2 = arr.copy();
@@ -80793,7 +80834,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/range.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/range.mjs
   function range2(a, b, step6 = 1) {
     assert2(
       !isUndefined(a) && !isUndefined(b) && !isUndefined(step6),
@@ -80834,7 +80875,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/set.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/set.mjs
   function makeKey2(n) {
     const alpha = "abcdefg1234567890";
     let out = "";
@@ -80864,7 +80905,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/shape.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/shape.mjs
   function helper2(x2) {
     if (isArray2(x2)) {
       const childShapes = helper2(x2[0]);
@@ -80884,7 +80925,7 @@ ${codeFrame}` : message);
     return helper2(x2);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-append.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-append.mjs
   function dfAppend(df, x2, axis) {
     if (isUndefined(axis)) {
       axis = 0;
@@ -81049,7 +81090,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-apply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-apply.mjs
   function dfApply(DataFrame4, Series4, df, fn3, axis) {
     axis = axis || 0;
     assert2(
@@ -81115,12 +81156,12 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-string.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-string.mjs
   function isString2(s4) {
     return typeof s4 === "string";
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-assign.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-assign.mjs
   function dfAssign(DataFrame4, Series4, df, p1, p22) {
     const isDataFrame4 = (x2) => x2 instanceof DataFrame4;
     const isSeries4 = (x2) => x2 instanceof Series4;
@@ -81159,7 +81200,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-copy.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-copy.mjs
   function dfCopy(DataFrame4, df) {
     if (df.isEmpty) return new DataFrame4();
     const out = new DataFrame4(copy(df.values));
@@ -81168,7 +81209,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop.mjs
   function dfDrop(DataFrame4, Series4, df, rows, cols) {
     if (isUndefined(rows)) rows = [];
     if (isUndefined(cols)) cols = [];
@@ -81213,17 +81254,17 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/helpers/is-integer.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/helpers/is-integer.mjs
   function isInteger(x2) {
     return isNumber(x2) && (x2 >= 0 ? Math.floor(x2) === x2 : Math.ceil(x2) === x2);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/helpers/is-whole-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/helpers/is-whole-number.mjs
   function isWholeNumber(x2) {
     return isInteger(x2) && x2 >= 0;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-missing.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-missing.mjs
   function dfDropMissing(DataFrame4, Series4, df, axis, condition, threshold3) {
     axis = axis || 0;
     assert2(
@@ -81294,7 +81335,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/drop-nan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/drop-nan.mjs
   function dropNaN(x2) {
     if (isDataFrame(x2) || isSeries(x2)) {
       return x2.dropNaN(...Object.values(arguments).slice(1));
@@ -81316,7 +81357,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-nan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-nan.mjs
   function dfDropNaN(DataFrame4, df, axis, condition, threshold3) {
     axis = axis || 0;
     assert2(
@@ -81359,7 +81400,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-filter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-filter.mjs
   function arrayToObject(x2) {
     const out = {};
     flatten(x2).forEach((value, i) => {
@@ -81440,7 +81481,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-get.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get.mjs
   function dfGet(df, rows, cols) {
     if (isString2(rows) || isNumber(rows)) rows = [rows];
     if (isString2(cols) || isNumber(cols)) cols = [cols];
@@ -81506,7 +81547,7 @@ ${codeFrame}` : message);
     return df.getSubsetByNames(rows, cols);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/sort.mjs
   function alphaSort(a, b) {
     try {
       if (a < b) return -1;
@@ -81538,7 +81579,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-dummies.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-dummies.mjs
   function camelify(text) {
     const temp = text.toLowerCase();
     let out = "";
@@ -81591,7 +81632,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-indices.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-indices.mjs
   function dfGetSubsetByIndices(df, rowIndices, colIndices) {
     const dataShape = df.shape;
     if (isUndefined(rowIndices)) rowIndices = range2(0, dataShape[0]);
@@ -81639,7 +81680,7 @@ ${codeFrame}` : message);
     return df.getSubsetByNames(rows, cols);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-names.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-names.mjs
   function dfGetSubsetByNames(DataFrame4, Series4, df, rows, cols) {
     if (isUndefined(rows)) rows = df.index;
     if (isUndefined(cols)) cols = df.columns;
@@ -81707,7 +81748,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-print.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-print.mjs
   function dfPrint(DataFrame4, Series4, df) {
     function truncate2(s4, maxLength2) {
       if (isString2(s4)) {
@@ -81779,7 +81820,7 @@ ${codeFrame}` : message);
     return df;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/helpers/left-pad.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/helpers/left-pad.mjs
   function leftPad(x2, maxLength) {
     assert2(isNumber(x2), "The `leftPad` function only works on numbers!");
     let out = x2.toString();
@@ -81787,7 +81828,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-reset-index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-reset-index.mjs
   function dfResetIndex(df, shouldSkipCopying) {
     const out = shouldSkipCopying ? df : df.copy();
     out.index = range2(0, df.shape[0]).map((i) => {
@@ -81796,7 +81837,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/product.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/product.mjs
   function product(arr, shouldDropNaNs) {
     if (isDataFrame(arr) || isSeries(arr)) {
       return product(arr.values, shouldDropNaNs);
@@ -81836,12 +81877,12 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/helpers/is-natural-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/helpers/is-natural-number.mjs
   function isNaturalNumber(x2) {
     return isInteger(x2) && x2 > 0;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/reshape.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/reshape.mjs
   function reshape(x2, newShape) {
     if (isDataFrame(x2) || isSeries(x2)) {
       return reshape(x2.values, newShape);
@@ -81889,7 +81930,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/random.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/random.mjs
   var MAX = Math.pow(2, 64);
   var s = [];
   seed(Math.floor(Math.random() * MAX));
@@ -81949,7 +81990,7 @@ ${codeFrame}` : message);
     return reshape(ndarray(product(shape4)).map(next2), shape4);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/shuffle.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/shuffle.mjs
   function shuffle(arr) {
     if (isDataFrame(arr) || isSeries(arr)) {
       return arr.shuffle(...Object.values(arguments).slice(1));
@@ -81967,7 +82008,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-shuffle.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-shuffle.mjs
   function dfShuffle(df, axis) {
     if (isUndefined(axis)) axis = 0;
     assert2(
@@ -81980,12 +82021,12 @@ ${codeFrame}` : message);
     );
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/is-boolean.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/is-boolean.mjs
   function isBoolean2(x2) {
     return typeof x2 === "boolean";
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-sort.mjs
   function dfSort(df, a, b) {
     if (isFunction2(a)) {
       return dfSortByFunction(df, a, b);
@@ -82098,7 +82139,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-detailed-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-detailed-object.mjs
   function dfToDetailedObject(df, axis) {
     if (isUndefined(axis)) {
       axis = 0;
@@ -82129,17 +82170,17 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json-string.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json-string.mjs
   function dfToJSONString(df, axis) {
     return JSON.stringify(df.toObject(axis));
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json.mjs
   async function dfToJSON(df, axis) {
     return JSON.parse(dfToJSONString(df, axis));
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-object.mjs
   function dfToObject(df) {
     const out = {};
     df.columns.forEach((col) => {
@@ -82148,7 +82189,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/transpose.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/transpose.mjs
   function transpose(arr) {
     if (isDataFrame(arr) || isSeries(arr)) {
       return arr.transpose();
@@ -82175,7 +82216,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-append.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-append.mjs
   function seriesAppend(Series4, series, x2) {
     if (isSeries(x2)) {
       return new Series4(series.values.concat(x2.values));
@@ -82196,7 +82237,7 @@ ${codeFrame}` : message);
     return seriesAppend(series, [x2]);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-apply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-apply.mjs
   function seriesApply(series, fn3) {
     assert2(
       isFunction2(fn3),
@@ -82207,7 +82248,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-drop-missing.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-drop-missing.mjs
   function seriesDropMissing(series) {
     const out = series.copy();
     const outIndex = [];
@@ -82223,7 +82264,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-drop-nan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-drop-nan.mjs
   function seriesDropNaN(Series4, series) {
     const index = [];
     const values = [];
@@ -82239,7 +82280,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-filter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-filter.mjs
   function seriesFilter(Series4, series, fn3) {
     let out = series.copy();
     const index = copy(out.index);
@@ -82262,7 +82303,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-get.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-get.mjs
   function seriesGet(series, indices) {
     if (isString2(indices) || isNumber(indices)) indices = [indices];
     for (const i in indices) {
@@ -82308,7 +82349,7 @@ ${codeFrame}` : message);
     return series.getSubsetByNames(indices);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-indices.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-indices.mjs
   function seriesGetSubsetByIndices(series, indices) {
     const dataShape = series.shape;
     if (isUndefined(indices)) indices = range2(0, dataShape[0]);
@@ -82338,7 +82379,7 @@ ${codeFrame}` : message);
     return series.getSubsetByNames(rows);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-names.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-names.mjs
   function seriesGetSubsetByNames(Series4, series, indices) {
     if (isUndefined(indices)) indices = series.index;
     assert2(
@@ -82370,7 +82411,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-print.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-print.mjs
   function seriesPrint(series) {
     let temp = series.copy();
     const maxRows = typeof window === "undefined" ? 20 : 10;
@@ -82397,13 +82438,13 @@ ${codeFrame}` : message);
     return series;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-shuffle.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-shuffle.mjs
   function seriesShuffle(series) {
     const out = series.copy();
     return out.get(shuffle(out.index));
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-sort.mjs
   function seriesSort(Series4, series, fn3) {
     fn3 = fn3 || ((a, b) => a < b ? -1 : 1);
     assert2(
@@ -82427,7 +82468,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-sort-by-index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-sort-by-index.mjs
   function seriesSortByIndex(Series4, series) {
     let temp = transpose([series.values, series.index]);
     temp = transpose(
@@ -82443,7 +82484,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/series-to-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/series-to-object.mjs
   function seriesToObject(series) {
     const out = {};
     out[series.name] = {};
@@ -82453,7 +82494,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/series/index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/series/index.mjs
   var SERIES_SYMBOL = Symbol.for("@jrc03c/js-math-tools/series");
   function createSeriesClass(DataFrame4) {
     class Series4 {
@@ -82669,7 +82710,7 @@ ${codeFrame}` : message);
     return Series4;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dataframe/index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dataframe/index.mjs
   var DATAFRAME_SYMBOL = Symbol.for("@jrc03c/js-math-tools/dataframe");
   function makeKey3(n) {
     const alpha = "abcdefghijklmnopqrstuvwxyz1234567890";
@@ -83010,12 +83051,12 @@ ${codeFrame}` : message);
   };
   var Series = createSeriesClass(DataFrame);
 
-  // node_modules/@jrc03c/js-math-tools/src/max.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/max.mjs
   function max(arr, shouldDropNaNs) {
     return stats(arr, { shouldDropNaNs }).max;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/vectorize.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/vectorize.mjs
   function vectorize(fn3) {
     assert2(
       isFunction2(fn3),
@@ -83103,7 +83144,7 @@ ${codeFrame}` : message);
     };
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/abs.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/abs.mjs
   function abs(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83118,7 +83159,7 @@ ${codeFrame}` : message);
   }
   var vabs = vectorize(abs);
 
-  // node_modules/@jrc03c/js-math-tools/src/add.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/add.mjs
   function add() {
     try {
       let out = 0;
@@ -83145,7 +83186,7 @@ ${codeFrame}` : message);
   }
   var vadd = vectorize(add);
 
-  // node_modules/@jrc03c/js-math-tools/src/apply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/apply.mjs
   function apply2(x2, fn3) {
     try {
       return fn3(x2);
@@ -83155,7 +83196,7 @@ ${codeFrame}` : message);
   }
   var vapply = vectorize(apply2);
 
-  // node_modules/@jrc03c/js-math-tools/src/arccos.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/arccos.mjs
   function arccos(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83169,7 +83210,7 @@ ${codeFrame}` : message);
   }
   var varccos = vectorize(arccos);
 
-  // node_modules/@jrc03c/js-math-tools/src/arcsin.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/arcsin.mjs
   function arcsin(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83183,7 +83224,7 @@ ${codeFrame}` : message);
   }
   var varcsin = vectorize(arcsin);
 
-  // node_modules/@jrc03c/js-math-tools/src/arctan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/arctan.mjs
   function arctan(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83197,7 +83238,7 @@ ${codeFrame}` : message);
   }
   var varctan = vectorize(arctan);
 
-  // node_modules/@jrc03c/js-math-tools/src/argmax.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/argmax.mjs
   function argmax(x2, shouldDropNaNs) {
     if (isDataFrame(x2)) {
       const index = argmax(x2.values, shouldDropNaNs);
@@ -83229,12 +83270,12 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/min.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/min.mjs
   function min(arr, shouldDropNaNs) {
     return stats(arr, { shouldDropNaNs }).min;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/argmin.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/argmin.mjs
   function argmin(x2, shouldDropNaNs) {
     if (isDataFrame(x2)) {
       const index = argmin(x2.values, shouldDropNaNs);
@@ -83266,7 +83307,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/cast.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/cast.mjs
   function cast(value, type) {
     if (isDataFrame(value) || isSeries(value)) {
       return value.apply((item) => cast(item, type));
@@ -83411,7 +83452,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/ceil.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/ceil.mjs
   function ceil(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83423,7 +83464,7 @@ ${codeFrame}` : message);
   }
   var vceil = vectorize(ceil);
 
-  // node_modules/@jrc03c/js-math-tools/src/chop.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/chop.mjs
   function chop(x2, threshold3) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83440,7 +83481,7 @@ ${codeFrame}` : message);
   }
   var vchop = vectorize(chop);
 
-  // node_modules/@jrc03c/js-math-tools/src/int.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/int.mjs
   function int(x2) {
     if (isDataFrame(x2) || isSeries(x2)) {
       const out = x2.copy();
@@ -83463,7 +83504,7 @@ ${codeFrame}` : message);
   }
   var vint = vectorize(int);
 
-  // node_modules/@jrc03c/js-math-tools/src/clamp.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/clamp.mjs
   function clamp(x2, a, b) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83481,7 +83522,7 @@ ${codeFrame}` : message);
   }
   var vclamp = vectorize(clamp);
 
-  // node_modules/@jrc03c/js-math-tools/src/intersect.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/intersect.mjs
   function intersect() {
     const arrays = Object.values(arguments).map((x2) => {
       if (isDataFrame(x2) || isSeries(x2)) {
@@ -83499,7 +83540,7 @@ ${codeFrame}` : message);
     });
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/index-matcher.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/index-matcher.mjs
   var IndexMatcher = class _IndexMatcher {
     static DROP_NAN_MODE = "DROP_NAN_MODE";
     static DROP_MISSING_MODE = "DROP_MISSING_MODE";
@@ -83570,7 +83611,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@jrc03c/js-math-tools/src/covariance.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/covariance.mjs
   function covariance(x2, y2, shouldDropNaNs, shouldAlsoReturnStatsObjects) {
     if (isSeries(x2)) {
       return covariance(x2.values, y2, shouldDropNaNs, shouldAlsoReturnStatsObjects);
@@ -83626,7 +83667,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/correl.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/correl.mjs
   function correl(x2, y2, shouldDropNaNs) {
     if (isSeries(x2)) {
       return correl(x2.values, y2, shouldDropNaNs);
@@ -83657,7 +83698,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/cos.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/cos.mjs
   function cos(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83671,7 +83712,7 @@ ${codeFrame}` : message);
   }
   var vcos = vectorize(cos);
 
-  // node_modules/@jrc03c/js-math-tools/src/helpers/data-types.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/helpers/data-types.mjs
   var dataTypes = Object.freeze({
     boolean: "boolean",
     date: "date",
@@ -83681,7 +83722,7 @@ ${codeFrame}` : message);
     string: "string"
   });
 
-  // node_modules/@jrc03c/js-math-tools/src/pow.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/pow.mjs
   function pow(x2, p4) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83701,7 +83742,7 @@ ${codeFrame}` : message);
   }
   var vpow = vectorize(pow);
 
-  // node_modules/@jrc03c/js-math-tools/src/sqrt.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/sqrt.mjs
   function sqrt(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83720,7 +83761,7 @@ ${codeFrame}` : message);
   }
   var vsqrt = vectorize(sqrt);
 
-  // node_modules/@jrc03c/js-math-tools/src/multiply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/multiply.mjs
   function multiply() {
     try {
       const x2 = Object.values(arguments);
@@ -83748,22 +83789,22 @@ ${codeFrame}` : message);
   }
   var vmultiply = vectorize(multiply);
 
-  // node_modules/@jrc03c/js-math-tools/src/scale.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/scale.mjs
   function scale() {
     return vmultiply(...arguments);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/subtract.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/subtract.mjs
   function subtract(a, b) {
     return vadd(a, scale(b, -1));
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/sum.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/sum.mjs
   function sum(arr, shouldDropNaNs) {
     return stats(arr, { shouldDropNaNs }).sum;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/distance.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/distance.mjs
   function distance(a, b) {
     if (isNumber(a) && isNumber(b)) {
       return vabs(a - b);
@@ -83787,12 +83828,12 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/divide.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/divide.mjs
   function divide(a, b) {
     return scale(a, vpow(b, -1));
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/dot.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/dot.mjs
   function dot(a, b) {
     if (isDataFrame(a)) {
       const temp = dot(a.values, b);
@@ -83863,7 +83904,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/drop-missing.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/drop-missing.mjs
   function dropMissing(x2) {
     if (isDataFrame(x2) || isSeries(x2)) {
       return x2.dropMissing(...Object.values(arguments).slice(1));
@@ -83885,7 +83926,7 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/drop-nan-pairwise.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/drop-nan-pairwise.mjs
   function dropNaNPairwise(a, b) {
     if (isDataFrame(a) || isSeries(a)) {
       return dropNaNPairwise(a.values, b);
@@ -83918,7 +83959,7 @@ ${codeFrame}` : message);
     return [aOut, bOut];
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/every.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/every.mjs
   function every(x2, fn3) {
     if (isDataFrame(x2) || isSeries(x2)) {
       return every(x2.values, fn3);
@@ -83945,7 +83986,7 @@ ${codeFrame}` : message);
     return true;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/exp.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/exp.mjs
   function exp(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -83963,7 +84004,7 @@ ${codeFrame}` : message);
   }
   var vexp = vectorize(exp);
 
-  // node_modules/@jrc03c/js-math-tools/src/factorial.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/factorial.mjs
   function factorial(n) {
     try {
       if (typeof n === "bigint") {
@@ -83978,7 +84019,7 @@ ${codeFrame}` : message);
   }
   var vfactorial = vectorize(factorial);
 
-  // node_modules/@jrc03c/js-math-tools/src/float.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/float.mjs
   function float(x2) {
     try {
       if (x2 === "Infinity") {
@@ -83996,7 +84037,7 @@ ${codeFrame}` : message);
   }
   var vfloat = vectorize(float);
 
-  // node_modules/@jrc03c/js-math-tools/src/floor.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/floor.mjs
   function floor(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -84010,7 +84051,7 @@ ${codeFrame}` : message);
   }
   var vfloor = vectorize(floor);
 
-  // node_modules/@jrc03c/js-math-tools/src/zeros.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/zeros.mjs
   function zeros(shape4) {
     if (isNumber(shape4)) shape4 = [shape4];
     const out = [];
@@ -84019,7 +84060,7 @@ ${codeFrame}` : message);
     return reshape(out, shape4);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/identity.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/identity.mjs
   function identity(size3) {
     if (typeof size3 === "bigint") {
       size3 = vint(size3);
@@ -84045,13 +84086,13 @@ ${codeFrame}` : message);
     return out;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/helpers/boolean-values.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/helpers/boolean-values.mjs
   var booleanValues = ["true", "false", "yes", "no"];
 
-  // node_modules/@jrc03c/js-math-tools/src/helpers/null-values.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/helpers/null-values.mjs
   var nullValues = ["null", "none", "nan", "na", "n/a", "", "undefined"];
 
-  // node_modules/@jrc03c/js-math-tools/src/infer-type.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/infer-type.mjs
   function checkIfInteger(results) {
     if (results.type === "number") {
       if (typeof results.value !== "undefined") {
@@ -84146,7 +84187,7 @@ ${codeFrame}` : message);
     });
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/lerp.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/lerp.mjs
   function lerp(a, b, f) {
     try {
       if (!isNumber(a)) return NaN;
@@ -84167,7 +84208,7 @@ ${codeFrame}` : message);
   }
   var vlerp = vectorize(lerp);
 
-  // node_modules/@jrc03c/js-math-tools/src/log.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/log.mjs
   function log(x2, base) {
     try {
       base = isUndefined(base) ? Math.E : base;
@@ -84188,12 +84229,12 @@ ${codeFrame}` : message);
   }
   var vlog = vectorize(log);
 
-  // node_modules/@jrc03c/js-math-tools/src/median.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/median.mjs
   function median(arr, shouldDropNaNs) {
     return stats(arr, { shouldDropNaNs, median: true }).median;
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/mod.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/mod.mjs
   function mod(a, b) {
     try {
       if (!isNumber(a)) return NaN;
@@ -84213,7 +84254,7 @@ ${codeFrame}` : message);
   }
   var vmod = vectorize(mod);
 
-  // node_modules/@jrc03c/js-math-tools/src/remap.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/remap.mjs
   var helper3 = vectorize((x2, a, b, c, d) => {
     try {
       let resultShouldBeABigInt = false;
@@ -84258,7 +84299,7 @@ ${codeFrame}` : message);
     return helper3(x2, a, b, c, d);
   }
 
-  // node_modules/@jrc03c/js-math-tools/src/round.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/round.mjs
   function round(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -84270,7 +84311,7 @@ ${codeFrame}` : message);
   }
   var vround = vectorize(round);
 
-  // node_modules/@jrc03c/js-math-tools/src/sign.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/sign.mjs
   function sign(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -84284,7 +84325,7 @@ ${codeFrame}` : message);
   }
   var vsign = vectorize(sign);
 
-  // node_modules/@jrc03c/js-math-tools/src/sin.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/sin.mjs
   function sin(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -84298,7 +84339,7 @@ ${codeFrame}` : message);
   }
   var vsin = vectorize(sin);
 
-  // node_modules/@jrc03c/js-math-tools/src/tan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.92/node_modules/@jrc03c/js-math-tools/src/tan.mjs
   function tan(x2) {
     try {
       if (!isNumber(x2)) return NaN;
@@ -84312,11 +84353,11 @@ ${codeFrame}` : message);
   }
   var vtan = vectorize(tan);
 
-  // node_modules/@jrc03c/js-crypto-helpers/src/errors.mjs
+  // node_modules/.pnpm/@jrc03c+js-crypto-helpers@0.0.21/node_modules/@jrc03c/js-crypto-helpers/src/errors.mjs
   var HashingError = class extends Error {
   };
 
-  // node_modules/@jrc03c/js-text-tools/src/helpers/convert-typed-array-to-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.62/node_modules/@jrc03c/js-text-tools/src/helpers/convert-typed-array-to-object.mjs
   function convertTypedArrayToObject(x2) {
     if (x2 instanceof ArrayBuffer || x2 instanceof BigInt64Array || x2 instanceof BigUint64Array || x2 instanceof Float32Array || x2 instanceof Float64Array || x2 instanceof Int16Array || x2 instanceof Int32Array || x2 instanceof Int8Array || x2 instanceof Uint16Array || x2 instanceof Uint32Array || x2 instanceof Uint8Array || x2 instanceof Uint8ClampedArray) {
       return {
@@ -84352,7 +84393,7 @@ ${codeFrame}` : message);
     );
   }
 
-  // node_modules/@jrc03c/js-text-tools/src/stringify.mjs
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.62/node_modules/@jrc03c/js-text-tools/src/stringify.mjs
   function prefix(s4, n) {
     if (!s4 || n <= 0) return "";
     return range2(0, n).map(() => s4).join("");
@@ -84449,7 +84490,7 @@ ${codeFrame}` : message);
     return helper10(decycle(x2), indent4);
   }
 
-  // node_modules/@jrc03c/js-crypto-helpers/src/hash.mjs
+  // node_modules/.pnpm/@jrc03c+js-crypto-helpers@0.0.21/node_modules/@jrc03c/js-crypto-helpers/src/hash.mjs
   async function hash(x2, salt) {
     if (isUndefined(salt)) {
       salt = "";
@@ -84760,7 +84801,7 @@ ${codeFrame}` : message);
     });
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/backends/backend.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/backends/backend.js
   var EPSILON_FLOAT32 = 1e-7;
   var EPSILON_FLOAT16 = 1e-4;
   var DataStorage = class {
@@ -84847,7 +84888,7 @@ ${codeFrame}` : message);
     throw new Error(`'${kernelName}' not yet implemented or not found in the registry. This kernel may not be supported by the tfjs backend you have chosen`);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/util_base.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/util_base.js
   function shuffle2(array4) {
     let counter = array4.length;
     let index = 0;
@@ -85300,7 +85341,7 @@ ${codeFrame}` : message);
     return object3 && object3.then && typeof object3.then === "function";
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/environment.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/environment.js
   var TENSORFLOWJS_FLAGS_PREFIX = "tfjsflags";
   var Environment = class {
     // tslint:disable-next-line: no-any
@@ -85431,7 +85472,7 @@ ${codeFrame}` : message);
     ENV = environment;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/global_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/global_util.js
   var globalNameSpace;
   function getGlobalNamespace() {
     if (globalNameSpace == null) {
@@ -85469,7 +85510,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/kernel_names.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/kernel_names.js
   var Abs = "Abs";
   var Acos = "Acos";
   var Acosh = "Acosh";
@@ -85646,7 +85687,7 @@ ${codeFrame}` : message);
   var FusedConv2D = "FusedConv2D";
   var FusedDepthwiseConv2D = "FusedDepthwiseConv2D";
 
-  // node_modules/@tensorflow/tfjs-core/dist/log.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/log.js
   function warn3(...msg) {
     if (!(env().getBool("IS_TEST") || env().getBool("PROD"))) {
       console.warn(...msg);
@@ -85658,7 +85699,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/kernel_registry.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/kernel_registry.js
   var kernelRegistry = getGlobal("kernelRegistry", () => /* @__PURE__ */ new Map());
   var gradRegistry = getGlobal("gradRegistry", () => /* @__PURE__ */ new Map());
   function getKernel(kernelName, backendName) {
@@ -85705,7 +85746,7 @@ ${codeFrame}` : message);
     return `${backendName}_${kernelName}`;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/util.js
   var util_exports = {};
   __export(util_exports, {
     arraysEqual: () => arraysEqual,
@@ -85767,12 +85808,12 @@ ${codeFrame}` : message);
     toTypedArray: () => toTypedArray
   });
 
-  // node_modules/@tensorflow/tfjs-core/dist/platforms/is_typed_array_browser.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/platforms/is_typed_array_browser.js
   function isTypedArrayBrowser(a) {
     return a instanceof Float32Array || a instanceof Int32Array || a instanceof Uint8Array || a instanceof Uint8ClampedArray;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/hash_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/hash_util.js
   var LongExports = __toESM(require_long());
   var Long = (
     // tslint:disable-next-line
@@ -85913,7 +85954,7 @@ ${codeFrame}` : message);
     return hashLen16(hashLen16(v[0], w[0], mul2).add(shiftMix(y2).mul(k0)).add(z), hashLen16(v[1], w[1], mul2).add(x2), mul2);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/util.js
   function createScalarValue(value, dtype) {
     if (dtype === "string") {
       return encodeString(value);
@@ -85997,7 +86038,7 @@ ${codeFrame}` : message);
     return result;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/profiler.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/profiler.js
   var Profiler = class {
     constructor(backendTimer, logger) {
       this.backendTimer = backendTimer;
@@ -86081,7 +86122,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/tape.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/tape.js
   function getFilteredNodesXToY(tape, xs, y2) {
     const tensorsFromX = {};
     const nodesFromX = {};
@@ -86181,7 +86222,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/tensor_format.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/tensor_format.js
   var FORMAT_LIMIT_NUM_VALS = 20;
   var FORMAT_NUM_FIRST_LAST_VALS = 3;
   var FORMAT_NUM_SIG_DIGITS = 7;
@@ -86331,7 +86372,7 @@ ${codeFrame}` : message);
     return complexTuples;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/tensor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/tensor.js
   var TensorBuffer = class {
     constructor(shape4, dtype, values) {
       this.dtype = dtype;
@@ -86684,7 +86725,7 @@ ${codeFrame}` : message);
     }
   });
 
-  // node_modules/@tensorflow/tfjs-core/dist/tensor_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/tensor_util.js
   var tensor_util_exports = {};
   __export(tensor_util_exports, {
     assertTypesMatch: () => assertTypesMatch,
@@ -86693,7 +86734,7 @@ ${codeFrame}` : message);
     makeTypesMatch: () => makeTypesMatch
   });
 
-  // node_modules/@tensorflow/tfjs-core/dist/types.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/types.js
   var Rank;
   (function(Rank2) {
     Rank2["R0"] = "R0";
@@ -86757,7 +86798,7 @@ ${codeFrame}` : message);
     return typeof GPUBuffer !== "undefined" && values != null && typeof values === "object" && "buffer" in values && values.buffer instanceof GPUBuffer;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/tensor_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/tensor_util.js
   function makeTypesMatch(a, b) {
     if (a.dtype === b.dtype) {
       return [a, b];
@@ -86801,7 +86842,7 @@ ${codeFrame}` : message);
     return Array.isArray(obj) || typeof obj === "object";
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/engine.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/engine.js
   function isRegisteredKernelInvocation(kernelInvocation) {
     return kernelInvocation.kernelName != null;
   }
@@ -87655,7 +87696,7 @@ ${codeFrame}` : message);
     return ENGINE.runKernel(Add, inputs);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/device_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/device_util.js
   var device_util_exports = {};
   __export(device_util_exports, {
     isBrowser: () => isBrowser2,
@@ -87696,7 +87737,7 @@ ${codeFrame}` : message);
     typeof WorkerGlobalScope !== "undefined";
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/flags.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/flags.js
   var ENV2 = env();
   ENV2.registerFlag("DEBUG", () => false, (debugValue) => {
     if (debugValue) {
@@ -87716,7 +87757,7 @@ ${codeFrame}` : message);
   ENV2.registerFlag("CANVAS2D_WILL_READ_FREQUENTLY_FOR_GPU", () => false);
   ENV2.registerFlag("USE_SETTIMEOUTCUSTOM", () => false);
 
-  // node_modules/@tensorflow/tfjs-core/dist/tensor_util_env.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/tensor_util_env.js
   function inferShape(val, dtype) {
     let firstElem = val;
     if (isTypedArray(val)) {
@@ -87795,7 +87836,7 @@ ${codeFrame}` : message);
     return tensors.map((t, i) => convertToTensor(t, `${argName}[${i}]`, functionName, parseAsDtype));
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/operation.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/operation.js
   var OP_SCOPE_SUFFIX = "__op";
   function op(f) {
     const keys = Object.keys(f);
@@ -87826,7 +87867,7 @@ ${codeFrame}` : message);
     return f2;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/complex.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/complex.js
   function complex_(real4, imag4) {
     const $real = convertToTensor(real4, "real", "complex");
     const $imag = convertToTensor(imag4, "imag", "complex");
@@ -87836,7 +87877,7 @@ ${codeFrame}` : message);
   }
   var complex = /* @__PURE__ */ op({ complex_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/tensor_ops_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/tensor_ops_util.js
   function makeTensor(values, shape4, inferredShape, dtype) {
     if (dtype == null) {
       dtype = inferDtype(values);
@@ -87871,13 +87912,13 @@ ${codeFrame}` : message);
     return ENGINE.makeTensor(values, shape4, dtype);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/tensor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/tensor.js
   function tensor(values, shape4, dtype) {
     const inferredShape = inferShape(values, dtype);
     return makeTensor(values, shape4, inferredShape, dtype);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/types.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/types.js
   var DTYPE_VALUE_SIZE_MAP = {
     "float32": 4,
     "float16": 2,
@@ -87888,7 +87929,7 @@ ${codeFrame}` : message);
     "complex64": 8
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/composite_array_buffer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/composite_array_buffer.js
   var CompositeArrayBuffer = class _CompositeArrayBuffer {
     /**
      * Concatenate a number of ArrayBuffers into one.
@@ -88017,7 +88058,7 @@ ${codeFrame}` : message);
     return -1;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/globals.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/globals.js
   function deprecationWarn(msg) {
     if (env().getBool("DEPRECATION_WARNINGS_ENABLED")) {
       console.warn(msg + " You can disable deprecation warnings with tf.disableDeprecationWarnings().");
@@ -88050,7 +88091,7 @@ ${codeFrame}` : message);
     return ENGINE.backend;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/io_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/io_utils.js
   var NUM_BYTES_STRING_LENGTH = 4;
   async function encodeWeights(tensors, group2) {
     const specs = [];
@@ -88472,7 +88513,7 @@ ${codeFrame}` : message);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/router_registry.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/router_registry.js
   var IORouterRegistry = class _IORouterRegistry {
     constructor() {
       this.saveRouters = [];
@@ -88541,7 +88582,7 @@ ${codeFrame}` : message);
   var getSaveHandlers = (url) => IORouterRegistry.getSaveHandlers(url);
   var getLoadHandlers = (url, loadOptions) => IORouterRegistry.getLoadHandlers(url, loadOptions);
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/indexed_db.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/indexed_db.js
   var DATABASE_NAME = "tensorflowjs";
   var DATABASE_VERSION = 1;
   var MODEL_STORE_NAME = "models_store";
@@ -88770,7 +88811,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/local_storage.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/local_storage.js
   var PATH_SEPARATOR = "/";
   var PATH_PREFIX = "tensorflowjs_models";
   var INFO_SUFFIX = "info";
@@ -88959,7 +89000,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/model_management.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/model_management.js
   var URL_SCHEME_SUFFIX = "://";
   var ModelStoreManagerRegistry = class _ModelStoreManagerRegistry {
     constructor() {
@@ -89056,7 +89097,7 @@ ${codeFrame}` : message);
     return cloneModelInternal(sourceURL, destURL, deleteSource);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/platforms/platform_browser.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/platforms/platform_browser.js
   var PlatformBrowser = class {
     constructor() {
       this.messageName = "setTimeoutCustom";
@@ -89127,7 +89168,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/platforms/platform_node.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/platforms/platform_node.js
   var getNodeFetch = {
     // tslint:disable-next-line:no-require-imports
     importFetch: () => require_browser()
@@ -89171,14 +89212,14 @@ ${codeFrame}` : message);
     env().setPlatform("node", new PlatformNode());
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/buffer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/buffer.js
   function buffer2(shape4, dtype = "float32", values) {
     dtype = dtype || "float32";
     assertNonNegativeIntegerDimensions(shape4);
     return new TensorBuffer(shape4, dtype, values);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/cast.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/cast.js
   function cast_(x2, dtype) {
     const $x = convertToTensor(x2, "x", "cast");
     if (!isValidDtype(dtype)) {
@@ -89193,7 +89234,7 @@ ${codeFrame}` : message);
   }
   var cast2 = /* @__PURE__ */ op({ cast_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/clone.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/clone.js
   function clone_(x2) {
     const $x = convertToTensor(x2, "x", "clone", "string_or_numeric");
     const inputs = { x: $x };
@@ -89201,12 +89242,12 @@ ${codeFrame}` : message);
   }
   var clone = /* @__PURE__ */ op({ clone_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/print.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/print.js
   function print2(x2, verbose = false) {
     console.log(x2.toString(verbose));
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/base_side_effects.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/base_side_effects.js
   getOrMakeEngine();
   var opHandler2 = {
     buffer: buffer2,
@@ -89216,7 +89257,7 @@ ${codeFrame}` : message);
   };
   setOpHandler(opHandler2);
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/add.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/add.js
   function add_(a, b) {
     let $a = convertToTensor(a, "a", "add");
     let $b = convertToTensor(b, "b", "add");
@@ -89226,7 +89267,7 @@ ${codeFrame}` : message);
   }
   var add3 = /* @__PURE__ */ op({ add_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/floorDiv.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/floorDiv.js
   function floorDiv_(a, b) {
     let $a = convertToTensor(a, "a", "floorDiv");
     let $b = convertToTensor(b, "b", "floorDiv");
@@ -89236,7 +89277,7 @@ ${codeFrame}` : message);
   }
   var floorDiv = /* @__PURE__ */ op({ floorDiv_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/div.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/div.js
   function div_(a, b) {
     let $a = convertToTensor(a, "a", "div");
     let $b = convertToTensor(b, "b", "div");
@@ -89250,7 +89291,7 @@ ${codeFrame}` : message);
   }
   var div = /* @__PURE__ */ op({ div_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/mul.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/mul.js
   function mul_(a, b) {
     let $a = convertToTensor(a, "a", "mul");
     let $b = convertToTensor(b, "b", "mul");
@@ -89260,7 +89301,7 @@ ${codeFrame}` : message);
   }
   var mul = /* @__PURE__ */ op({ mul_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/abs.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/abs.js
   function abs_(x2) {
     const $x = convertToTensor(x2, "x", "abs");
     if ($x.dtype === "complex64") {
@@ -89273,7 +89314,7 @@ ${codeFrame}` : message);
   }
   var abs2 = /* @__PURE__ */ op({ abs_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/acos.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/acos.js
   function acos_(x2) {
     const $x = convertToTensor(x2, "x", "acos");
     const inputs = { x: $x };
@@ -89281,7 +89322,7 @@ ${codeFrame}` : message);
   }
   var acos = /* @__PURE__ */ op({ acos_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/acosh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/acosh.js
   function acosh_(x2) {
     const $x = convertToTensor(x2, "x", "acosh");
     const inputs = { x: $x };
@@ -89289,7 +89330,7 @@ ${codeFrame}` : message);
   }
   var acosh = /* @__PURE__ */ op({ acosh_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/all.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/all.js
   function all_(x2, axis = null, keepDims = false) {
     const $x = convertToTensor(x2, "x", "all", "bool");
     const inputs = { x: $x };
@@ -89298,7 +89339,7 @@ ${codeFrame}` : message);
   }
   var all = /* @__PURE__ */ op({ all_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/any.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/any.js
   function any_(x2, axis = null, keepDims = false) {
     const $x = convertToTensor(x2, "x", "any", "bool");
     const inputs = { x: $x };
@@ -89307,7 +89348,7 @@ ${codeFrame}` : message);
   }
   var any = /* @__PURE__ */ op({ any_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/arg_max.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/arg_max.js
   function argMax_(x2, axis = 0) {
     const $x = convertToTensor(x2, "x", "argMax");
     const inputs = { x: $x };
@@ -89316,7 +89357,7 @@ ${codeFrame}` : message);
   }
   var argMax = /* @__PURE__ */ op({ argMax_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/arg_min.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/arg_min.js
   function argMin_(x2, axis = 0) {
     const $x = convertToTensor(x2, "x", "argMin");
     const inputs = { x: $x };
@@ -89325,7 +89366,7 @@ ${codeFrame}` : message);
   }
   var argMin = /* @__PURE__ */ op({ argMin_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/asin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/asin.js
   function asin_(x2) {
     const $x = convertToTensor(x2, "x", "asin");
     const inputs = { x: $x };
@@ -89333,7 +89374,7 @@ ${codeFrame}` : message);
   }
   var asin = /* @__PURE__ */ op({ asin_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/asinh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/asinh.js
   function asinh_(x2) {
     const $x = convertToTensor(x2, "x", "asinh");
     const inputs = { x: $x };
@@ -89341,7 +89382,7 @@ ${codeFrame}` : message);
   }
   var asinh = /* @__PURE__ */ op({ asinh_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/atan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/atan.js
   function atan_(x2) {
     const $x = convertToTensor(x2, "x", "atan");
     const inputs = { x: $x };
@@ -89349,7 +89390,7 @@ ${codeFrame}` : message);
   }
   var atan = /* @__PURE__ */ op({ atan_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/atan2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/atan2.js
   function atan2_(a, b) {
     let $a = convertToTensor(a, "a", "atan2");
     let $b = convertToTensor(b, "b", "atan2");
@@ -89359,7 +89400,7 @@ ${codeFrame}` : message);
   }
   var atan2 = /* @__PURE__ */ op({ atan2_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/atanh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/atanh.js
   function atanh_(x2) {
     const $x = convertToTensor(x2, "x", "atanh");
     const inputs = { x: $x };
@@ -89367,7 +89408,7 @@ ${codeFrame}` : message);
   }
   var atanh = /* @__PURE__ */ op({ atanh_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv_util.js
   function computeDilation2DInfo(inputShape, filterShape, strides, pad2, dataFormat = "NHWC", dilations) {
     const inputChannels = inputShape[3];
     const $filterShape = [...filterShape, inputChannels];
@@ -89674,7 +89715,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/reshape.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/reshape.js
   function reshape_(x2, shape4) {
     const $x = convertToTensor(x2, "x", "reshape", "string_or_numeric");
     const inputs = { x: $x };
@@ -89683,7 +89724,7 @@ ${codeFrame}` : message);
   }
   var reshape2 = /* @__PURE__ */ op({ reshape_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool.js
   function avgPool_(x2, filterSize, strides, pad2, dimRoundingMode) {
     const $x = convertToTensor(x2, "x", "avgPool", "float32");
     const dilations = 1;
@@ -89707,7 +89748,7 @@ ${codeFrame}` : message);
   }
   var avgPool = /* @__PURE__ */ op({ avgPool_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_3d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_3d.js
   function avgPool3d_(x2, filterSize, strides, pad2, dimRoundingMode, dataFormat = "NDHWC") {
     const $x = convertToTensor(x2, "x", "avgPool3d", "float32");
     let x5D = $x;
@@ -89731,7 +89772,7 @@ ${codeFrame}` : message);
   }
   var avgPool3d = /* @__PURE__ */ op({ avgPool3d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/concat.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/concat.js
   function concat_(tensors, axis = 0) {
     assert3(tensors.length >= 1, () => "Pass at least one tensor to concat");
     const $tensors = convertToTensorArray(tensors, "tensors", "concat", "string_or_numeric");
@@ -89752,7 +89793,7 @@ ${codeFrame}` : message);
   }
   var concat = /* @__PURE__ */ op({ concat_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/mat_mul.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/mat_mul.js
   function matMul_(a, b, transposeA = false, transposeB = false) {
     let $a = convertToTensor(a, "a", "matMul");
     let $b = convertToTensor(b, "b", "matMul");
@@ -89763,7 +89804,7 @@ ${codeFrame}` : message);
   }
   var matMul = /* @__PURE__ */ op({ matMul_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sigmoid.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sigmoid.js
   function sigmoid_(x2) {
     const $x = convertToTensor(x2, "x", "sigmoid", "float32");
     const inputs = { x: $x };
@@ -89771,7 +89812,7 @@ ${codeFrame}` : message);
   }
   var sigmoid = /* @__PURE__ */ op({ sigmoid_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/slice.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/slice.js
   function slice_(x2, begin, size3) {
     const $x = convertToTensor(x2, "x", "slice", "string_or_numeric");
     if ($x.rank === 0) {
@@ -89783,7 +89824,7 @@ ${codeFrame}` : message);
   }
   var slice = /* @__PURE__ */ op({ slice_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/tanh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/tanh.js
   function tanh_(x2) {
     const $x = convertToTensor(x2, "x", "tanh", "float32");
     const inputs = { x: $x };
@@ -89791,7 +89832,7 @@ ${codeFrame}` : message);
   }
   var tanh2 = /* @__PURE__ */ op({ tanh_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/batch_to_space_nd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/batch_to_space_nd.js
   function batchToSpaceND_(x2, blockShape, crops) {
     const $x = convertToTensor(x2, "x", "batchToSpaceND");
     const prod4 = blockShape.reduce((a, b) => a * b);
@@ -89804,7 +89845,7 @@ ${codeFrame}` : message);
   }
   var batchToSpaceND = /* @__PURE__ */ op({ batchToSpaceND_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm_util.js
   function xAs4D(x2) {
     let x4D;
     if (x2.rank === 0 || x2.rank === 1) {
@@ -89819,7 +89860,7 @@ ${codeFrame}` : message);
     return x4D;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm.js
   function batchNorm_(x2, mean8, variance4, offset, scale6, varianceEpsilon) {
     if (varianceEpsilon == null) {
       varianceEpsilon = 1e-3;
@@ -89852,7 +89893,7 @@ ${codeFrame}` : message);
   }
   var batchNorm = /* @__PURE__ */ op({ batchNorm_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm2d.js
   function batchNorm2d_(x2, mean8, variance4, offset, scale6, varianceEpsilon) {
     const $x = convertToTensor(x2, "x", "batchNorm");
     const $mean = convertToTensor(mean8, "mean", "batchNorm");
@@ -89878,7 +89919,7 @@ ${codeFrame}` : message);
   }
   var batchNorm2d = /* @__PURE__ */ op({ batchNorm2d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm3d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm3d.js
   function batchNorm3d_(x2, mean8, variance4, offset, scale6, varianceEpsilon) {
     const $x = convertToTensor(x2, "x", "batchNorm");
     const $mean = convertToTensor(mean8, "mean", "batchNorm");
@@ -89904,7 +89945,7 @@ ${codeFrame}` : message);
   }
   var batchNorm3d = /* @__PURE__ */ op({ batchNorm3d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm4d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/batchnorm4d.js
   function batchNorm4d_(x2, mean8, variance4, offset, scale6, varianceEpsilon) {
     const $x = convertToTensor(x2, "x", "batchNorm");
     const $mean = convertToTensor(mean8, "mean", "batchNorm");
@@ -89930,7 +89971,7 @@ ${codeFrame}` : message);
   }
   var batchNorm4d = /* @__PURE__ */ op({ batchNorm4d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/bincount.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/bincount.js
   function bincount_(x2, weights, size3) {
     const $x = convertToTensor(x2, "x", "bincount");
     const $weights = convertToTensor(weights, "weights", "bincount");
@@ -89943,7 +89984,7 @@ ${codeFrame}` : message);
   }
   var bincount = /* @__PURE__ */ op({ bincount_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/broadcast_to.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/broadcast_to.js
   function broadcastTo_(x2, shape4) {
     let input2 = convertToTensor(x2, "broadcastTo", "x");
     const xShape = input2.shape;
@@ -89977,7 +90018,7 @@ ${codeFrame}` : message);
   }
   var broadcastTo = /* @__PURE__ */ op({ broadcastTo_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/ceil.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/ceil.js
   function ceil_(x2) {
     const $x = convertToTensor(x2, "x", "ceil", "float32");
     const inputs = { x: $x };
@@ -89985,7 +90026,7 @@ ${codeFrame}` : message);
   }
   var ceil2 = /* @__PURE__ */ op({ ceil_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/fill.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/fill.js
   function fill(shape4, value, dtype) {
     assertNonNegativeIntegerDimensions(shape4);
     dtype = dtype || inferDtype(value);
@@ -89993,7 +90034,7 @@ ${codeFrame}` : message);
     return ENGINE.runKernel(Fill, {}, attrs);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/clip_by_value.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/clip_by_value.js
   function clipByValue_(x2, clipValueMin, clipValueMax) {
     const $x = convertToTensor(x2, "x", "clipByValue");
     assert3(clipValueMin <= clipValueMax, () => `Error in clip: min (${clipValueMin}) must be less than or equal to max (${clipValueMax}).`);
@@ -90006,7 +90047,7 @@ ${codeFrame}` : message);
   }
   var clipByValue = /* @__PURE__ */ op({ clipByValue_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/concat_1d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/concat_1d.js
   function concat1d_(tensors) {
     return concat(
       tensors,
@@ -90016,25 +90057,25 @@ ${codeFrame}` : message);
   }
   var concat1d = /* @__PURE__ */ op({ concat1d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/concat_2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/concat_2d.js
   function concat2d_(tensors, axis) {
     return concat(tensors, axis);
   }
   var concat2d = /* @__PURE__ */ op({ concat2d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/concat_3d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/concat_3d.js
   function concat3d_(tensors, axis) {
     return concat(tensors, axis);
   }
   var concat3d = /* @__PURE__ */ op({ concat3d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/concat_4d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/concat_4d.js
   function concat4d_(tensors, axis) {
     return concat(tensors, axis);
   }
   var concat4d = /* @__PURE__ */ op({ concat4d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv2d.js
   function conv2d_(x2, filter5, strides, pad2, dataFormat = "NHWC", dilations = [1, 1], dimRoundingMode) {
     const $x = convertToTensor(x2, "x", "conv2d", "float32");
     const $filter = convertToTensor(filter5, "filter", "conv2d", "float32");
@@ -90062,7 +90103,7 @@ ${codeFrame}` : message);
   }
   var conv2d = /* @__PURE__ */ op({ conv2d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv1d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv1d.js
   function conv1d_(x2, filter5, stride, pad2, dataFormat = "NWC", dilation = 1, dimRoundingMode) {
     const $x = convertToTensor(x2, "x", "conv1d");
     const $filter = convertToTensor(filter5, "filter", "conv1d");
@@ -90093,7 +90134,7 @@ ${codeFrame}` : message);
   }
   var conv1d = /* @__PURE__ */ op({ conv1d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_backprop_input.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_backprop_input.js
   function conv2DBackpropInput_(xShape, dy, filter5, strides, pad2, dataFormat = "NHWC", dimRoundingMode) {
     assert3(xShape.length === dy.rank, () => `Length of inShape (${xShape.length}) and rank of dy (${dy.rank}) must match`);
     let xShape4D = xShape;
@@ -90122,7 +90163,7 @@ ${codeFrame}` : message);
   }
   var conv2DBackpropInput = /* @__PURE__ */ op({ conv2DBackpropInput_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_transpose.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_transpose.js
   function conv2dTranspose_(x2, filter5, outputShape, strides, pad2, dimRoundingMode) {
     const $x = convertToTensor(x2, "x", "conv2dTranspose");
     const $filter = convertToTensor(filter5, "filter", "conv2dTranspose");
@@ -90130,7 +90171,7 @@ ${codeFrame}` : message);
   }
   var conv2dTranspose = /* @__PURE__ */ op({ conv2dTranspose_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv3d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv3d.js
   function conv3d_(x2, filter5, strides, pad2, dataFormat = "NDHWC", dilations = [1, 1, 1]) {
     const $x = convertToTensor(x2, "x", "conv3d");
     const $filter = convertToTensor(filter5, "filter", "conv3d");
@@ -90157,7 +90198,7 @@ ${codeFrame}` : message);
   }
   var conv3d = /* @__PURE__ */ op({ conv3d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_backprop_input.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_backprop_input.js
   function conv3DBackpropInput_(xShape, dy, filter5, strides, pad2) {
     assert3(xShape.length === dy.rank, () => `Length of inShape (${xShape.length}) and rank of dy (${dy.rank}) must match`);
     let xShape5D = xShape;
@@ -90185,7 +90226,7 @@ ${codeFrame}` : message);
   }
   var conv3DBackpropInput = /* @__PURE__ */ op({ conv3DBackpropInput_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_transpose.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_transpose.js
   function conv3dTranspose_(x2, filter5, outputShape, strides, pad2) {
     const $x = convertToTensor(x2, "x", "conv3dTranspose");
     const $filter = convertToTensor(filter5, "filter", "conv3dTranspose");
@@ -90193,7 +90234,7 @@ ${codeFrame}` : message);
   }
   var conv3dTranspose = /* @__PURE__ */ op({ conv3dTranspose_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/cos.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/cos.js
   function cos_(x2) {
     const $x = convertToTensor(x2, "x", "cos", "float32");
     const inputs = { x: $x };
@@ -90201,7 +90242,7 @@ ${codeFrame}` : message);
   }
   var cos2 = /* @__PURE__ */ op({ cos_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/cosh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/cosh.js
   function cosh_(x2) {
     const $x = convertToTensor(x2, "x", "cosh", "float32");
     const inputs = { x: $x };
@@ -90209,7 +90250,7 @@ ${codeFrame}` : message);
   }
   var cosh = /* @__PURE__ */ op({ cosh_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/cumprod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/cumprod.js
   function cumprod_(x2, axis = 0, exclusive = false, reverse8 = false) {
     const $x = convertToTensor(x2, "x", "cumprod");
     const inputs = { x: $x };
@@ -90218,7 +90259,7 @@ ${codeFrame}` : message);
   }
   var cumprod = /* @__PURE__ */ op({ cumprod_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/cumsum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/cumsum.js
   function cumsum_(x2, axis = 0, exclusive = false, reverse8 = false) {
     const $x = convertToTensor(x2, "x", "cumsum");
     const inputs = { x: $x };
@@ -90227,7 +90268,7 @@ ${codeFrame}` : message);
   }
   var cumsum = /* @__PURE__ */ op({ cumsum_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/dense_bincount.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/dense_bincount.js
   function denseBincount_(x2, weights, size3, binaryOutput = false) {
     const $x = convertToTensor(x2, "x", "denseBincount");
     const $weights = convertToTensor(weights, "weights", "denseBincount");
@@ -90241,7 +90282,7 @@ ${codeFrame}` : message);
   }
   var denseBincount = /* @__PURE__ */ op({ denseBincount_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/depth_to_space.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/depth_to_space.js
   function depthToSpace_(x2, blockSize, dataFormat = "NHWC") {
     const $x = convertToTensor(x2, "x", "depthToSpace", "float32");
     const inputHeight = dataFormat === "NHWC" ? $x.shape[1] : $x.shape[2];
@@ -90261,7 +90302,7 @@ ${codeFrame}` : message);
   }
   var depthToSpace = /* @__PURE__ */ op({ depthToSpace_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d.js
   function depthwiseConv2d_(x2, filter5, strides, pad2, dataFormat = "NHWC", dilations = [1, 1], dimRoundingMode) {
     const $x = convertToTensor(x2, "x", "depthwiseConv2d", "float32");
     const $filter = convertToTensor(filter5, "filter", "depthwiseConv2d", "float32");
@@ -90286,7 +90327,7 @@ ${codeFrame}` : message);
   }
   var depthwiseConv2d = /* @__PURE__ */ op({ depthwiseConv2d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/diag.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/diag.js
   function diag_(x2) {
     const $x = convertToTensor(x2, "x", "diag");
     const inputs = { x: $x };
@@ -90294,7 +90335,7 @@ ${codeFrame}` : message);
   }
   var diag = /* @__PURE__ */ op({ diag_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/dilation2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/dilation2d.js
   function dilation2d_(x2, filter5, strides, pad2, dilations = [1, 1], dataFormat = "NHWC") {
     const $x = convertToTensor(x2, "x", "dilation2d");
     const $filter = convertToTensor(filter5, "filter", "dilation2d");
@@ -90318,7 +90359,7 @@ ${codeFrame}` : message);
   }
   var dilation2d = /* @__PURE__ */ op({ dilation2d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/broadcast_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/broadcast_util.js
   var broadcast_util_exports = {};
   __export(broadcast_util_exports, {
     assertAndGetBroadcastShape: () => assertAndGetBroadcastShape,
@@ -90376,7 +90417,7 @@ ${codeFrame}` : message);
     return result;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/equal.js
   function equal_(a, b) {
     let $a = convertToTensor(a, "a", "equal", "string_or_numeric");
     let $b = convertToTensor(b, "b", "equal", "string_or_numeric");
@@ -90387,7 +90428,7 @@ ${codeFrame}` : message);
   }
   var equal = /* @__PURE__ */ op({ equal_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/where.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/where.js
   function where_(condition, a, b) {
     const $a = convertToTensor(a, "a", "where");
     const $b = convertToTensor(b, "b", "where");
@@ -90405,7 +90446,7 @@ ${codeFrame}` : message);
   }
   var where = /* @__PURE__ */ op({ where_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/zeros_like.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/zeros_like.js
   function zerosLike_(x2) {
     const $x = convertToTensor(x2, "x", "zerosLike");
     const inputs = { x: $x };
@@ -90413,7 +90454,7 @@ ${codeFrame}` : message);
   }
   var zerosLike = /* @__PURE__ */ op({ zerosLike_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/div_no_nan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/div_no_nan.js
   function divNoNan_(a, b) {
     let $a = convertToTensor(a, "a", "div");
     let $b = convertToTensor(b, "b", "div");
@@ -90425,7 +90466,7 @@ ${codeFrame}` : message);
   }
   var divNoNan = /* @__PURE__ */ op({ divNoNan_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/dot.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/dot.js
   function dot_(t1, t2) {
     const $t1 = convertToTensor(t1, "t1", "dot");
     const $t2 = convertToTensor(t2, "t2", "dot");
@@ -90455,7 +90496,7 @@ ${codeFrame}` : message);
   }
   var dot2 = /* @__PURE__ */ op({ dot_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/einsum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/einsum.js
   function einsum_(equation, ...tensors) {
     const $tensors = tensors.map((t, i) => convertToTensor(t, `tensors${i}`, "einsum"));
     const attrs = { equation };
@@ -90463,7 +90504,7 @@ ${codeFrame}` : message);
   }
   var einsum = /* @__PURE__ */ op({ einsum_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/elu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/elu.js
   function elu_(x2) {
     const $x = convertToTensor(x2, "x", "elu", "float32");
     const inputs = { x: $x };
@@ -90471,7 +90512,7 @@ ${codeFrame}` : message);
   }
   var elu = /* @__PURE__ */ op({ elu_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/erf.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/erf.js
   function erf_(x2) {
     let $x = convertToTensor(x2, "x", "erf");
     assert3($x.dtype === "int32" || $x.dtype === "float32", () => "Input dtype must be `int32` or `float32`.");
@@ -90483,7 +90524,7 @@ ${codeFrame}` : message);
   }
   var erf = /* @__PURE__ */ op({ erf_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/axis_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/axis_util.js
   function axesAreInnerMostDims(axes, rank) {
     for (let i = 0; i < axes.length; ++i) {
       if (axes[axes.length - i - 1] !== rank - 1 - i) {
@@ -90548,7 +90589,7 @@ ${codeFrame}` : message);
     return res;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/max.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/max.js
   function max_(x2, axis = null, keepDims = false) {
     const $x = convertToTensor(x2, "x", "max");
     const inputs = { x: $x };
@@ -90557,7 +90598,7 @@ ${codeFrame}` : message);
   }
   var max2 = /* @__PURE__ */ op({ max_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/min.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/min.js
   function min_(x2, axis = null, keepDims = false) {
     const $x = convertToTensor(x2, "x", "min");
     const inputs = { x: $x };
@@ -90566,7 +90607,7 @@ ${codeFrame}` : message);
   }
   var min2 = /* @__PURE__ */ op({ min_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/pow.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/pow.js
   function pow_(base, exp7) {
     let $base = convertToTensor(base, "base", "pow");
     let $exp = convertToTensor(exp7, "exp", "pow");
@@ -90576,7 +90617,7 @@ ${codeFrame}` : message);
   }
   var pow2 = /* @__PURE__ */ op({ pow_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/scalar.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/scalar.js
   function scalar(value, dtype) {
     if ((isTypedArray(value) && dtype !== "string" || Array.isArray(value)) && dtype !== "complex64") {
       throw new Error("Error creating a new Scalar: value must be a primitive (number|boolean|string)");
@@ -90589,7 +90630,7 @@ ${codeFrame}` : message);
     return makeTensor(value, shape4, inferredShape, dtype);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sqrt.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sqrt.js
   function sqrt_(x2) {
     const $x = convertToTensor(x2, "x", "sqrt", "float32");
     const inputs = { x: $x };
@@ -90597,7 +90638,7 @@ ${codeFrame}` : message);
   }
   var sqrt2 = /* @__PURE__ */ op({ sqrt_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/square.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/square.js
   function square_(x2) {
     const $x = convertToTensor(x2, "x", "square");
     const attrs = {};
@@ -90605,7 +90646,7 @@ ${codeFrame}` : message);
   }
   var square = /* @__PURE__ */ op({ square_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sum.js
   function sum_(x2, axis = null, keepDims = false) {
     let $x = convertToTensor(x2, "x", "sum");
     if ($x.dtype === "bool") {
@@ -90617,7 +90658,7 @@ ${codeFrame}` : message);
   }
   var sum3 = /* @__PURE__ */ op({ sum_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/norm.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/norm.js
   function norm_(x2, ord = "euclidean", axis = null, keepDims = false) {
     x2 = convertToTensor(x2, "x", "norm");
     const norm2 = normImpl(x2, ord, axis);
@@ -90669,13 +90710,13 @@ ${codeFrame}` : message);
   }
   var norm = /* @__PURE__ */ op({ norm_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/euclidean_norm.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/euclidean_norm.js
   function euclideanNorm_(x2, axis = null, keepDims = false) {
     return norm(x2, "euclidean", axis, keepDims);
   }
   var euclideanNorm = /* @__PURE__ */ op({ euclideanNorm_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/exp.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/exp.js
   function exp_(x2) {
     const $x = convertToTensor(x2, "x", "exp");
     const inputs = { x: $x };
@@ -90683,7 +90724,7 @@ ${codeFrame}` : message);
   }
   var exp2 = /* @__PURE__ */ op({ exp_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/expand_dims.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/expand_dims.js
   function expandDims_(x2, axis = 0) {
     const $x = convertToTensor(x2, "x", "expandDims", "string_or_numeric");
     assert3(axis <= $x.rank, () => "Axis must be <= rank of the tensor");
@@ -90693,7 +90734,7 @@ ${codeFrame}` : message);
   }
   var expandDims = /* @__PURE__ */ op({ expandDims_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/expm1.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/expm1.js
   function expm1_(x2) {
     const $x = convertToTensor(x2, "x", "expm1");
     const inputs = { x: $x };
@@ -90701,7 +90742,7 @@ ${codeFrame}` : message);
   }
   var expm1 = /* @__PURE__ */ op({ expm1_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/tile.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/tile.js
   function tile_(x2, reps) {
     const $x = convertToTensor(x2, "x", "tile", "string_or_numeric");
     assert3($x.rank === reps.length, () => `Error in transpose: rank of input ${$x.rank} must match length of reps ${reps}.`);
@@ -90711,7 +90752,7 @@ ${codeFrame}` : message);
   }
   var tile = /* @__PURE__ */ op({ tile_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/eye.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/eye.js
   function eye_(numRows, numColumns, batchShape, dtype = "float32") {
     if (numColumns == null) {
       numColumns = numRows;
@@ -90744,7 +90785,7 @@ ${codeFrame}` : message);
   }
   var eye = /* @__PURE__ */ op({ eye_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/floor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/floor.js
   function floor_(x2) {
     const $x = convertToTensor(x2, "x", "floor", "float32");
     const inputs = { x: $x };
@@ -90752,7 +90793,7 @@ ${codeFrame}` : message);
   }
   var floor2 = /* @__PURE__ */ op({ floor_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/gather.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/gather.js
   function gather_(x2, indices, axis = 0, batchDims = 0) {
     const $x = convertToTensor(x2, "x", "gather");
     const $indices = convertToTensor(indices, "indices", "gather", "int32");
@@ -90762,7 +90803,7 @@ ${codeFrame}` : message);
   }
   var gather = /* @__PURE__ */ op({ gather_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/greater.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/greater.js
   function greater_(a, b) {
     let $a = convertToTensor(a, "a", "greater", "string_or_numeric");
     let $b = convertToTensor(b, "b", "greater", "string_or_numeric");
@@ -90773,7 +90814,7 @@ ${codeFrame}` : message);
   }
   var greater = /* @__PURE__ */ op({ greater_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/greater_equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/greater_equal.js
   function greaterEqual_(a, b) {
     let $a = convertToTensor(a, "a", "greaterEqual", "string_or_numeric");
     let $b = convertToTensor(b, "b", "greaterEqual", "string_or_numeric");
@@ -90784,7 +90825,7 @@ ${codeFrame}` : message);
   }
   var greaterEqual = /* @__PURE__ */ op({ greaterEqual_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/imag.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/imag.js
   function imag_(input2) {
     const $input = convertToTensor(input2, "input", "imag");
     const inputs = { input: $input };
@@ -90792,7 +90833,7 @@ ${codeFrame}` : message);
   }
   var imag = /* @__PURE__ */ op({ imag_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/is_finite.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/is_finite.js
   function isFinite_(x2) {
     const $x = convertToTensor(x2, "x", "isFinite");
     const inputs = { x: $x };
@@ -90800,7 +90841,7 @@ ${codeFrame}` : message);
   }
   var isFinite2 = /* @__PURE__ */ op({ isFinite_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/is_inf.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/is_inf.js
   function isInf_(x2) {
     const $x = convertToTensor(x2, "x", "isInf");
     const inputs = { x: $x };
@@ -90808,7 +90849,7 @@ ${codeFrame}` : message);
   }
   var isInf = /* @__PURE__ */ op({ isInf_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/is_nan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/is_nan.js
   function isNaN_(x2) {
     const $x = convertToTensor(x2, "x", "isNaN");
     const inputs = { x: $x };
@@ -90816,7 +90857,7 @@ ${codeFrame}` : message);
   }
   var isNaN2 = /* @__PURE__ */ op({ isNaN_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/leaky_relu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/leaky_relu.js
   function leakyRelu_(x2, alpha = 0.2) {
     const $x = convertToTensor(x2, "x", "leakyRelu");
     const inputs = { x: $x };
@@ -90825,7 +90866,7 @@ ${codeFrame}` : message);
   }
   var leakyRelu = /* @__PURE__ */ op({ leakyRelu_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/less.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/less.js
   function less_(a, b) {
     let $a = convertToTensor(a, "a", "less", "string_or_numeric");
     let $b = convertToTensor(b, "b", "less", "string_or_numeric");
@@ -90836,7 +90877,7 @@ ${codeFrame}` : message);
   }
   var less = /* @__PURE__ */ op({ less_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/less_equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/less_equal.js
   function lessEqual_(a, b) {
     let $a = convertToTensor(a, "a", "lessEqual", "string_or_numeric");
     let $b = convertToTensor(b, "b", "lessEqual", "string_or_numeric");
@@ -90847,7 +90888,7 @@ ${codeFrame}` : message);
   }
   var lessEqual = /* @__PURE__ */ op({ lessEqual_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/local_response_normalization.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/local_response_normalization.js
   function localResponseNormalization_(x2, depthRadius = 5, bias = 1, alpha = 1, beta = 0.5) {
     const $x = convertToTensor(x2, "x", "localResponseNormalization");
     assert3($x.rank === 4 || $x.rank === 3, () => `Error in localResponseNormalization: x must be rank 3 or 4 but got
@@ -90870,7 +90911,7 @@ ${codeFrame}` : message);
   }
   var localResponseNormalization = /* @__PURE__ */ op({ localResponseNormalization_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/log.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/log.js
   function log_(x2) {
     const $x = convertToTensor(x2, "x", "log", "float32");
     const inputs = { x: $x };
@@ -90878,7 +90919,7 @@ ${codeFrame}` : message);
   }
   var log3 = /* @__PURE__ */ op({ log_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/log1p.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/log1p.js
   function log1p_(x2) {
     const $x = convertToTensor(x2, "x", "log1p");
     const inputs = { x: $x };
@@ -90886,7 +90927,7 @@ ${codeFrame}` : message);
   }
   var log1p = /* @__PURE__ */ op({ log1p_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients.js
   function variableGrads(f, varList) {
     assert3(isFunction3(f), () => "The f passed in variableGrads(f) must be a function");
     assert3(varList == null || Array.isArray(varList) && varList.every((v) => v instanceof Variable), () => "The varList passed in variableGrads(f, varList) must be an array of variables");
@@ -90920,7 +90961,7 @@ ${codeFrame}` : message);
     return ENGINE.customGrad(f);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/neg.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/neg.js
   function neg_(x2) {
     const $x = convertToTensor(x2, "x", "neg");
     const inputs = { x: $x };
@@ -90928,7 +90969,7 @@ ${codeFrame}` : message);
   }
   var neg = /* @__PURE__ */ op({ neg_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/softplus.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/softplus.js
   function softplus_(x2) {
     const $x = convertToTensor(x2, "x", "softplus");
     const inputs = { x: $x };
@@ -90936,7 +90977,7 @@ ${codeFrame}` : message);
   }
   var softplus = /* @__PURE__ */ op({ softplus_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/log_sigmoid.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/log_sigmoid.js
   function logSigmoid_(x2) {
     const $x = convertToTensor(x2, "x", "logSigmoid");
     const customOp = customGrad((x3) => {
@@ -90951,7 +90992,7 @@ ${codeFrame}` : message);
   }
   var logSigmoid = /* @__PURE__ */ op({ logSigmoid_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sub.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sub.js
   function sub_(a, b) {
     let $a = convertToTensor(a, "a", "sub");
     let $b = convertToTensor(b, "b", "sub");
@@ -90961,7 +91002,7 @@ ${codeFrame}` : message);
   }
   var sub = /* @__PURE__ */ op({ sub_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/log_softmax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/log_softmax.js
   function logSoftmax_(logits, axis = -1) {
     const $logits = convertToTensor(logits, "logits", "logSoftmax");
     if (axis === -1) {
@@ -90988,7 +91029,7 @@ ${codeFrame}` : message);
   }
   var logSoftmax = /* @__PURE__ */ op({ logSoftmax_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/log_sum_exp.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/log_sum_exp.js
   function logSumExp_(x2, axis = null, keepDims = false) {
     const $x = convertToTensor(x2, "x", "logSumExp");
     const axes = parseAxisParam(axis, $x.shape);
@@ -91011,7 +91052,7 @@ ${codeFrame}` : message);
   }
   var logSumExp = /* @__PURE__ */ op({ logSumExp_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/logical_and.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/logical_and.js
   function logicalAnd_(a, b) {
     const $a = convertToTensor(a, "a", "logicalAnd", "bool");
     const $b = convertToTensor(b, "b", "logicalAnd", "bool");
@@ -91021,7 +91062,7 @@ ${codeFrame}` : message);
   }
   var logicalAnd = /* @__PURE__ */ op({ logicalAnd_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/logical_not.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/logical_not.js
   function logicalNot_(x2) {
     const $x = convertToTensor(x2, "x", "logicalNot", "bool");
     const inputs = { x: $x };
@@ -91029,7 +91070,7 @@ ${codeFrame}` : message);
   }
   var logicalNot = /* @__PURE__ */ op({ logicalNot_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/logical_or.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/logical_or.js
   function logicalOr_(a, b) {
     const $a = convertToTensor(a, "a", "logicalOr", "bool");
     const $b = convertToTensor(b, "b", "logicalOr", "bool");
@@ -91039,7 +91080,7 @@ ${codeFrame}` : message);
   }
   var logicalOr = /* @__PURE__ */ op({ logicalOr_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/logical_xor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/logical_xor.js
   function logicalXor_(a, b) {
     const $a = convertToTensor(a, "a", "logicalXor", "bool");
     const $b = convertToTensor(b, "b", "logicalXor", "bool");
@@ -91048,7 +91089,7 @@ ${codeFrame}` : message);
   }
   var logicalXor = /* @__PURE__ */ op({ logicalXor_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/max_pool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/max_pool.js
   function maxPool_(x2, filterSize, strides, pad2, dimRoundingMode) {
     const $x = convertToTensor(x2, "x", "maxPool");
     const dilations = 1;
@@ -91071,7 +91112,7 @@ ${codeFrame}` : message);
   }
   var maxPool = /* @__PURE__ */ op({ maxPool_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_3d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_3d.js
   function maxPool3d_(x2, filterSize = [1, 1, 1], strides, pad2, dimRoundingMode, dataFormat = "NDHWC") {
     const $x = convertToTensor(x2, "x", "maxPool3d");
     let x5D = $x;
@@ -91093,7 +91134,7 @@ ${codeFrame}` : message);
   }
   var maxPool3d = /* @__PURE__ */ op({ maxPool3d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/maximum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/maximum.js
   function maximum_(a, b) {
     let $a = convertToTensor(a, "a", "maximum");
     let $b = convertToTensor(b, "b", "maximum");
@@ -91108,7 +91149,7 @@ ${codeFrame}` : message);
   }
   var maximum = /* @__PURE__ */ op({ maximum_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/mean.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/mean.js
   function mean_(x2, axis = null, keepDims = false) {
     const $x = convertToTensor(x2, "x", "mean");
     const inputs = { x: $x };
@@ -91117,7 +91158,7 @@ ${codeFrame}` : message);
   }
   var mean2 = /* @__PURE__ */ op({ mean_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/zeros.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/zeros.js
   function zeros2(shape4, dtype = "float32") {
     assertNonNegativeIntegerDimensions(shape4);
     if (dtype === "complex64") {
@@ -91129,7 +91170,7 @@ ${codeFrame}` : message);
     return ENGINE.makeTensor(values, shape4, dtype);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/ones.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/ones.js
   function ones3(shape4, dtype = "float32") {
     assertNonNegativeIntegerDimensions(shape4);
     if (dtype === "complex64") {
@@ -91141,7 +91182,7 @@ ${codeFrame}` : message);
     return ENGINE.makeTensor(values, shape4, dtype);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/minimum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/minimum.js
   function minimum_(a, b) {
     let $a = convertToTensor(a, "a", "minimum");
     let $b = convertToTensor(b, "b", "minimum");
@@ -91156,7 +91197,7 @@ ${codeFrame}` : message);
   }
   var minimum = /* @__PURE__ */ op({ minimum_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/mirror_pad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/mirror_pad.js
   function mirrorPad_(x2, paddings, mode4) {
     assert3(mode4 === "reflect" || mode4 === "symmetric", () => `Invalid mode. Mode must be either reflect or symmetric. Got ${mode4}.`);
     const $x = convertToTensor(x2, "x", "mirrorPad");
@@ -91175,7 +91216,7 @@ ${codeFrame}` : message);
   }
   var mirrorPad = /* @__PURE__ */ op({ mirrorPad_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/mod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/mod.js
   function mod_(a, b) {
     let $a = convertToTensor(a, "a", "mod");
     let $b = convertToTensor(b, "b", "mod");
@@ -91185,7 +91226,7 @@ ${codeFrame}` : message);
   }
   var mod2 = /* @__PURE__ */ op({ mod_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/moments.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/moments.js
   function moments_(x2, axis = null, keepDims = false) {
     x2 = convertToTensor(x2, "x", "moments");
     const axes = parseAxisParam(axis, x2.shape);
@@ -91200,7 +91241,7 @@ ${codeFrame}` : message);
   }
   var moments = /* @__PURE__ */ op({ moments_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/not_equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/not_equal.js
   function notEqual_(a, b) {
     let $a = convertToTensor(a, "a", "notEqual", "string_or_numeric");
     let $b = convertToTensor(b, "b", "notEqual", "string_or_numeric");
@@ -91211,7 +91252,7 @@ ${codeFrame}` : message);
   }
   var notEqual = /* @__PURE__ */ op({ notEqual_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/one_hot.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/one_hot.js
   function oneHot_(indices, depth, onValue = 1, offValue = 0, dtype = "int32") {
     if (depth < 2) {
       throw new Error(`Error in oneHot: depth must be >=2, but it is ${depth}`);
@@ -91223,7 +91264,7 @@ ${codeFrame}` : message);
   }
   var oneHot = /* @__PURE__ */ op({ oneHot_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/ones_like.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/ones_like.js
   function onesLike_(x2) {
     const $x = convertToTensor(x2, "x", "onesLike");
     const inputs = { x: $x };
@@ -91231,7 +91272,7 @@ ${codeFrame}` : message);
   }
   var onesLike = /* @__PURE__ */ op({ onesLike_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/pad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/pad.js
   function pad_(x2, paddings, constantValue = 0) {
     const $x = convertToTensor(x2, "x", "pad");
     if ($x.rank === 0) {
@@ -91243,7 +91284,7 @@ ${codeFrame}` : message);
   }
   var pad = /* @__PURE__ */ op({ pad_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/space_to_batch_nd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/space_to_batch_nd.js
   function spaceToBatchND_(x2, blockShape, paddings) {
     const $x = convertToTensor(x2, "x", "spaceToBatchND");
     assert3($x.rank >= 1 + blockShape.length, () => `input rank ${$x.rank} should be > than [blockShape] ${blockShape.length}`);
@@ -91260,7 +91301,7 @@ ${codeFrame}` : message);
   }
   var spaceToBatchND = /* @__PURE__ */ op({ spaceToBatchND_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/pool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/pool.js
   function pool_(input2, windowShape, poolingType, pad2, dilations, strides, dimRoundingMode) {
     if (dilations == null) {
       dilations = [1, 1];
@@ -91322,7 +91363,7 @@ ${codeFrame}` : message);
   }
   var pool = /* @__PURE__ */ op({ pool_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/prelu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/prelu.js
   function prelu_(x2, alpha) {
     const $x = convertToTensor(x2, "x", "prelu");
     const $alpha = convertToTensor(alpha, "alpha", "prelu");
@@ -91331,7 +91372,7 @@ ${codeFrame}` : message);
   }
   var prelu = /* @__PURE__ */ op({ prelu_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/prod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/prod.js
   function prod_(x2, axis = null, keepDims = false) {
     let $x = convertToTensor(x2, "x", "prod");
     if ($x.dtype === "bool") {
@@ -91343,7 +91384,7 @@ ${codeFrame}` : message);
   }
   var prod = /* @__PURE__ */ op({ prod_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/rand_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/rand_util.js
   var seedrandom = __toESM(require_seedrandom2());
   var MPRandGauss = class {
     constructor(mean8, stdDeviation, dtype, truncated, seed4) {
@@ -91427,7 +91468,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/random_normal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/random_normal.js
   function randomNormal_(shape4, mean8 = 0, stdDev = 1, dtype, seed4) {
     assertNonNegativeIntegerDimensions(shape4);
     if (dtype != null && dtype === "bool") {
@@ -91442,7 +91483,7 @@ ${codeFrame}` : message);
   }
   var randomNormal = /* @__PURE__ */ op({ randomNormal_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/random_uniform.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/random_uniform.js
   function randomUniform_(shape4, minval = 0, maxval = 1, dtype = "float32", seed4) {
     assertNonNegativeIntegerDimensions(shape4);
     const res = buffer2(shape4, dtype);
@@ -91454,13 +91495,13 @@ ${codeFrame}` : message);
   }
   var randomUniform = /* @__PURE__ */ op({ randomUniform_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/random_uniform_int.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/random_uniform_int.js
   function randomUniformInt_(shape4, minval, maxval, seed4) {
     return randomUniform(shape4, minval, maxval, "int32", seed4);
   }
   var randomUniformInt = /* @__PURE__ */ op({ randomUniformInt_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/range.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/range.js
   function range3(start, stop6, step6 = 1, dtype = "float32") {
     if (step6 === 0) {
       throw new Error("Cannot have a step of zero");
@@ -91469,7 +91510,7 @@ ${codeFrame}` : message);
     return ENGINE.runKernel(Range, {}, attrs);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/real.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/real.js
   function real_(input2) {
     const $input = convertToTensor(input2, "input", "real");
     const inputs = { input: $input };
@@ -91477,7 +91518,7 @@ ${codeFrame}` : message);
   }
   var real = /* @__PURE__ */ op({ real_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/reciprocal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/reciprocal.js
   function reciprocal_(x2) {
     const $x = convertToTensor(x2, "x", "reciprocal");
     const inputs = { x: $x };
@@ -91485,7 +91526,7 @@ ${codeFrame}` : message);
   }
   var reciprocal = /* @__PURE__ */ op({ reciprocal_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/relu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/relu.js
   function relu_(x2) {
     const $x = convertToTensor(x2, "x", "relu");
     const inputs = { x: $x };
@@ -91493,7 +91534,7 @@ ${codeFrame}` : message);
   }
   var relu = /* @__PURE__ */ op({ relu_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/relu6.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/relu6.js
   function relu6_(x2) {
     const $x = convertToTensor(x2, "x", "relu6");
     const inputs = { x: $x };
@@ -91501,7 +91542,7 @@ ${codeFrame}` : message);
   }
   var relu6 = /* @__PURE__ */ op({ relu6_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/reverse.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/reverse.js
   function reverse_(x2, axis) {
     const $x = convertToTensor(x2, "x", "reverse");
     const inputs = { x: $x };
@@ -91510,7 +91551,7 @@ ${codeFrame}` : message);
   }
   var reverse2 = /* @__PURE__ */ op({ reverse_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/round.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/round.js
   function round_(x2) {
     const $x = convertToTensor(x2, "x", "round");
     const inputs = { x: $x };
@@ -91518,7 +91559,7 @@ ${codeFrame}` : message);
   }
   var round3 = /* @__PURE__ */ op({ round_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/rsqrt.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/rsqrt.js
   function rsqrt_(x2) {
     const $x = convertToTensor(x2, "x", "rsqrt", "float32");
     const inputs = { x: $x };
@@ -91526,7 +91567,7 @@ ${codeFrame}` : message);
   }
   var rsqrt = /* @__PURE__ */ op({ rsqrt_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/selu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/selu.js
   function selu_(x2) {
     const $x = convertToTensor(x2, "x", "selu");
     const inputs = { x: $x };
@@ -91534,7 +91575,7 @@ ${codeFrame}` : message);
   }
   var selu = /* @__PURE__ */ op({ selu_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/separable_conv2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/separable_conv2d.js
   function separableConv2d_(x2, depthwiseFilter, pointwiseFilter, strides, pad2, dilation = [1, 1], dataFormat = "NHWC") {
     const $x = convertToTensor(x2, "x", "separableConv2d");
     const $depthwiseFilter = convertToTensor(depthwiseFilter, "depthwiseFilter", "separableConv2d");
@@ -91566,7 +91607,7 @@ ${codeFrame}` : message);
   }
   var separableConv2d = /* @__PURE__ */ op({ separableConv2d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sign.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sign.js
   function sign_(x2) {
     const $x = convertToTensor(x2, "x", "sign");
     const inputs = { x: $x };
@@ -91574,7 +91615,7 @@ ${codeFrame}` : message);
   }
   var sign2 = /* @__PURE__ */ op({ sign_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sin.js
   function sin_(x2) {
     const $x = convertToTensor(x2, "x", "sin", "float32");
     const inputs = { x: $x };
@@ -91582,7 +91623,7 @@ ${codeFrame}` : message);
   }
   var sin2 = /* @__PURE__ */ op({ sin_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sinh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sinh.js
   function sinh_(x2) {
     const $x = convertToTensor(x2, "x", "sinh");
     const inputs = { x: $x };
@@ -91590,7 +91631,7 @@ ${codeFrame}` : message);
   }
   var sinh = /* @__PURE__ */ op({ sinh_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/slice1d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/slice1d.js
   function slice1d_(x2, begin, size3) {
     const $x = convertToTensor(x2, "x", "slice1d");
     assert3($x.rank === 1, () => `slice1d expects a rank-1 tensor, but got a rank-${$x.rank} tensor`);
@@ -91598,7 +91639,7 @@ ${codeFrame}` : message);
   }
   var slice1d = /* @__PURE__ */ op({ slice1d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/slice2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/slice2d.js
   function slice2d_(x2, begin, size3) {
     const $x = convertToTensor(x2, "x", "slice2d");
     assert3($x.rank === 2, () => `slice2d expects a rank-2 tensor, but got a rank-${$x.rank} tensor`);
@@ -91606,7 +91647,7 @@ ${codeFrame}` : message);
   }
   var slice2d = /* @__PURE__ */ op({ slice2d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/slice3d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/slice3d.js
   function slice3d_(x2, begin, size3) {
     const $x = convertToTensor(x2, "x", "slice3d");
     assert3($x.rank === 3, () => `slice3d expects a rank-3 tensor, but got a rank-${$x.rank} tensor`);
@@ -91614,7 +91655,7 @@ ${codeFrame}` : message);
   }
   var slice3d = /* @__PURE__ */ op({ slice3d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/slice4d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/slice4d.js
   function slice4d_(x2, begin, size3) {
     const $x = convertToTensor(x2, "x", "slice4d");
     assert3($x.rank === 4, () => `slice4d expects a rank-4 tensor, but got a rank-${$x.rank} tensor`);
@@ -91622,7 +91663,7 @@ ${codeFrame}` : message);
   }
   var slice4d = /* @__PURE__ */ op({ slice4d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/softmax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/softmax.js
   function softmax_(logits, dim = -1) {
     const $logits = convertToTensor(logits, "logits", "softmax", "float32");
     if (dim === -1) {
@@ -91637,7 +91678,7 @@ ${codeFrame}` : message);
   }
   var softmax = /* @__PURE__ */ op({ softmax_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/spectral/fft.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/spectral/fft.js
   function fft_(input2) {
     assert3(input2.dtype === "complex64", () => `The dtype for tf.spectral.fft() must be complex64 but got ${input2.dtype}.`);
     const inputs = { input: input2 };
@@ -91645,7 +91686,7 @@ ${codeFrame}` : message);
   }
   var fft = /* @__PURE__ */ op({ fft_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/spectral/ifft.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/spectral/ifft.js
   function ifft_(input2) {
     assert3(input2.dtype === "complex64", () => `The dtype for tf.spectral.ifft() must be complex64 but got ${input2.dtype}.`);
     const inputs = { input: input2 };
@@ -91653,7 +91694,7 @@ ${codeFrame}` : message);
   }
   var ifft = /* @__PURE__ */ op({ ifft_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/spectral/irfft.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/spectral/irfft.js
   function irfft_(input2) {
     const innerDimensionSize = input2.shape[input2.shape.length - 1];
     const batch3 = input2.size / innerDimensionSize;
@@ -91683,7 +91724,7 @@ ${codeFrame}` : message);
   }
   var irfft = /* @__PURE__ */ op({ irfft_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/split.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/split.js
   function split_(x2, numOrSizeSplits, axis = 0) {
     const $x = convertToTensor(x2, "x", "split");
     const inputs = { x: $x };
@@ -91692,7 +91733,7 @@ ${codeFrame}` : message);
   }
   var split = /* @__PURE__ */ op({ split_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/spectral/rfft.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/spectral/rfft.js
   function rfft_(input2, fftLength) {
     assert3(input2.dtype === "float32", () => `The dtype for rfft() must be real value but got ${input2.dtype}`);
     let innerDimensionSize = input2.shape[input2.shape.length - 1];
@@ -91726,7 +91767,7 @@ ${codeFrame}` : message);
   }
   var rfft = /* @__PURE__ */ op({ rfft_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/squared_difference.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/squared_difference.js
   function squaredDifference_(a, b) {
     let $a = convertToTensor(a, "a", "squaredDifference");
     let $b = convertToTensor(b, "b", "squaredDifference");
@@ -91738,14 +91779,14 @@ ${codeFrame}` : message);
   }
   var squaredDifference = /* @__PURE__ */ op({ squaredDifference_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/squeeze.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/squeeze.js
   function squeeze_(x2, axis) {
     const $x = convertToTensor(x2, "x", "squeeze", "string_or_numeric");
     return reshape2($x, squeezeShape($x.shape, axis).newShape);
   }
   var squeeze = /* @__PURE__ */ op({ squeeze_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/stack.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/stack.js
   function stack_(tensors, axis = 0) {
     const $tensors = convertToTensorArray(tensors, "tensors", "stack", "string_or_numeric");
     assert3($tensors.length >= 1, () => "Pass at least one tensor to tf.stack");
@@ -91758,7 +91799,7 @@ ${codeFrame}` : message);
   }
   var stack3 = /* @__PURE__ */ op({ stack_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/step.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/step.js
   function step_(x2, alpha = 0) {
     const $x = convertToTensor(x2, "x", "step");
     const inputs = { x: $x };
@@ -91767,7 +91808,7 @@ ${codeFrame}` : message);
   }
   var step = /* @__PURE__ */ op({ step_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/strided_slice.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/strided_slice.js
   function stridedSlice_(x2, begin, end, strides, beginMask = 0, endMask = 0, ellipsisMask = 0, newAxisMask = 0, shrinkAxisMask = 0) {
     const $x = convertToTensor(x2, "x", "stridedSlice", "string_or_numeric");
     const inputs = { x: $x };
@@ -91785,7 +91826,7 @@ ${codeFrame}` : message);
   }
   var stridedSlice = /* @__PURE__ */ op({ stridedSlice_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/tan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/tan.js
   function tan_(x2) {
     const $x = convertToTensor(x2, "x", "tan", "float32");
     const inputs = { x: $x };
@@ -91793,7 +91834,7 @@ ${codeFrame}` : message);
   }
   var tan2 = /* @__PURE__ */ op({ tan_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/tensor1d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/tensor1d.js
   function tensor1d(values, dtype) {
     assertNonNull(values);
     const inferredShape = inferShape(values, dtype);
@@ -91804,7 +91845,7 @@ ${codeFrame}` : message);
     return makeTensor(values, shape4, inferredShape, dtype);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/tensor2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/tensor2d.js
   function tensor2d(values, shape4, dtype) {
     assertNonNull(values);
     if (shape4 != null && shape4.length !== 2) {
@@ -91820,7 +91861,7 @@ ${codeFrame}` : message);
     return makeTensor(values, shape4, inferredShape, dtype);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/scatter_nd_util.js
   function validateUpdateShape(shape4, indices, updates) {
     const sliceDim = indices.rank > 1 ? indices.shape[indices.rank - 1] : 1;
     const batchDim = indices.rank > 1 ? indices.rank - 1 : 1;
@@ -91883,7 +91924,7 @@ ${codeFrame}` : message);
     return { sliceRank, numUpdates, sliceSize, strides, outputSize };
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/topk.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/topk.js
   function topk_(x2, k = 1, sorted = true) {
     const $x = convertToTensor(x2, "x", "topk");
     if ($x.rank === 0) {
@@ -91903,7 +91944,7 @@ ${codeFrame}` : message);
   }
   var topk = /* @__PURE__ */ op({ topk_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/truncated_normal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/truncated_normal.js
   function truncatedNormal_(shape4, mean8 = 0, stdDev = 1, dtype, seed4) {
     assertNonNegativeIntegerDimensions(shape4);
     if (dtype != null && dtype === "bool") {
@@ -91918,7 +91959,7 @@ ${codeFrame}` : message);
   }
   var truncatedNormal = /* @__PURE__ */ op({ truncatedNormal_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/unique.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/unique.js
   function unique_(x2, axis = 0) {
     const $x = convertToTensor(x2, "x", "unique", "string_or_numeric");
     assert3($x.rank > 0, () => "The input tensor must be at least 1D");
@@ -91929,7 +91970,7 @@ ${codeFrame}` : message);
   }
   var unique = /* @__PURE__ */ op({ unique_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/unsorted_segment_sum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/unsorted_segment_sum.js
   function unsortedSegmentSum_(x2, segmentIds, numSegments) {
     const $x = convertToTensor(x2, "x", "unsortedSegmentSum");
     const $segmentIds = convertToTensor(segmentIds, "segmentIds", "unsortedSegmentSum", "int32");
@@ -91940,7 +91981,7 @@ ${codeFrame}` : message);
   }
   var unsortedSegmentSum = /* @__PURE__ */ op({ unsortedSegmentSum_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/unstack.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/unstack.js
   function unstack_(x2, axis = 0) {
     const $x = convertToTensor(x2, "x", "unstack", "string_or_numeric");
     assert3(axis >= -$x.shape.length && axis < $x.shape.length, () => `Axis = ${axis} is not in [-${$x.shape.length}, ${$x.shape.length})`);
@@ -91950,12 +91991,12 @@ ${codeFrame}` : message);
   }
   var unstack = /* @__PURE__ */ op({ unstack_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/variable.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/variable.js
   function variable(initialValue, trainable = true, name, dtype) {
     return ENGINE.makeVariable(initialValue, trainable, name, dtype);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/backends/where_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/backends/where_impl.js
   function whereImpl(condShape, condVals) {
     const indices = [];
     for (let i = 0; i < condVals.length; i++) {
@@ -91973,7 +92014,7 @@ ${codeFrame}` : message);
     return out.toTensor();
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/where_async.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/where_async.js
   async function whereAsync_(condition) {
     const $condition = convertToTensor(condition, "condition", "whereAsync", "bool");
     const vals = await $condition.data();
@@ -91985,7 +92026,7 @@ ${codeFrame}` : message);
   }
   var whereAsync = whereAsync_;
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/boolean_mask.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/boolean_mask.js
   async function booleanMaskAsync_(tensor2, mask, axis) {
     const $tensor = convertToTensor(tensor2, "tensor", "boolMask");
     const $mask = convertToTensor(mask, "mask", "boolMask", "bool");
@@ -92018,7 +92059,7 @@ ${codeFrame}` : message);
   }
   var booleanMaskAsync = booleanMaskAsync_;
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/transpose.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/transpose.js
   function transpose_(x2, perm, conjugate) {
     const $x = convertToTensor(x2, "x", "transpose");
     if (perm == null) {
@@ -92049,7 +92090,7 @@ ${codeFrame}` : message);
   }
   var transpose2 = /* @__PURE__ */ op({ transpose_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/dropout_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/dropout_util.js
   function getNoiseShape(x2, noiseShape) {
     if (noiseShape == null) {
       return x2.shape.slice();
@@ -92071,7 +92112,7 @@ ${codeFrame}` : message);
     return noiseShape;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/dropout.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/dropout.js
   function dropout_(x2, rate, noiseShape, seed4) {
     const $x = convertToTensor(x2, "x", "dropout");
     assert3($x.dtype === "float32", () => `x has to be a floating point tensor since it's going to be scaled, but got a ${$x.dtype} tensor instead.`);
@@ -92086,7 +92127,7 @@ ${codeFrame}` : message);
   }
   var dropout = /* @__PURE__ */ op({ dropout_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/fused_ops.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/fused_ops.js
   var fused_ops_exports = {};
   __export(fused_ops_exports, {
     conv2d: () => conv2d2,
@@ -92094,7 +92135,7 @@ ${codeFrame}` : message);
     matMul: () => matMul2
   });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_backprop_filter.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv2d_backprop_filter.js
   function conv2DBackpropFilter_(x2, dy, filterShape, strides, pad2, dataFormat = "NHWC", dimRoundingMode) {
     let x4D = x2;
     if (x2.rank === 3) {
@@ -92118,7 +92159,7 @@ ${codeFrame}` : message);
   }
   var conv2DBackpropFilter = /* @__PURE__ */ op({ conv2DBackpropFilter_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/fused_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/fused_util.js
   function getFusedDyActivation(dy, y2, activation) {
     if (activation == null || activation === "linear") {
       return dy;
@@ -92159,7 +92200,7 @@ ${codeFrame}` : message);
     return !gradientMode || activation === "linear";
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/fused/conv2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/fused/conv2d.js
   function fusedConv2d_({ x: x2, filter: filter5, strides, pad: pad2, dataFormat = "NHWC", dilations = [1, 1], dimRoundingMode, bias, activation = "linear", preluActivationWeights, leakyreluAlpha }) {
     activation = activation || "linear";
     if (shouldFuse(ENGINE.state.gradientDepth, activation) === false) {
@@ -92268,7 +92309,7 @@ ${codeFrame}` : message);
   }
   var conv2d2 = /* @__PURE__ */ op({ fusedConv2d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_filter.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_filter.js
   function depthwiseConv2dNativeBackpropFilter_(x2, dy, filterShape, strides, pad2, dilations = [1, 1], dimRoundingMode) {
     let x4D = x2;
     if (x2.rank === 3) {
@@ -92284,7 +92325,7 @@ ${codeFrame}` : message);
   }
   var depthwiseConv2dNativeBackpropFilter = op({ depthwiseConv2dNativeBackpropFilter_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_input.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/depthwise_conv2d_native_backprop_input.js
   function depthwiseConv2dNativeBackpropInput_(xShape, dy, filter5, strides, pad2, dilations = [1, 1], dimRoundingMode) {
     let dy4D = dy;
     let reshapedTo4D = false;
@@ -92305,7 +92346,7 @@ ${codeFrame}` : message);
   }
   var depthwiseConv2dNativeBackpropInput = op({ depthwiseConv2dNativeBackpropInput_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/fused/depthwise_conv2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/fused/depthwise_conv2d.js
   function fusedDepthwiseConv2d_({ x: x2, filter: filter5, strides, pad: pad2, dataFormat = "NHWC", dilations = [1, 1], dimRoundingMode, bias, activation = "linear", preluActivationWeights, leakyreluAlpha }) {
     if (shouldFuse(ENGINE.state.gradientDepth, activation) === false) {
       let result = depthwiseConv2d(x2, filter5, strides, pad2, dataFormat, dilations, dimRoundingMode);
@@ -92401,7 +92442,7 @@ ${codeFrame}` : message);
   }
   var depthwiseConv2d2 = /* @__PURE__ */ op({ fusedDepthwiseConv2d_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/fused/mat_mul.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/fused/mat_mul.js
   function fusedMatMul_({ a, b, transposeA = false, transposeB = false, bias, activation = "linear", preluActivationWeights, leakyreluAlpha = 0.2 }) {
     if (shouldFuse(ENGINE.state.gradientDepth, activation) === false) {
       let result = matMul(a, b, transposeA, transposeB);
@@ -92492,7 +92533,7 @@ ${codeFrame}` : message);
   }
   var matMul2 = /* @__PURE__ */ op({ fusedMatMul_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/crop_and_resize.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/crop_and_resize.js
   function cropAndResize_(image2, boxes, boxInd, cropSize, method = "bilinear", extrapolationValue = 0) {
     const $image = convertToTensor(image2, "image", "cropAndResize");
     const $boxes = convertToTensor(boxes, "boxes", "cropAndResize", "float32");
@@ -92511,7 +92552,7 @@ ${codeFrame}` : message);
   }
   var cropAndResize = /* @__PURE__ */ op({ cropAndResize_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/flip_left_right.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/flip_left_right.js
   function flipLeftRight_(image2) {
     const $image = convertToTensor(image2, "image", "flipLeftRight", "float32");
     assert3($image.rank === 4, () => `Error in flipLeftRight: image must be rank 4,but got rank ${$image.rank}.`);
@@ -92521,7 +92562,7 @@ ${codeFrame}` : message);
   }
   var flipLeftRight = /* @__PURE__ */ op({ flipLeftRight_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/grayscale_to_rgb.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/grayscale_to_rgb.js
   function grayscaleToRGB_(image2) {
     const $image = convertToTensor(image2, "image", "grayscaleToRGB");
     const lastDimsIdx = $image.rank - 1;
@@ -92535,7 +92576,7 @@ ${codeFrame}` : message);
   }
   var grayscaleToRGB = /* @__PURE__ */ op({ grayscaleToRGB_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/rgb_to_grayscale.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/rgb_to_grayscale.js
   function rgbToGrayscale_(image2) {
     const $image = convertToTensor(image2, "image", "RGBToGrayscale");
     const lastDimsIdx = $image.rank - 1;
@@ -92570,7 +92611,7 @@ ${codeFrame}` : message);
   }
   var rgbToGrayscale = /* @__PURE__ */ op({ rgbToGrayscale_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/rotate_with_offset.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/rotate_with_offset.js
   function rotateWithOffset_(image2, radians, fillValue = 0, center2 = 0.5) {
     const $image = convertToTensor(image2, "image", "rotateWithOffset", "float32");
     assert3($image.rank === 4, () => `Error in rotateWithOffset: image must be rank 4,but got rank ${$image.rank}.`);
@@ -92581,7 +92622,7 @@ ${codeFrame}` : message);
   }
   var rotateWithOffset = /* @__PURE__ */ op({ rotateWithOffset_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/nonmax_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/nonmax_util.js
   function nonMaxSuppSanityCheck(boxes, scores, maxOutputSize, iouThreshold, scoreThreshold, softNmsSigma) {
     if (iouThreshold == null) {
       iouThreshold = 0.5;
@@ -92603,7 +92644,7 @@ ${codeFrame}` : message);
     return { maxOutputSize, iouThreshold, scoreThreshold, softNmsSigma };
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression.js
   function nonMaxSuppression_(boxes, scores, maxOutputSize, iouThreshold = 0.5, scoreThreshold = Number.NEGATIVE_INFINITY) {
     const $boxes = convertToTensor(boxes, "boxes", "nonMaxSuppression", "float32");
     const $scores = convertToTensor(scores, "scores", "nonMaxSuppression", "float32");
@@ -92616,7 +92657,7 @@ ${codeFrame}` : message);
   }
   var nonMaxSuppression = /* @__PURE__ */ op({ nonMaxSuppression_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/backends/non_max_suppression_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/backends/non_max_suppression_util.js
   function binaryInsert(arr, element3, comparator) {
     const index = binarySearch(arr, element3, comparator);
     const insertionPoint = index < 0 ? -(index + 1) : index;
@@ -92646,7 +92687,7 @@ ${codeFrame}` : message);
     return found ? left : -left - 1;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/backends/non_max_suppression_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/backends/non_max_suppression_impl.js
   function nonMaxSuppressionV3Impl(boxes, scores, maxOutputSize, iouThreshold, scoreThreshold) {
     return nonMaxSuppressionImpl_(
       boxes,
@@ -92769,7 +92810,7 @@ ${codeFrame}` : message);
     return c1.score - c2.score || c1.score === c2.score && c2.boxIndex - c1.boxIndex;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_async.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_async.js
   async function nonMaxSuppressionAsync_(boxes, scores, maxOutputSize, iouThreshold = 0.5, scoreThreshold = Number.NEGATIVE_INFINITY) {
     const $boxes = convertToTensor(boxes, "boxes", "nonMaxSuppressionAsync");
     const $scores = convertToTensor(scores, "scores", "nonMaxSuppressionAsync");
@@ -92791,7 +92832,7 @@ ${codeFrame}` : message);
   }
   var nonMaxSuppressionAsync = nonMaxSuppressionAsync_;
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_with_score.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_with_score.js
   function nonMaxSuppressionWithScore_(boxes, scores, maxOutputSize, iouThreshold = 0.5, scoreThreshold = Number.NEGATIVE_INFINITY, softNmsSigma = 0) {
     const $boxes = convertToTensor(boxes, "boxes", "nonMaxSuppression");
     const $scores = convertToTensor(scores, "scores", "nonMaxSuppression");
@@ -92807,7 +92848,7 @@ ${codeFrame}` : message);
   }
   var nonMaxSuppressionWithScore = /* @__PURE__ */ op({ nonMaxSuppressionWithScore_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_with_score_async.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_with_score_async.js
   async function nonMaxSuppressionWithScoreAsync_(boxes, scores, maxOutputSize, iouThreshold = 0.5, scoreThreshold = Number.NEGATIVE_INFINITY, softNmsSigma = 0) {
     const $boxes = convertToTensor(boxes, "boxes", "nonMaxSuppressionAsync");
     const $scores = convertToTensor(scores, "scores", "nonMaxSuppressionAsync");
@@ -92833,7 +92874,7 @@ ${codeFrame}` : message);
   }
   var nonMaxSuppressionWithScoreAsync = nonMaxSuppressionWithScoreAsync_;
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_padded.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_padded.js
   function nonMaxSuppressionPadded_(boxes, scores, maxOutputSize, iouThreshold = 0.5, scoreThreshold = Number.NEGATIVE_INFINITY, padToMaxOutputSize = false) {
     const $boxes = convertToTensor(boxes, "boxes", "nonMaxSuppression");
     const $scores = convertToTensor(scores, "scores", "nonMaxSuppression");
@@ -92861,7 +92902,7 @@ ${codeFrame}` : message);
   }
   var nonMaxSuppressionPadded = /* @__PURE__ */ op({ nonMaxSuppressionPadded_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_padded_async.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/non_max_suppression_padded_async.js
   async function nonMaxSuppressionPaddedAsync_(boxes, scores, maxOutputSize, iouThreshold = 0.5, scoreThreshold = Number.NEGATIVE_INFINITY, padToMaxOutputSize = false) {
     const $boxes = convertToTensor(boxes, "boxes", "nonMaxSuppressionAsync");
     const $scores = convertToTensor(scores, "scores", "nonMaxSuppressionAsync");
@@ -92892,7 +92933,7 @@ ${codeFrame}` : message);
   }
   var nonMaxSuppressionPaddedAsync = nonMaxSuppressionPaddedAsync_;
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/resize_bilinear.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/resize_bilinear.js
   function resizeBilinear_(images, size3, alignCorners = false, halfPixelCenters = false) {
     const $images = convertToTensor(images, "images", "resizeBilinear");
     assert3($images.rank === 3 || $images.rank === 4, () => `Error in resizeBilinear: x must be rank 3 or 4, but got rank ${$images.rank}.`);
@@ -92915,7 +92956,7 @@ ${codeFrame}` : message);
   }
   var resizeBilinear = /* @__PURE__ */ op({ resizeBilinear_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/resize_nearest_neighbor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/resize_nearest_neighbor.js
   function resizeNearestNeighbor_(images, size3, alignCorners = false, halfPixelCenters = false) {
     const $images = convertToTensor(images, "images", "resizeNearestNeighbor");
     assert3($images.rank === 3 || $images.rank === 4, () => `Error in resizeNearestNeighbor: x must be rank 3 or 4, but got rank ${$images.rank}.`);
@@ -92939,7 +92980,7 @@ ${codeFrame}` : message);
   }
   var resizeNearestNeighbor = /* @__PURE__ */ op({ resizeNearestNeighbor_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/threshold.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/threshold.js
   function threshold_(image2, method = "binary", inverted = false, threshValue = 0.5) {
     const $image = convertToTensor(image2, "image", "threshold");
     const RED_INTENCITY_COEF = 0.2989;
@@ -92997,7 +93038,7 @@ ${codeFrame}` : message);
   }
   var threshold = /* @__PURE__ */ op({ threshold_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/image/transform.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/image/transform.js
   function transform_(image2, transforms, interpolation = "nearest", fillMode = "constant", fillValue = 0, outputShape) {
     const $image = convertToTensor(image2, "image", "transform", "float32");
     const $transforms = convertToTensor(transforms, "transforms", "transform", "float32");
@@ -93010,7 +93051,7 @@ ${codeFrame}` : message);
   }
   var transform2 = /* @__PURE__ */ op({ transform_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/linalg/band_part.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/linalg/band_part.js
   function bandPart_(a, numLower, numUpper) {
     const $a = convertToTensor(a, "a", "bandPart");
     assert3($a.rank >= 2, () => `bandPart(): Rank must be at least 2, got ${$a.rank}.`);
@@ -93043,7 +93084,7 @@ ${codeFrame}` : message);
   }
   var bandPart = /* @__PURE__ */ op({ bandPart_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/linalg/gram_schmidt.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/linalg/gram_schmidt.js
   function gramSchmidt_(xs) {
     let inputIsTensor2D;
     if (Array.isArray(xs)) {
@@ -93080,7 +93121,7 @@ ${codeFrame}` : message);
   }
   var gramSchmidt = /* @__PURE__ */ op({ gramSchmidt_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/linalg/qr.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/linalg/qr.js
   function qr_(x2, fullMatrices = false) {
     assert3(x2.rank >= 2, () => `qr() requires input tensor to have a rank >= 2, but got rank ${x2.rank}`);
     if (x2.rank === 2) {
@@ -93164,7 +93205,7 @@ ${codeFrame}` : message);
   }
   var qr = /* @__PURE__ */ op({ qr_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_fill_empty_rows.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_fill_empty_rows.js
   function sparseFillEmptyRows_(indices, values, denseShape, defaultValue) {
     const $indices = convertToTensor(indices, "indices", "sparseFillEmptyRows", "int32");
     const $values = convertToTensor(values, "values", "sparseFillEmptyRows");
@@ -93199,7 +93240,7 @@ ${codeFrame}` : message);
   }
   var sparseFillEmptyRows = /* @__PURE__ */ op({ sparseFillEmptyRows_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_reshape.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_reshape.js
   function sparseReshape_(inputIndices, inputShape, newShape) {
     const $inputIndices = convertToTensor(inputIndices, "inputIndices", "sparseReshape", "int32");
     const $inputShape = convertToTensor(inputShape, "inputShape", "sparseReshape", "int32");
@@ -93224,7 +93265,7 @@ ${codeFrame}` : message);
   }
   var sparseReshape = /* @__PURE__ */ op({ sparseReshape_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_segment_mean.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_segment_mean.js
   function sparseSegmentMean_(data4, indices, segmentIds) {
     const $data = convertToTensor(data4, "data", "sparseSegmentMean");
     const $indices = convertToTensor(indices, "indices", "sparseSegmentMean", "int32");
@@ -93249,7 +93290,7 @@ ${codeFrame}` : message);
   }
   var sparseSegmentMean = /* @__PURE__ */ op({ sparseSegmentMean_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_segment_sum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_segment_sum.js
   function sparseSegmentSum_(data4, indices, segmentIds) {
     const $data = convertToTensor(data4, "data", "sparseSegmentSum");
     const $indices = convertToTensor(indices, "indices", "sparseSegmentSum", "int32");
@@ -93274,7 +93315,7 @@ ${codeFrame}` : message);
   }
   var sparseSegmentSum = /* @__PURE__ */ op({ sparseSegmentSum_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/ops.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/ops.js
   var image = {
     flipLeftRight,
     grayscaleToRGB,
@@ -93304,7 +93345,7 @@ ${codeFrame}` : message);
     sparseSegmentSum
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/serialization.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/serialization.js
   var serialization_exports = {};
   __export(serialization_exports, {
     Serializable: () => Serializable,
@@ -93387,7 +93428,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/optimizer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/optimizer.js
   var Optimizer = class extends Serializable {
     /**
      * Executes `f()` and minimizes the scalar output of `f()` by computing
@@ -93489,7 +93530,7 @@ ${codeFrame}` : message);
     }
   });
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/adadelta_optimizer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/adadelta_optimizer.js
   var AdadeltaOptimizer = class extends Optimizer {
     /** @nocollapse */
     static get className() {
@@ -93577,7 +93618,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/adagrad_optimizer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/adagrad_optimizer.js
   var AdagradOptimizer = class extends Optimizer {
     /** @nocollapse */
     static get className() {
@@ -93639,7 +93680,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/adam_optimizer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/adam_optimizer.js
   var AdamOptimizer = class extends Optimizer {
     /** @nocollapse */
     static get className() {
@@ -93746,7 +93787,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/adamax_optimizer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/adamax_optimizer.js
   var AdamaxOptimizer = class extends Optimizer {
     /** @nocollapse */
     static get className() {
@@ -93840,7 +93881,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/sgd_optimizer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/sgd_optimizer.js
   var SGDOptimizer = class extends Optimizer {
     /** @nocollapse */
     static get className() {
@@ -93897,7 +93938,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/momentum_optimizer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/momentum_optimizer.js
   var MomentumOptimizer = class extends SGDOptimizer {
     /** @nocollapse */
     // Name matters for Python compatibility.
@@ -93977,7 +94018,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/rmsprop_optimizer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/rmsprop_optimizer.js
   var RMSPropOptimizer = class extends Optimizer {
     /** @nocollapse */
     static get className() {
@@ -94105,7 +94146,7 @@ ${codeFrame}` : message);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/register_optimizers.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/register_optimizers.js
   var OPTIMIZERS = [
     AdadeltaOptimizer,
     AdagradOptimizer,
@@ -94121,7 +94162,7 @@ ${codeFrame}` : message);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/io.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/io.js
   var io_exports = {};
   __export(io_exports, {
     CompositeArrayBuffer: () => CompositeArrayBuffer,
@@ -94153,7 +94194,7 @@ ${codeFrame}` : message);
     withSaveHandlerSync: () => withSaveHandlerSync
   });
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/browser_files.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/browser_files.js
   var DEFAULT_FILE_NAME_PREFIX = "model";
   var DEFAULT_JSON_EXTENSION_NAME = ".json";
   var DEFAULT_WEIGHT_DATA_EXTENSION_NAME = ".weights.bin";
@@ -94306,7 +94347,7 @@ ${codeFrame}` : message);
     return new BrowserFiles(files);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/progress.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/progress.js
   function monitorPromisesProgress(promises, onProgress, startFraction, endFraction) {
     checkPromises(promises);
     startFraction = startFraction == null ? 0 : startFraction;
@@ -94332,7 +94373,7 @@ ${codeFrame}` : message);
     return Promise.all(promises.map(registerMonitor));
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/weights_loader.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/weights_loader.js
   async function loadWeightsAsArrayBuffer(fetchURLs, loadOptions) {
     if (loadOptions == null) {
       loadOptions = {};
@@ -94455,7 +94496,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/http.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/http.js
   var OCTET_STREAM_MIME_TYPE = "application/octet-stream";
   var JSON_TYPE = "application/json";
   var HTTPRequest = class {
@@ -94618,7 +94659,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return http(path, loadOptions);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/io/passthrough.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/io/passthrough.js
   var PassthroughLoader = class {
     constructor(modelArtifacts) {
       this.modelArtifacts = modelArtifacts;
@@ -94675,7 +94716,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return new PassthroughSaver(saveHandler);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/gather_nd_util.js
   function prepareAndValidate(tensor2, indices) {
     const tensorRank = tensor2.shape.length;
     const indicesRank = indices.shape.length;
@@ -94715,7 +94756,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return [resultShape, nResult, sliceSize, strides];
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/slice_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/slice_util.js
   var slice_util_exports = {};
   __export(slice_util_exports, {
     assertParamsValid: () => assertParamsValid,
@@ -95164,7 +95205,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/optimizers/optimizer_constructors.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/optimizers/optimizer_constructors.js
   var OptimizerConstructors = class {
     /**
      * Constructs a `tf.SGDOptimizer` that uses stochastic gradient descent.
@@ -95314,10 +95355,10 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/train.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/train.js
   var train = OptimizerConstructors;
 
-  // node_modules/@tensorflow/tfjs-core/dist/browser_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/browser_util.js
   var delayCallback = (() => {
     if (typeof requestAnimationFrame !== "undefined") {
       return requestAnimationFrame;
@@ -95330,7 +95371,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return new Promise((resolve3) => delayCallback(() => resolve3()));
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/backends/backend_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/backends/backend_util.js
   var backend_util_exports = {};
   __export(backend_util_exports, {
     ERF_A1: () => ERF_A1,
@@ -95421,7 +95462,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     warn: () => warn3
   });
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/concat_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/concat_util.js
   function assertParamsConsistent(shapes, axis) {
     const rank = shapes[0].length;
     shapes.forEach((shape4, i) => {
@@ -95443,7 +95484,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return outputShape;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/ragged_to_dense_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/ragged_to_dense_util.js
   var RowPartitionType;
   (function(RowPartitionType3) {
     RowPartitionType3[RowPartitionType3["FIRST_DIM_SIZE"] = 0] = "FIRST_DIM_SIZE";
@@ -95533,7 +95574,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/reduce_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/reduce_util.js
   var PARALLELIZE_THRESHOLD = 30;
   function computeOptimalWindowSize(inSize) {
     if (inSize <= PARALLELIZE_THRESHOLD) {
@@ -95542,14 +95583,14 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return nearestDivisor(inSize, Math.floor(Math.sqrt(inSize)));
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/rotate_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/rotate_util.js
   function getImageCenter(center2, imageHeight, imageWidth) {
     const centerX = imageWidth * (typeof center2 === "number" ? center2 : center2[0]);
     const centerY = imageHeight * (typeof center2 === "number" ? center2 : center2[1]);
     return [centerX, centerY];
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/array_ops_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/array_ops_util.js
   function getReshaped(inputShape, blockShape, prod4, batchToSpace = true) {
     let reshaped = [];
     if (batchToSpace) {
@@ -95629,11 +95670,11 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return sliceSize;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/selu_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/selu_util.js
   var SELU_SCALEALPHA = 1.7580993408473768;
   var SELU_SCALE = 1.0507009873554805;
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/erf_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/erf_util.js
   var ERF_P = 0.3275911;
   var ERF_A1 = 0.254829592;
   var ERF_A2 = -0.284496736;
@@ -95641,7 +95682,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   var ERF_A4 = -1.453152027;
   var ERF_A5 = 1.061405429;
 
-  // node_modules/@tensorflow/tfjs-core/dist/backends/complex_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/backends/complex_util.js
   function mergeRealAndImagArrays(real4, imag4) {
     if (real4.length !== imag4.length) {
       throw new Error(`Cannot merge real and imag arrays of different lengths. real:${real4.length}, imag: ${imag4.length}.`);
@@ -95708,7 +95749,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return { real: real4, imag: imag4 };
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/backends/einsum_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/backends/einsum_util.js
   var ARROW = "->";
   var ARROW_REGEX = /->/g;
   var COMMA = ",";
@@ -95830,7 +95871,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return termIndices;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/split_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/split_util.js
   function prepareSplitSize(x2, numOrSizeSplits, axis = 0) {
     let splitSizes = [];
     if (typeof numOrSizeSplits === "number") {
@@ -95855,7 +95896,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return splitSizes;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_fill_empty_rows_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_fill_empty_rows_util.js
   function getSparseFillEmptyRowsIndicesDenseShapeMismatch(indicesLength) {
     return `Received SparseTensor with denseShape[0] = 0 but
   indices.shape[0] = ${indicesLength}`;
@@ -95867,7 +95908,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return `indices(${index}, 0) is invalid: ${value} >= ${limit2}`;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_reshape_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_reshape_util.js
   function getSparseReshapeMultipleNegativeOneOutputDimErrorMessage(dim1, dim2) {
     return `only one output dimension may be -1, not both ${dim1} and ${dim2}`;
   }
@@ -95889,7 +95930,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return `Input to reshape is a tensor with ${inputSize} dense values, but the requested shape has ${outputSize}. inputShape=${inputShape} outputShape=${outputShape}`;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_segment_reduction_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/sparse/sparse_segment_reduction_util.js
   function getSparseSegmentReductionNegativeSegmentIdsErrorMessage() {
     return `segment ids must be >= 0`;
   }
@@ -95903,7 +95944,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return `Bad: indices[${index}] == ${indexValue} out of range [0, ${inputRows})`;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/segment_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/segment_util.js
   var segment_util_exports = {};
   __export(segment_util_exports, {
     collectGatherOpShapeInfo: () => collectGatherOpShapeInfo,
@@ -95986,7 +96027,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return { batchSize, sliceSize, outerSize, dimSize, outputShape };
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/backends/backend_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/backends/backend_util.js
   function fromUint8ToStringArray(vals) {
     try {
       return vals.map((val) => decodeString(val));
@@ -95998,7 +96039,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return strings.map((s4) => encodeString(s4));
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/backends/kernel_impls.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/backends/kernel_impls.js
   var kernel_impls_exports = {};
   __export(kernel_impls_exports, {
     nonMaxSuppressionV3Impl: () => nonMaxSuppressionV3Impl,
@@ -96007,10 +96048,10 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     whereImpl: () => whereImpl
   });
 
-  // node_modules/@tensorflow/tfjs-core/dist/index.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/index.js
   registerOptimizers();
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Abs_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Abs_grad.js
   var absGradConfig = {
     kernelName: Abs,
     inputsToSave: ["x"],
@@ -96020,7 +96061,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Acos_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Acos_grad.js
   var acosGradConfig = {
     kernelName: Acos,
     inputsToSave: ["x"],
@@ -96036,7 +96077,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Acosh_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Acosh_grad.js
   var acoshGradConfig = {
     kernelName: Acosh,
     inputsToSave: ["x"],
@@ -96051,7 +96092,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Add_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Add_grad.js
   var addGradConfig = {
     kernelName: Add,
     inputsToSave: ["a", "b"],
@@ -96078,7 +96119,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/AddN_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/AddN_grad.js
   var addNGradConfig = {
     kernelName: AddN,
     saveAllInputs: true,
@@ -96091,7 +96132,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/ArgMax_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/ArgMax_grad.js
   var argMaxGradConfig = {
     kernelName: ArgMax,
     inputsToSave: ["x"],
@@ -96101,7 +96142,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/ArgMin_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/ArgMin_grad.js
   var argMinGradConfig = {
     kernelName: ArgMin,
     inputsToSave: ["x"],
@@ -96111,7 +96152,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Asin_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Asin_grad.js
   var asinGradConfig = {
     kernelName: Asin,
     inputsToSave: ["x"],
@@ -96121,7 +96162,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Asinh_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Asinh_grad.js
   var asinhGradConfig = {
     kernelName: Asinh,
     inputsToSave: ["x"],
@@ -96136,7 +96177,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Atan2_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Atan2_grad.js
   var atan2GradConfig = {
     kernelName: Atan2,
     inputsToSave: ["a", "b"],
@@ -96165,7 +96206,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Atan_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Atan_grad.js
   var atanGradConfig = {
     kernelName: Atan,
     inputsToSave: ["x"],
@@ -96175,7 +96216,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Atanh_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Atanh_grad.js
   var atanhGradConfig = {
     kernelName: Atanh,
     inputsToSave: ["x"],
@@ -96185,7 +96226,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_3d_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_3d_grad.js
   function avgPool3dGrad_(dy, input2, filterSize, strides, pad2, dimRoundingMode) {
     const $dy = convertToTensor(dy, "dy", "avgPool3dGrad");
     const $input = convertToTensor(input2, "input", "avgPool3dGrad");
@@ -96216,7 +96257,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   }
   var avgPool3dGrad = /* @__PURE__ */ op({ avgPool3dGrad_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/AvgPool3D_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/AvgPool3D_grad.js
   var avgPool3DGradConfig = {
     kernelName: AvgPool3D,
     inputsToSave: ["x"],
@@ -96229,7 +96270,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/avg_pool_grad.js
   function avgPoolGrad_(dy, input2, filterSize, strides, pad2) {
     const $dy = convertToTensor(dy, "dy", "avgPoolGrad");
     const $input = convertToTensor(input2, "input", "avgPoolGrad");
@@ -96254,7 +96295,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   }
   var avgPoolGrad = /* @__PURE__ */ op({ avgPoolGrad_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/AvgPool_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/AvgPool_grad.js
   var avgPoolGradConfig = {
     kernelName: AvgPool,
     inputsToSave: ["x"],
@@ -96265,7 +96306,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/BatchMatMul_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/BatchMatMul_grad.js
   var batchMatMulGradConfig = {
     kernelName: BatchMatMul,
     inputsToSave: ["a", "b"],
@@ -96296,7 +96337,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/BatchToSpaceND_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/BatchToSpaceND_grad.js
   var batchToSpaceNDGradConfig = {
     kernelName: BatchToSpaceND,
     gradFunc: (dy, saved, attrs) => {
@@ -96305,7 +96346,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/BroadcastTo_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/BroadcastTo_grad.js
   var broadcastToGradConfig = {
     kernelName: BroadcastTo,
     gradFunc: (dy, saved, attrs) => {
@@ -96335,7 +96376,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Cast_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Cast_grad.js
   var castGradConfig = {
     kernelName: Cast,
     gradFunc: (dy) => {
@@ -96343,7 +96384,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Ceil_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Ceil_grad.js
   var ceilGradConfig = {
     kernelName: Ceil,
     gradFunc: (dy) => {
@@ -96351,7 +96392,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/ClipByValue_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/ClipByValue_grad.js
   var clipByValueGradConfig = {
     kernelName: ClipByValue,
     inputsToSave: ["x"],
@@ -96364,14 +96405,14 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/ComplexAbs_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/ComplexAbs_grad.js
   var complexAbsGradConfig = {
     kernelName: ComplexAbs,
     inputsToSave: ["x"],
     gradFunc: absGradConfig.gradFunc
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Concat_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Concat_grad.js
   var concatGradConfig = {
     kernelName: Concat,
     saveAllInputs: true,
@@ -96385,7 +96426,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Conv2D_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Conv2D_grad.js
   var conv2DGradConfig = {
     kernelName: Conv2D,
     inputsToSave: ["x", "filter"],
@@ -96400,7 +96441,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Conv2DBackpropInput_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Conv2DBackpropInput_grad.js
   var conv2DBackpropInputGradConfig = {
     kernelName: Conv2DBackpropInput,
     inputsToSave: ["dy", "filter"],
@@ -96414,7 +96455,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_backprop_filter.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/conv3d_backprop_filter.js
   function conv3DBackpropFilter_(x2, dy, filterShape, strides, pad2) {
     let x5D = x2;
     if (x2.rank === 4) {
@@ -96435,7 +96476,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   }
   var conv3DBackpropFilter = /* @__PURE__ */ op({ conv3DBackpropFilter_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Conv3D_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Conv3D_grad.js
   var conv3DGradConfig = {
     kernelName: Conv3D,
     inputsToSave: ["x", "filter"],
@@ -96450,7 +96491,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Cos_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Cos_grad.js
   var cosGradConfig = {
     kernelName: Cos,
     inputsToSave: ["x"],
@@ -96460,7 +96501,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Cosh_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Cosh_grad.js
   var coshGradConfig = {
     kernelName: Cosh,
     inputsToSave: ["x"],
@@ -96470,7 +96511,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Cumsum_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Cumsum_grad.js
   var cumsumGradConfig = {
     kernelName: Cumsum,
     inputsToSave: ["x"],
@@ -96490,7 +96531,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/DepthwiseConv2dNative_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/DepthwiseConv2dNative_grad.js
   var depthwiseConv2dNativeGradConfig = {
     kernelName: DepthwiseConv2dNative,
     inputsToSave: ["x", "filter"],
@@ -96511,7 +96552,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Dilation2D_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Dilation2D_grad.js
   var dilation2dGradConfig = {
     kernelName: Dilation2D,
     inputsToSave: ["x", "filter"],
@@ -96526,7 +96567,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Elu_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Elu_grad.js
   var eluGradConfig = {
     kernelName: Elu,
     outputsToSave: [true],
@@ -96537,7 +96578,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Erf_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Erf_grad.js
   var erfGradConfig = {
     kernelName: Erf,
     inputsToSave: ["x"],
@@ -96548,7 +96589,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Exp_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Exp_grad.js
   var expGradConfig = {
     kernelName: Exp,
     outputsToSave: [true],
@@ -96558,7 +96599,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/ExpandDims_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/ExpandDims_grad.js
   var expandDimsGradConfig = {
     kernelName: ExpandDims,
     inputsToSave: ["input"],
@@ -96568,7 +96609,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Expm1_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Expm1_grad.js
   var expm1GradConfig = {
     kernelName: Expm1,
     inputsToSave: ["x"],
@@ -96578,7 +96619,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Floor_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Floor_grad.js
   var floorGradConfig = {
     kernelName: Floor,
     gradFunc: (dy) => {
@@ -96586,7 +96627,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/FloorDiv_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/FloorDiv_grad.js
   var floorDivGradConfig = {
     kernelName: FloorDiv,
     inputsToSave: ["a", "b"],
@@ -96614,7 +96655,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/FusedBatchNorm_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/FusedBatchNorm_grad.js
   var fusedBatchNormGradConfig = {
     kernelName: FusedBatchNorm,
     inputsToSave: ["x", "mean", "variance", "scale"],
@@ -96680,7 +96721,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/GatherV2_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/GatherV2_grad.js
   var gatherGradConfig = {
     kernelName: GatherV2,
     inputsToSave: ["x", "indices"],
@@ -96745,7 +96786,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return result;
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/GreaterEqual_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/GreaterEqual_grad.js
   var greaterEqualGradConfig = {
     kernelName: GreaterEqual,
     inputsToSave: ["a", "b"],
@@ -96755,7 +96796,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Identity_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Identity_grad.js
   var identityGradConfig = {
     kernelName: Identity,
     gradFunc: (dy) => {
@@ -96763,7 +96804,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/IsFinite_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/IsFinite_grad.js
   var isFiniteGradConfig = {
     kernelName: IsFinite,
     gradFunc: (dy) => {
@@ -96771,7 +96812,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/IsInf_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/IsInf_grad.js
   var isInfGradConfig = {
     kernelName: IsInf,
     gradFunc: (dy) => {
@@ -96779,7 +96820,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/IsNan_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/IsNan_grad.js
   var isNanGradConfig = {
     kernelName: IsNan,
     gradFunc: (dy) => {
@@ -96787,7 +96828,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/LeakyRelu_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/LeakyRelu_grad.js
   var leakyReluGradConfig = {
     kernelName: LeakyRelu,
     inputsToSave: ["x"],
@@ -96799,7 +96840,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Log1p_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Log1p_grad.js
   var log1pGradConfig = {
     kernelName: Log1p,
     inputsToSave: ["x"],
@@ -96809,7 +96850,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Log_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Log_grad.js
   var logGradConfig = {
     kernelName: Log,
     inputsToSave: ["x"],
@@ -96819,7 +96860,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/LogSoftmax_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/LogSoftmax_grad.js
   var logSoftmaxGradConfig = {
     kernelName: LogSoftmax,
     inputsToSave: [],
@@ -96837,7 +96878,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/local_response_normalization_backprop.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/local_response_normalization_backprop.js
   function localResponseNormalizationBackprop_(x2, y2, dy, depthRadius = 5, bias = 1, alpha = 1, beta = 0.5) {
     const inputs = { x: x2, y: y2, dy };
     const attrs = { depthRadius, bias, alpha, beta };
@@ -96845,7 +96886,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   }
   var localResponseNormalizationBackprop = op({ localResponseNormalizationBackprop_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/LRN_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/LRN_grad.js
   var lrnGradConfig = {
     kernelName: LRN,
     inputsToSave: ["x"],
@@ -96859,7 +96900,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/min_max_grad_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/min_max_grad_util.js
   function gradForMinAndMax(dy, y2, xOrig, origAxes) {
     if (y2.rank < xOrig.rank) {
       y2 = reshape2(y2, expandShapeToKeepDim(y2.shape, origAxes));
@@ -96875,7 +96916,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Max_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Max_grad.js
   var maxGradConfig = {
     kernelName: Max,
     inputsToSave: ["x"],
@@ -96895,7 +96936,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Maximum_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Maximum_grad.js
   var maximumGradConfig = {
     kernelName: Maximum,
     inputsToSave: ["a", "b"],
@@ -96907,7 +96948,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_3d_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_3d_grad.js
   function maxPool3dGrad_(dy, input2, output2, filterSize, strides, pad2, dimRoundingMode) {
     const $dy = convertToTensor(dy, "dy", "maxPool3dGrad");
     const $input = convertToTensor(input2, "input", "maxPool3dGrad");
@@ -96948,7 +96989,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   }
   var maxPool3dGrad = /* @__PURE__ */ op({ maxPool3dGrad_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/MaxPool3D_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/MaxPool3D_grad.js
   var maxPool3DGradConfig = {
     kernelName: MaxPool3D,
     inputsToSave: ["x"],
@@ -96962,7 +97003,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/ops/max_pool_grad.js
   function maxPoolGrad_(dy, input2, output2, filterSize, strides, pad2, dimRoundingMode) {
     const $dy = convertToTensor(dy, "dy", "maxPoolGrad");
     const $input = convertToTensor(input2, "input", "maxPoolGrad");
@@ -96977,7 +97018,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   }
   var maxPoolGrad = /* @__PURE__ */ op({ maxPoolGrad_ });
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/MaxPool_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/MaxPool_grad.js
   var maxPoolGradConfig = {
     kernelName: MaxPool,
     inputsToSave: ["x"],
@@ -96991,7 +97032,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Mean_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Mean_grad.js
   var meanGradConfig = {
     kernelName: Mean,
     inputsToSave: ["x"],
@@ -97015,7 +97056,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Min_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Min_grad.js
   var minGradConfig = {
     kernelName: Min,
     inputsToSave: ["x"],
@@ -97034,7 +97075,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Minimum_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Minimum_grad.js
   var minimumGradConfig = {
     kernelName: Minimum,
     inputsToSave: ["a", "b"],
@@ -97046,7 +97087,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/MirrorPad_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/MirrorPad_grad.js
   var mirrorPadGradConfig = {
     kernelName: MirrorPad,
     inputsToSave: ["x"],
@@ -97058,7 +97099,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Mod_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Mod_grad.js
   var modGradConfig = {
     kernelName: Mod,
     inputsToSave: ["a", "b"],
@@ -97084,7 +97125,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Multiply_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Multiply_grad.js
   var multiplyGradConfig = {
     kernelName: Multiply,
     inputsToSave: ["a", "b"],
@@ -97111,7 +97152,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Neg_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Neg_grad.js
   var negGradConfig = {
     kernelName: Neg,
     gradFunc: (dy) => {
@@ -97119,7 +97160,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/OneHot_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/OneHot_grad.js
   var oneHotGradConfig = {
     kernelName: OneHot,
     inputsToSave: ["indices"],
@@ -97129,7 +97170,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/OnesLike_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/OnesLike_grad.js
   var onesLikeGradConfig = {
     kernelName: OnesLike,
     gradFunc: (dy) => {
@@ -97137,7 +97178,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Pack_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Pack_grad.js
   var packGradConfig = {
     kernelName: Pack,
     saveAllInputs: true,
@@ -97148,7 +97189,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/PadV2_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/PadV2_grad.js
   var padV2GradConfig = {
     kernelName: PadV2,
     inputsToSave: ["x"],
@@ -97160,7 +97201,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Pow_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Pow_grad.js
   var powGradConfig = {
     kernelName: Pow,
     inputsToSave: ["a", "b"],
@@ -97193,7 +97234,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Prelu_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Prelu_grad.js
   var preluGradConfig = {
     kernelName: Prelu,
     inputsToSave: ["x", "alpha"],
@@ -97214,7 +97255,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Prod_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Prod_grad.js
   function prodGradFn_(x2, dy, axis) {
     const expandedYShape = x2.shape.slice();
     expandedYShape[axis] = 1;
@@ -97263,7 +97304,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/RealDiv_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/RealDiv_grad.js
   var divGradConfig = {
     kernelName: RealDiv,
     inputsToSave: ["a", "b"],
@@ -97291,7 +97332,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Reciprocal_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Reciprocal_grad.js
   var reciprocalGradConfig = {
     kernelName: Reciprocal,
     inputsToSave: ["x"],
@@ -97301,7 +97342,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Relu6_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Relu6_grad.js
   var relu6GradConfig = {
     kernelName: Relu6,
     inputsToSave: ["x"],
@@ -97312,7 +97353,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Relu_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Relu_grad.js
   var reluGradConfig = {
     kernelName: Relu,
     inputsToSave: ["x"],
@@ -97322,7 +97363,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Reshape_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Reshape_grad.js
   var reshapeGradConfig = {
     kernelName: Reshape,
     inputsToSave: ["x"],
@@ -97332,7 +97373,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/ResizeBilinear_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/ResizeBilinear_grad.js
   var resizeBilinearGradConfig = {
     kernelName: ResizeBilinear,
     inputsToSave: ["images"],
@@ -97347,7 +97388,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/ResizeNearestNeighbor_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/ResizeNearestNeighbor_grad.js
   var resizeNearestNeighborGradConfig = {
     kernelName: ResizeNearestNeighbor,
     inputsToSave: ["images"],
@@ -97362,7 +97403,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Reverse_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Reverse_grad.js
   var reverseGradConfig = {
     kernelName: Reverse,
     gradFunc: (dy, saved, attrs) => {
@@ -97372,7 +97413,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Round_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Round_grad.js
   var roundGradConfig = {
     kernelName: Round,
     gradFunc: (dy) => {
@@ -97380,7 +97421,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Rsqrt_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Rsqrt_grad.js
   var rsqrtGradConfig = {
     kernelName: Rsqrt,
     inputsToSave: ["x"],
@@ -97390,7 +97431,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Select_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Select_grad.js
   var selectGradConfig = {
     kernelName: Select,
     inputsToSave: ["condition"],
@@ -97406,7 +97447,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Selu_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Selu_grad.js
   var seluGradConfig = {
     kernelName: Selu,
     inputsToSave: ["x"],
@@ -97425,7 +97466,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Sigmoid_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Sigmoid_grad.js
   var sigmoidGradConfig = {
     kernelName: Sigmoid,
     outputsToSave: [true],
@@ -97435,7 +97476,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Sign_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Sign_grad.js
   var signGradConfig = {
     kernelName: Sign,
     gradFunc: (dy) => {
@@ -97443,7 +97484,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Sin_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Sin_grad.js
   var sinGradConfig = {
     kernelName: Sin,
     inputsToSave: ["x"],
@@ -97453,7 +97494,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Sinh_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Sinh_grad.js
   var sinhGradConfig = {
     kernelName: Sinh,
     inputsToSave: ["x"],
@@ -97463,7 +97504,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Slice_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Slice_grad.js
   var sliceGradConfig = {
     kernelName: Slice,
     inputsToSave: ["x"],
@@ -97480,7 +97521,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Softmax_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Softmax_grad.js
   var softmaxGradConfig = {
     kernelName: Softmax,
     outputsToSave: [true],
@@ -97495,7 +97536,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Softplus_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Softplus_grad.js
   var softplusGradConfig = {
     kernelName: Softplus,
     inputsToSave: ["x"],
@@ -97505,7 +97546,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/SpaceToBatchND_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/SpaceToBatchND_grad.js
   var spaceToBatchNDGradConfig = {
     kernelName: SpaceToBatchND,
     gradFunc: (dy, saved, attrs) => {
@@ -97514,7 +97555,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/SplitV_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/SplitV_grad.js
   var splitVGradConfig = {
     kernelName: SplitV,
     gradFunc: (dy, saved, attrs) => {
@@ -97523,7 +97564,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Sqrt_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Sqrt_grad.js
   var sqrtGradConfig = {
     kernelName: Sqrt,
     inputsToSave: ["x"],
@@ -97533,7 +97574,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Square_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Square_grad.js
   var squareGradConfig = {
     kernelName: Square,
     inputsToSave: ["x"],
@@ -97543,7 +97584,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/SquaredDifference_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/SquaredDifference_grad.js
   var squaredDifferenceGradConfig = {
     kernelName: SquaredDifference,
     inputsToSave: ["a", "b"],
@@ -97556,7 +97597,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Step_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Step_grad.js
   var stepGradConfig = {
     kernelName: Step,
     gradFunc: (dy) => {
@@ -97564,7 +97605,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Sub_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Sub_grad.js
   var subGradConfig = {
     kernelName: Sub,
     inputsToSave: ["a", "b"],
@@ -97591,7 +97632,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Sum_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Sum_grad.js
   var sumGradConfig = {
     kernelName: Sum,
     inputsToSave: ["x"],
@@ -97609,7 +97650,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Tan_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Tan_grad.js
   var tanGradConfig = {
     kernelName: Tan,
     inputsToSave: ["x"],
@@ -97619,7 +97660,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Tanh_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Tanh_grad.js
   var tanhGradConfig = {
     kernelName: Tanh,
     outputsToSave: [true],
@@ -97629,7 +97670,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Tile_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Tile_grad.js
   var tileGradConfig = {
     kernelName: Tile,
     inputsToSave: ["x"],
@@ -97683,7 +97724,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Transpose_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Transpose_grad.js
   var transposeGradConfig = {
     kernelName: Transpose,
     gradFunc: (dy, saved, attrs) => {
@@ -97694,7 +97735,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/Unpack_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/Unpack_grad.js
   var unpackGradConfig = {
     kernelName: Unpack,
     gradFunc: (dy, saved, attrs) => {
@@ -97704,7 +97745,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/UnsortedSegmentSum_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/UnsortedSegmentSum_grad.js
   var unsortedSegmentSumGradConfig = {
     kernelName: UnsortedSegmentSum,
     inputsToSave: ["segmentIds"],
@@ -97729,7 +97770,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return where(isPositive, gathered, zeroSlice);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/gradients/ZerosLike_grad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/gradients/ZerosLike_grad.js
   var zerosLikeGradConfig = {
     kernelName: ZerosLike,
     gradFunc: (dy) => {
@@ -97737,7 +97778,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/register_all_gradients.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/register_all_gradients.js
   var gradConfigs = [
     absGradConfig,
     acosGradConfig,
@@ -97849,170 +97890,170 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     registerGradient(gradientConfig);
   }
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/abs.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/abs.js
   getGlobalTensorClass().prototype.abs = function() {
     this.throwIfDisposed();
     return abs2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/acos.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/acos.js
   getGlobalTensorClass().prototype.acos = function() {
     this.throwIfDisposed();
     return acos(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/acosh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/acosh.js
   getGlobalTensorClass().prototype.acosh = function() {
     this.throwIfDisposed();
     return acosh(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/add.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/add.js
   getGlobalTensorClass().prototype.add = function(b) {
     this.throwIfDisposed();
     return add3(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/all.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/all.js
   getGlobalTensorClass().prototype.all = function(axis, keepDims) {
     this.throwIfDisposed();
     return all(this, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/any.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/any.js
   getGlobalTensorClass().prototype.any = function(axis, keepDims) {
     this.throwIfDisposed();
     return any(this, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/arg_max.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/arg_max.js
   getGlobalTensorClass().prototype.argMax = function(axis) {
     this.throwIfDisposed();
     return argMax(this, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/arg_min.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/arg_min.js
   getGlobalTensorClass().prototype.argMin = function(axis) {
     this.throwIfDisposed();
     return argMin(this, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as_scalar.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as_scalar.js
   getGlobalTensorClass().prototype.asScalar = function() {
     this.throwIfDisposed();
     assert3(this.size === 1, () => "The array must have only 1 element.");
     return reshape2(this, []);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as_type.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as_type.js
   getGlobalTensorClass().prototype.asType = function(dtype) {
     this.throwIfDisposed();
     return cast2(this, dtype);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as1d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as1d.js
   getGlobalTensorClass().prototype.as1D = function() {
     this.throwIfDisposed();
     return reshape2(this, [this.size]);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as2d.js
   getGlobalTensorClass().prototype.as2D = function(rows, columns) {
     this.throwIfDisposed();
     return reshape2(this, [rows, columns]);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as3d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as3d.js
   getGlobalTensorClass().prototype.as3D = function(rows, columns, depth) {
     this.throwIfDisposed();
     return reshape2(this, [rows, columns, depth]);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as4d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as4d.js
   getGlobalTensorClass().prototype.as4D = function(rows, columns, depth, depth2) {
     this.throwIfDisposed();
     return reshape2(this, [rows, columns, depth, depth2]);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as5d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/as5d.js
   getGlobalTensorClass().prototype.as5D = function(rows, columns, depth, depth2, depth3) {
     this.throwIfDisposed();
     return reshape2(this, [rows, columns, depth, depth2, depth3]);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/asin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/asin.js
   getGlobalTensorClass().prototype.asin = function() {
     this.throwIfDisposed();
     return asin(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/asinh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/asinh.js
   getGlobalTensorClass().prototype.asinh = function() {
     this.throwIfDisposed();
     return asinh(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/atan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/atan.js
   getGlobalTensorClass().prototype.atan = function() {
     this.throwIfDisposed();
     return atan(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/atan2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/atan2.js
   getGlobalTensorClass().prototype.atan2 = function(b) {
     this.throwIfDisposed();
     return atan2(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/atanh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/atanh.js
   getGlobalTensorClass().prototype.atanh = function() {
     this.throwIfDisposed();
     return atanh(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/avg_pool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/avg_pool.js
   getGlobalTensorClass().prototype.avgPool = function(filterSize, strides, pad2, dimRoundingMode) {
     this.throwIfDisposed();
     return avgPool(this, filterSize, strides, pad2, dimRoundingMode);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/batch_to_space_nd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/batch_to_space_nd.js
   getGlobalTensorClass().prototype.batchToSpaceND = function(blockShape, crops) {
     this.throwIfDisposed();
     return batchToSpaceND(this, blockShape, crops);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/batchnorm.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/batchnorm.js
   getGlobalTensorClass().prototype.batchNorm = function(mean8, variance4, offset, scale6, varianceEpsilon) {
     this.throwIfDisposed();
     return batchNorm(this, mean8, variance4, offset, scale6, varianceEpsilon);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/broadcast_to.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/broadcast_to.js
   getGlobalTensorClass().prototype.broadcastTo = function(shape4) {
     this.throwIfDisposed();
     return broadcastTo(this, shape4);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cast.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cast.js
   getGlobalTensorClass().prototype.cast = function(dtype) {
     this.throwIfDisposed();
     return cast2(this, dtype);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/ceil.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/ceil.js
   getGlobalTensorClass().prototype.ceil = function() {
     this.throwIfDisposed();
     return ceil2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/clip_by_value.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/clip_by_value.js
   getGlobalTensorClass().prototype.clipByValue = function(min11, max12) {
     this.throwIfDisposed();
     return clipByValue(this, min11, max12);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/concat.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/concat.js
   getGlobalTensorClass().prototype.concat = function(x2, axis) {
     this.throwIfDisposed();
     if (x2 instanceof Tensor) {
@@ -98021,662 +98062,662 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return concat([this, ...x2], axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv1d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv1d.js
   getGlobalTensorClass().prototype.conv1d = function(filter5, stride, pad2, dataFormat, dilation, dimRoundingMode) {
     this.throwIfDisposed();
     return conv1d(this, filter5, stride, pad2, dataFormat, dilation, dimRoundingMode);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv2d_transpose.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv2d_transpose.js
   getGlobalTensorClass().prototype.conv2dTranspose = function(filter5, outputShape, strides, pad2, dimRoundingMode) {
     this.throwIfDisposed();
     return conv2dTranspose(this, filter5, outputShape, strides, pad2, dimRoundingMode);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/conv2d.js
   getGlobalTensorClass().prototype.conv2d = function(filter5, strides, pad2, dataFormat, dilations, dimRoundingMode) {
     this.throwIfDisposed();
     return conv2d(this, filter5, strides, pad2, dataFormat, dilations, dimRoundingMode);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cos.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cos.js
   getGlobalTensorClass().prototype.cos = function() {
     this.throwIfDisposed();
     return cos2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cosh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cosh.js
   getGlobalTensorClass().prototype.cosh = function() {
     this.throwIfDisposed();
     return cosh(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cumprod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cumprod.js
   getGlobalTensorClass().prototype.cumprod = function(axis, exclusive, reverse8) {
     this.throwIfDisposed();
     return cumprod(this, axis, exclusive, reverse8);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cumsum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/cumsum.js
   getGlobalTensorClass().prototype.cumsum = function(axis, exclusive, reverse8) {
     this.throwIfDisposed();
     return cumsum(this, axis, exclusive, reverse8);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depth_to_space.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depth_to_space.js
   getGlobalTensorClass().prototype.depthToSpace = function(blockSize, dataFormat) {
     this.throwIfDisposed();
     return depthToSpace(this, blockSize, dataFormat);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/depthwise_conv2d.js
   getGlobalTensorClass().prototype.depthwiseConv2d = function(filter5, strides, pad2, dataFormat, dilations, dimRoundingMode) {
     this.throwIfDisposed();
     return depthwiseConv2d(this, filter5, strides, pad2, dataFormat, dilations, dimRoundingMode);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/dilation2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/dilation2d.js
   getGlobalTensorClass().prototype.dilation2d = function(filter5, strides, pad2, dilations, dataFormat) {
     this.throwIfDisposed();
     return dilation2d(this, filter5, strides, pad2, dilations, dataFormat);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/div_no_nan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/div_no_nan.js
   getGlobalTensorClass().prototype.divNoNan = function(b) {
     this.throwIfDisposed();
     return divNoNan(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/div.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/div.js
   getGlobalTensorClass().prototype.div = function(b) {
     this.throwIfDisposed();
     return div(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/dot.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/dot.js
   getGlobalTensorClass().prototype.dot = function(b) {
     this.throwIfDisposed();
     return dot2(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/elu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/elu.js
   getGlobalTensorClass().prototype.elu = function() {
     this.throwIfDisposed();
     return elu(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/equal.js
   getGlobalTensorClass().prototype.equal = function(b) {
     this.throwIfDisposed();
     return equal(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/erf.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/erf.js
   getGlobalTensorClass().prototype.erf = function() {
     this.throwIfDisposed();
     return erf(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/euclidean_norm.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/euclidean_norm.js
   getGlobalTensorClass().prototype.euclideanNorm = function(axis, keepDims) {
     this.throwIfDisposed();
     return euclideanNorm(this, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/exp.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/exp.js
   getGlobalTensorClass().prototype.exp = function() {
     this.throwIfDisposed();
     return exp2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/expand_dims.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/expand_dims.js
   getGlobalTensorClass().prototype.expandDims = function(axis) {
     this.throwIfDisposed();
     return expandDims(this, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/expm1.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/expm1.js
   getGlobalTensorClass().prototype.expm1 = function() {
     this.throwIfDisposed();
     return expm1(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/fft.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/fft.js
   getGlobalTensorClass().prototype.fft = function() {
     this.throwIfDisposed();
     return fft(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/flatten.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/flatten.js
   getGlobalTensorClass().prototype.flatten = function() {
     this.throwIfDisposed();
     return reshape2(this, [this.size]);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/floor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/floor.js
   getGlobalTensorClass().prototype.floor = function() {
     this.throwIfDisposed();
     return floor2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/floorDiv.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/floorDiv.js
   getGlobalTensorClass().prototype.floorDiv = function(b) {
     this.throwIfDisposed();
     return floorDiv(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/gather.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/gather.js
   getGlobalTensorClass().prototype.gather = function(indices, axis, batchDims) {
     this.throwIfDisposed();
     return gather(this, indices, axis, batchDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/greater_equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/greater_equal.js
   getGlobalTensorClass().prototype.greaterEqual = function(b) {
     this.throwIfDisposed();
     return greaterEqual(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/greater.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/greater.js
   getGlobalTensorClass().prototype.greater = function(b) {
     this.throwIfDisposed();
     return greater(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/ifft.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/ifft.js
   getGlobalTensorClass().prototype.ifft = function() {
     this.throwIfDisposed();
     return ifft(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/irfft.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/irfft.js
   getGlobalTensorClass().prototype.irfft = function() {
     this.throwIfDisposed();
     return irfft(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/is_finite.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/is_finite.js
   getGlobalTensorClass().prototype.isFinite = function() {
     this.throwIfDisposed();
     return isFinite2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/is_inf.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/is_inf.js
   getGlobalTensorClass().prototype.isInf = function() {
     this.throwIfDisposed();
     return isInf(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/is_nan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/is_nan.js
   getGlobalTensorClass().prototype.isNaN = function() {
     this.throwIfDisposed();
     return isNaN2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/leaky_relu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/leaky_relu.js
   getGlobalTensorClass().prototype.leakyRelu = function(alpha) {
     this.throwIfDisposed();
     return leakyRelu(this, alpha);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/less_equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/less_equal.js
   getGlobalTensorClass().prototype.lessEqual = function(b) {
     this.throwIfDisposed();
     return lessEqual(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/less.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/less.js
   getGlobalTensorClass().prototype.less = function(b) {
     this.throwIfDisposed();
     return less(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/local_response_normalization.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/local_response_normalization.js
   getGlobalTensorClass().prototype.localResponseNormalization = function(depthRadius, bias, alpha, beta) {
     this.throwIfDisposed();
     return localResponseNormalization(this, depthRadius, bias, alpha, beta);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log_sigmoid.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log_sigmoid.js
   getGlobalTensorClass().prototype.logSigmoid = function() {
     this.throwIfDisposed();
     return logSigmoid(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log_softmax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log_softmax.js
   getGlobalTensorClass().prototype.logSoftmax = function(axis) {
     this.throwIfDisposed();
     return logSoftmax(this, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log_sum_exp.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log_sum_exp.js
   getGlobalTensorClass().prototype.logSumExp = function(axis, keepDims) {
     this.throwIfDisposed();
     return logSumExp(this, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log.js
   getGlobalTensorClass().prototype.log = function() {
     this.throwIfDisposed();
     return log3(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log1p.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/log1p.js
   getGlobalTensorClass().prototype.log1p = function() {
     this.throwIfDisposed();
     return log1p(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/logical_and.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/logical_and.js
   getGlobalTensorClass().prototype.logicalAnd = function(b) {
     this.throwIfDisposed();
     return logicalAnd(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/logical_not.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/logical_not.js
   getGlobalTensorClass().prototype.logicalNot = function() {
     this.throwIfDisposed();
     return logicalNot(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/logical_or.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/logical_or.js
   getGlobalTensorClass().prototype.logicalOr = function(b) {
     this.throwIfDisposed();
     return logicalOr(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/logical_xor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/logical_xor.js
   getGlobalTensorClass().prototype.logicalXor = function(b) {
     this.throwIfDisposed();
     return logicalXor(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mat_mul.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mat_mul.js
   getGlobalTensorClass().prototype.matMul = function(b, transposeA, transposeB) {
     this.throwIfDisposed();
     return matMul(this, b, transposeA, transposeB);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/max_pool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/max_pool.js
   getGlobalTensorClass().prototype.maxPool = function(filterSize, strides, pad2, dimRoundingMode) {
     this.throwIfDisposed();
     return maxPool(this, filterSize, strides, pad2, dimRoundingMode);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/max.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/max.js
   getGlobalTensorClass().prototype.max = function(axis, keepDims) {
     this.throwIfDisposed();
     return max2(this, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/maximum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/maximum.js
   getGlobalTensorClass().prototype.maximum = function(b) {
     this.throwIfDisposed();
     return maximum(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mean.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mean.js
   getGlobalTensorClass().prototype.mean = function(axis, keepDims) {
     this.throwIfDisposed();
     return mean2(this, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/min.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/min.js
   getGlobalTensorClass().prototype.min = function(axis, keepDims) {
     this.throwIfDisposed();
     return min2(this, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/minimum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/minimum.js
   getGlobalTensorClass().prototype.minimum = function(b) {
     this.throwIfDisposed();
     return minimum(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mirror_pad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mirror_pad.js
   getGlobalTensorClass().prototype.mirrorPad = function(paddings, mode4) {
     this.throwIfDisposed();
     return mirrorPad(this, paddings, mode4);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mod.js
   getGlobalTensorClass().prototype.mod = function(b) {
     this.throwIfDisposed();
     return mod2(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mul.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/mul.js
   getGlobalTensorClass().prototype.mul = function(b) {
     this.throwIfDisposed();
     return mul(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/neg.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/neg.js
   getGlobalTensorClass().prototype.neg = function() {
     this.throwIfDisposed();
     return neg(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/norm.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/norm.js
   getGlobalTensorClass().prototype.norm = function(ord, axis, keepDims) {
     this.throwIfDisposed();
     return norm(this, ord, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/not_equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/not_equal.js
   getGlobalTensorClass().prototype.notEqual = function(b) {
     this.throwIfDisposed();
     return notEqual(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/one_hot.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/one_hot.js
   getGlobalTensorClass().prototype.oneHot = function(depth, onValue = 1, offValue = 0) {
     this.throwIfDisposed();
     return oneHot(this, depth, onValue, offValue);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/ones_like.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/ones_like.js
   getGlobalTensorClass().prototype.onesLike = function() {
     this.throwIfDisposed();
     return onesLike(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pad.js
   getGlobalTensorClass().prototype.pad = function(paddings, constantValue) {
     this.throwIfDisposed();
     return pad(this, paddings, constantValue);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pool.js
   getGlobalTensorClass().prototype.pool = function(windowShape, poolingType, padding, dilationRate, strides, dimRoundingMode) {
     this.throwIfDisposed();
     return pool(this, windowShape, poolingType, padding, dilationRate, strides, dimRoundingMode);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pow.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/pow.js
   getGlobalTensorClass().prototype.pow = function(exp7) {
     this.throwIfDisposed();
     return pow2(this, exp7);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/prelu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/prelu.js
   getGlobalTensorClass().prototype.prelu = function(alpha) {
     this.throwIfDisposed();
     return prelu(this, alpha);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/prod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/prod.js
   getGlobalTensorClass().prototype.prod = function(axis, keepDims) {
     this.throwIfDisposed();
     return prod(this, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/reciprocal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/reciprocal.js
   getGlobalTensorClass().prototype.reciprocal = function() {
     this.throwIfDisposed();
     return reciprocal(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/relu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/relu.js
   getGlobalTensorClass().prototype.relu = function() {
     this.throwIfDisposed();
     return relu(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/relu6.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/relu6.js
   getGlobalTensorClass().prototype.relu6 = function() {
     this.throwIfDisposed();
     return relu6(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/reshape_as.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/reshape_as.js
   getGlobalTensorClass().prototype.reshapeAs = function(x2) {
     this.throwIfDisposed();
     return reshape2(this, x2.shape);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/reshape.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/reshape.js
   getGlobalTensorClass().prototype.reshape = function(shape4) {
     this.throwIfDisposed();
     return reshape2(this, shape4);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/resize_bilinear.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/resize_bilinear.js
   getGlobalTensorClass().prototype.resizeBilinear = function(newShape2D, alignCorners, halfPixelCenters) {
     this.throwIfDisposed();
     return resizeBilinear(this, newShape2D, alignCorners, halfPixelCenters);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/resize_nearest_neighbor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/resize_nearest_neighbor.js
   getGlobalTensorClass().prototype.resizeNearestNeighbor = function(newShape2D, alignCorners, halfFloatCenters) {
     this.throwIfDisposed();
     return resizeNearestNeighbor(this, newShape2D, alignCorners, halfFloatCenters);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/reverse.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/reverse.js
   getGlobalTensorClass().prototype.reverse = function(axis) {
     this.throwIfDisposed();
     return reverse2(this, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/rfft.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/rfft.js
   getGlobalTensorClass().prototype.rfft = function() {
     this.throwIfDisposed();
     return rfft(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/round.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/round.js
   getGlobalTensorClass().prototype.round = function() {
     this.throwIfDisposed();
     return round3(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/rsqrt.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/rsqrt.js
   getGlobalTensorClass().prototype.rsqrt = function() {
     this.throwIfDisposed();
     return rsqrt(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/selu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/selu.js
   getGlobalTensorClass().prototype.selu = function() {
     this.throwIfDisposed();
     return selu(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/separable_conv2d.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/separable_conv2d.js
   getGlobalTensorClass().prototype.separableConv2d = function(depthwiseFilter, pointwiseFilter, strides, pad2, dilation, dataFormat) {
     this.throwIfDisposed();
     return separableConv2d(this, depthwiseFilter, pointwiseFilter, strides, pad2, dilation, dataFormat);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sigmoid.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sigmoid.js
   getGlobalTensorClass().prototype.sigmoid = function() {
     this.throwIfDisposed();
     return sigmoid(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sign.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sign.js
   getGlobalTensorClass().prototype.sign = function() {
     this.throwIfDisposed();
     return sign2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sin.js
   getGlobalTensorClass().prototype.sin = function() {
     this.throwIfDisposed();
     return sin2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sinh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sinh.js
   getGlobalTensorClass().prototype.sinh = function() {
     this.throwIfDisposed();
     return sinh(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/slice.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/slice.js
   getGlobalTensorClass().prototype.slice = function(begin, size3) {
     this.throwIfDisposed();
     return slice(this, begin, size3);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/softmax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/softmax.js
   getGlobalTensorClass().prototype.softmax = function(dim) {
     this.throwIfDisposed();
     return softmax(this, dim);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/softplus.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/softplus.js
   getGlobalTensorClass().prototype.softplus = function() {
     this.throwIfDisposed();
     return softplus(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/space_to_batch_nd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/space_to_batch_nd.js
   getGlobalTensorClass().prototype.spaceToBatchND = function(blockShape, paddings) {
     this.throwIfDisposed();
     return spaceToBatchND(this, blockShape, paddings);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/split.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/split.js
   getGlobalTensorClass().prototype.split = function(numOrSizeSplits, axis) {
     this.throwIfDisposed();
     return split(this, numOrSizeSplits, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sqrt.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sqrt.js
   getGlobalTensorClass().prototype.sqrt = function() {
     this.throwIfDisposed();
     return sqrt2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/square.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/square.js
   getGlobalTensorClass().prototype.square = function() {
     this.throwIfDisposed();
     return square(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/squared_difference.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/squared_difference.js
   getGlobalTensorClass().prototype.squaredDifference = function(b) {
     this.throwIfDisposed();
     return squaredDifference(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/squeeze.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/squeeze.js
   getGlobalTensorClass().prototype.squeeze = function(axis) {
     this.throwIfDisposed();
     return squeeze(this, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/stack.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/stack.js
   getGlobalTensorClass().prototype.stack = function(x2, axis) {
     this.throwIfDisposed();
     const tensorsToBeStacked = x2 instanceof Tensor ? [this, x2] : [this, ...x2];
     return stack3(tensorsToBeStacked, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/step.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/step.js
   getGlobalTensorClass().prototype.step = function(alpha) {
     this.throwIfDisposed();
     return step(this, alpha);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/strided_slice.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/strided_slice.js
   getGlobalTensorClass().prototype.stridedSlice = function(begin, end, strides, beginMask, endMask, ellipsisMask, newAxisMask, shrinkAxisMask) {
     this.throwIfDisposed();
     return stridedSlice(this, begin, end, strides, beginMask, endMask, ellipsisMask, newAxisMask, shrinkAxisMask);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sub.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sub.js
   getGlobalTensorClass().prototype.sub = function(b) {
     this.throwIfDisposed();
     return sub(this, b);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/sum.js
   getGlobalTensorClass().prototype.sum = function(axis, keepDims) {
     this.throwIfDisposed();
     return sum3(this, axis, keepDims);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/tan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/tan.js
   getGlobalTensorClass().prototype.tan = function() {
     this.throwIfDisposed();
     return tan2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/tanh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/tanh.js
   getGlobalTensorClass().prototype.tanh = function() {
     this.throwIfDisposed();
     return tanh2(this);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/tile.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/tile.js
   getGlobalTensorClass().prototype.tile = function(reps) {
     this.throwIfDisposed();
     return tile(this, reps);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/to_bool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/to_bool.js
   getGlobalTensorClass().prototype.toBool = function() {
     this.throwIfDisposed();
     return cast2(this, "bool");
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/to_float.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/to_float.js
   getGlobalTensorClass().prototype.toFloat = function() {
     this.throwIfDisposed();
     return cast2(this, "float32");
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/to_int.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/to_int.js
   getGlobalTensorClass().prototype.toInt = function() {
     this.throwIfDisposed();
     return cast2(this, "int32");
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/topk.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/topk.js
   getGlobalTensorClass().prototype.topk = function(k, sorted) {
     this.throwIfDisposed();
     return topk(this, k, sorted);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/transpose.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/transpose.js
   getGlobalTensorClass().prototype.transpose = function(perm) {
     this.throwIfDisposed();
     return transpose2(this, perm);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/unique.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/unique.js
   getGlobalTensorClass().prototype.unique = function(axis) {
     this.throwIfDisposed();
     return unique(this, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/unsorted_segment_sum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/unsorted_segment_sum.js
   getGlobalTensorClass().prototype.unsortedSegmentSum = function(segmentIds, numSegments) {
     this.throwIfDisposed();
     return unsortedSegmentSum(this, segmentIds, numSegments);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/unstack.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/unstack.js
   getGlobalTensorClass().prototype.unstack = function(axis) {
     this.throwIfDisposed();
     return unstack(this, axis);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/where.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/where.js
   getGlobalTensorClass().prototype.where = function(condition, x2) {
     this.throwIfDisposed();
     return where(condition, this, x2);
   };
 
-  // node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/zeros_like.js
+  // node_modules/.pnpm/@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-core/dist/public/chained_ops/zeros_like.js
   getGlobalTensorClass().prototype.zerosLike = function() {
     this.throwIfDisposed();
     return zerosLike(this);
   };
 
-  // node_modules/@tensorflow/tfjs-layers/dist/errors.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/errors.js
   var AttributeError = class _AttributeError extends Error {
     constructor(message) {
       super(message);
@@ -98708,7 +98749,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-layers/dist/utils/executor_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/utils/executor_utils.js
   var LruCache = class {
     constructor(maxEntries) {
       this.maxEntries = maxEntries || 100;
@@ -98763,7 +98804,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-layers/dist/utils/generic_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/utils/generic_utils.js
   function pyListRepeat(value, numValues) {
     if (Array.isArray(value)) {
       let newArray = [];
@@ -99003,7 +99044,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return null;
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/backend/state.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/backend/state.js
   var _nextUniqueTensorId = 0;
   function getNextUniqueTensorId() {
     return _nextUniqueTensorId++;
@@ -99017,14 +99058,14 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return prefix3 + _uidPrefixes[prefix3].toString();
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/keras_format/common.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/keras_format/common.js
   var VALID_DATA_FORMAT_VALUES = ["channelsFirst", "channelsLast"];
   var VALID_INTERPOLATION_FORMAT_VALUES = ["nearest", "bilinear"];
   var VALID_PADDING_MODE_VALUES = ["valid", "same", "causal"];
   var VALID_POOL_MODE_VALUES = ["max", "avg"];
   var VALID_BIDIRECTIONAL_MERGE_MODES = ["sum", "mul", "concat", "ave"];
 
-  // node_modules/@tensorflow/tfjs-layers/dist/common.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/common.js
   var nameMap = /* @__PURE__ */ new Map();
   function checkDataFormat(value) {
     checkStringTypeUnionValue(VALID_DATA_FORMAT_VALUES, "DataFormat", value);
@@ -99086,7 +99127,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return !!name.match(tensorNameRegex);
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/utils/math_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/utils/math_utils.js
   function isInteger2(x2) {
     return x2 === parseInt(x2.toString(), 10);
   }
@@ -99140,7 +99181,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return out;
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/backend/common.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/backend/common.js
   var _epsilon;
   function epsilon() {
     if (_epsilon == null) {
@@ -99152,7 +99193,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return "channelsLast";
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/backend/tfjs_backend.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/backend/tfjs_backend.js
   function cast3(x2, dtype) {
     return cast2(x2, dtype);
   }
@@ -99465,11 +99506,11 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return training ? x2() : alt();
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/keras_format/initializer_config.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/keras_format/initializer_config.js
   var VALID_FAN_MODE_VALUES = ["fanIn", "fanOut", "fanAvg"];
   var VALID_DISTRIBUTION_VALUES = ["normal", "uniform", "truncatedNormal"];
 
-  // node_modules/@tensorflow/tfjs-layers/dist/initializers.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/initializers.js
   function checkFanMode(value) {
     checkStringTypeUnionValue(VALID_FAN_MODE_VALUES, "FanMode", value);
   }
@@ -99878,7 +99919,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/utils/types_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/utils/types_utils.js
   function isArrayOfShapes(x2) {
     return Array.isArray(x2) && Array.isArray(x2[0]);
   }
@@ -99916,7 +99957,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/utils/variable_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/utils/variable_utils.js
   function countParamsInWeights(weights) {
     let count5 = 0;
     for (const weight8 of weights) {
@@ -99929,7 +99970,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return count5;
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/variables.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/variables.js
   var DEFAULT_VARIABLE_NAME_PREFIX = "Variable";
   var LayerVariable = class {
     /**
@@ -100021,7 +100062,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     });
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/engine/topology.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/engine/topology.js
   var InputSpec = class {
     constructor(args) {
       this.dtype = args.dtype;
@@ -101010,7 +101051,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return noneAreSymbolic;
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/engine/input_layer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/engine/input_layer.js
   var InputLayer = class extends Layer {
     constructor(args) {
       super({
@@ -101103,7 +101144,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return outputs[0];
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/engine/executor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/engine/executor.js
   function assertFeedCompatibility(key, val) {
     if (key.dtype == null || key.dtype === val.dtype) {
       return val;
@@ -101435,11 +101476,11 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return layerOutputs;
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/flags_layers.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/flags_layers.js
   var ENV3 = env();
   ENV3.registerFlag("TOPOLOGICAL_SORT_CACHE_MAX_ENTRIES", () => 100, updateCacheMaxEntries);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/constraints.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/constraints.js
   function calcL2Norms(w, axis) {
     return tidy(() => sqrt2(sum3(mul(w, w), axis, true)));
   }
@@ -101548,7 +101589,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/logs.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/logs.js
   async function resolveScalarsInLogs(logs) {
     if (logs == null) {
       return;
@@ -101585,7 +101626,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/base_callbacks.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/base_callbacks.js
   var ModelLoggingVerbosity;
   (function(ModelLoggingVerbosity2) {
     ModelLoggingVerbosity2[ModelLoggingVerbosity2["SILENT"] = 0] = "SILENT";
@@ -102011,12 +102052,12 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return { callbackList, history };
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/serialization.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/serialization.js
   function deserialize(config, customObjects = {}, fastWeightInit = false) {
     return deserializeKerasObject(config, serialization_exports.SerializationMap.getMap().classNameMap, customObjects, "layer", fastWeightInit);
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/losses.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/losses.js
   function l2Normalize(x2, axis) {
     return tidy(() => {
       if (x2.dtype !== "float32") {
@@ -102169,7 +102210,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/metrics.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/metrics.js
   function binaryAccuracy(yTrue, yPred) {
     return tidy(() => {
       const threshold3 = mul(0.5, onesLike(yPred));
@@ -102271,7 +102312,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/optimizers.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/optimizers.js
   function getOptimizer(identifier) {
     const optimizerMap = {
       "Adagrad": () => train.adagrad(0.01),
@@ -102293,7 +102334,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     throw new ValueError(`Unknown Optimizer ${identifier}`);
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/user_defined_metadata.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/user_defined_metadata.js
   var MAX_USER_DEFINED_METADATA_SERIALIZED_LENGTH = 1 * 1024 * 1024;
   function checkUserDefinedMetadata(userDefinedMetadata, modelName, checkSize = false) {
     if (userDefinedMetadata == null || typeof userDefinedMetadata !== "object" || Object.getPrototypeOf(userDefinedMetadata) !== Object.prototype || !plainObjectCheck(userDefinedMetadata)) {
@@ -102339,7 +102380,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/utils/layer_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/utils/layer_utils.js
   function printSummary(model2, lineLength, positions2, printFn = console.log) {
     const sequentialLike = isModelSequentialLike(model2);
     const toDisplay = ["Layer (type)", "Input Shape", "Output shape", "Param #"];
@@ -102500,7 +102541,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/utils/serialization_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/utils/serialization_utils.js
   function isArrayItemInputOrOutputName(key, index, value) {
     return (key === "inboundNodes" || key === "outputLayers" || key === "inputLayers") && index === 0 && typeof value === "string";
   }
@@ -102571,10 +102612,10 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/version.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/version.js
   var version2 = "4.22.0";
 
-  // node_modules/@tensorflow/tfjs-layers/dist/engine/container.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/engine/container.js
   var isKerasSavedModelFormat = (weights) => {
     const keys = Object.keys(weights);
     if (keys.length === 0) {
@@ -103468,7 +103509,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-layers/dist/engine/training_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/engine/training_utils.js
   function standardizeSampleOrClassWeights(xWeight, outputNames, weightType) {
     const numOutputs = outputNames.length;
     if (xWeight == null || Array.isArray(xWeight) && xWeight.length === 0) {
@@ -103545,7 +103586,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return mul(losses, sampleWeights);
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/engine/training_dataset.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/engine/training_dataset.js
   var DEFAULT_VALIDATION_BATCH_SIZE = 32;
   function standardizeDataIteratorOutput(model2, iteratorOut) {
     let xs;
@@ -103791,7 +103832,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return singletonOrArray(outs);
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/engine/training_tensors.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/engine/training_tensors.js
   function checkBatchSize(batchSize) {
     util_exports.assert(batchSize > 0 && Number.isInteger(batchSize), () => `batchSize is required to be a positive integer, but got ${batchSize}`);
   }
@@ -103887,7 +103928,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     });
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/engine/training.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/engine/training.js
   function isDataTensor(x2) {
     return x2 instanceof Tensor;
   }
@@ -105386,7 +105427,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   Functional.className = "Functional";
   serialization_exports.registerClass(Functional);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/models.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/models.js
   var Sequential = class _Sequential extends LayersModel {
     constructor(args) {
       super({ inputs: [], outputs: [] });
@@ -105973,7 +106014,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   Sequential.className = "Sequential";
   serialization_exports.registerClass(Sequential);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/activations.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/activations.js
   var Activation = class extends serialization_exports.Serializable {
     getConfig() {
       return {};
@@ -106181,7 +106222,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/regularizers.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/regularizers.js
   function assertObjectArgs(args) {
     if (args != null && typeof args !== "object") {
       throw new Error(`Argument to L1L2 regularizer's constructor is expected to be an object, but received: ${args}`);
@@ -106248,7 +106289,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/advanced_activations.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/advanced_activations.js
   var ReLU = class extends Layer {
     constructor(args) {
       super(args == null ? {} : args);
@@ -106456,7 +106497,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   Softmax3.className = "Softmax";
   serialization_exports.registerClass(Softmax3);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/utils/conv_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/utils/conv_utils.js
   function normalizeArray(value, n, name) {
     if (typeof value === "number") {
       return pyListRepeat(value, n);
@@ -106500,7 +106541,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return dimSize;
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional.js
   function preprocessConv2DInput(x2, dataFormat) {
     return tidy(() => {
       checkDataFormat(dataFormat);
@@ -107235,7 +107276,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   UpSampling2D.className = "UpSampling2D";
   serialization_exports.registerClass(UpSampling2D);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional_depthwise.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional_depthwise.js
   function depthwiseConv2d3(x2, depthwiseKernel, strides = [1, 1], padding = "valid", dataFormat, dilationRate) {
     return tidy(() => {
       if (dataFormat == null) {
@@ -107327,7 +107368,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   DepthwiseConv2D.className = "DepthwiseConv2D";
   serialization_exports.registerClass(DepthwiseConv2D);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/recurrent.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/recurrent.js
   function standardizeArgs(inputs, initialState, constants, numConstants) {
     if (Array.isArray(inputs)) {
       if (initialState != null || constants != null) {
@@ -108410,7 +108451,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return masks.map((m) => keep(m.clone()));
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional_recurrent.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/convolutional_recurrent.js
   var __rest = function(s4, e) {
     var t = {};
     for (var p4 in s4) if (Object.prototype.hasOwnProperty.call(s4, p4) && e.indexOf(p4) < 0)
@@ -108696,7 +108737,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   ConvLSTM2D.className = "ConvLSTM2D";
   serialization_exports.registerClass(ConvLSTM2D);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/core.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/core.js
   var Dropout = class extends Layer {
     constructor(args) {
       super(args);
@@ -109105,7 +109146,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   Masking.className = "Masking";
   serialization_exports.registerClass(Masking);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/embeddings.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/embeddings.js
   var Embedding = class extends Layer {
     constructor(args) {
       super(args);
@@ -109205,7 +109246,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   Embedding.className = "Embedding";
   serialization_exports.registerClass(Embedding);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/merge.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/merge.js
   var Merge = class extends Layer {
     constructor(args) {
       super(args || {});
@@ -109750,7 +109791,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   Dot.className = "Dot";
   serialization_exports.registerClass(Dot);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/noise.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/noise.js
   var GaussianNoise = class extends Layer {
     constructor(args) {
       super(args);
@@ -109854,7 +109895,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   AlphaDropout.className = "AlphaDropout";
   serialization_exports.registerClass(AlphaDropout);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/normalization.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/normalization.js
   function batchNormalization(x2, mean8, variance4, beta, gamma, epsilon3 = 1e-3) {
     let out;
     if (x2.rank === 2) {
@@ -110136,7 +110177,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   LayerNormalization.className = "LayerNormalization";
   serialization_exports.registerClass(LayerNormalization);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/padding.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/padding.js
   function spatial2dPadding(x2, padding, dataFormat) {
     return tidy(() => {
       if (x2.rank !== 4) {
@@ -110245,7 +110286,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   ZeroPadding2D.className = "ZeroPadding2D";
   serialization_exports.registerClass(ZeroPadding2D);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/pooling.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/pooling.js
   function pool2d(x2, poolSize, strides, padding, dataFormat, poolMode) {
     return tidy(() => {
       checkDataFormat(dataFormat);
@@ -110650,7 +110691,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   GlobalMaxPooling2D.className = "GlobalMaxPooling2D";
   serialization_exports.registerClass(GlobalMaxPooling2D);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/wrappers.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/wrappers.js
   var Wrapper = class extends Layer {
     constructor(args) {
       super(args);
@@ -111037,7 +111078,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   Bidirectional.className = "Bidirectional";
   serialization_exports.registerClass(Bidirectional);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/image_preprocessing.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/image_preprocessing.js
   var Rescaling = class extends Layer {
     constructor(args) {
       super(args);
@@ -111070,7 +111111,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   Rescaling.className = "Rescaling";
   serialization_exports.registerClass(Rescaling);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/center_crop.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/center_crop.js
   var { resizeBilinear: resizeBilinear2, cropAndResize: cropAndResize2 } = image;
   var CenterCrop = class extends Layer {
     constructor(args) {
@@ -111159,7 +111200,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   CenterCrop.className = "CenterCrop";
   serialization_exports.registerClass(CenterCrop);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/preprocessing_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/preprocessing_utils.js
   function encodeCategoricalInputs(inputs, outputMode, depth, weights) {
     let input2 = getExactlyOneTensor(inputs);
     if (input2.dtype !== "int32") {
@@ -111198,7 +111239,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/category_encoding.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/category_encoding.js
   var CategoryEncoding = class extends Layer {
     constructor(args) {
       super(args);
@@ -111258,7 +111299,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   CategoryEncoding.className = "CategoryEncoding";
   serialization_exports.registerClass(CategoryEncoding);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/image_resizing.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/image_resizing.js
   var INTERPOLATION_KEYS = ["bilinear", "nearest"];
   var INTERPOLATION_METHODS = new Set(INTERPOLATION_KEYS);
   var Resizing = class extends Layer {
@@ -111309,7 +111350,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   Resizing.className = "Resizing";
   serialization_exports.registerClass(Resizing);
 
-  // node_modules/@tensorflow/tfjs-layers/dist/backend/random_seed.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/backend/random_seed.js
   var RandomSeed = class {
     constructor(seed4) {
       this.seed = seed4;
@@ -111323,7 +111364,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   };
   RandomSeed.className = "RandomSeed";
 
-  // node_modules/@tensorflow/tfjs-layers/dist/engine/base_random_layer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/engine/base_random_layer.js
   var BaseRandomLayer = class extends Layer {
     constructor(args) {
       super(args);
@@ -111340,7 +111381,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   };
   BaseRandomLayer.className = "BaseRandomLayer";
 
-  // node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/random_width.js
+  // node_modules/.pnpm/@tensorflow+tfjs-layers@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-layers/dist/layers/preprocessing/random_width.js
   var INTERPOLATION_KEYS2 = ["bilinear", "nearest"];
   var INTERPOLATION_METHODS2 = new Set(INTERPOLATION_KEYS2);
   var RandomWidth = class extends BaseRandomLayer {
@@ -111412,7 +111453,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   RandomWidth.className = "RandomWidth";
   serialization_exports.registerClass(RandomWidth);
 
-  // node_modules/@tensorflow/tfjs-converter/dist/flags.js
+  // node_modules/.pnpm/@tensorflow+tfjs-converter@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-converter/dist/flags.js
   var ENV4 = env();
   ENV4.registerFlag("KEEP_INTERMEDIATE_TENSORS", () => false, (debugValue) => {
     if (debugValue) {
@@ -111420,7 +111461,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   });
 
-  // node_modules/@tensorflow/tfjs-converter/dist/data/compiled_api.js
+  // node_modules/.pnpm/@tensorflow+tfjs-converter@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-converter/dist/data/compiled_api.js
   var DataType;
   (function(DataType2) {
     DataType2[DataType2["DT_INVALID"] = 0] = "DT_INVALID";
@@ -111481,13 +111522,13 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     })(CheckpointFormatVersion = SaverDef2.CheckpointFormatVersion || (SaverDef2.CheckpointFormatVersion = {}));
   })(SaverDef || (SaverDef = {}));
 
-  // node_modules/@tensorflow/tfjs-data/dist/dataset.js
+  // node_modules/.pnpm/@tensorflow+tfjs-data@4.22.0_@tensorflow+tfjs-core@4.22.0_seedrandom@3.0.5/node_modules/@tensorflow/tfjs-data/dist/dataset.js
   var seedrandom3 = __toESM(require_seedrandom2());
 
-  // node_modules/@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js
+  // node_modules/.pnpm/@tensorflow+tfjs-data@4.22.0_@tensorflow+tfjs-core@4.22.0_seedrandom@3.0.5/node_modules/@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js
   var seedrandom2 = __toESM(require_seedrandom2());
 
-  // node_modules/@tensorflow/tfjs-data/dist/util/deep_map.js
+  // node_modules/.pnpm/@tensorflow+tfjs-data@4.22.0_@tensorflow+tfjs-core@4.22.0_seedrandom@3.0.5/node_modules/@tensorflow/tfjs-data/dist/util/deep_map.js
   function deepMap(input2, mapFn) {
     return deepMapInternal(input2, mapFn);
   }
@@ -111583,7 +111624,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return value === null || typeof value !== "object" && typeof value !== "function";
   }
 
-  // node_modules/@tensorflow/tfjs-data/dist/util/deep_clone.js
+  // node_modules/.pnpm/@tensorflow+tfjs-data@4.22.0_@tensorflow+tfjs-core@4.22.0_seedrandom@3.0.5/node_modules/@tensorflow/tfjs-data/dist/util/deep_clone.js
   function deepClone(container2) {
     return deepMap(container2, cloneIfTensor);
   }
@@ -111597,7 +111638,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-data/dist/util/ring_buffer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-data@4.22.0_@tensorflow+tfjs-core@4.22.0_seedrandom@3.0.5/node_modules/@tensorflow/tfjs-data/dist/util/ring_buffer.js
   var RingBuffer = class {
     /**
      * Constructs a `RingBuffer`.
@@ -111735,7 +111776,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-data/dist/util/growing_ring_buffer.js
+  // node_modules/.pnpm/@tensorflow+tfjs-data@4.22.0_@tensorflow+tfjs-core@4.22.0_seedrandom@3.0.5/node_modules/@tensorflow/tfjs-data/dist/util/growing_ring_buffer.js
   var GrowingRingBuffer = class _GrowingRingBuffer extends RingBuffer {
     /**
      * Constructs a `GrowingRingBuffer`.
@@ -111777,7 +111818,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   };
   GrowingRingBuffer.INITIAL_CAPACITY = 32;
 
-  // node_modules/@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js
+  // node_modules/.pnpm/@tensorflow+tfjs-data@4.22.0_@tensorflow+tfjs-core@4.22.0_seedrandom@3.0.5/node_modules/@tensorflow/tfjs-data/dist/iterators/lazy_iterator.js
   function iteratorFromItems(items) {
     return new ArrayIterator(items);
   }
@@ -112445,7 +112486,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-data/dist/dataset.js
+  // node_modules/.pnpm/@tensorflow+tfjs-data@4.22.0_@tensorflow+tfjs-core@4.22.0_seedrandom@3.0.5/node_modules/@tensorflow/tfjs-data/dist/dataset.js
   var Dataset = class {
     constructor() {
       this.size = null;
@@ -112876,14 +112917,14 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-data/dist/datasets/csv_dataset.js
+  // node_modules/.pnpm/@tensorflow+tfjs-data@4.22.0_@tensorflow+tfjs-core@4.22.0_seedrandom@3.0.5/node_modules/@tensorflow/tfjs-data/dist/datasets/csv_dataset.js
   var STATE_OUT = Symbol("out");
   var STATE_FIELD = Symbol("field");
   var STATE_QUOTE = Symbol("quote");
   var STATE_QUOTE_AFTER_QUOTE = Symbol("quoteafterquote");
   var STATE_WITHIN_QUOTE_IN_QUOTE = Symbol("quoteinquote");
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/cpu_util.js
   function assertNotComplex(tensor2, opName) {
     if (!Array.isArray(tensor2)) {
       tensor2 = [tensor2];
@@ -112895,7 +112936,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     });
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/backend_cpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/backend_cpu.js
   var whereImpl2 = kernel_impls_exports.whereImpl;
   var MathBackendCPU = class _MathBackendCPU extends KernelBackend {
     nextDataId() {
@@ -113042,7 +113083,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   };
   MathBackendCPU.nextDataId = 0;
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/shared.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/shared.js
   var shared_exports = {};
   __export(shared_exports, {
     addImpl: () => addImpl,
@@ -113098,7 +113139,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     uniqueImpl: () => uniqueImpl
   });
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Abs.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Abs.js
   function simpleAbsImpl(vals) {
     const resultValues = new Float32Array(vals.length);
     for (let i = 0; i < vals.length; ++i) {
@@ -113121,7 +113162,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: abs3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/binary_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/binary_impl.js
   function createSimpleBinaryKernelImpl(op2) {
     return (aShape, bShape, aVals, bVals, dtype) => {
       const newShape = backend_util_exports.assertAndGetBroadcastShape(aShape, bShape);
@@ -113155,7 +113196,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Complex.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Complex.js
   function complex2(args) {
     const { inputs, backend: backend2 } = args;
     const { real: real4, imag: imag4 } = inputs;
@@ -113175,7 +113216,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: complex2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/zeros_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/zeros_impl.js
   function zeros3(backend2, shape4, dtype = "float32") {
     if (dtype === "complex64") {
       const real4 = zeros3(backend2, shape4, "float32");
@@ -113186,7 +113227,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return backend2.makeTensorInfo(shape4, dtype, values);
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Identity.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Identity.js
   function identity2(args) {
     const { inputs, backend: backend2 } = args;
     const { x: x2 } = inputs;
@@ -113199,7 +113240,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: identity2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Real.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Real.js
   function real2(args) {
     const { inputs, backend: backend2 } = args;
     const { input: input2 } = inputs;
@@ -113213,7 +113254,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: real2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cast.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cast.js
   function castImpl(values, shape4, inputType, dtype) {
     if (dtype === "int32") {
       const resultValues = Int32Array.from(values);
@@ -113261,7 +113302,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: cast4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/binary_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/binary_utils.js
   function binaryKernelFunc(name, simpleImpl, complexImpl, dtype) {
     if (complexImpl == null) {
       return ({ inputs, backend: backend2 }) => {
@@ -113359,7 +113400,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Add.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Add.js
   var addImpl = createSimpleBinaryKernelImpl((a, b) => a + b);
   var addComplexImpl = createComplexBinaryKernelImpl((aReal, aImag, bReal, bImag) => {
     return { real: aReal + bReal, imag: aImag + bImag };
@@ -113371,7 +113412,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: add4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Bincount_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Bincount_impl.js
   function bincountImpl(xVals, weightsVals, weightsDtype, weightsShape, size3) {
     const weightsSize = util_exports.sizeFromShape(weightsShape);
     const outVals = util_exports.makeZerosTypedArray(size3, weightsDtype);
@@ -113418,7 +113459,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return outBuf;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BitwiseAnd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BitwiseAnd.js
   var bitwiseAndImpl = createSimpleBinaryKernelImpl((a, b) => a & b);
   var bitwiseAnd = binaryKernelFunc(BitwiseAnd, bitwiseAndImpl);
   var bitwiseAndConfig = {
@@ -113427,7 +113468,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: bitwiseAnd
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/unary_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/unary_impl.js
   function createSimpleUnaryImpl(op2) {
     return (values, dtype, attrs) => {
       const newValues = util_exports.getArrayFromDType(dtype, values.length);
@@ -113438,7 +113479,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/unary_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/unary_utils.js
   function unaryKernelFunc(name, op2, dtype) {
     const impl2 = createSimpleUnaryImpl(op2);
     return unaryKernelFuncFromImpl(name, impl2, dtype);
@@ -113464,7 +113505,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Ceil.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Ceil.js
   var ceilImpl = createSimpleUnaryImpl((xi) => Math.ceil(xi));
   var ceil3 = unaryKernelFuncFromImpl(Ceil, ceilImpl);
   var ceilConfig = {
@@ -113473,7 +113514,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: ceil3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Concat_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Concat_impl.js
   function concatImpl(inputs, outShape, dtype, simplyConcat) {
     const outVals = util_exports.getArrayFromDType(dtype, util_exports.sizeFromShape(outShape));
     if (simplyConcat && dtype !== "string") {
@@ -113500,7 +113541,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return outVals;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Equal.js
   var equalImpl = createSimpleBinaryKernelImpl((a, b) => a === b ? 1 : 0);
   var equal2 = binaryKernelFunc(Equal, equalImpl, null, "bool");
   var equalConfig = {
@@ -113509,7 +113550,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: equal2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Exp.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Exp.js
   var expImpl = createSimpleUnaryImpl((xi) => Math.exp(xi));
   var exp3 = unaryKernelFuncFromImpl(Exp, expImpl, "float32");
   var expConfig = {
@@ -113518,7 +113559,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: exp3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Expm1.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Expm1.js
   var expm1Impl = createSimpleUnaryImpl((xi) => Math.expm1(xi));
   var expm12 = unaryKernelFuncFromImpl(Expm1, expm1Impl);
   var expm1Config = {
@@ -113527,7 +113568,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: expm12
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Floor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Floor.js
   var floorImpl = createSimpleUnaryImpl((xi) => Math.floor(xi));
   var floor3 = unaryKernelFuncFromImpl(Floor, floorImpl);
   var floorConfig = {
@@ -113536,7 +113577,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: floor3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FloorDiv.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FloorDiv.js
   var floorDivImpl = createSimpleBinaryKernelImpl((a, b) => Math.floor(a / b));
   var floorDiv2 = binaryKernelFunc(FloorDiv, floorDivImpl, null, "int32");
   var floorDivConfig = {
@@ -113545,7 +113586,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: floorDiv2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GatherNd_Impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GatherNd_Impl.js
   function gatherNdImpl(indicesData, paramsBuf, dtype, numSlices, sliceRank, sliceSize, strides, paramsShape, paramsSize) {
     const outBuf = buffer2([numSlices, sliceSize], dtype);
     for (let i = 0; i < numSlices; i++) {
@@ -113566,7 +113607,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return outBuf;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GatherV2_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GatherV2_impl.js
   function gatherV2Impl(xBuf, indicesBuf, flattenOutputShape) {
     const outBuf = buffer2(flattenOutputShape, xBuf.dtype);
     for (let i = 0; i < outBuf.size; ++i) {
@@ -113584,7 +113625,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return outBuf;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Greater.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Greater.js
   var greaterImpl = createSimpleBinaryKernelImpl((a, b) => a > b ? 1 : 0);
   var greater2 = binaryKernelFunc(Greater, greaterImpl, null, "bool");
   var greaterConfig = {
@@ -113593,7 +113634,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: greater2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GreaterEqual.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GreaterEqual.js
   var greaterEqualImpl = createSimpleBinaryKernelImpl((a, b) => a >= b ? 1 : 0);
   var greaterEqual2 = binaryKernelFunc(GreaterEqual, greaterEqualImpl, null, "bool");
   var greaterEqualConfig = {
@@ -113602,7 +113643,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: greaterEqual2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Less.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Less.js
   var lessImpl = createSimpleBinaryKernelImpl((a, b) => a < b ? 1 : 0);
   var less2 = binaryKernelFunc(Less, lessImpl, null, "bool");
   var lessConfig = {
@@ -113611,7 +113652,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: less2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LessEqual.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LessEqual.js
   var lessEqualImpl = createSimpleBinaryKernelImpl((a, b) => a <= b ? 1 : 0);
   var lessEqual2 = binaryKernelFunc(LessEqual, lessEqualImpl, null, "bool");
   var lessEqualConfig = {
@@ -113620,7 +113661,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: lessEqual2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LinSpace_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LinSpace_impl.js
   function linSpaceImpl(start, stop6, num) {
     const step6 = (stop6 - start) / (num - 1);
     const values = util_exports.makeZerosTypedArray(num, "float32");
@@ -113631,7 +113672,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return values;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Log.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Log.js
   var logImpl = createSimpleUnaryImpl((xi) => Math.log(xi));
   var log4 = unaryKernelFuncFromImpl(Log, logImpl);
   var logConfig = {
@@ -113640,7 +113681,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: log4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max_impl.js
   function maxImpl(aVals, reduceSize, outShape, dtype) {
     const vals = util_exports.getTypedArrayFromDType(dtype, util_exports.sizeFromShape(outShape));
     for (let i = 0; i < vals.length; ++i) {
@@ -113657,7 +113698,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return vals;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Maximum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Maximum.js
   var maximumImpl = createSimpleBinaryKernelImpl((aValue, bValue) => Math.max(aValue, bValue));
   var maximum2 = binaryKernelFunc(Maximum, maximumImpl);
   var maximumConfig = {
@@ -113666,7 +113707,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: maximum2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Minimum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Minimum.js
   var minimumImpl = createSimpleBinaryKernelImpl((aValue, bValue) => Math.min(aValue, bValue));
   var minimum2 = binaryKernelFunc(Minimum, minimumImpl);
   var minimumConfig = {
@@ -113675,7 +113716,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: minimum2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Multiply.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Multiply.js
   var multiplyImpl = createSimpleBinaryKernelImpl((aValue, bValue) => aValue * bValue);
   var multiplyComplexImpl = createComplexBinaryKernelImpl((aReal, aImag, bReal, bImag) => {
     return {
@@ -113690,7 +113731,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: multiply2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Neg.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Neg.js
   function negImpl(xVals, xShape, xDtype) {
     const minusOne = util_exports.createScalarValue(-1, xDtype);
     return multiplyImpl([], xShape, minusOne, xVals, xDtype);
@@ -113709,7 +113750,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: neg2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NotEqual.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NotEqual.js
   var notEqualImpl = createSimpleBinaryKernelImpl((a, b) => a !== b ? 1 : 0);
   var notEqual2 = binaryKernelFunc(NotEqual, notEqualImpl, null, "bool");
   var notEqualConfig = {
@@ -113718,7 +113759,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: notEqual2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose_impl.js
   function transposeImpl(xVals, xShape, dtype, perm, newShape) {
     const xRank = xShape.length;
     const xSize = util_exports.sizeFromShape(xShape);
@@ -113737,7 +113778,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return result;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transpose.js
   function transpose3(args) {
     const { inputs, attrs, backend: backend2 } = args;
     const { x: x2 } = inputs;
@@ -113759,7 +113800,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: transpose3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Prod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Prod.js
   function prodImpl(xShape, xDtype, xVals, reductionAxes) {
     const [outShape, reduceShape] = backend_util_exports.computeOutAndReduceShapes(xShape, reductionAxes);
     const outDtype = upcastType(xDtype, "int32");
@@ -113806,7 +113847,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: prod2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedGather_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedGather_impl.js
   function validateIndices(indices, indicesShape, numParams) {
     indices.forEach((index, i) => {
       if (index < 0 || index >= numParams) {
@@ -113933,7 +113974,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return [outputNestedSplits, outputDenseValues[0], outputDenseValues[1]];
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedRange_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedRange_impl.js
   var INT32_MAX = 2147483647;
   function raggedRangeImpl(starts, startsShape, startsDType, limits, limitsShape, deltas, deltasShape) {
     if (startsShape.length > 1) {
@@ -113999,7 +114040,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return [rtNestedSplits, rtDenseValues];
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedTensorToTensor_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedTensorToTensor_impl.js
   var RowPartitionType2 = backend_util_exports.RowPartitionType;
   var RaggedTensorToTensorOp = class _RaggedTensorToTensorOp {
     constructor(shape4, shapeShape, values, valuesShape, valuesDType, defaultValue, defaultValueShape, rowPartitionValues, rowPartitionValuesShapes, rowPartitionTypeStrings) {
@@ -114348,7 +114389,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return new RaggedTensorToTensorOp(shape4, shapesShape, values, valuesShape, valuesDType, defaultValue, defaultValueShape, rowPartitionValues, rowPartitionValuesShapes, rowPartitionTypes).compute();
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Range_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Range_impl.js
   function rangeImpl(start, stop6, step6, dtype) {
     const sameStartStop = start === stop6;
     const increasingRangeNegativeStep = start < stop6 && step6 < 0;
@@ -114368,7 +114409,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return values;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Rsqrt.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Rsqrt.js
   var rsqrtImpl = createSimpleUnaryImpl((xi) => 1 / Math.sqrt(xi));
   var rsqrt2 = unaryKernelFuncFromImpl(Rsqrt, rsqrtImpl);
   var rsqrtConfig = {
@@ -114377,7 +114418,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: rsqrt2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Scatter_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Scatter_impl.js
   function scatterImpl(indices, updates, shape4, outputSize, sliceSize, numUpdates, sliceRank, strides, defaultValue, sumDupeIndices) {
     const flattenShape = [outputSize / sliceSize, sliceSize];
     const indicesData = indices.values;
@@ -114415,7 +114456,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return outBuf;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sigmoid.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sigmoid.js
   var sigmoidImpl = createSimpleUnaryImpl((xi) => 1 / (1 + Math.exp(-xi)));
   var sigmoid2 = unaryKernelFunc(Sigmoid, (xi) => 1 / (1 + Math.exp(-xi)));
   var sigmoidConfig = {
@@ -114424,7 +114465,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sigmoid2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Slice.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Slice.js
   function sliceImpl(vals, begin, size3, shape4, dtype) {
     const isContinous = slice_util_exports.isSliceContinous(shape4, begin, size3);
     const length = util_exports.sizeFromShape(size3);
@@ -114466,7 +114507,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: slice2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseFillEmptyRows_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseFillEmptyRows_impl.js
   function sparseFillEmptyRowsImpl(indices, indicesShape, indicesDType, values, valuesDType, denseShape, defaultValue) {
     const indicesCount = indicesShape[0];
     const denseRows = denseShape[0];
@@ -114562,7 +114603,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseReshape_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseReshape_impl.js
   function sparseReshapeImpl(inputIndices, inputIndicesShape, inputDType, inputShape, targetShape) {
     const denseSize = util_exports.sizeFromShape(inputShape);
     const nnz = inputIndicesShape[0];
@@ -114629,7 +114670,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return [newIndices, [nnz, outputRank], outputShape];
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseSegmentReduction_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseSegmentReduction_impl.js
   function sparseSegmentReductionImpl(input2, inputShape, inputDType, indices, segmentIds, isMean = false, defaultValue = 0) {
     const numIndices = indices.length;
     const inputFlat = [inputShape[0], input2.length / inputShape[0]];
@@ -114701,7 +114742,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return [output2, outputShape];
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sqrt.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sqrt.js
   var sqrtImpl = createSimpleUnaryImpl((xi) => Math.sqrt(xi));
   var sqrt3 = unaryKernelFunc(Sqrt, (xi) => Math.sqrt(xi));
   var sqrtConfig = {
@@ -114710,7 +114751,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sqrt3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SquaredDifference.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SquaredDifference.js
   var squaredDifferenceImpl = createSimpleBinaryKernelImpl((a, b) => {
     const diff5 = a - b;
     return diff5 * diff5;
@@ -114722,7 +114763,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: squaredDifference2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StaticRegexReplace.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StaticRegexReplace.js
   var staticRegexReplaceImpl = createSimpleUnaryImpl((x2, attrs) => {
     const { pattern, replaceGlobal, rewrite } = attrs;
     return x2.replace(new RegExp(pattern, replaceGlobal ? "g" : ""), rewrite);
@@ -114734,7 +114775,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: staticRegexReplace
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StridedSlice_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StridedSlice_impl.js
   function stridedSliceImpl(outShape, xBuf, strides, begin) {
     const outBuf = buffer2(outShape, xBuf.dtype);
     for (let i = 0; i < outBuf.size; i++) {
@@ -114748,12 +114789,12 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return outBuf;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringNGrams_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringNGrams_impl.js
   var StringNGramsOp = class {
-    constructor(separator, nGramWidths, leftPad5, rightPad2, padWidth, preserveShortSequences) {
+    constructor(separator, nGramWidths, leftPad4, rightPad2, padWidth, preserveShortSequences) {
       this.separator = util_exports.encodeString(separator);
       this.nGramWidths = nGramWidths;
-      this.leftPad = util_exports.encodeString(leftPad5);
+      this.leftPad = util_exports.encodeString(leftPad4);
       this.rightPad = util_exports.encodeString(rightPad2);
       this.padWidth = padWidth;
       this.preserveShort = preserveShortSequences;
@@ -114874,11 +114915,11 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
       return [nGrams, nGramsSplits];
     }
   };
-  function stringNGramsImpl(data4, dataSplits, separator, nGramWidths, leftPad5, rightPad2, padWidth, preserveShortSequences) {
-    return new StringNGramsOp(separator, nGramWidths, leftPad5, rightPad2, padWidth, preserveShortSequences).compute(data4, dataSplits);
+  function stringNGramsImpl(data4, dataSplits, separator, nGramWidths, leftPad4, rightPad2, padWidth, preserveShortSequences) {
+    return new StringNGramsOp(separator, nGramWidths, leftPad4, rightPad2, padWidth, preserveShortSequences).compute(data4, dataSplits);
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringSplit_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringSplit_impl.js
   function split3(str, delimiters, skipEmpty, result) {
     if (!str.length) {
       return;
@@ -114945,7 +114986,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return [indices, values, shape4];
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringToHashBucketFast_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringToHashBucketFast_impl.js
   function stringToHashBucketFastImpl(input2, numBuckets) {
     const output2 = util_exports.getArrayFromDType("int32", input2.length);
     for (let i = 0; i < input2.length; ++i) {
@@ -114954,7 +114995,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return output2;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sub.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sub.js
   var subImpl = createSimpleBinaryKernelImpl((aValue, bValue) => aValue - bValue);
   var subComplexImpl = createComplexBinaryKernelImpl((aReal, aImag, bReal, bImag) => {
     return { real: aReal - bReal, imag: aImag - bImag };
@@ -114966,7 +115007,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sub2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Tile_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Tile_impl.js
   function tileImpl(xBuf, reps) {
     const newShape = new Array(xBuf.rank);
     for (let i = 0; i < newShape.length; i++) {
@@ -114985,7 +115026,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return result;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/TopK_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/TopK_impl.js
   var comparePair = (a, b) => {
     const valueDiff = b.value - a.value;
     return valueDiff === 0 ? a.index - b.index : valueDiff;
@@ -115067,7 +115108,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     ];
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Unique_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Unique_impl.js
   function uniqueImpl(values, axis, shape4, dtype) {
     const $axis = util_exports.parseAxisParam(axis, shape4)[0];
     const newShape = [1, shape4[0], 1];
@@ -115125,7 +115166,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/base.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/base.js
   registerBackend(
     "cpu",
     () => new MathBackendCPU(),
@@ -115133,7 +115174,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     /* priority */
   );
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Elu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Elu.js
   var elu3 = unaryKernelFunc(Elu, (xi) => xi >= 0 ? xi : Math.exp(xi) - 1);
   var eluConfig = {
     kernelName: Elu,
@@ -115141,7 +115182,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: elu3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LeakyRelu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LeakyRelu.js
   function leakyRelu2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -115161,7 +115202,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: leakyRelu2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Prelu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Prelu.js
   var preluImpl = createSimpleBinaryKernelImpl((xValue, aValue) => xValue < 0 ? aValue * xValue : xValue);
   function prelu2(args) {
     const { inputs, backend: backend2 } = args;
@@ -115178,7 +115219,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: prelu2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Relu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Relu.js
   var relu2 = unaryKernelFunc(Relu, (xi) => Math.max(0, xi));
   var reluConfig = {
     kernelName: Relu,
@@ -115186,7 +115227,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: relu2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Relu6.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Relu6.js
   var relu62 = unaryKernelFunc(Relu6, (xi) => Math.min(Math.max(0, xi), 6));
   var relu6Config = {
     kernelName: Relu6,
@@ -115194,7 +115235,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: relu62
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/fused_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/fused_utils.js
   function applyActivation2(backend2, x2, activation, preluActivationWeights, leakyreluAlpha) {
     if (activation === "linear") {
       return identity2({ inputs: { x: x2 }, backend: backend2 });
@@ -115214,7 +115255,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     throw new Error(`Activation ${activation} has not been implemented for the CPU backend.`);
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Reshape.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Reshape.js
   function reshape3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -115239,7 +115280,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: reshape3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BatchMatMul.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BatchMatMul.js
   function batchMatMul(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { a, b } = inputs;
@@ -115316,7 +115357,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: batchMatMul
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/_FusedMatMul.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/_FusedMatMul.js
   function _fusedMatMul(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { a, b, bias, preluActivationWeights } = inputs;
@@ -115348,7 +115389,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: _fusedMatMul
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Acos.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Acos.js
   var acos2 = unaryKernelFunc(Acos, (xi) => Math.acos(xi));
   var acosConfig = {
     kernelName: Acos,
@@ -115356,7 +115397,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: acos2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Acosh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Acosh.js
   var acosh2 = unaryKernelFunc(Acosh, (xi) => Math.acosh(xi));
   var acoshConfig = {
     kernelName: Acosh,
@@ -115364,7 +115405,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: acosh2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AddN.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AddN.js
   function addN(args) {
     const { inputs, backend: backend2 } = args;
     const tensors = inputs;
@@ -115386,7 +115427,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: addN
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/All.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/All.js
   function all2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -115432,7 +115473,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: all2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Any.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Any.js
   function any2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -115478,7 +115519,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: any2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ArgMax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ArgMax.js
   function argMax2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -115522,7 +115563,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: argMax2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ArgMin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ArgMin.js
   function argMin2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -115566,7 +115607,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: argMin2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Asin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Asin.js
   var asin2 = unaryKernelFunc(Asin, (xi) => Math.asin(xi));
   var asinConfig = {
     kernelName: Asin,
@@ -115574,7 +115615,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: asin2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Asinh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Asinh.js
   var asinh2 = unaryKernelFunc(Asinh, (xi) => Math.asinh(xi));
   var asinhConfig = {
     kernelName: Asinh,
@@ -115582,7 +115623,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: asinh2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Atan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Atan.js
   var atan3 = unaryKernelFunc(Atan, (xi) => Math.atan(xi));
   var atanConfig = {
     kernelName: Atan,
@@ -115590,7 +115631,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: atan3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Atan2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Atan2.js
   var atan2Impl = createSimpleBinaryKernelImpl((aValue, bValue) => Math.atan2(aValue, bValue));
   var atan22 = binaryKernelFunc(Atan2, atan2Impl);
   var atan2Config = {
@@ -115599,7 +115640,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: atan22
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Atanh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Atanh.js
   var atanh2 = unaryKernelFunc(Atanh, (xi) => Math.atanh(xi));
   var atanhConfig = {
     kernelName: Atanh,
@@ -115607,7 +115648,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: atanh2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/pool_utils.js
   function pool2(xValues, xShape, dtype, strides, convInfo, poolType) {
     const strideHeight = convInfo.strideHeight;
     const strideWidth = convInfo.strideWidth;
@@ -115861,7 +115902,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return maxPositions;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AvgPool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AvgPool.js
   function avgPool2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -115887,7 +115928,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: avgPool2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AvgPool3D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AvgPool3D.js
   function avgPool3D(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -115904,7 +115945,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: avgPool3D
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AvgPool3DGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AvgPool3DGrad.js
   function avgPool3DGrad(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, input: input2 } = inputs;
@@ -115972,7 +116013,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: avgPool3DGrad
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AvgPoolGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/AvgPoolGrad.js
   function avgPoolGrad2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, input: input2 } = inputs;
@@ -116028,7 +116069,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: avgPoolGrad2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BatchNorm.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BatchNorm.js
   function batchNorm2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, scale: scale6, offset, mean: mean8, variance: variance4 } = inputs;
@@ -116077,7 +116118,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: batchNorm2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BatchToSpaceND.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BatchToSpaceND.js
   function batchToSpaceND2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -116108,7 +116149,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: batchToSpaceND2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Bincount.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Bincount.js
   function bincount2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, weights } = inputs;
@@ -116124,7 +116165,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: bincount2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BroadcastArgs.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/BroadcastArgs.js
   function broadcastArgs(args) {
     const { inputs, backend: backend2 } = args;
     const { s0, s1 } = inputs;
@@ -116139,7 +116180,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: broadcastArgs
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ClipByValue.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ClipByValue.js
   var clipByValue2 = unaryKernelFunc(ClipByValue, (xi, attrs) => {
     const clipAttrs = attrs;
     if (xi > clipAttrs.clipValueMax) {
@@ -116153,7 +116194,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: clipByValue2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ComplexAbs.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ComplexAbs.js
   var complexAbs = (args) => {
     const { x: x2 } = args.inputs;
     const cpuBackend = args.backend;
@@ -116176,7 +116217,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: complexAbs
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Imag.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Imag.js
   function imag2(args) {
     const { inputs, backend: backend2 } = args;
     const { input: input2 } = inputs;
@@ -116190,7 +116231,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: imag2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Concat.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Concat.js
   function concat2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { axis } = attrs;
@@ -116243,7 +116284,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: concat2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv2D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv2D.js
   function conv2D(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5 } = inputs;
@@ -116316,7 +116357,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: conv2D
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv2DBackpropFilter.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv2DBackpropFilter.js
   function conv2DBackpropFilter2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, dy } = inputs;
@@ -116327,7 +116368,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     const { strideHeight, strideWidth, filterHeight, filterWidth } = convInfo;
     const isChannelsLast = convInfo.dataFormat === "channelsLast";
     const dW = new TensorBuffer(convInfo.filterShape, "float32");
-    const leftPad5 = convInfo.padInfo.left;
+    const leftPad4 = convInfo.padInfo.left;
     const topPad = convInfo.padInfo.top;
     const xVals = backend2.data.get(x2.dataId).values;
     const dyVals = backend2.data.get(dy.dataId).values;
@@ -116337,8 +116378,8 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
       const yRMin = Math.max(0, Math.ceil((topPad - wR) / strideHeight));
       const yRMax = Math.min(convInfo.outHeight, (convInfo.inHeight + topPad - wR) / strideHeight);
       for (let wC = 0; wC < filterWidth; ++wC) {
-        const yCMin = Math.max(0, Math.ceil((leftPad5 - wC) / strideWidth));
-        const yCMax = Math.min(convInfo.outWidth, (convInfo.inWidth + leftPad5 - wC) / strideWidth);
+        const yCMin = Math.max(0, Math.ceil((leftPad4 - wC) / strideWidth));
+        const yCMax = Math.min(convInfo.outWidth, (convInfo.inWidth + leftPad4 - wC) / strideWidth);
         for (let d1 = 0; d1 < convInfo.inChannels; ++d1) {
           for (let d2 = 0; d2 < convInfo.outChannels; ++d2) {
             let dotProd = 0;
@@ -116346,7 +116387,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
               for (let yR = yRMin; yR < yRMax; ++yR) {
                 const xR = wR + yR * strideHeight - topPad;
                 for (let yC = yCMin; yC < yCMax; ++yC) {
-                  const xC = wC + yC * strideWidth - leftPad5;
+                  const xC = wC + yC * strideWidth - leftPad4;
                   if (isChannelsLast) {
                     dotProd += xBuf.get(b, xR, xC, d1) * dyBuf.get(b, yR, yC, d2);
                   } else {
@@ -116368,7 +116409,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: conv2DBackpropFilter2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv2DBackpropInput.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv2DBackpropInput.js
   function conv2DBackpropInput2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, filter: filter5 } = inputs;
@@ -116386,7 +116427,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     const { batchSize, filterHeight, filterWidth, inChannels, inHeight, inWidth, outChannels, outHeight, outWidth, strideHeight, strideWidth } = convInfo;
     $dataFormat = convInfo.dataFormat;
     const topPad = filterHeight - 1 - convInfo.padInfo.top;
-    const leftPad5 = filterWidth - 1 - convInfo.padInfo.left;
+    const leftPad4 = filterWidth - 1 - convInfo.padInfo.left;
     const isChannelsLast = $dataFormat === "channelsLast";
     const xBatchStride = dx.strides[0];
     const xRowStride = isChannelsLast ? dx.strides[1] : dx.strides[2];
@@ -116403,7 +116444,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
           const xRMin = Math.max(0, Math.ceil(xRCorner / strideHeight));
           const yRMax = Math.min(outHeight, (filterHeight + xRCorner) / strideHeight);
           for (let xC = 0; xC < inWidth; ++xC) {
-            const xCCorner = xC - leftPad5;
+            const xCCorner = xC - leftPad4;
             const xCMin = Math.max(0, Math.ceil(xCCorner / strideWidth));
             const yCMax = Math.min(outWidth, (filterWidth + xCCorner) / strideWidth);
             let dotProd = 0;
@@ -116434,7 +116475,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: conv2DBackpropInput2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv3D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv3D.js
   function conv3D(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5 } = inputs;
@@ -116507,7 +116548,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: conv3D
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv3DBackpropFilterV2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv3DBackpropFilterV2.js
   function conv3DBackpropFilterV2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, dy } = inputs;
@@ -116530,7 +116571,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     const xValues = backend2.data.get(x2.dataId).values;
     const [xS0, xS1, xS2, xS3] = xStrides;
     const frontPad = convInfo.padInfo.front;
-    const leftPad5 = convInfo.padInfo.left;
+    const leftPad4 = convInfo.padInfo.left;
     const topPad = convInfo.padInfo.top;
     for (let wF = 0; wF < filterDepth; ++wF) {
       const yFMin = Math.max(0, Math.ceil((frontPad - wF) / strideDepth));
@@ -116541,8 +116582,8 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
         const yRMax = Math.min(convInfo.outHeight, (convInfo.inHeight + topPad - wR) / strideHeight);
         const wOffset2 = wR * dwS1 + wOffset1;
         for (let wC = 0; wC < filterWidth; ++wC) {
-          const yCMin = Math.max(0, Math.ceil((leftPad5 - wC) / strideWidth));
-          const yCMax = Math.min(convInfo.outWidth, (convInfo.inWidth + leftPad5 - wC) / strideWidth);
+          const yCMin = Math.max(0, Math.ceil((leftPad4 - wC) / strideWidth));
+          const yCMax = Math.min(convInfo.outWidth, (convInfo.inWidth + leftPad4 - wC) / strideWidth);
           const wOffset3 = wC * dwS2 + wOffset2;
           for (let d1 = 0; d1 < convInfo.inChannels; ++d1) {
             const wOffset4 = d1 * dwS3 + wOffset3;
@@ -116560,7 +116601,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
                     const xOffset3 = xR * xS2 + xOffset2;
                     const yOffset3 = yR * dyS2 + yOffset2;
                     for (let yC = yCMin; yC < yCMax; ++yC) {
-                      const xC = wC + yC * strideWidth - leftPad5;
+                      const xC = wC + yC * strideWidth - leftPad4;
                       const xOffset4 = xC * xS3 + xOffset3;
                       const yOffset4 = yC * dyS3 + yOffset3;
                       dotProd += xValues[xOffset4 + d1] * dyValues[yOffset4 + d2];
@@ -116582,7 +116623,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: conv3DBackpropFilterV2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv3DBackpropInputV2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Conv3DBackpropInputV2.js
   function conv3DBackpropInputV2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, filter: filter5 } = inputs;
@@ -116601,7 +116642,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     const { batchSize, filterDepth, filterHeight, filterWidth, inChannels, inDepth, inHeight, inWidth, outChannels, outDepth, outHeight, outWidth, strideDepth, strideHeight, strideWidth } = convInfo;
     const frontPad = filterDepth - 1 - convInfo.padInfo.front;
     const topPad = filterHeight - 1 - convInfo.padInfo.top;
-    const leftPad5 = filterWidth - 1 - convInfo.padInfo.left;
+    const leftPad4 = filterWidth - 1 - convInfo.padInfo.left;
     for (let b = 0; b < batchSize; ++b) {
       for (let d1 = 0; d1 < inChannels; ++d1) {
         for (let xF = 0; xF < inDepth; ++xF) {
@@ -116613,7 +116654,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
             const xRMin = Math.max(0, Math.ceil(xRCorner / strideHeight));
             const yRMax = Math.min(outHeight, (filterHeight + xRCorner) / strideHeight);
             for (let xC = 0; xC < inWidth; ++xC) {
-              const xCCorner = xC - leftPad5;
+              const xCCorner = xC - leftPad4;
               const xCMin = Math.max(0, Math.ceil(xCCorner / strideWidth));
               const yCMax = Math.min(outWidth, (filterWidth + xCCorner) / strideWidth);
               let dotProd = 0;
@@ -116647,7 +116688,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: conv3DBackpropInputV2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cos.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cos.js
   var cos3 = unaryKernelFunc(Cos, (xi) => Math.cos(xi));
   var cosConfig = {
     kernelName: Cos,
@@ -116655,7 +116696,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: cos3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cosh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cosh.js
   var cosh2 = unaryKernelFunc(Cosh, (xi) => Math.cosh(xi));
   var coshConfig = {
     kernelName: Cosh,
@@ -116663,7 +116704,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: cosh2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/CropAndResize.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/CropAndResize.js
   function cropAndResize3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { image: image2, boxes, boxInd } = inputs;
@@ -116760,7 +116801,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: cropAndResize3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cumprod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cumprod.js
   function cumprod2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -116807,7 +116848,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: cumprod2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cumsum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Cumsum.js
   function cumsum2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -116854,7 +116895,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: cumsum2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DenseBincount.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DenseBincount.js
   function denseBincount2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, weights } = inputs;
@@ -116878,7 +116919,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: denseBincount2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DepthToSpace.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DepthToSpace.js
   function depthToSpace2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -116918,7 +116959,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: depthToSpace2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DepthwiseConv2dNative.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DepthwiseConv2dNative.js
   function depthwiseConv2dNative(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5 } = inputs;
@@ -116995,7 +117036,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: depthwiseConv2dNative
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DepthwiseConv2dNativeBackpropFilter.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DepthwiseConv2dNativeBackpropFilter.js
   function depthwiseConv2dNativeBackpropFilter2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, dy } = inputs;
@@ -117013,7 +117054,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     );
     const { strideHeight, strideWidth, filterHeight, filterWidth } = convInfo;
     const dW = new TensorBuffer(convInfo.filterShape, "float32");
-    const leftPad5 = convInfo.padInfo.left;
+    const leftPad4 = convInfo.padInfo.left;
     const topPad = convInfo.padInfo.top;
     const chMul = convInfo.outChannels / convInfo.inChannels;
     const xVals = backend2.data.get(x2.dataId).values;
@@ -117024,8 +117065,8 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
       const yRMin = Math.max(0, Math.ceil((topPad - wR) / strideHeight));
       const yRMax = Math.min(convInfo.outHeight, (convInfo.inHeight + topPad - wR) / strideHeight);
       for (let wC = 0; wC < filterWidth; ++wC) {
-        const yCMin = Math.max(0, Math.ceil((leftPad5 - wC) / strideWidth));
-        const yCMax = Math.min(convInfo.outWidth, (convInfo.inWidth + leftPad5 - wC) / strideWidth);
+        const yCMin = Math.max(0, Math.ceil((leftPad4 - wC) / strideWidth));
+        const yCMax = Math.min(convInfo.outWidth, (convInfo.inWidth + leftPad4 - wC) / strideWidth);
         for (let d2 = 0; d2 < convInfo.outChannels; ++d2) {
           const d1 = Math.trunc(d2 / chMul);
           const dm = d2 % chMul;
@@ -117034,7 +117075,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
             for (let yR = yRMin; yR < yRMax; ++yR) {
               const xR = wR + yR * strideHeight - topPad;
               for (let yC = yCMin; yC < yCMax; ++yC) {
-                const xC = wC + yC * strideWidth - leftPad5;
+                const xC = wC + yC * strideWidth - leftPad4;
                 dotProd += xBuf.get(b, xR, xC, d1) * dyBuf.get(b, yR, yC, d2);
               }
             }
@@ -117051,7 +117092,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: depthwiseConv2dNativeBackpropFilter2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DepthwiseConv2dNativeBackpropInput.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/DepthwiseConv2dNativeBackpropInput.js
   function depthwiseConv2dNativeBackpropInput2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, filter: filter5 } = inputs;
@@ -117078,7 +117119,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     const [fltS0, fltS1, fltS2] = filterStrides;
     const { batchSize, filterHeight, filterWidth, inChannels, inHeight, inWidth, outChannels, outHeight, outWidth, strideHeight, strideWidth } = convInfo;
     const topPad = filterHeight - 1 - convInfo.padInfo.top;
-    const leftPad5 = filterWidth - 1 - convInfo.padInfo.left;
+    const leftPad4 = filterWidth - 1 - convInfo.padInfo.left;
     const chMul = outChannels / inChannels;
     for (let b = 0; b < batchSize; ++b) {
       for (let d1 = 0; d1 < inChannels; ++d1) {
@@ -117087,7 +117128,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
           const xRMin = Math.max(0, Math.ceil(xRCorner / strideHeight));
           const yRMax = Math.min(outHeight, (filterHeight + xRCorner) / strideHeight);
           for (let xC = 0; xC < inWidth; ++xC) {
-            const xCCorner = xC - leftPad5;
+            const xCCorner = xC - leftPad4;
             const xCMin = Math.max(0, Math.ceil(xCCorner / strideWidth));
             const yCMax = Math.min(outWidth, (filterWidth + xCCorner) / strideWidth);
             let dotProd = 0;
@@ -117118,7 +117159,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: depthwiseConv2dNativeBackpropInput2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Diag.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Diag.js
   function diag2(args) {
     const { inputs, backend: backend2 } = args;
     const { x: x2 } = inputs;
@@ -117138,7 +117179,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: diag2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Dilation2D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Dilation2D.js
   var dilation2DConfig = {
     kernelName: Dilation2D,
     backendName: "cpu",
@@ -117188,7 +117229,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Dilation2DBackpropFilter.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Dilation2DBackpropFilter.js
   var dilation2DBackpropFilterConfig = {
     kernelName: Dilation2DBackpropFilter,
     backendName: "cpu",
@@ -117237,7 +117278,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Dilation2DBackpropInput.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Dilation2DBackpropInput.js
   var dilation2DBackpropInputConfig = {
     kernelName: Dilation2DBackpropInput,
     backendName: "cpu",
@@ -117286,7 +117327,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Draw.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Draw.js
   function draw(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { image: image2 } = inputs;
@@ -117345,7 +117386,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: draw
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sum.js
   function sum4(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -117399,7 +117440,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sum4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Einsum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Einsum.js
   function einsum2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { equation } = attrs;
@@ -117465,7 +117506,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: einsum2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/EluGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/EluGrad.js
   function eluGrad(args) {
     const { inputs, backend: backend2 } = args;
     const { dy, y: y2 } = inputs;
@@ -117489,7 +117530,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: eluGrad
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Erf.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Erf.js
   var p2 = backend_util_exports.ERF_P;
   var a1 = backend_util_exports.ERF_A1;
   var a2 = backend_util_exports.ERF_A2;
@@ -117508,7 +117549,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: erf2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ExpandDims.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ExpandDims.js
   function expandDims3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { input: input2 } = inputs;
@@ -117529,7 +117570,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: expandDims3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RealDiv.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RealDiv.js
   var realDivImpl = createSimpleBinaryKernelImpl((a, b) => a / b);
   var div2 = binaryKernelFunc(RealDiv, realDivImpl);
   var realDivConfig = {
@@ -117538,7 +117579,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: div2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/fft_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/utils/fft_utils.js
   function fftBatch(input2, inverse5, cpuBackend) {
     const inputShape = input2.shape;
     const batch3 = inputShape[0];
@@ -117728,7 +117769,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return ret;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FFT.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FFT.js
   function fft2(args) {
     const { inputs, backend: backend2 } = args;
     const { input: input2 } = inputs;
@@ -117752,7 +117793,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: fft2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Fill.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Fill.js
   function fill2(args) {
     const { backend: backend2, attrs } = args;
     const { shape: shape4, value, dtype } = attrs;
@@ -117774,7 +117815,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FlipLeftRight.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FlipLeftRight.js
   var flipLeftRightConfig = {
     kernelName: FlipLeftRight,
     backendName: "cpu",
@@ -117809,7 +117850,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FusedConv2D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FusedConv2D.js
   function fusedConv2D(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5, bias, preluActivationWeights } = inputs;
@@ -117853,7 +117894,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: fusedConv2D
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FusedDepthwiseConv2D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/FusedDepthwiseConv2D.js
   function fusedDepthwiseConv2D(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5, bias, preluActivationWeights } = inputs;
@@ -117881,7 +117922,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: fusedDepthwiseConv2D
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GatherNd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GatherNd.js
   function gatherNd(args) {
     const { inputs, backend: backend2 } = args;
     const { params, indices } = inputs;
@@ -117903,7 +117944,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: gatherNd
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GatherV2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/GatherV2.js
   function gatherV2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, indices } = inputs;
@@ -117958,7 +117999,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: gatherV2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/IFFT.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/IFFT.js
   function ifft2(args) {
     const { inputs, backend: backend2 } = args;
     const { input: input2 } = inputs;
@@ -117982,7 +118023,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: ifft2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/IsFinite.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/IsFinite.js
   var isFinite3 = unaryKernelFunc(IsFinite, (xi) => Number.isFinite(xi) ? 1 : 0, "bool");
   var isFiniteConfig = {
     kernelName: IsFinite,
@@ -117990,7 +118031,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: isFinite3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/IsInf.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/IsInf.js
   var isInf2 = unaryKernelFunc(IsInf, (xi) => Math.abs(xi) === Infinity ? 1 : 0, "bool");
   var isInfConfig = {
     kernelName: IsInf,
@@ -117998,7 +118039,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: isInf2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/IsNaN.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/IsNaN.js
   var isNaN3 = unaryKernelFunc(IsNan, (xi) => Number.isNaN(xi) ? 1 : 0, "bool");
   var isNaNConfig = {
     kernelName: IsNan,
@@ -118006,7 +118047,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: isNaN3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LinSpace.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LinSpace.js
   function linSpace(args) {
     const { backend: backend2, attrs } = args;
     const { start, stop: stop6, num } = attrs;
@@ -118019,7 +118060,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: linSpace
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Log1p.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Log1p.js
   var log1p2 = unaryKernelFunc(Log1p, (xi) => Math.log1p(xi));
   var log1pConfig = {
     kernelName: Log1p,
@@ -118027,7 +118068,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: log1p2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LogicalAnd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LogicalAnd.js
   var logicalAndImpl = createSimpleBinaryKernelImpl((a, b) => a && b);
   var logicalAnd2 = binaryKernelFunc(LogicalAnd, logicalAndImpl, null, "bool");
   var logicalAndConfig = {
@@ -118036,7 +118077,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: logicalAnd2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LogicalNot.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LogicalNot.js
   var logicalNot2 = unaryKernelFunc(LogicalNot, (xi) => xi ? 0 : 1, "bool");
   var logicalNotConfig = {
     kernelName: LogicalNot,
@@ -118044,7 +118085,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: logicalNot2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LogicalOr.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LogicalOr.js
   var logicalOrImpl = createSimpleBinaryKernelImpl((a, b) => a || b);
   var logicalOr2 = binaryKernelFunc(LogicalOr, logicalOrImpl, null, "bool");
   var logicalOrConfig = {
@@ -118053,7 +118094,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: logicalOr2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LRN.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LRN.js
   function lRN(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -118088,7 +118129,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: lRN
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LRNGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/LRNGrad.js
   function lRNGrad(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, y: y2, dy } = inputs;
@@ -118127,7 +118168,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: lRNGrad
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Max.js
   function max4(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -118167,7 +118208,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: max4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPool.js
   function maxPool2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -118193,7 +118234,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: maxPool2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPool3D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPool3D.js
   function maxPool3D(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -118210,7 +118251,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: maxPool3D
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPool3DGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPool3DGrad.js
   function maxPool3DGrad(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, input: input2 } = inputs;
@@ -118282,7 +118323,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: maxPool3DGrad
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolGrad.js
   function maxPoolGrad2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, input: input2, output: output2 } = inputs;
@@ -118343,7 +118384,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: maxPoolGrad2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax_impl.js
   function maxPoolWithArgmaxImpl(xValues, xShape, dtype, includeBatchInIndex, convInfo) {
     const strides = util_exports.computeStrides(xShape);
     const maxPools = pool2(xValues, xShape, dtype, strides, convInfo, "max");
@@ -118351,7 +118392,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return [maxPools.values, maxPositions.values];
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MaxPoolWithArgmax.js
   var maxPoolWithArgmaxConfig = {
     kernelName: MaxPoolWithArgmax,
     backendName: "cpu",
@@ -118372,7 +118413,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Mean.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Mean.js
   function mean3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -118398,7 +118439,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: mean3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Min.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Min.js
   function min4(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -118446,7 +118487,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: min4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MirrorPad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/MirrorPad.js
   function mirrorPad2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -118488,7 +118529,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: mirrorPad2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Mod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Mod.js
   var modImpl = createSimpleBinaryKernelImpl((aValue, bValue) => {
     const rem = aValue % bValue;
     if (aValue < 0 && bValue < 0 || aValue >= 0 && bValue >= 0) {
@@ -118504,10 +118545,10 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: mod3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Multinomial.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Multinomial.js
   var seedrandom4 = __toESM(require_seedrandom2());
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Softmax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Softmax.js
   function softmax2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { logits } = inputs;
@@ -118547,7 +118588,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: softmax2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Multinomial.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Multinomial.js
   function multinomial(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { logits } = inputs;
@@ -118590,7 +118631,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: multinomial
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV3.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV3.js
   var nonMaxSuppressionV3Impl2 = kernel_impls_exports.nonMaxSuppressionV3Impl;
   function nonMaxSuppressionV3(args) {
     const { inputs, backend: backend2, attrs } = args;
@@ -118608,7 +118649,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: nonMaxSuppressionV3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV4.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV4.js
   var nonMaxSuppressionV4Impl2 = kernel_impls_exports.nonMaxSuppressionV4Impl;
   function nonMaxSuppressionV4(args) {
     const { inputs, backend: backend2, attrs } = args;
@@ -118629,7 +118670,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: nonMaxSuppressionV4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV5.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/NonMaxSuppressionV5.js
   var nonMaxSuppressionV5Impl2 = kernel_impls_exports.nonMaxSuppressionV5Impl;
   function nonMaxSuppressionV5(args) {
     const { inputs, backend: backend2, attrs } = args;
@@ -118654,7 +118695,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: nonMaxSuppressionV5
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/OneHot.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/OneHot.js
   function oneHot2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { indices } = inputs;
@@ -118677,7 +118718,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: oneHot2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ZerosLike.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ZerosLike.js
   function zerosLike2(args) {
     const { inputs, backend: backend2 } = args;
     const { x: x2 } = inputs;
@@ -118704,7 +118745,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: zerosLike2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/OnesLike.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/OnesLike.js
   function onesLike2(args) {
     const { inputs, backend: backend2 } = args;
     const { x: x2 } = inputs;
@@ -118731,7 +118772,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: onesLike2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Pack.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Pack.js
   function pack(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { axis } = attrs;
@@ -118760,7 +118801,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: pack
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/PadV2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/PadV2.js
   function padV2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -118797,7 +118838,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: padV2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Pow.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Pow.js
   var powImpl = createSimpleBinaryKernelImpl((a, b) => Math.pow(a, b));
   var pow3 = binaryKernelFunc(Pow, powImpl);
   var powConfig = {
@@ -118806,7 +118847,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: pow3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedGather.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedGather.js
   function raggedGather(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { paramsNestedSplits, paramsDenseValues, indices } = inputs;
@@ -118826,7 +118867,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: raggedGather
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedRange.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedRange.js
   function raggedRange(args) {
     const { inputs, backend: backend2 } = args;
     const { starts, limits, deltas } = inputs;
@@ -118844,7 +118885,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: raggedRange
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedTensorToTensor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RaggedTensorToTensor.js
   function raggedTensorToTensor(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { shape: shape4, values, defaultValue, rowPartitionTensors } = inputs;
@@ -118863,7 +118904,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: raggedTensorToTensor
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Range.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Range.js
   function range5(args) {
     const { backend: backend2, attrs } = args;
     const { start, stop: stop6, dtype, step: step6 } = attrs;
@@ -118876,7 +118917,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: range5
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Reciprocal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Reciprocal.js
   var reciprocal2 = unaryKernelFunc(Reciprocal, (xi) => 1 / xi);
   var reciprocalConfig = {
     kernelName: Reciprocal,
@@ -118884,7 +118925,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: reciprocal2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ResizeBilinear.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ResizeBilinear.js
   function resizeBilinear3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { images } = inputs;
@@ -118954,7 +118995,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: resizeBilinear3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ResizeBilinearGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ResizeBilinearGrad.js
   function resizeBilinearGrad(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { images, dy } = inputs;
@@ -119018,7 +119059,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: resizeBilinearGrad
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ResizeNearestNeighbor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ResizeNearestNeighbor.js
   function resizeNearestNeighbor2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { images } = inputs;
@@ -119071,7 +119112,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: resizeNearestNeighbor2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ResizeNearestNeighborGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ResizeNearestNeighborGrad.js
   function resizeNearestNeighborGrad(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { images, dy } = inputs;
@@ -119146,7 +119187,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: resizeNearestNeighborGrad
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Reverse.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Reverse.js
   function reverse3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -119173,7 +119214,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: reverse3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RotateWithOffset.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/RotateWithOffset.js
   var rotateWithOffsetConfig = {
     kernelName: RotateWithOffset,
     backendName: "cpu",
@@ -119227,7 +119268,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Round.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Round.js
   var round4 = unaryKernelFunc(Round, (xi) => {
     const base = Math.floor(xi);
     if (xi - base < 0.5) {
@@ -119248,7 +119289,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: round4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ScatterNd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/ScatterNd.js
   function scatterNd(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { indices, updates } = inputs;
@@ -119266,7 +119307,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: scatterNd
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SearchSorted_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SearchSorted_impl.js
   function lowerBound(array4, value) {
     let left = 0;
     let right = array4.length;
@@ -119307,7 +119348,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return output2;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SearchSorted.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SearchSorted.js
   function searchSorted(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { sortedSequence, values } = inputs;
@@ -119323,7 +119364,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: searchSorted
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Select.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Select.js
   function select2(args) {
     const { inputs, backend: backend2 } = args;
     const { condition, t, e } = inputs;
@@ -119353,7 +119394,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: select2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Selu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Selu.js
   var scaleAlpha = backend_util_exports.SELU_SCALEALPHA;
   var scale2 = backend_util_exports.SELU_SCALE;
   var selu2 = unaryKernelFunc(Selu, (xi) => {
@@ -119369,7 +119410,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: selu2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sign.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sign.js
   var sign3 = unaryKernelFunc(Sign, (xi) => {
     if (xi < 0) {
       return -1;
@@ -119385,7 +119426,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sign3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sin.js
   var sin3 = unaryKernelFunc(Sin, (xi) => Math.sin(xi));
   var sinConfig = {
     kernelName: Sin,
@@ -119393,7 +119434,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sin3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sinh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Sinh.js
   var sinh2 = unaryKernelFunc(Sinh, (xi) => Math.sinh(xi));
   var sinhConfig = {
     kernelName: Sinh,
@@ -119401,7 +119442,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sinh2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Softplus.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Softplus.js
   var epsilon2 = 11920928955078125e-23;
   var threshold2 = Math.log(epsilon2) + 2;
   var softplus2 = unaryKernelFunc(Softplus, (xi) => {
@@ -119424,7 +119465,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: softplus2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SpaceToBatchND.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SpaceToBatchND.js
   function spaceToBatchND2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -119464,7 +119505,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: spaceToBatchND2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseFillEmptyRows.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseFillEmptyRows.js
   function sparseFillEmptyRows2(args) {
     const { inputs, backend: backend2 } = args;
     const { indices, values, denseShape, defaultValue } = inputs;
@@ -119502,7 +119543,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sparseFillEmptyRows2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseReshape.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseReshape.js
   function sparseReshape2(args) {
     const { inputs, backend: backend2 } = args;
     const { inputIndices, inputShape, newShape } = inputs;
@@ -119532,7 +119573,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sparseReshape2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseSegmentMean.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseSegmentMean.js
   function sparseSegmentMean2(args) {
     const { inputs, backend: backend2 } = args;
     const { data: data4, indices, segmentIds } = inputs;
@@ -119562,7 +119603,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sparseSegmentMean2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseSegmentSum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseSegmentSum.js
   function sparseSegmentSum2(args) {
     const { inputs, backend: backend2 } = args;
     const { data: data4, indices, segmentIds } = inputs;
@@ -119592,7 +119633,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sparseSegmentSum2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseToDense.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SparseToDense.js
   function sparseToDense(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { sparseIndices, sparseValues, defaultValue } = inputs;
@@ -119637,7 +119678,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: sparseToDense
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SplitV.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/SplitV.js
   function splitV(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -119660,7 +119701,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: splitV
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Square.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Square.js
   var squareConfig = {
     kernelName: Square,
     backendName: "cpu",
@@ -119679,7 +119720,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Step.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Step.js
   var step2 = unaryKernelFunc(Step, (xi, attrs) => {
     const stepAttrs = attrs;
     if (isNaN(xi)) {
@@ -119694,7 +119735,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: step2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StridedSlice.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StridedSlice.js
   function stridedSlice2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -119723,14 +119764,14 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: stridedSlice2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringNGrams.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringNGrams.js
   function stringNGrams(args) {
     const { inputs, backend: backend2, attrs } = args;
-    const { separator, nGramWidths, leftPad: leftPad5, rightPad: rightPad2, padWidth, preserveShortSequences } = attrs;
+    const { separator, nGramWidths, leftPad: leftPad4, rightPad: rightPad2, padWidth, preserveShortSequences } = attrs;
     const { data: data4, dataSplits } = inputs;
     const $data = backend2.data.get(data4.dataId).values;
     const $dataSplits = backend2.data.get(dataSplits.dataId).values;
-    const [nGrams, nGramsSplits] = stringNGramsImpl($data, $dataSplits, separator, nGramWidths, leftPad5, rightPad2, padWidth, preserveShortSequences);
+    const [nGrams, nGramsSplits] = stringNGramsImpl($data, $dataSplits, separator, nGramWidths, leftPad4, rightPad2, padWidth, preserveShortSequences);
     return [
       backend2.makeTensorInfo([nGrams.length], "string", nGrams),
       backend2.makeTensorInfo(dataSplits.shape, "int32", nGramsSplits)
@@ -119742,7 +119783,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: stringNGrams
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringSplit.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringSplit.js
   function stringSplit(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { skipEmpty } = attrs;
@@ -119772,7 +119813,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: stringSplit
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringToHashBucketFast.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/StringToHashBucketFast.js
   function stringToHashBucketFast(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { numBuckets } = attrs;
@@ -119793,7 +119834,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: stringToHashBucketFast
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Tan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Tan.js
   var tan3 = unaryKernelFunc(Tan, (xi) => Math.tan(xi));
   var tanConfig = {
     kernelName: Tan,
@@ -119801,7 +119842,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: tan3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Tanh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Tanh.js
   var tanh3 = unaryKernelFunc(Tanh, (xi) => Math.tanh(xi));
   var tanhConfig = {
     kernelName: Tanh,
@@ -119809,7 +119850,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: tanh3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/TensorScatterUpdate.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/TensorScatterUpdate.js
   function tensorScatterUpdate(args) {
     const { inputs, backend: backend2 } = args;
     const { tensor: tensor2, indices, updates } = inputs;
@@ -119827,7 +119868,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: tensorScatterUpdate
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Tile.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Tile.js
   function tile3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -119842,7 +119883,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: tile3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/TopK.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/TopK.js
   function topK(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -119861,7 +119902,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: topK
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transform.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Transform.js
   function transform3(args) {
     const { inputs, attrs, backend: backend2 } = args;
     const { image: image2, transforms } = inputs;
@@ -120006,7 +120047,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return (yCeil - y2) * valueYFloor + (y2 - yFloor) * valueYCeil;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Unique.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Unique.js
   function unique3(args) {
     const { inputs, attrs, backend: backend2 } = args;
     const { axis } = attrs;
@@ -120025,7 +120066,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: unique3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Unpack.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/Unpack.js
   function unpack(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { value } = inputs;
@@ -120060,7 +120101,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: unpack
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/UnsortedSegmentSum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/kernels/UnsortedSegmentSum.js
   function unsortedSegmentSum2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, segmentIds } = inputs;
@@ -120101,7 +120142,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     kernelFunc: unsortedSegmentSum2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-cpu/dist/register_all_kernels.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-cpu@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-cpu/dist/register_all_kernels.js
   var kernelConfigs = [
     _fusedMatMulConfig,
     absConfig,
@@ -120280,7 +120321,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     registerKernel(kernelConfig);
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/canvas_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/canvas_util.js
   var contexts = {};
   var WEBGL_ATTRIBUTES = {
     alpha: false,
@@ -120350,7 +120391,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     return canvas.getContext("webgl2", WEBGL_ATTRIBUTES);
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/tex_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/tex_util.js
   var PackingScheme;
   (function(PackingScheme2) {
     PackingScheme2[PackingScheme2["DENSE"] = 0] = "DENSE";
@@ -120441,7 +120482,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/webgl_util.js
   function callAndCheck(gl, func2) {
     const returnValue = func2();
     if (env().getBool("DEBUG")) {
@@ -120890,7 +120931,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     });
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/flags_webgl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/flags_webgl.js
   var ENV5 = env();
   ENV5.registerFlag("HAS_WEBGL", () => ENV5.getNumber("WEBGL_VERSION") > 0);
   ENV5.registerFlag("WEBGL_VERSION", () => {
@@ -120968,7 +121009,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   ENV5.registerFlag("WEBGL2_ISNAN_CUSTOM", () => false);
   ENV5.registerFlag("ENGINE_COMPILE_ONLY", () => false);
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/glsl_version.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/glsl_version.js
   function getGlslDifferences() {
     let version10;
     let attribute;
@@ -121063,7 +121104,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
     };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/shader_compiler_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/shader_compiler_util.js
   function getLogicalCoordinatesFromFlatIndex(coords2, shape4, index = "index") {
     const strides = util_exports.computeStrides(shape4);
     return strides.map((stride, i) => {
@@ -121155,7 +121196,7 @@ Manifest JSON has weights with names: ${allManifestWeightNames.join(", ")}.`);
   }
 `;
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/shader_compiler.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/shader_compiler.js
   var { getBroadcastDims: getBroadcastDims2 } = backend_util_exports;
   function makeShader(inputsInfo, outputShape, program) {
     const prefixSnippets = [];
@@ -122743,7 +122784,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return keptDims.map((d) => params[d]).join(", ");
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_math.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_math.js
   function compileProgram(gpgpu, program, inputs, output2) {
     const inputInfos = inputs.map((input2, i) => {
       const shapeInfo = {
@@ -123034,7 +123075,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return env().getBool("WEBGL_USE_SHAPES_UNIFORMS") && rank <= 4;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/decode_matrix_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/decode_matrix_gpu.js
   var DecodeMatrixProgram = class {
     constructor(outputShape) {
       this.variableNames = ["A"];
@@ -123069,7 +123110,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/decode_matrix_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/decode_matrix_packed_gpu.js
   var DecodeMatrixPackedProgram = class {
     constructor(outputShape) {
       this.variableNames = ["A"];
@@ -123104,7 +123145,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_float_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_float_gpu.js
   var EncodeFloatProgram = class {
     constructor(outputShape) {
       this.variableNames = ["A"];
@@ -123122,7 +123163,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_float_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_float_packed_gpu.js
   var EncodeFloatPackedProgram = class {
     constructor(outputShape) {
       this.variableNames = ["A"];
@@ -123143,7 +123184,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_matrix_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_matrix_gpu.js
   var CHANNEL_CHAR_TO_INDEX_MAP = {
     "R": 0,
     "G": 1,
@@ -123193,7 +123234,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_matrix_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/encode_matrix_packed_gpu.js
   var EncodeMatrixPackedProgram = class {
     constructor(outputShape, inputIsUnsignedByte = false) {
       this.variableNames = ["A"];
@@ -123262,7 +123303,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_util.js
   function createVertexShader2(gl) {
     const glsl = getGlslDifferences();
     const vertexShaderSource = `${glsl.version}
@@ -123422,7 +123463,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return packedRGBA;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_context.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/gpgpu_context.js
   var GPGPUContext = class {
     constructor(gl) {
       this.outputTexture = null;
@@ -123866,10 +123907,10 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return i - 1;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/shared.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/shared.js
   var { addImpl: addImplCPU, bincountImpl: bincountImplCPU, bincountReduceImpl: bincountReduceImplCPU, bitwiseAndImpl: bitwiseAndImplCPU, castImpl: castImplCPU, ceilImpl: ceilImplCPU, concatImpl: concatImplCPU, equalImpl: equalImplCPU, expImpl: expImplCPU, expm1Impl: expm1ImplCPU, floorImpl: floorImplCPU, gatherNdImpl: gatherNdImplCPU, gatherV2Impl: gatherV2ImplCPU, greaterImpl: greaterImplCPU, greaterEqualImpl: greaterEqualImplCPU, lessImpl: lessImplCPU, lessEqualImpl: lessEqualImplCPU, linSpaceImpl: linSpaceImplCPU, logImpl: logImplCPU, maxImpl: maxImplCPU, maximumImpl: maximumImplCPU, minimumImpl: minimumImplCPU, multiplyImpl: multiplyImplCPU, negImpl: negImplCPU, notEqualImpl: notEqualImplCPU, prodImpl: prodImplCPU, raggedGatherImpl: raggedGatherImplCPU, raggedRangeImpl: raggedRangeImplCPU, raggedTensorToTensorImpl: raggedTensorToTensorImplCPU, rangeImpl: rangeImplCPU, rsqrtImpl: rsqrtImplCPU, scatterImpl: scatterImplCPU, sigmoidImpl: sigmoidImplCPU, simpleAbsImpl: simpleAbsImplCPU, sliceImpl: sliceImplCPU, sparseFillEmptyRowsImpl: sparseFillEmptyRowsImplCPU, sparseReshapeImpl: sparseReshapeImplCPU, sparseSegmentReductionImpl: sparseSegmentReductionImplCPU, sqrtImpl: sqrtImplCPU, staticRegexReplaceImpl: staticRegexReplaceImplCPU, stridedSliceImpl: stridedSliceImplCPU, stringNGramsImpl: stringNGramsImplCPU, stringSplitImpl: stringSplitImplCPU, stringToHashBucketFastImpl: stringToHashBucketFastImplCPU, subImpl: subImplCPU, tileImpl: tileImplCPU, topKImpl: topKImplCPU, transposeImpl: transposeImplCPU, uniqueImpl: uniqueImplCPU } = shared_exports;
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/packing_util.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/packing_util.js
   function getVecChannels(name, rank) {
     return ["x", "y", "z", "w", "u", "v"].slice(0, rank).map((d) => `${name}.${d}`);
   }
@@ -123893,7 +123934,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return coords2;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/pack_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/pack_gpu.js
   var PackProgram = class {
     constructor(outputShape) {
       this.variableNames = ["A"];
@@ -123985,7 +124026,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/reshape_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/reshape_packed_gpu.js
   var ReshapePackedProgram = class {
     constructor(outputShape, inputShape) {
       this.variableNames = ["A"];
@@ -124046,7 +124087,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
   `;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/texture_manager.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/texture_manager.js
   var TextureManager = class {
     constructor(gpgpu) {
       this.gpgpu = gpgpu;
@@ -124240,7 +124281,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return `${shapeRowsCol[0]}_${shapeRowsCol[1]}_${physicalTexType}_${isPacked}`;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/unaryop_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/unaryop_gpu.js
   var UnaryOpProgram = class {
     constructor(aShape, opSnippet) {
       this.variableNames = ["A"];
@@ -124273,7 +124314,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
   var CLONE = "return x;";
   var SIGMOID = `return 1.0 / (1.0 + exp(-1.0 * x));`;
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/unaryop_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/unaryop_packed_gpu.js
   var LINEAR2 = `return x;`;
   var ELU3 = `
   vec4 result;
@@ -124330,7 +124371,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/unpack_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/unpack_gpu.js
   var UnpackProgram = class {
     constructor(outputShape) {
       this.variableNames = ["A"];
@@ -124355,7 +124396,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/backend_webgl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/backend_webgl.js
   var whereImpl3 = kernel_impls_exports.whereImpl;
   var EPSILON_FLOAT322 = 1e-7;
   var EPSILON_FLOAT162 = 1e-4;
@@ -125230,7 +125271,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/base.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/base.js
   if (device_util_exports.isBrowser()) {
     registerBackend(
       "webgl",
@@ -125240,7 +125281,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     );
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_gpu.js
   var CHECK_NAN_SNIPPET2 = `
   if (isnan(a)) return a;
   if (isnan(b)) return b;
@@ -125264,7 +125305,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_packed_gpu.js
   var CHECK_NAN_SNIPPET_PACKED = `
   result.r = isNaN.r ? NAN : result.r;
   result.g = isNaN.g ? NAN : result.g;
@@ -125351,7 +125392,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Identity.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Identity.js
   function identity3(args) {
     const { inputs, backend: backend2 } = args;
     const { x: x2 } = inputs;
@@ -125364,7 +125405,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: identity3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Complex.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Complex.js
   function complex3(args) {
     const { inputs, backend: backend2 } = args;
     const { real: real4, imag: imag4 } = inputs;
@@ -125381,7 +125422,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: complex3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LeakyRelu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LeakyRelu.js
   var LEAKYRELU = `return (a < 0.) ? b * a : a;`;
   var LEAKYRELU_PACKED = `
   vec4 aLessThanZero = vec4(lessThan(a, vec4(0.)));
@@ -125403,7 +125444,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: leakyRelu3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Prelu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Prelu.js
   var PRELU = `return (a < 0.) ? b * a : a;`;
   var PRELU_PACKED = `
   vec4 aLessThanZero = vec4(lessThan(a, vec4(0.)));
@@ -125421,7 +125462,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: prelu3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/kernel_funcs_utils.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/kernel_funcs_utils.js
   var CHECK_NAN_SNIPPET_UNARY = `if (isnan(x)) return x;`;
   function unaryKernelFunc2({ opSnippet, packedOpSnippet, cpuKernelImpl, dtype }) {
     return ({ inputs, backend: backend2 }) => {
@@ -125541,7 +125582,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     throw new Error(`Activation ${activation} has not been implemented for the WebGL backend.`);
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/mulmat_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/mulmat_packed_gpu.js
   var MatMulPackedProgram = class {
     constructor(aShape, bShape, outputShape, transposeA = false, transposeB = false, addBias = false, activation = null, hasPreluActivation = false, hasLeakyreluActivation = false) {
       this.variableNames = ["matrixA", "matrixB"];
@@ -125626,7 +125667,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_complex_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/binaryop_complex_gpu.js
   var COMPLEX_MULTIPLY = {
     REAL: "return areal * breal - aimag * bimag;",
     IMAG: "return areal * bimag + aimag * breal;"
@@ -125652,7 +125693,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Multiply.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Multiply.js
   var MUL = "return a * b;";
   function multiply3(args) {
     const { inputs, backend: backend2 } = args;
@@ -125715,7 +125756,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: multiply3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reshape.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reshape.js
   function packedReshape(input2, afterShape, backend2) {
     const input3DShape = [
       getBatchDim(input2.shape),
@@ -125737,7 +125778,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return { dataId: output2.dataId, shape: afterShape, dtype: output2.dtype };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Reshape.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Reshape.js
   function reshape4(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -125760,7 +125801,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: reshape4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/mean_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/mean_gpu.js
   var MeanProgram = class {
     constructor(reduceInfo, divisor) {
       this.variableNames = ["x"];
@@ -125834,7 +125875,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/reduce_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/reduce_gpu.js
   var ReduceProgram = class {
     constructor(reduceInfo, reduceType) {
       this.variableNames = ["x"];
@@ -125974,7 +126015,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reduce.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/reduce.js
   function getReductionStages(inShape) {
     const stages = [];
     while (stages.length === 0 || stages[stages.length - 1].outSize !== 1) {
@@ -126009,7 +126050,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return result;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/transpose_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/transpose_gpu.js
   var TransposeProgram = class {
     constructor(aShape, newDim) {
       this.variableNames = ["A"];
@@ -126042,7 +126083,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return switchedCoords.join();
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/transpose_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/transpose_packed_gpu.js
   var TransposePackedProgram = class {
     constructor(aShape, newDim) {
       this.variableNames = ["A"];
@@ -126087,13 +126128,13 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose_impl.js
   function transposeImpl2(x2, perm, backend2) {
     const program = env().getBool("WEBGL_PACK_ARRAY_OPERATIONS") ? new TransposePackedProgram(x2.shape, perm) : new TransposeProgram(x2.shape, perm);
     return backend2.runWebGLProgram(program, [x2], x2.dtype);
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sum_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sum_impl.js
   function sumImpl(x2, axis, keepDims, backend2) {
     const reductionIndices = axis;
     const xRank = x2.shape.length;
@@ -126127,7 +126168,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return out;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sum.js
   function sum5(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -126140,7 +126181,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: sum5
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transpose.js
   function transpose4(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -126170,7 +126211,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: transpose4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BatchMatMul_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BatchMatMul_impl.js
   var MATMUL_SHARED_DIM_THRESHOLD = 1e3;
   function batchMatMulImpl({ a, b, transposeA, transposeB, backend: backend2, bias = null, preluActivationWeights = null, leakyreluAlpha = 0, activation = null }) {
     const aRank = a.shape.length;
@@ -126259,7 +126300,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     return outReshaped;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/_FusedMatMul.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/_FusedMatMul.js
   function _fusedMatMul2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { a, b, bias, preluActivationWeights } = inputs;
@@ -126282,7 +126323,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: _fusedMatMul2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Abs.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Abs.js
   var ABS2 = `return abs(x);`;
   function abs4(args) {
     const { inputs, backend: backend2 } = args;
@@ -126306,7 +126347,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: abs4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Acos.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Acos.js
   var ACOS = CHECK_NAN_SNIPPET + `
   if (abs(x) > 1.) {
     return NAN;
@@ -126320,7 +126361,7 @@ vec2 packedUVfrom3D(int texNumR, int texNumC,
     kernelFunc: acos3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Acosh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Acosh.js
   var ACOSH = CHECK_NAN_SNIPPET + `
   if (x < 1.0) return NAN;
 return log(x + sqrt(x * x - 1.0));`;
@@ -126331,7 +126372,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: acosh3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Add.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Add.js
   var ADD = "return a + b;";
   var addKernelFunc = binaryKernelFunc2({
     opSnippet: ADD,
@@ -126345,7 +126386,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: addKernelFunc
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/addn_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/addn_gpu.js
   var AddNProgram = class {
     constructor(outputShape, shapes) {
       this.outputShape = [];
@@ -126369,7 +126410,7 @@ return log(x + sqrt(x * x - 1.0));`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/addn_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/addn_packed_gpu.js
   var AddNPackedProgram = class {
     constructor(outputShape, shapes) {
       this.outputShape = [];
@@ -126395,7 +126436,7 @@ return log(x + sqrt(x * x - 1.0));`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AddN.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AddN.js
   function addN2(args) {
     const { inputs, backend: backend2 } = args;
     const tensors = inputs;
@@ -126420,7 +126461,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: addN2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/All.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/All.js
   function all3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -126459,7 +126500,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: all3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Any.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Any.js
   function any3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -126498,7 +126539,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: any3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/argminmax_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/argminmax_gpu.js
   var ArgMinMaxProgram = class {
     constructor(reduceInfo, op2, firstPass) {
       this.variableNames = ["A"];
@@ -126533,7 +126574,7 @@ return log(x + sqrt(x * x - 1.0));`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/argminmax_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/argminmax_packed_gpu.js
   var ArgMinMaxPackedProgram = class {
     constructor(shape4, windowSize, op2, firstPass) {
       this.variableNames = ["A"];
@@ -126640,7 +126681,7 @@ return log(x + sqrt(x * x - 1.0));`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/arg_min_max.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/arg_min_max.js
   function argReduce(backend2, x2, reduceType, bestIndicesA = null) {
     let batchSize = x2.shape[0];
     let inSize = x2.shape[1];
@@ -126702,7 +126743,7 @@ return log(x + sqrt(x * x - 1.0));`;
     return argReducePacked(backend2, x2, reduceType);
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ArgMax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ArgMax.js
   function argMax3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -126727,7 +126768,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: argMax3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ArgMin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ArgMin.js
   function argMin3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -126752,7 +126793,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: argMin3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Asin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Asin.js
   var ASIN = CHECK_NAN_SNIPPET + `
   if (abs(x) > 1.) {
     return NAN;
@@ -126766,7 +126807,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: asin3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Asinh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Asinh.js
   var ASINH = CHECK_NAN_SNIPPET + `return log(x + sqrt(x * x + 1.0));`;
   var asinh3 = unaryKernelFunc2({ opSnippet: ASINH });
   var asinhConfig2 = {
@@ -126775,7 +126816,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: asinh3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Atan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Atan.js
   var ATAN = CHECK_NAN_SNIPPET + `
   return atan(x);
 `;
@@ -126786,7 +126827,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: atan4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Atan2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Atan2.js
   var ATAN2 = CHECK_NAN_SNIPPET2 + `
   return atan(a, b);
 `;
@@ -126805,7 +126846,7 @@ return log(x + sqrt(x * x - 1.0));`;
     kernelFunc: atan23
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Atanh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Atanh.js
   var ATANH = CHECK_NAN_SNIPPET + `
   if ((x < -1.0) || (x > 1.0)) return NAN;
 return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
@@ -126816,7 +126857,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: atanh3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/pool_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/pool_gpu.js
   var Pool2DProgram = class {
     constructor(convInfo, poolType, computePositions, flattenPositions = false, includeBatchInIndex = false) {
       this.variableNames = ["x"];
@@ -127202,7 +127243,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AvgPool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AvgPool.js
   function avgPool3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -127223,7 +127264,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: avgPool3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AvgPool3D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AvgPool3D.js
   function avgPool3D2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -127239,7 +127280,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: avgPool3D2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/avg_pool_backprop_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/avg_pool_backprop_gpu.js
   var AvgPool2DBackpropProgram = class {
     constructor(convInfo) {
       this.variableNames = ["dy"];
@@ -127380,7 +127421,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AvgPool3DGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AvgPool3DGrad.js
   function avgPool3DGrad2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, input: input2 } = inputs;
@@ -127397,7 +127438,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: avgPool3DGrad2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AvgPoolGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/AvgPoolGrad.js
   function avgPoolGrad3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, input: input2 } = inputs;
@@ -127414,7 +127455,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: avgPoolGrad3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BatchMatMul.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BatchMatMul.js
   function batchMatMul2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { a, b } = inputs;
@@ -127427,7 +127468,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: batchMatMul2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/batchnorm_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/batchnorm_gpu.js
   var BatchNormProgram = class {
     constructor(xShape, meanShape, varianceShape, offsetShape, scaleShape, varianceEpsilon) {
       this.outputShape = [];
@@ -127461,7 +127502,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/batchnorm_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/batchnorm_packed_gpu.js
   var BatchNormPackedProgram = class {
     constructor(xShape, meanShape, varianceShape, offsetShape, scaleShape, varianceEpsilon) {
       this.packedInputs = true;
@@ -127499,7 +127540,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BatchNorm.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BatchNorm.js
   var batchNorm3 = ({ inputs, backend: backend2, attrs }) => {
     const { x: x2, mean: mean8, variance: variance4, offset, scale: scale6 } = inputs;
     util_exports.assert(mean8.shape.length === variance4.shape.length, () => "Batch normalization gradient requires mean and variance to have equal ranks.");
@@ -127530,7 +127571,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: batchNorm3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/slice_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/slice_gpu.js
   var SliceProgram = class {
     constructor(destSize) {
       this.variableNames = ["source"];
@@ -127567,7 +127608,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/slice_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/slice_packed_gpu.js
   var SlicePackedProgram = class {
     constructor(destSize) {
       this.variableNames = ["source"];
@@ -127616,7 +127657,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Slice.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Slice.js
   function shallowSlice(x2, begin, size3, backend2) {
     const xTexData = backend2.texData.get(x2.dataId);
     const t = backend2.makeTensorInfo(size3, x2.dtype);
@@ -127668,7 +127709,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: slice3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BatchToSpaceND.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BatchToSpaceND.js
   var batchToSpaceND3 = (args) => {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -127705,7 +127746,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: batchToSpaceND3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Bincount.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Bincount.js
   function bincount3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, weights } = inputs;
@@ -127721,7 +127762,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: bincount3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BitwiseAnd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BitwiseAnd.js
   var BITWISEAND = `
   int r = int(a.r) & int(b.r);
   int g = int(a.g) & int(b.g);
@@ -127760,7 +127801,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: bitwiseAnd2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BroadcastArgs.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/BroadcastArgs.js
   function broadcastArgs2(args) {
     const { inputs, backend: backend2 } = args;
     const { s0, s1 } = inputs;
@@ -127775,7 +127816,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: broadcastArgs2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NotEqual.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NotEqual.js
   var NOT_EQUAL = `return float(a != b);`;
   var notEqual3 = binaryKernelFunc2({ opSnippet: NOT_EQUAL, cpuKernelImpl: notEqualImplCPU, dtype: "bool" });
   var notEqualConfig2 = {
@@ -127784,7 +127825,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: notEqual3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Real.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Real.js
   function real3(args) {
     const { inputs, backend: backend2 } = args;
     const { input: input2 } = inputs;
@@ -127797,7 +127838,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: real3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/int.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernel_utils/int.js
   var TO_INT = `return float(int(x));`;
   function int2(input2, backend2) {
     const program = new UnaryOpProgram(input2.shape, TO_INT);
@@ -127805,7 +127846,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return { dataId: output2.dataId, shape: output2.shape, dtype: output2.dtype };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cast.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cast.js
   function cast5(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -127854,7 +127895,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: cast5
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Ceil.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Ceil.js
   var CEIL = `return ceil(x);`;
   var ceil4 = unaryKernelFunc2({ opSnippet: CEIL, packedOpSnippet: CEIL, cpuKernelImpl: ceilImplCPU });
   var ceilConfig2 = {
@@ -127863,7 +127904,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: ceil4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/clip_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/clip_gpu.js
   var ClipProgram = class {
     constructor(aShape) {
       this.variableNames = ["A"];
@@ -127887,7 +127928,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/clip_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/clip_packed_gpu.js
   var ClipPackedProgram = class {
     constructor(aShape) {
       this.variableNames = ["A"];
@@ -127913,7 +127954,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ClipByValue.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ClipByValue.js
   function clipByValue3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -127933,7 +127974,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: clipByValue3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/complex_abs_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/complex_abs_gpu.js
   var ComplexAbsProgram = class {
     constructor(shape4) {
       this.variableNames = ["real", "imag"];
@@ -127955,7 +127996,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ComplexAbs.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ComplexAbs.js
   function makeComplexComponentTensorInfo(complexTensor, complexPart) {
     return {
       dataId: complexPart.dataId,
@@ -127980,7 +128021,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: complexAbs2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/concat_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/concat_gpu.js
   var ConcatProgram = class {
     // Concats 2d tensors along axis=1. See comments in MathBackendWebGL.concat().
     constructor(shapes) {
@@ -128016,7 +128057,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/concat_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/concat_packed_gpu.js
   var ConcatPackedProgram = class {
     constructor(shapes, axis) {
       this.packedInputs = true;
@@ -128097,7 +128138,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return res.join();
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Imag.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Imag.js
   function imag3(args) {
     const { inputs, backend: backend2 } = args;
     const { input: input2 } = inputs;
@@ -128110,7 +128151,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: imag3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Concat_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Concat_impl.js
   function concatImpl2(inputs, axis, backend2) {
     const dtype = inputs[0].dtype;
     if (dtype === "complex64") {
@@ -128191,7 +128232,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return { tensors2D, outShape };
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Concat.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Concat.js
   function concat3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { axis } = attrs;
@@ -128214,7 +128255,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: concat3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_gpu.js
   var Conv2DProgram = class {
     constructor(convInfo, addBias = false, activation = null, hasPreluActivationWeights = false, hasLeakyreluAlpha = false) {
       this.variableNames = ["x", "W"];
@@ -128501,7 +128542,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_packed_gpu.js
   var Conv2DPackedProgram = class {
     constructor(convInfo, addBias = false, activation = null, hasPreluActivation = false, hasLeakyReluAlpha = false) {
       this.variableNames = ["x", "W"];
@@ -128809,7 +128850,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/im2col_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/im2col_packed_gpu.js
   var Im2ColPackedProgram = class {
     constructor(outputShape, convInfo) {
       this.variableNames = ["A"];
@@ -128889,7 +128930,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv2D_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv2D_impl.js
   function getShapeForBatchMatMul(shape4, isChannelsLast) {
     const length = shape4.length;
     if (length >= 3) {
@@ -129084,7 +129125,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return out;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv2D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv2D.js
   function conv2d3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5 } = inputs;
@@ -129119,7 +129160,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: conv2d3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu.js
   var Conv2DDerFilterProgram = class {
     constructor(convInfo) {
       this.variableNames = ["x", "dy"];
@@ -129368,7 +129409,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv2DBackpropFilter.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv2DBackpropFilter.js
   function conv2DBackpropFilter3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, dy } = inputs;
@@ -129384,7 +129425,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: conv2DBackpropFilter3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_packed_gpu.js
   var Conv2DDerInputPackedProgram = class {
     constructor(convInfo) {
       this.variableNames = ["dy", "W"];
@@ -129477,7 +129518,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv2DBackpropInput.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv2DBackpropInput.js
   function conv2DBackpropInput3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, filter: filter5 } = inputs;
@@ -129501,7 +129542,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: conv2DBackpropInput3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv3D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv3D.js
   function conv3D2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5 } = inputs;
@@ -129516,7 +129557,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: conv3D2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv3DBackpropFilterV2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv3DBackpropFilterV2.js
   function conv3DBackpropFilterV22(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, dy } = inputs;
@@ -129531,7 +129572,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: conv3DBackpropFilterV22
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv3DBackpropInputV2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Conv3DBackpropInputV2.js
   function conv3DBackpropInput2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, filter: filter5 } = inputs;
@@ -129546,7 +129587,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: conv3DBackpropInput2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cos.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cos.js
   var COS = CHECK_NAN_SNIPPET_UNARY + `
   return cos(x);
 `;
@@ -129563,7 +129604,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: cos4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cosh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cosh.js
   var COSH = `
   float e2x = exp(-x);
   return (e2x + 1.0 / e2x) / 2.0;
@@ -129575,7 +129616,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: cosh3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/crop_and_resize_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/crop_and_resize_gpu.js
   var CropAndResizeProgram = class {
     constructor(imageShape, boxShape, cropSize, method, extrapolationValue) {
       this.variableNames = ["Image", "Boxes", "BoxInd"];
@@ -129669,7 +129710,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/CropAndResize.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/CropAndResize.js
   var cropAndResize4 = (args) => {
     const { inputs, backend: backend2, attrs } = args;
     const { image: image2, boxes, boxInd } = inputs;
@@ -129683,7 +129724,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: cropAndResize4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/cum_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/cum_gpu.js
   var CumOpType;
   (function(CumOpType2) {
     CumOpType2["Prod"] = "*";
@@ -129751,7 +129792,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cum_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cum_impl.js
   function cumImpl(op2, x2, backend2, axis, exclusive, reverse8) {
     const xRank = x2.shape.length;
     const permutation = backend_util_exports.getAxesPermutation([axis], xRank);
@@ -129788,7 +129829,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return result;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cumprod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cumprod.js
   function cumprod3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -129801,7 +129842,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: cumprod3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cumsum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Cumsum.js
   function cumsum3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -129814,7 +129855,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: cumsum3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DenseBincount.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DenseBincount.js
   function denseBincount3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, weights } = inputs;
@@ -129838,7 +129879,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: denseBincount3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/depth_to_space_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/depth_to_space_gpu.js
   var DepthToSpaceProgram = class {
     constructor(outputShape, blockSize, dataFormat) {
       this.variableNames = ["x"];
@@ -129904,7 +129945,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DepthToSpace.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DepthToSpace.js
   function depthToSpace3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -129926,7 +129967,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: depthToSpace3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_gpu_depthwise.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_gpu_depthwise.js
   var DepthwiseConv2DProgram = class {
     constructor(convInfo, addBias = false, activation = null, hasPreluActivation = false, hasLeakyReluAlpha = false) {
       this.variableNames = ["x", "W"];
@@ -130019,7 +130060,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_packed_gpu_depthwise.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_packed_gpu_depthwise.js
   var DepthwiseConvPacked2DProgram = class {
     constructor(convInfo, addBias = false, activation = null, hasPreluActivation = false, hasLeakyReluAlpha = false) {
       this.variableNames = ["x", "W"];
@@ -130320,7 +130361,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DepthwiseConv2dNative.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DepthwiseConv2dNative.js
   function depthwiseConv2dNative2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5 } = inputs;
@@ -130360,7 +130401,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: depthwiseConv2dNative2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu_depthwise.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/conv_backprop_gpu_depthwise.js
   var DepthwiseConv2DDerFilterProgram = class {
     constructor(convInfo) {
       this.variableNames = ["x", "dy"];
@@ -130468,7 +130509,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DepthwiseConv2dNativeBackpropFilter.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DepthwiseConv2dNativeBackpropFilter.js
   function depthwiseConv2dNativeBackpropFilter3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, dy } = inputs;
@@ -130492,7 +130533,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: depthwiseConv2dNativeBackpropFilter3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DepthwiseConv2dNativeBackpropInput.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/DepthwiseConv2dNativeBackpropInput.js
   function depthwiseConv2dNativeBackpropInput3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, filter: filter5 } = inputs;
@@ -130516,7 +130557,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: depthwiseConv2dNativeBackpropInput3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/diag_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/diag_gpu.js
   var DiagProgram = class {
     constructor(size3) {
       this.variableNames = ["X"];
@@ -130531,7 +130572,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Diag.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Diag.js
   function diag3(args) {
     const { inputs, backend: backend2 } = args;
     const { x: x2 } = inputs;
@@ -130551,7 +130592,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: diag3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/dilation_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/dilation_gpu.js
   var Dilation2DProgram = class {
     constructor(convInfo) {
       this.variableNames = ["x", "W"];
@@ -130600,7 +130641,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Dilation2D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Dilation2D.js
   function dilation2D(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5 } = inputs;
@@ -130619,7 +130660,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: dilation2D
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Einsum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Einsum.js
   function einsum3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { equation } = attrs;
@@ -130685,7 +130726,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: einsum3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Elu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Elu.js
   var ELU4 = `return (x >= 0.0) ? x : (exp(x) - 1.0);`;
   var ELU_PACKED = `
   vec4 result;
@@ -130704,7 +130745,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: elu4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/EluGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/EluGrad.js
   var ELU_DER = `return (b >= 0.0) ? a : a * (b + 1.0);`;
   var ELU_DER_PACKED = `
   vec4 bGTEZero = vec4(greaterThanEqual(b, vec4(0.)));
@@ -130722,7 +130763,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: eluGrad2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Equal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Equal.js
   var PACKED_EQUAL = `
   return vec4(equal(a, b));
 `;
@@ -130739,7 +130780,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: equal3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Erf.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Erf.js
   var ERF = `
   // Error function is calculated approximately with elementary function.
   // See "Handbook of Mathematical Functions with Formulas,
@@ -130763,7 +130804,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: erf3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Exp.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Exp.js
   var EXP = CHECK_NAN_SNIPPET_UNARY + `
   return exp(x);
 `;
@@ -130789,7 +130830,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: exp4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ExpandDims.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ExpandDims.js
   function expandDims4(args) {
     const { inputs, attrs, backend: backend2 } = args;
     const { dim } = attrs;
@@ -130810,7 +130851,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: expandDims4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Expm1.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Expm1.js
   var EXPM1 = `return exp(x) - 1.0;`;
   var expm13 = unaryKernelFunc2({ opSnippet: EXPM1, packedOpSnippet: EXPM1, cpuKernelImpl: expm1ImplCPU });
   var expm1Config2 = {
@@ -130819,7 +130860,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: expm13
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/fft_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/fft_gpu.js
   var FFTProgram = class {
     constructor(component2, inputShape, inverse5) {
       this.variableNames = ["real", "imag"];
@@ -130872,7 +130913,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FFT_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FFT_impl.js
   function fftImpl2(x2, inverse5, backend2) {
     const xData = backend2.texData.get(x2.dataId);
     const inputSize = util_exports.sizeFromShape(x2.shape);
@@ -130905,7 +130946,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return complexOutputReshaped;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FFT.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FFT.js
   function fft3(args) {
     const { inputs, backend: backend2 } = args;
     const { input: input2 } = inputs;
@@ -130917,7 +130958,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: fft3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/fill_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/fill_gpu.js
   var FillProgram = class {
     constructor(shape4, value) {
       this.outputShape = [];
@@ -130933,7 +130974,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Fill.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Fill.js
   function fill3(args) {
     const { backend: backend2, attrs } = args;
     const { shape: shape4, value } = attrs;
@@ -130955,7 +130996,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: fill3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/flip_left_right_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/flip_left_right_gpu.js
   var FlipLeftRightProgram = class {
     constructor(imageShape) {
       this.variableNames = ["Image"];
@@ -130980,7 +131021,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FlipLeftRight.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FlipLeftRight.js
   var flipLeftRightConfig2 = {
     kernelName: FlipLeftRight,
     backendName: "webgl",
@@ -130993,7 +131034,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Floor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Floor.js
   var FLOOR = `return floor(x);`;
   var floor4 = unaryKernelFunc2({ opSnippet: FLOOR, packedOpSnippet: FLOOR, cpuKernelImpl: floorImplCPU });
   var floorConfig2 = {
@@ -131002,7 +131043,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: floor4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FloorDiv.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FloorDiv.js
   var INT_DIV = `
   float s = sign(a) * sign(b);
   int ia = round(a);
@@ -131043,7 +131084,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: floorDiv3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_gpu.js
   var FromPixelsProgram = class {
     constructor(outputShape) {
       this.variableNames = ["A"];
@@ -131076,7 +131117,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels_utils/from_pixels_packed_gpu.js
   var FromPixelsPackedProgram = class {
     constructor(outputShape) {
       this.variableNames = ["A"];
@@ -131123,7 +131164,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FromPixels.js
   var fromPixelsConfig = {
     kernelName: FromPixels,
     backendName: "webgl",
@@ -131163,7 +131204,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return res;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FusedConv2D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FusedConv2D.js
   function fusedConv2d(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5, bias, preluActivationWeights } = inputs;
@@ -131252,7 +131293,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: fusedConv2d
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FusedDepthwiseConv2D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/FusedDepthwiseConv2D.js
   function fusedDepthwiseConv2D2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, filter: filter5, bias, preluActivationWeights } = inputs;
@@ -131312,7 +131353,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: fusedDepthwiseConv2D2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/gather_nd_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/gather_nd_gpu.js
   var GatherNDProgram = class {
     constructor(sliceDim, strides, shape4, paramsShape) {
       this.sliceDim = sliceDim;
@@ -131344,7 +131385,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/GatherNd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/GatherNd.js
   function gatherNd2(args) {
     const { inputs, backend: backend2 } = args;
     const { params, indices } = inputs;
@@ -131378,7 +131419,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: gatherNd2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/gather_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/gather_gpu.js
   var GatherProgram = class {
     constructor(aShape, outputShape) {
       this.variableNames = ["A", "indices"];
@@ -131409,7 +131450,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return sourceCoords.join();
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/GatherV2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/GatherV2.js
   function gatherV22(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, indices } = inputs;
@@ -131471,7 +131512,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: gatherV22
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Greater.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Greater.js
   var GREATER = `return float(a > b);`;
   var GREATER_PACKED = `
   return vec4(greaterThan(a, b));
@@ -131488,7 +131529,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: greater3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/GreaterEqual.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/GreaterEqual.js
   var GREATER_EQUAL = `return float(a >= b);`;
   var GREATER_EQUAL_PACKED = `
   return vec4(greaterThanEqual(a, b));
@@ -131505,7 +131546,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: greaterEqual3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/IFFT.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/IFFT.js
   function ifft3(args) {
     const { inputs, backend: backend2 } = args;
     const { input: input2 } = inputs;
@@ -131517,7 +131558,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: ifft3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/IsFinite.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/IsFinite.js
   var IS_FINITE = `return float(!isnan(x) && !isinf(x));`;
   var isFinite4 = unaryKernelFunc2({ opSnippet: IS_FINITE, dtype: "bool" });
   var isFiniteConfig2 = {
@@ -131526,7 +131567,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: isFinite4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/IsInf.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/IsInf.js
   var IS_INF = `return float(isinf(x));`;
   var isInf3 = unaryKernelFunc2({ opSnippet: IS_INF, dtype: "bool" });
   var isInfConfig2 = {
@@ -131535,7 +131576,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: isInf3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/IsNaN.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/IsNaN.js
   var IS_NAN = `return float(isnan(x));`;
   var isNaN4 = unaryKernelFunc2({ opSnippet: IS_NAN, dtype: "bool" });
   var isNaNConfig2 = {
@@ -131544,7 +131585,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: isNaN4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Less.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Less.js
   var LESS = `return float(a < b);`;
   var LESS_PACKED = `
   return vec4(lessThan(a, b));
@@ -131561,7 +131602,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: less3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LessEqual.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LessEqual.js
   var LESS_EQUAL = `return float(a <= b);`;
   var LESS_EQUAL_PACKED = `
   return vec4(lessThanEqual(a, b));
@@ -131578,7 +131619,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: lessEqual3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LinSpace.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LinSpace.js
   function linSpace2(args) {
     const { backend: backend2, attrs } = args;
     const { start, stop: stop6, num } = attrs;
@@ -131591,7 +131632,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: linSpace2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Log.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Log.js
   var LOG = CHECK_NAN_SNIPPET_UNARY + `
   return x < 0.0 ? 0./0. : log(x);
 `;
@@ -131611,7 +131652,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: log5
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Log1p.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Log1p.js
   var LOG1P = CHECK_NAN_SNIPPET_UNARY + `
   return log(1.0 + x);
 `;
@@ -131622,7 +131663,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: log1p3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LogicalAnd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LogicalAnd.js
   var LOGICAL_AND = `return float(a >= 1.0 && b >= 1.0);`;
   var LOGICAL_AND_PACKED = `
   return vec4(
@@ -131640,7 +131681,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: logicalAnd3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LogicalNot.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LogicalNot.js
   var LOGICAL_NOT = `return float(!(x >= 1.0));`;
   var logicalNot3 = unaryKernelFunc2({ opSnippet: LOGICAL_NOT });
   var logicalNotConfig2 = {
@@ -131649,7 +131690,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: logicalNot3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LogicalOr.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LogicalOr.js
   var LOGICAL_OR = `return float(a >= 1.0 || b >= 1.0);`;
   var LOGICAL_OR_PACKED = `
   return min(
@@ -131664,7 +131705,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: logicalOr3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_gpu.js
   var LRNProgram = class {
     constructor(xShape, radius2, bias, alpha, beta) {
       this.variableNames = ["x"];
@@ -131704,7 +131745,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_packed_gpu.js
   var LRNPackedProgram = class {
     constructor(xShape, radius2, bias, alpha, beta) {
       this.variableNames = ["x"];
@@ -131789,7 +131830,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LRN.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LRN.js
   var lrn = (args) => {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -131803,7 +131844,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: lrn
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_grad_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/lrn_grad_gpu.js
   var LRNGradProgram = class {
     constructor(inputShape, depthRadius, bias, alpha, beta) {
       this.variableNames = ["inputImage", "outputImage", "dy"];
@@ -131873,7 +131914,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LRNGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/LRNGrad.js
   var lrnGrad = (args) => {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, y: y2, dy } = inputs;
@@ -131887,7 +131928,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: lrnGrad
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Max_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Max_impl.js
   function maxImpl2(x2, reduceShape, outShape, backend2) {
     const inSize = util_exports.sizeFromShape(reduceShape);
     const xSize = util_exports.sizeFromShape(x2.shape);
@@ -131900,7 +131941,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return reshapedOutput;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Max.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Max.js
   function max5(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -131957,7 +131998,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: max5
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Maximum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Maximum.js
   var MAXIMUM = CHECK_NAN_SNIPPET2 + `
   return max(a, b);
 `;
@@ -131980,7 +132021,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: maximum3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPool.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPool.js
   function maxPool3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -132001,7 +132042,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: maxPool3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPool3D.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPool3D.js
   function maxPool3d2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -132017,7 +132058,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: maxPool3d2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/max_pool_backprop_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/max_pool_backprop_gpu.js
   var MaxPool2DBackpropProgram = class {
     constructor(convInfo) {
       this.variableNames = ["dy", "maxPos"];
@@ -132164,7 +132205,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPool3DGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPool3DGrad.js
   function maxPool3DGrad2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, input: input2 } = inputs;
@@ -132190,7 +132231,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: maxPool3DGrad2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolGrad.js
   function maxPoolGrad3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { dy, input: input2, output: output2 } = inputs;
@@ -132212,7 +132253,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: maxPoolGrad3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax_impl.js
   function maxPoolWithArgmaxImpl2(x2, includeBatchInIndex, convInfo, backend2) {
     let program = new Pool2DProgram(convInfo, "max", false);
     const poolOutput = backend2.runWebGLProgram(program, [x2], "float32");
@@ -132221,7 +132262,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return [poolOutput, indexOutput];
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MaxPoolWithArgmax.js
   var maxPoolWithArgmaxConfig2 = {
     kernelName: MaxPoolWithArgmax,
     backendName: "webgl",
@@ -132238,7 +132279,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Mean_impl.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Mean_impl.js
   function meanImpl(x2, reduceShape, outShape, backend2) {
     const inSize = util_exports.sizeFromShape(reduceShape);
     const xSize = util_exports.sizeFromShape(x2.shape);
@@ -132251,7 +132292,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     return reshapedOutput;
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Mean.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Mean.js
   var meanConfig2 = {
     kernelName: Mean,
     backendName: "webgl",
@@ -132299,7 +132340,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Min.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Min.js
   function min5(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -132338,7 +132379,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: min5
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Minimum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Minimum.js
   var MINIMUM = CHECK_NAN_SNIPPET2 + `
   return min(a, b);
 `;
@@ -132361,7 +132402,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: minimum3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/mirror_pad_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/mirror_pad_gpu.js
   var MirrorPadProgram = class {
     constructor(xShape, paddings, mode4) {
       this.variableNames = ["x"];
@@ -132412,7 +132453,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/mirror_pad_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/mirror_pad_packed_gpu.js
   var MirrorPadPackedProgram = class {
     constructor(xShape, paddings, mode4) {
       this.variableNames = ["x"];
@@ -132499,7 +132540,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MirrorPad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/MirrorPad.js
   var mirrorPadKernelFunc = ({ inputs, backend: backend2, attrs }) => {
     const { x: x2 } = inputs;
     const { paddings, mode: mode4 } = attrs;
@@ -132513,7 +132554,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: mirrorPadKernelFunc
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Mod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Mod.js
   var MOD = `if (b == 0.0) return NAN;
   return mod(a, b);`;
   var MOD_PACKED = `
@@ -132532,7 +132573,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     kernelFunc: mod4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/multinomial_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/multinomial_gpu.js
   var MultinomialProgram = class {
     constructor(batchSize, numOutcomes, numSamples) {
       this.variableNames = ["probs"];
@@ -132562,7 +132603,7 @@ return (log(1.0 + x) - log(1.0 - x)) / 2.0;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RealDiv.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RealDiv.js
   var DIV = `
 if (a == b) {
   return 1.0;
@@ -132594,7 +132635,7 @@ return a / b;`;
     kernelFunc: realDiv
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sub.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sub.js
   var SUB = "return a - b;";
   var sub3 = binaryKernelFunc2({
     opSnippet: SUB,
@@ -132608,7 +132649,7 @@ return a / b;`;
     kernelFunc: sub3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Softmax.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Softmax.js
   function softmax3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { logits } = inputs;
@@ -132640,7 +132681,7 @@ return a / b;`;
     kernelFunc: softmax3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Multinomial.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Multinomial.js
   function multinomial2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { logits } = inputs;
@@ -132662,7 +132703,7 @@ return a / b;`;
     kernelFunc: multinomial2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Neg.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Neg.js
   var NEG = CHECK_NAN_SNIPPET + `
   return -x;
 `;
@@ -132699,7 +132740,7 @@ return a / b;`;
     kernelFunc: neg3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV3.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV3.js
   var nonMaxSuppressionV3Impl3 = kernel_impls_exports.nonMaxSuppressionV3Impl;
   function nonMaxSuppressionV32(args) {
     backend_util_exports.warn("tf.nonMaxSuppression() in webgl locks the UI thread. Call tf.nonMaxSuppressionAsync() instead");
@@ -132717,7 +132758,7 @@ return a / b;`;
     kernelFunc: nonMaxSuppressionV32
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV4.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV4.js
   var nonMaxSuppressionV4Impl3 = kernel_impls_exports.nonMaxSuppressionV4Impl;
   function nonMaxSuppressionV42(args) {
     backend_util_exports.warn("tf.nonMaxSuppression() in webgl locks the UI thread. Call tf.nonMaxSuppressionAsync() instead");
@@ -132738,7 +132779,7 @@ return a / b;`;
     kernelFunc: nonMaxSuppressionV42
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV5.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/NonMaxSuppressionV5.js
   var nonMaxSuppressionV5Impl3 = kernel_impls_exports.nonMaxSuppressionV5Impl;
   function nonMaxSuppressionV52(args) {
     backend_util_exports.warn("tf.nonMaxSuppression() in webgl locks the UI thread. Call tf.nonMaxSuppressionAsync() instead");
@@ -132763,7 +132804,7 @@ return a / b;`;
     kernelFunc: nonMaxSuppressionV52
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/onehot_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/onehot_gpu.js
   var OneHotProgram = class {
     constructor(numIndices, depth, onValue, offValue) {
       this.variableNames = ["indices"];
@@ -132779,7 +132820,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/OneHot.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/OneHot.js
   var oneHot3 = (args) => {
     const { inputs, backend: backend2, attrs } = args;
     const { indices } = inputs;
@@ -132800,7 +132841,7 @@ return a / b;`;
     kernelFunc: oneHot3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ZerosLike.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ZerosLike.js
   function zerosLike3(args) {
     const { inputs, backend: backend2 } = args;
     const { x: x2 } = inputs;
@@ -132832,7 +132873,7 @@ return a / b;`;
     kernelFunc: zerosLike3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/OnesLike.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/OnesLike.js
   function onesLike3(args) {
     const { inputs, backend: backend2 } = args;
     const { x: x2 } = inputs;
@@ -132859,7 +132900,7 @@ return a / b;`;
     kernelFunc: onesLike3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Pack.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Pack.js
   function pack2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { axis } = attrs;
@@ -132888,7 +132929,7 @@ return a / b;`;
     kernelFunc: pack2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/pad_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/pad_gpu.js
   var PadProgram = class {
     constructor(xShape, paddings, constantValue) {
       this.variableNames = ["x"];
@@ -132935,7 +132976,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/pad_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/pad_packed_gpu.js
   var PadPackedProgram = class {
     constructor(xShape, paddings, constantValue) {
       this.variableNames = ["x"];
@@ -132994,7 +133035,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/PadV2.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/PadV2.js
   var padV22 = (args) => {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -133019,7 +133060,7 @@ return a / b;`;
     kernelFunc: padV22
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Pow.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Pow.js
   var POW = `
   if(a < 0.0 && floor(b) < b){
     return NAN;
@@ -133056,7 +133097,7 @@ return a / b;`;
     kernelFunc: pow4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Prod.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Prod.js
   function prod3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -133102,7 +133143,7 @@ return a / b;`;
     kernelFunc: prod3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RaggedGather.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RaggedGather.js
   function raggedGather2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { paramsNestedSplits, paramsDenseValues, indices } = inputs;
@@ -133122,7 +133163,7 @@ return a / b;`;
     kernelFunc: raggedGather2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RaggedRange.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RaggedRange.js
   function raggedRange2(args) {
     const { inputs, backend: backend2 } = args;
     const { starts, limits, deltas } = inputs;
@@ -133140,7 +133181,7 @@ return a / b;`;
     kernelFunc: raggedRange2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RaggedTensorToTensor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RaggedTensorToTensor.js
   function raggedTensorToTensor2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { shape: shape4, values, defaultValue, rowPartitionTensors } = inputs;
@@ -133159,7 +133200,7 @@ return a / b;`;
     kernelFunc: raggedTensorToTensor2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Range.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Range.js
   var range6 = (args) => {
     const { backend: backend2, attrs } = args;
     const { start, stop: stop6, step: step6, dtype } = attrs;
@@ -133172,7 +133213,7 @@ return a / b;`;
     kernelFunc: range6
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Reciprocal.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Reciprocal.js
   var RECIPROCAL = `return 1.0 / x;`;
   var reciprocal3 = unaryKernelFunc2({ opSnippet: RECIPROCAL });
   var reciprocalConfig2 = {
@@ -133181,7 +133222,7 @@ return a / b;`;
     kernelFunc: reciprocal3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Relu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Relu.js
   var RELU3 = CHECK_NAN_SNIPPET + `
   return (x < 0.0) ? 0.0 : x;
 `;
@@ -133203,7 +133244,7 @@ return a / b;`;
     kernelFunc: relu3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Relu6.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Relu6.js
   var RELU63 = CHECK_NAN_SNIPPET + `
   return (x < 0.0) ? 0.0 : min(6.0, x);
 `;
@@ -133225,7 +133266,7 @@ return a / b;`;
     kernelFunc: relu63
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_gpu.js
   var ResizeBilinearProgram = class {
     constructor(inputShape, newHeight, newWidth, alignCorners, halfPixelCenters) {
       this.variableNames = ["A"];
@@ -133283,7 +133324,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_packed_gpu.js
   var ResizeBilinearPackedProgram = class {
     constructor(inputShape, newHeight, newWidth, alignCorners, halfPixelCenters) {
       this.variableNames = ["A"];
@@ -133387,7 +133428,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ResizeBilinear.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ResizeBilinear.js
   function resizeBilinear4(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { images } = inputs;
@@ -133402,7 +133443,7 @@ return a / b;`;
     kernelFunc: resizeBilinear4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_backprop_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_bilinear_backprop_gpu.js
   var ResizeBilinearBackpropProgram = class {
     constructor(dyShape, inputShape, alignCorners) {
       this.variableNames = ["dy"];
@@ -133509,7 +133550,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ResizeBilinearGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ResizeBilinearGrad.js
   function resizeBilinearGrad2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { images, dy } = inputs;
@@ -133523,7 +133564,7 @@ return a / b;`;
     kernelFunc: resizeBilinearGrad2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_gpu.js
   var ResizeNearestNeighborProgram = class {
     constructor(inputShape, newHeight, newWidth, alignCorners, halfPixelCenters) {
       this.variableNames = ["A"];
@@ -133571,7 +133612,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_packed_gpu.js
   var ResizeNearestNeighborPackedProgram = class {
     constructor(inputShape, newHeight, newWidth, alignCorners, halfPixelCenters) {
       this.variableNames = ["A"];
@@ -133640,7 +133681,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ResizeNearestNeighbor.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ResizeNearestNeighbor.js
   function resizeNearestNeighbor3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { images } = inputs;
@@ -133655,7 +133696,7 @@ return a / b;`;
     kernelFunc: resizeNearestNeighbor3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_backprop_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/resize_nearest_neighbor_backprop_gpu.js
   var ResizeNearestNeigborBackpropProgram = class {
     constructor(dyShape, inputShape, alignCorners) {
       this.variableNames = ["dy"];
@@ -133751,7 +133792,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ResizeNearestNeighborGrad.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ResizeNearestNeighborGrad.js
   function resizeNearestNeighborGrad2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { images, dy } = inputs;
@@ -133765,7 +133806,7 @@ return a / b;`;
     kernelFunc: resizeNearestNeighborGrad2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/reverse_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/reverse_gpu.js
   var ReverseProgram = class {
     constructor(xShape, axis) {
       this.variableNames = ["x"];
@@ -133800,7 +133841,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/reverse_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/reverse_packed_gpu.js
   var ReversePackedProgram = class {
     constructor(xShape, axis) {
       this.variableNames = ["x"];
@@ -133880,7 +133921,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Reverse.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Reverse.js
   function reverse4(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -133899,7 +133940,7 @@ return a / b;`;
     kernelFunc: reverse4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/rotate_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/rotate_gpu.js
   var RotateProgram = class {
     constructor(imageShape, fillValue) {
       this.variableNames = ["Image"];
@@ -133937,7 +133978,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RotateWithOffset.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/RotateWithOffset.js
   var rotateWithOffsetConfig2 = {
     kernelName: RotateWithOffset,
     backendName: "webgl",
@@ -133953,7 +133994,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Round.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Round.js
   var ROUND = `
   // OpenGL ES does not support round function.
   // The algorithm is based on banker's rounding.
@@ -133977,7 +134018,7 @@ return a / b;`;
     kernelFunc: round5
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Rsqrt.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Rsqrt.js
   var RSQRT = `return inversesqrt(x);`;
   var rsqrt3 = unaryKernelFunc2({ opSnippet: RSQRT, cpuKernelImpl: rsqrtImplCPU });
   var rsqrtConfig2 = {
@@ -133986,7 +134027,7 @@ return a / b;`;
     kernelFunc: rsqrt3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/scatter_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/scatter_gpu.js
   var ScatterProgram = class {
     constructor(updateSize, sliceDim, indicesRank, updatesRank, strides, shape4, summingDupeIndex = true, defaultIsTensor = false) {
       this.variableNames = ["updates", "indices", "defaultValue"];
@@ -134037,7 +134078,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/scatter_packed_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/scatter_packed_gpu.js
   var ScatterPackedProgram = class {
     constructor(updateSize, sliceDim, indicesRank, updatesRank, strides, shape4, summingDupeIndex = true, defaultIsTensor = false) {
       this.variableNames = ["updates", "indices", "defaultValue"];
@@ -134108,7 +134149,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ScatterNd.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/ScatterNd.js
   function scatterNd2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { indices, updates } = inputs;
@@ -134141,7 +134182,7 @@ return a / b;`;
     kernelFunc: scatterNd2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/search_sorted_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/search_sorted_gpu.js
   var SearchSortedProgram = class {
     constructor(batchSize, numInputs, numValues, side) {
       this.variableNames = ["sortedSequence", "values"];
@@ -134180,7 +134221,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SearchSorted.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SearchSorted.js
   function searchSorted2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { sortedSequence, values } = inputs;
@@ -134195,7 +134236,7 @@ return a / b;`;
     kernelFunc: searchSorted2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/select_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/select_gpu.js
   var SelectProgram = class {
     constructor(cRank, shape4, rank) {
       this.variableNames = ["c", "a", "b"];
@@ -134236,7 +134277,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Select.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Select.js
   function select3(args) {
     const { inputs, backend: backend2 } = args;
     const { condition, t, e } = inputs;
@@ -134249,7 +134290,7 @@ return a / b;`;
     kernelFunc: select3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Selu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Selu.js
   var SELU = `
   // Stable and Attracting Fixed Point (0, 1) for Normalized Weights.
   // see: https://arxiv.org/abs/1706.02515
@@ -134264,7 +134305,7 @@ return a / b;`;
     kernelFunc: selu3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sigmoid.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sigmoid.js
   var SIGMOID3 = CHECK_NAN_SNIPPET_UNARY + `
   return 1.0 / (1.0 + exp(-1.0 * x));
 `;
@@ -134290,7 +134331,7 @@ return a / b;`;
     kernelFunc: sigmoid3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sign.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sign.js
   var SIGN = `
   if (isnan(x)) { return 0.0; }
   return sign(x);
@@ -134302,7 +134343,7 @@ return a / b;`;
     kernelFunc: sign4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sin.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sin.js
   var SIN = CHECK_NAN_SNIPPET_UNARY + `
   return sin(x);
 `;
@@ -134319,7 +134360,7 @@ return a / b;`;
     kernelFunc: sin4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sinh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sinh.js
   var SINH = `
   float e2x = exp(x);
   return (e2x - 1.0 / e2x) / 2.0;
@@ -134331,7 +134372,7 @@ return a / b;`;
     kernelFunc: sinh3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Softplus.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Softplus.js
   var SOFTPLUS = `
   float epsilon = 1.1920928955078125e-7;
   float threshold = log(epsilon) + 2.0;
@@ -134360,7 +134401,7 @@ return a / b;`;
     kernelFunc: softplus3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SpaceToBatchND.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SpaceToBatchND.js
   var spaceToBatchND3 = (args) => {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -134400,7 +134441,7 @@ return a / b;`;
     kernelFunc: spaceToBatchND3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseFillEmptyRows.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseFillEmptyRows.js
   function sparseFillEmptyRows3(args) {
     const { inputs, backend: backend2 } = args;
     const { indices, values, denseShape, defaultValue } = inputs;
@@ -134438,7 +134479,7 @@ return a / b;`;
     kernelFunc: sparseFillEmptyRows3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseReshape.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseReshape.js
   function sparseReshape3(args) {
     const { inputs, backend: backend2 } = args;
     const { inputIndices, inputShape, newShape } = inputs;
@@ -134466,7 +134507,7 @@ return a / b;`;
     kernelFunc: sparseReshape3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseSegmentMean.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseSegmentMean.js
   function sparseSegmentMean3(args) {
     const { inputs, backend: backend2 } = args;
     const { data: data4, indices, segmentIds } = inputs;
@@ -134493,7 +134534,7 @@ return a / b;`;
     kernelFunc: sparseSegmentMean3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseSegmentSum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseSegmentSum.js
   function sparseSegmentSum3(args) {
     const { inputs, backend: backend2 } = args;
     const { data: data4, indices, segmentIds } = inputs;
@@ -134520,7 +134561,7 @@ return a / b;`;
     kernelFunc: sparseSegmentSum3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseToDense.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SparseToDense.js
   function sparseToDense2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { sparseIndices, sparseValues, defaultValue } = inputs;
@@ -134546,7 +134587,7 @@ return a / b;`;
     kernelFunc: sparseToDense2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SplitV.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SplitV.js
   function splitV2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -134570,7 +134611,7 @@ return a / b;`;
     kernelFunc: splitV2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sqrt.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Sqrt.js
   var SQRT = `return sqrt(x);`;
   var sqrt4 = unaryKernelFunc2({ opSnippet: SQRT, packedOpSnippet: SQRT, cpuKernelImpl: sqrtImplCPU });
   var sqrtConfig2 = {
@@ -134579,7 +134620,7 @@ return a / b;`;
     kernelFunc: sqrt4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Square.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Square.js
   var SQUARE = `return x * x;`;
   var square3 = unaryKernelFunc2({ opSnippet: SQUARE });
   var squareConfig2 = {
@@ -134588,7 +134629,7 @@ return a / b;`;
     kernelFunc: square3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SquaredDifference.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/SquaredDifference.js
   var SQUARED_DIFFERENCE = "return (a - b) * (a - b);";
   var squaredDifference3 = binaryKernelFunc2({ opSnippet: SQUARED_DIFFERENCE, packedOpSnippet: SQUARED_DIFFERENCE });
   var squaredDifferenceConfig2 = {
@@ -134597,7 +134638,7 @@ return a / b;`;
     kernelFunc: squaredDifference3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StaticRegexReplace.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StaticRegexReplace.js
   function staticRegexReplace2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -134615,7 +134656,7 @@ return a / b;`;
     kernelFunc: staticRegexReplace2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Step.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Step.js
   function step3({ inputs, attrs, backend: backend2 }) {
     const { x: x2 } = inputs;
     const opSnippet = CHECK_NAN_SNIPPET + `
@@ -134630,7 +134671,7 @@ return a / b;`;
     kernelFunc: step3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/strided_slice_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/strided_slice_gpu.js
   var StridedSliceProgram = class {
     constructor(begin, strides, size3) {
       this.variableNames = ["x"];
@@ -134660,7 +134701,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StridedSlice.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StridedSlice.js
   function stridedSlice3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2 } = inputs;
@@ -134697,14 +134738,14 @@ return a / b;`;
     kernelFunc: stridedSlice3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StringNGrams.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StringNGrams.js
   function stringNGrams2(args) {
     const { inputs, backend: backend2, attrs } = args;
-    const { separator, nGramWidths, leftPad: leftPad5, rightPad: rightPad2, padWidth, preserveShortSequences } = attrs;
+    const { separator, nGramWidths, leftPad: leftPad4, rightPad: rightPad2, padWidth, preserveShortSequences } = attrs;
     const { data: data4, dataSplits } = inputs;
     const $data = backend2.readSync(data4.dataId);
     const $dataSplits = backend2.readSync(dataSplits.dataId);
-    const [nGrams, nGramsSplits] = stringNGramsImplCPU($data, $dataSplits, separator, nGramWidths, leftPad5, rightPad2, padWidth, preserveShortSequences);
+    const [nGrams, nGramsSplits] = stringNGramsImplCPU($data, $dataSplits, separator, nGramWidths, leftPad4, rightPad2, padWidth, preserveShortSequences);
     return [
       backend2.makeTensorInfo([nGrams.length], "string", nGrams),
       backend2.makeTensorInfo(dataSplits.shape, "int32", nGramsSplits)
@@ -134716,7 +134757,7 @@ return a / b;`;
     kernelFunc: stringNGrams2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StringSplit.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StringSplit.js
   function stringSplit2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { skipEmpty } = attrs;
@@ -134746,7 +134787,7 @@ return a / b;`;
     kernelFunc: stringSplit2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StringToHashBucketFast.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/StringToHashBucketFast.js
   function stringToHashBucketFast2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { numBuckets } = attrs;
@@ -134767,7 +134808,7 @@ return a / b;`;
     kernelFunc: stringToHashBucketFast2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Tan.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Tan.js
   var TAN = `return tan(x);`;
   var tan4 = unaryKernelFunc2({ opSnippet: TAN });
   var tanConfig2 = {
@@ -134776,7 +134817,7 @@ return a / b;`;
     kernelFunc: tan4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Tanh.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Tanh.js
   var TANH = `
   float e2x = exp(-2.0 * abs(x));
   return sign(x) * (1.0 - e2x) / (1.0 + e2x);
@@ -134788,7 +134829,7 @@ return a / b;`;
     kernelFunc: tanh4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/TensorScatterUpdate.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/TensorScatterUpdate.js
   function tensorScatterUpdate2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { tensor: tensor2, indices, updates } = inputs;
@@ -134816,7 +134857,7 @@ return a / b;`;
     kernelFunc: tensorScatterUpdate2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/tile_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/tile_gpu.js
   var TileProgram = class {
     constructor(aShape, reps) {
       this.variableNames = ["A"];
@@ -134852,7 +134893,7 @@ return a / b;`;
     return sourceCoords.join();
   }
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Tile.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Tile.js
   function tile4(params) {
     const { inputs, backend: backend2, attrs } = params;
     const { x: x2 } = inputs;
@@ -134874,7 +134915,7 @@ return a / b;`;
     kernelFunc: tile4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/top_k_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/top_k_gpu.js
   var SwapProgram = class {
     /**
      * @param shape desired output shape (can be larger than input shape, output
@@ -134983,7 +135024,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/TopK.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/TopK.js
   function disposeIntermediateTensorInfoOrNull(backend2, tensorInfo) {
     if (tensorInfo !== null) {
       backend2.disposeIntermediateTensorInfo(tensorInfo);
@@ -135088,7 +135129,7 @@ return a / b;`;
     kernelFunc: topK2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/transform_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/transform_gpu.js
   var TransformProgram = class {
     constructor(imageHeight, imageWidth, interpolation, fillMode, fillValue, outShape) {
       this.variableNames = ["Image", "Transforms"];
@@ -135228,7 +135269,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transform.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Transform.js
   function transform4(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { image: image2, transforms } = inputs;
@@ -135250,7 +135291,7 @@ return a / b;`;
     kernelFunc: transform4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Unique.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Unique.js
   function unique4(args) {
     const { inputs, attrs, backend: backend2 } = args;
     const { axis } = attrs;
@@ -135270,7 +135311,7 @@ return a / b;`;
     kernelFunc: unique4
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Unpack.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/Unpack.js
   function unpack2(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { value } = inputs;
@@ -135309,7 +135350,7 @@ return a / b;`;
     kernelFunc: unpack2
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/segment_gpu.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/segment_gpu.js
   var SegmentOpProgram = class {
     constructor(segOpInfo, segOpType) {
       this.variableNames = ["x", "segmentIds"];
@@ -135442,7 +135483,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/UnsortedSegmentSum.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/kernels/UnsortedSegmentSum.js
   function unsortedSegmentSum3(args) {
     const { inputs, backend: backend2, attrs } = args;
     const { x: x2, segmentIds } = inputs;
@@ -135504,7 +135545,7 @@ return a / b;`;
     kernelFunc: unsortedSegmentSum3
   };
 
-  // node_modules/@tensorflow/tfjs-backend-webgl/dist/register_all_kernels.js
+  // node_modules/.pnpm/@tensorflow+tfjs-backend-webgl@4.22.0_@tensorflow+tfjs-core@4.22.0/node_modules/@tensorflow/tfjs-backend-webgl/dist/register_all_kernels.js
   var kernelConfigs2 = [
     _fusedMatMulConfig2,
     absConfig2,
@@ -135906,12 +135947,12 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-number.mjs
   function isNumber3(x2) {
     return typeof x2 === "number" && !isNaN(x2) || typeof x2 === "bigint";
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-browser.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-browser.mjs
   var isBrowser3 = new Function(
     `
     try {
@@ -135926,7 +135967,7 @@ return a / b;`;
   `
   );
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/math-error.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/math-error.mjs
   var MathError2 = class extends Error {
     constructor(message) {
       if (isBrowser3()) {
@@ -135937,12 +135978,12 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/assert.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/assert.mjs
   function assert5(isTrue, message) {
     if (!isTrue) throw new MathError2(message);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/helpers/array-types.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/helpers/array-types.mjs
   var arrayTypes2 = [
     Array,
     ArrayBuffer,
@@ -135959,12 +136000,12 @@ return a / b;`;
     Uint8ClampedArray
   ];
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-undefined.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-undefined.mjs
   function isUndefined2(x2) {
     return x2 === null || typeof x2 === "undefined";
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-array.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-array.mjs
   var typeStrings2 = arrayTypes2.map((s4) => s4.name);
   function isArray3(obj) {
     try {
@@ -135980,7 +136021,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-dataframe.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-dataframe.mjs
   function isDataFrame2(x2) {
     try {
       return !!x2._symbol && x2._symbol === Symbol.for("@jrc03c/js-math-tools/dataframe");
@@ -135989,17 +136030,17 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-function.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-function.mjs
   function isFunction4(fn3) {
     return typeof fn3 === "function";
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-object.mjs
   function isObject3(x2) {
     return typeof x2 === "object" && !isUndefined2(x2) && !isArray3(x2);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-series.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-series.mjs
   function isSeries2(x2) {
     try {
       return !!x2._symbol && x2._symbol === Symbol.for("@jrc03c/js-math-tools/series");
@@ -136008,7 +136049,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/index-of.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/index-of.mjs
   function indexOf2(x2, fn3) {
     if (isDataFrame2(x2)) {
       const index = indexOf2(x2.values, fn3);
@@ -136088,7 +136129,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/copy.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/copy.mjs
   function copy2(x2) {
     function helper10(x3) {
       if (typeof x3 === "object") {
@@ -136182,12 +136223,12 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-date.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-date.mjs
   function isDate3(x2) {
     return x2 instanceof Date && x2.toString() !== "Invalid Date";
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-equal.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-equal.mjs
   var numberTypes2 = ["number", "int", "float", "bigint"];
   function isEqual2(a, b) {
     function helper10(a6, b2) {
@@ -136246,7 +136287,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/helpers/counter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/helpers/counter.mjs
   function makeKey5(n) {
     const alpha = "abcdefg1234567890";
     let out = "";
@@ -136319,7 +136360,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/flatten.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/flatten.mjs
   function flatten4(arr) {
     if (isDataFrame2(arr) || isSeries2(arr)) {
       return flatten4(arr.values);
@@ -136342,7 +136383,7 @@ return a / b;`;
     return helper10(arr);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/stats.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/stats.mjs
   function stats2(x2, options2) {
     options2 = options2 || {};
     const counts = new Counter2();
@@ -136457,7 +136498,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/count.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/count.mjs
   function count3(arr, matcher) {
     const { counts } = stats2(arr);
     if (!isUndefined2(matcher)) {
@@ -136478,7 +136519,7 @@ return a / b;`;
     return counts;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-jagged.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-jagged.mjs
   function helper4(x2) {
     if (isDataFrame2(x2) || isSeries2(x2)) {
       return helper4(x2.values);
@@ -136512,7 +136553,7 @@ return a / b;`;
     return helper4(decycle2(x2));
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-nested.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-nested.mjs
   function isNested2(x2) {
     if (isDataFrame2(x2) || isSeries2(x2)) {
       return isNested2(x2.values);
@@ -136529,7 +136570,7 @@ return a / b;`;
     return false;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/ndarray.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/ndarray.mjs
   var error2 = "You must pass a natural number or a one-dimensional array of natural numbers into the `ndarray` function!";
   function ndarray2(shape4) {
     assert5(!isUndefined2(shape4), error2);
@@ -136558,7 +136599,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/reverse.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/reverse.mjs
   function reverse5(arr) {
     if (isDataFrame2(arr) || isSeries2(arr)) {
       const out2 = arr.copy();
@@ -136575,7 +136616,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/range.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/range.mjs
   function range7(a, b, step6 = 1) {
     assert5(
       !isUndefined2(a) && !isUndefined2(b) && !isUndefined2(step6),
@@ -136616,7 +136657,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/set.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/set.mjs
   function makeKey6(n) {
     const alpha = "abcdefg1234567890";
     let out = "";
@@ -136646,7 +136687,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/shape.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/shape.mjs
   function helper5(x2) {
     if (isArray3(x2)) {
       const childShapes = helper5(x2[0]);
@@ -136666,7 +136707,7 @@ return a / b;`;
     return helper5(x2);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-append.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-append.mjs
   function dfAppend2(df, x2, axis) {
     if (isUndefined2(axis)) {
       axis = 0;
@@ -136831,7 +136872,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-apply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-apply.mjs
   function dfApply2(DataFrame4, Series4, df, fn3, axis) {
     axis = axis || 0;
     assert5(
@@ -136897,12 +136938,12 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-string.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-string.mjs
   function isString4(s4) {
     return typeof s4 === "string";
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-assign.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-assign.mjs
   function dfAssign2(DataFrame4, Series4, df, p1, p22) {
     const isDataFrame4 = (x2) => x2 instanceof DataFrame4;
     const isSeries4 = (x2) => x2 instanceof Series4;
@@ -136954,7 +136995,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-copy.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-copy.mjs
   function dfCopy2(DataFrame4, df) {
     if (df.isEmpty) return new DataFrame4();
     const out = new DataFrame4(copy2(df.values));
@@ -136963,7 +137004,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop.mjs
   function dfDrop2(DataFrame4, Series4, df, rows, cols) {
     if (isUndefined2(rows)) rows = [];
     if (isUndefined2(cols)) cols = [];
@@ -137008,17 +137049,17 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/helpers/is-integer.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/helpers/is-integer.mjs
   function isInteger3(x2) {
     return isNumber3(x2) && (x2 >= 0 ? Math.floor(x2) === x2 : Math.ceil(x2) === x2);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/helpers/is-whole-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/helpers/is-whole-number.mjs
   function isWholeNumber2(x2) {
     return isInteger3(x2) && x2 >= 0;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-missing.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-missing.mjs
   function dfDropMissing2(DataFrame4, Series4, df, axis, condition, threshold3) {
     axis = axis || 0;
     assert5(
@@ -137089,7 +137130,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/drop-nan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/drop-nan.mjs
   function dropNaN2(x2) {
     if (isDataFrame2(x2) || isSeries2(x2)) {
       return x2.dropNaN(...Object.values(arguments).slice(1));
@@ -137111,7 +137152,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-nan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-nan.mjs
   function dfDropNaN2(DataFrame4, df, axis, condition, threshold3) {
     axis = axis || 0;
     assert5(
@@ -137154,7 +137195,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-filter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-filter.mjs
   function arrayToObject2(x2) {
     const out = {};
     flatten4(x2).forEach((value, i) => {
@@ -137235,7 +137276,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get.mjs
   function dfGet2(df, rows, cols) {
     if (isString4(rows) || isNumber3(rows)) rows = [rows];
     if (isString4(cols) || isNumber3(cols)) cols = [cols];
@@ -137301,7 +137342,7 @@ return a / b;`;
     return df.getSubsetByNames(rows, cols);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/sort.mjs
   function alphaSort3(a, b) {
     try {
       if (a < b) return -1;
@@ -137333,7 +137374,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-dummies.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-dummies.mjs
   function camelify3(text) {
     const temp = text.toLowerCase();
     let out = "";
@@ -137386,7 +137427,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-indices.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-indices.mjs
   function dfGetSubsetByIndices2(df, rowIndices, colIndices) {
     const dataShape = df.shape;
     if (isUndefined2(rowIndices)) rowIndices = range7(0, dataShape[0]);
@@ -137434,7 +137475,7 @@ return a / b;`;
     return df.getSubsetByNames(rows, cols);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-names.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-names.mjs
   function dfGetSubsetByNames2(DataFrame4, Series4, df, rows, cols) {
     if (isUndefined2(rows)) rows = df.index;
     if (isUndefined2(cols)) cols = df.columns;
@@ -137502,7 +137543,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-print.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-print.mjs
   function dfPrint2(DataFrame4, Series4, df) {
     function truncate2(s4, maxLength2) {
       if (isString4(s4)) {
@@ -137574,7 +137615,7 @@ return a / b;`;
     return df;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/helpers/left-pad.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/helpers/left-pad.mjs
   function leftPad3(x2, maxLength) {
     assert5(isNumber3(x2), "The `leftPad` function only works on numbers!");
     let out = x2.toString();
@@ -137582,7 +137623,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-reset-index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-reset-index.mjs
   function dfResetIndex2(df, shouldSkipCopying) {
     const out = shouldSkipCopying ? df : df.copy();
     out.index = range7(0, df.shape[0]).map((i) => {
@@ -137591,7 +137632,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/product.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/product.mjs
   function product2(arr, shouldDropNaNs) {
     if (isDataFrame2(arr) || isSeries2(arr)) {
       return product2(arr.values, shouldDropNaNs);
@@ -137631,12 +137672,12 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/helpers/is-natural-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/helpers/is-natural-number.mjs
   function isNaturalNumber3(x2) {
     return isInteger3(x2) && x2 > 0;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/reshape.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/reshape.mjs
   function reshape5(x2, newShape) {
     if (isDataFrame2(x2) || isSeries2(x2)) {
       return reshape5(x2.values, newShape);
@@ -137684,7 +137725,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/random.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/random.mjs
   var MAX2 = Math.pow(2, 64);
   var s2 = [];
   seed2(Math.floor(Math.random() * MAX2));
@@ -137744,7 +137785,7 @@ return a / b;`;
     return reshape5(ndarray2(product2(shape4)).map(next3), shape4);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/shuffle.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/shuffle.mjs
   function shuffle3(arr) {
     if (isDataFrame2(arr) || isSeries2(arr)) {
       return arr.shuffle(...Object.values(arguments).slice(1));
@@ -137762,7 +137803,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-shuffle.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-shuffle.mjs
   function dfShuffle2(df, axis) {
     if (isUndefined2(axis)) axis = 0;
     assert5(
@@ -137775,12 +137816,12 @@ return a / b;`;
     );
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/is-boolean.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/is-boolean.mjs
   function isBoolean4(x2) {
     return typeof x2 === "boolean";
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-sort.mjs
   function dfSort2(df, a, b) {
     if (isFunction4(a)) {
       return dfSortByFunction2(df, a, b);
@@ -137893,7 +137934,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-detailed-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-detailed-object.mjs
   function dfToDetailedObject2(df, axis) {
     if (isUndefined2(axis)) {
       axis = 0;
@@ -137924,17 +137965,17 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json-string.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json-string.mjs
   function dfToJSONString2(df, axis) {
     return JSON.stringify(df.toObject(axis));
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json.mjs
   async function dfToJSON2(df, axis) {
     return JSON.parse(dfToJSONString2(df, axis));
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-object.mjs
   function dfToObject2(df) {
     const out = {};
     df.columns.forEach((col) => {
@@ -137943,7 +137984,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/transpose.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/transpose.mjs
   function transpose5(arr) {
     if (isDataFrame2(arr) || isSeries2(arr)) {
       return arr.transpose();
@@ -137970,7 +138011,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-append.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-append.mjs
   function seriesAppend2(Series4, series, x2) {
     if (isSeries2(x2)) {
       return new Series4(series.values.concat(x2.values));
@@ -137991,7 +138032,7 @@ return a / b;`;
     return seriesAppend2(series, [x2]);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-apply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-apply.mjs
   function seriesApply2(series, fn3) {
     assert5(
       isFunction4(fn3),
@@ -138002,7 +138043,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-drop-missing.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-drop-missing.mjs
   function seriesDropMissing2(series) {
     const out = series.copy();
     const outIndex = [];
@@ -138018,7 +138059,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-drop-nan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-drop-nan.mjs
   function seriesDropNaN2(Series4, series) {
     const index = [];
     const values = [];
@@ -138034,7 +138075,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-filter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-filter.mjs
   function seriesFilter2(Series4, series, fn3) {
     let out = series.copy();
     const index = copy2(out.index);
@@ -138057,7 +138098,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-get.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-get.mjs
   function seriesGet2(series, indices) {
     if (isString4(indices) || isNumber3(indices)) indices = [indices];
     for (const i in indices) {
@@ -138103,7 +138144,7 @@ return a / b;`;
     return series.getSubsetByNames(indices);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-indices.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-indices.mjs
   function seriesGetSubsetByIndices2(series, indices) {
     const dataShape = series.shape;
     if (isUndefined2(indices)) indices = range7(0, dataShape[0]);
@@ -138133,7 +138174,7 @@ return a / b;`;
     return series.getSubsetByNames(rows);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-names.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-names.mjs
   function seriesGetSubsetByNames2(Series4, series, indices) {
     if (isUndefined2(indices)) indices = series.index;
     assert5(
@@ -138165,7 +138206,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-print.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-print.mjs
   function seriesPrint2(series) {
     let temp = series.copy();
     const maxRows = typeof window === "undefined" ? 20 : 10;
@@ -138192,13 +138233,13 @@ return a / b;`;
     return series;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-shuffle.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-shuffle.mjs
   function seriesShuffle2(series) {
     const out = series.copy();
     return out.get(shuffle3(out.index));
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-sort.mjs
   function seriesSort2(Series4, series, fn3) {
     fn3 = fn3 || ((a, b) => a < b ? -1 : 1);
     assert5(
@@ -138222,7 +138263,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-sort-by-index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-sort-by-index.mjs
   function seriesSortByIndex2(Series4, series) {
     let temp = transpose5([series.values, series.index]);
     temp = transpose5(
@@ -138238,7 +138279,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/series-to-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/series-to-object.mjs
   function seriesToObject2(series) {
     const out = {};
     out[series.name] = {};
@@ -138248,7 +138289,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/series/index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/series/index.mjs
   var SERIES_SYMBOL2 = Symbol.for("@jrc03c/js-math-tools/series");
   function createSeriesClass2(DataFrame4) {
     class Series4 {
@@ -138464,7 +138505,7 @@ return a / b;`;
     return Series4;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/dataframe/index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/dataframe/index.mjs
   var DATAFRAME_SYMBOL2 = Symbol.for("@jrc03c/js-math-tools/dataframe");
   function makeKey7(n) {
     const alpha = "abcdefghijklmnopqrstuvwxyz1234567890";
@@ -138805,12 +138846,12 @@ return a / b;`;
   };
   var Series2 = createSeriesClass2(DataFrame2);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/max.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/max.mjs
   function max6(arr, shouldDropNaNs) {
     return stats2(arr, { shouldDropNaNs }).max;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/vectorize.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/vectorize.mjs
   function vectorize2(fn3) {
     assert5(
       isFunction4(fn3),
@@ -138898,7 +138939,7 @@ return a / b;`;
     };
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/abs.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/abs.mjs
   function abs5(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -138913,7 +138954,7 @@ return a / b;`;
   }
   var vabs2 = vectorize2(abs5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/add.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/add.mjs
   function add5() {
     try {
       let out = 0;
@@ -138940,7 +138981,7 @@ return a / b;`;
   }
   var vadd2 = vectorize2(add5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/apply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/apply.mjs
   function apply3(x2, fn3) {
     try {
       return fn3(x2);
@@ -138950,7 +138991,7 @@ return a / b;`;
   }
   var vapply2 = vectorize2(apply3);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/arccos.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/arccos.mjs
   function arccos2(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -138964,7 +139005,7 @@ return a / b;`;
   }
   var varccos2 = vectorize2(arccos2);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/arcsin.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/arcsin.mjs
   function arcsin2(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -138978,7 +139019,7 @@ return a / b;`;
   }
   var varcsin2 = vectorize2(arcsin2);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/arctan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/arctan.mjs
   function arctan2(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -138992,7 +139033,7 @@ return a / b;`;
   }
   var varctan2 = vectorize2(arctan2);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/ceil.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/ceil.mjs
   function ceil5(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139004,7 +139045,7 @@ return a / b;`;
   }
   var vceil2 = vectorize2(ceil5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/chop.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/chop.mjs
   function chop2(x2, threshold3) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139021,7 +139062,7 @@ return a / b;`;
   }
   var vchop2 = vectorize2(chop2);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/int.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/int.mjs
   function int3(x2) {
     if (isDataFrame2(x2) || isSeries2(x2)) {
       const out = x2.copy();
@@ -139044,7 +139085,7 @@ return a / b;`;
   }
   var vint2 = vectorize2(int3);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/clamp.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/clamp.mjs
   function clamp3(x2, a, b) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139062,7 +139103,7 @@ return a / b;`;
   }
   var vclamp2 = vectorize2(clamp3);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/cos.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/cos.mjs
   function cos5(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139076,7 +139117,7 @@ return a / b;`;
   }
   var vcos2 = vectorize2(cos5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/helpers/data-types.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/helpers/data-types.mjs
   var dataTypes2 = Object.freeze({
     boolean: "boolean",
     date: "date",
@@ -139086,7 +139127,7 @@ return a / b;`;
     string: "string"
   });
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/pow.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/pow.mjs
   function pow5(x2, p4) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139106,7 +139147,7 @@ return a / b;`;
   }
   var vpow2 = vectorize2(pow5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/sqrt.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/sqrt.mjs
   function sqrt5(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139125,7 +139166,7 @@ return a / b;`;
   }
   var vsqrt2 = vectorize2(sqrt5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/multiply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/multiply.mjs
   function multiply4() {
     try {
       const x2 = Object.values(arguments);
@@ -139153,7 +139194,7 @@ return a / b;`;
   }
   var vmultiply2 = vectorize2(multiply4);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/exp.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/exp.mjs
   function exp5(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139171,7 +139212,7 @@ return a / b;`;
   }
   var vexp2 = vectorize2(exp5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/factorial.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/factorial.mjs
   function factorial2(n) {
     try {
       if (typeof n === "bigint") {
@@ -139186,7 +139227,7 @@ return a / b;`;
   }
   var vfactorial2 = vectorize2(factorial2);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/float.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/float.mjs
   function float2(x2) {
     try {
       if (x2 === "Infinity") {
@@ -139204,7 +139245,7 @@ return a / b;`;
   }
   var vfloat2 = vectorize2(float2);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/floor.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/floor.mjs
   function floor5(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139218,7 +139259,7 @@ return a / b;`;
   }
   var vfloor2 = vectorize2(floor5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/lerp.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/lerp.mjs
   function lerp2(a, b, f) {
     try {
       if (!isNumber3(a)) return NaN;
@@ -139239,7 +139280,7 @@ return a / b;`;
   }
   var vlerp2 = vectorize2(lerp2);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/log.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/log.mjs
   function log6(x2, base) {
     try {
       base = isUndefined2(base) ? Math.E : base;
@@ -139260,7 +139301,7 @@ return a / b;`;
   }
   var vlog2 = vectorize2(log6);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/mod.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/mod.mjs
   function mod5(a, b) {
     try {
       if (!isNumber3(a)) return NaN;
@@ -139280,7 +139321,7 @@ return a / b;`;
   }
   var vmod2 = vectorize2(mod5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/remap.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/remap.mjs
   var helper6 = vectorize2((x2, a, b, c, d) => {
     try {
       let resultShouldBeABigInt = false;
@@ -139315,7 +139356,7 @@ return a / b;`;
     }
   });
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/round.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/round.mjs
   function round6(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139327,7 +139368,7 @@ return a / b;`;
   }
   var vround2 = vectorize2(round6);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/sign.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/sign.mjs
   function sign5(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139341,7 +139382,7 @@ return a / b;`;
   }
   var vsign2 = vectorize2(sign5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/sin.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/sin.mjs
   function sin5(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139355,7 +139396,7 @@ return a / b;`;
   }
   var vsin2 = vectorize2(sin5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-math-tools/src/tan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.93/node_modules/@jrc03c/js-math-tools/src/tan.mjs
   function tan5(x2) {
     try {
       if (!isNumber3(x2)) return NaN;
@@ -139369,7 +139410,7 @@ return a / b;`;
   }
   var vtan2 = vectorize2(tan5);
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/make-key/src/index.mjs
+  // node_modules/.pnpm/@jrc03c+make-key@0.0.37/node_modules/@jrc03c/make-key/src/index.mjs
   function makeKey8(keyLength, keySeed, charset) {
     if (arguments.length === 2) {
       if (isNumber3(arguments[1])) {
@@ -139401,7 +139442,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-text-tools/src/helpers/convert-object-to-typed-array.mjs
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.63/node_modules/@jrc03c/js-text-tools/src/helpers/convert-object-to-typed-array.mjs
   var context = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : void 0;
   function convertObjectToTypedArray2(x2) {
     const typedArrayConstructorSymbol = Symbol.for("@TypedArrayConstructor");
@@ -139426,7 +139467,7 @@ return a / b;`;
     );
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-text-tools/src/helpers/convert-typed-array-to-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.63/node_modules/@jrc03c/js-text-tools/src/helpers/convert-typed-array-to-object.mjs
   function convertTypedArrayToObject2(x2) {
     if (x2 instanceof ArrayBuffer || x2 instanceof BigInt64Array || x2 instanceof BigUint64Array || x2 instanceof Float32Array || x2 instanceof Float64Array || x2 instanceof Int16Array || x2 instanceof Int32Array || x2 instanceof Int8Array || x2 instanceof Uint16Array || x2 instanceof Uint32Array || x2 instanceof Uint8Array || x2 instanceof Uint8ClampedArray) {
       return {
@@ -139462,13 +139503,13 @@ return a / b;`;
     );
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-text-tools/src/helpers/is-a-number-string.mjs
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.63/node_modules/@jrc03c/js-text-tools/src/helpers/is-a-number-string.mjs
   function isANumberString2(x2) {
     x2 = x2.trim();
     return !!(x2.match(/^-?\d+(\.\d+)?$/g) || x2.match(/^-?\d+(\.\d+)?e-?\d+(\.\d+)?$/g) || x2.match(/^-?\.\d+$/g) || x2 === "NaN");
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-text-tools/src/parse.mjs
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.63/node_modules/@jrc03c/js-text-tools/src/parse.mjs
   var specials = {
     "@Infinity": Infinity,
     "@NegativeInfinity": -Infinity,
@@ -139709,7 +139750,7 @@ return a / b;`;
     return helper10(x2);
   }
 
-  // node_modules/@jrc03c/bee/node_modules/@jrc03c/js-text-tools/src/stringify.mjs
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.63/node_modules/@jrc03c/js-text-tools/src/stringify.mjs
   function prefix2(s4, n) {
     if (!s4 || n <= 0) return "";
     return range7(0, n).map(() => s4).join("");
@@ -139806,7 +139847,7 @@ return a / b;`;
     return helper10(decycle2(x2), indent4);
   }
 
-  // node_modules/@jrc03c/bee/src/subscription-service.mjs
+  // node_modules/.pnpm/@jrc03c+bee@0.0.55/node_modules/@jrc03c/bee/src/subscription-service.mjs
   Array.prototype.remove = function(x2) {
     let index = this.indexOf(x2);
     while (index > -1) {
@@ -139949,7 +139990,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/bee/src/drone.mjs
+  // node_modules/.pnpm/@jrc03c+bee@0.0.55/node_modules/@jrc03c/bee/src/drone.mjs
   var Drone = class extends SubscriptionService {
     constructor(path, options2) {
       super();
@@ -139985,7 +140026,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/bee/src/queen.mjs
+  // node_modules/.pnpm/@jrc03c+bee@0.0.55/node_modules/@jrc03c/bee/src/queen.mjs
   var Queen = class extends SubscriptionService {
     hive = [];
     constructor(path, n) {
@@ -141739,7 +141780,7 @@ return a / b;`;
     SnapshotVisualization: () => SnapshotVisualization
   });
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-text-tools/src/camelify.mjs
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.88/node_modules/@jrc03c/js-text-tools/src/camelify.mjs
   function camelify5(text) {
     if (typeof text !== "string") {
       throw new Error("`text` must be a string!");
@@ -141765,12 +141806,12 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-number.mjs
   function isNumber4(x2) {
     return typeof x2 === "number" && !isNaN(x2) || typeof x2 === "bigint";
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-browser.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-browser.mjs
   var isBrowser4 = new Function(
     `
     try {
@@ -141785,7 +141826,7 @@ return a / b;`;
   `
   );
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/math-error.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/math-error.mjs
   var MathError3 = class extends Error {
     constructor(message) {
       if (isBrowser4()) {
@@ -141796,19 +141837,19 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/assert.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/assert.mjs
   function assert6(isTrue, message) {
     if (!isTrue) throw new MathError3(message);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/for-each.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/for-each.mjs
   function forEach(x2, fn3) {
     for (let i = 0; i < x2.length; i++) {
       fn3(x2[i], i, x2);
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/helpers/array-types.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/helpers/array-types.mjs
   var arrayTypes3 = [
     Array,
     ArrayBuffer,
@@ -141825,12 +141866,12 @@ return a / b;`;
     Uint8ClampedArray
   ];
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-undefined.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-undefined.mjs
   function isUndefined3(x2) {
     return x2 === null || typeof x2 === "undefined";
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/map.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/map.mjs
   function map2(x2, fn3) {
     const out = new Array(x2.length);
     for (let i = 0; i < x2.length; i++) {
@@ -141839,7 +141880,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-array.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-array.mjs
   var typeStrings3 = map2(arrayTypes3, (s4) => s4.name);
   function isArray4(obj) {
     try {
@@ -141855,7 +141896,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-dataframe.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-dataframe.mjs
   function isDataFrame3(x2) {
     try {
       return !!x2._symbol && x2._symbol === Symbol.for("@jrc03c/js-math-tools/dataframe");
@@ -141864,17 +141905,17 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-function.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-function.mjs
   function isFunction5(fn3) {
     return typeof fn3 === "function";
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-object.mjs
   function isObject4(x2) {
     return typeof x2 === "object" && !isUndefined3(x2) && !isArray4(x2);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-series.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-series.mjs
   function isSeries3(x2) {
     try {
       return !!x2._symbol && x2._symbol === Symbol.for("@jrc03c/js-math-tools/series");
@@ -141883,7 +141924,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/index-of.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/index-of.mjs
   function indexOf3(x2, fn3) {
     if (isDataFrame3(x2)) {
       const index = indexOf3(x2.values, fn3);
@@ -141963,7 +142004,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/copy.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/copy.mjs
   function copy3(x2) {
     function helper10(x3) {
       if (typeof x3 === "object") {
@@ -142063,12 +142104,12 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-date.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-date.mjs
   function isDate4(x2) {
     return x2 instanceof Date && x2.toString() !== "Invalid Date";
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-equal.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-equal.mjs
   var numberTypes3 = ["number", "int", "float", "bigint"];
   function isEqual3(a, b) {
     function helper10(a6, b2) {
@@ -142127,7 +142168,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/helpers/counter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/helpers/counter.mjs
   function makeKey9(n) {
     const alpha = "abcdefg1234567890";
     let out = "";
@@ -142200,7 +142241,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/flatten.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/flatten.mjs
   function flatten5(arr) {
     if (isDataFrame3(arr) || isSeries3(arr)) {
       return flatten5(arr.values);
@@ -142223,7 +142264,7 @@ return a / b;`;
     return helper10(arr);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/stats.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/stats.mjs
   function stats3(x2, options2) {
     options2 = options2 || {};
     const counts = new Counter3();
@@ -142338,7 +142379,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/count.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/count.mjs
   function count4(arr, matcher) {
     const { counts } = stats3(arr);
     if (!isUndefined3(matcher)) {
@@ -142359,7 +142400,7 @@ return a / b;`;
     return counts;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/filter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/filter.mjs
   function filter(x2, fn3) {
     const out = [];
     for (let i = 0; i < x2.length; i++) {
@@ -142370,7 +142411,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-jagged.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-jagged.mjs
   function helper7(x2) {
     if (isDataFrame3(x2) || isSeries3(x2)) {
       return helper7(x2.values);
@@ -142404,7 +142445,7 @@ return a / b;`;
     return helper7(decycle3(x2));
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-nested.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-nested.mjs
   function isNested3(x2) {
     if (isDataFrame3(x2) || isSeries3(x2)) {
       return isNested3(x2.values);
@@ -142421,7 +142462,7 @@ return a / b;`;
     return false;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/ndarray.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/ndarray.mjs
   var error3 = "You must pass a natural number or a one-dimensional array of natural numbers into the `ndarray` function!";
   function ndarray3(shape4) {
     assert6(!isUndefined3(shape4), error3);
@@ -142450,24 +142491,123 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/reverse.mjs
-  function reverse6(arr) {
-    if (isDataFrame3(arr) || isSeries3(arr)) {
-      const out2 = arr.copy();
-      out2.values = reverse6(out2.values);
-      out2.index = reverse6(out2.index);
-      return out2;
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/range.mjs
+  var RangeIterator = class _RangeIterator {
+    static from(data4) {
+      return new _RangeIterator(data4.a, data4.b);
     }
-    assert6(
-      isArray4(arr),
-      "The `reverse` function only works on arrays, Series, and DataFrames!"
-    );
-    const out = [];
-    for (let i = arr.length - 1; i >= 0; i--) out.push(arr[i]);
-    return out;
-  }
-
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/range.mjs
+    a = 0;
+    b = 0;
+    step = 0;
+    constructor(a, b, step6) {
+      this.a = a;
+      this.b = b;
+      this.step = step6 ?? 1;
+    }
+    get length() {
+      return Math.abs(
+        (Math.max(this.a, this.b) - Math.min(this.a, this.b)) / this.step
+      );
+    }
+    get pairIterator() {
+      const iterator2 = this[Symbol.iterator]();
+      function* helper10() {
+        let i = 0;
+        for (const v of iterator2) {
+          yield [v, i];
+          i++;
+        }
+      }
+      return helper10();
+    }
+    [Symbol.iterator]() {
+      const shouldIncludeBigInts = typeof this.a === "bigint" || typeof this.b === "bigint" || typeof this.step === "bigint";
+      const a = shouldIncludeBigInts ? BigInt(this.a) : this.a;
+      const b = shouldIncludeBigInts ? BigInt(this.b) : this.b;
+      let step6 = shouldIncludeBigInts ? BigInt(this.step) : this.step;
+      if (a <= b && step6 < 0 || a > b && step6 > 0) {
+        step6 *= shouldIncludeBigInts ? BigInt(-1) : -1;
+      }
+      function* helper10() {
+        if (a <= b) {
+          for (let i = a; i < b; i += step6) {
+            yield i;
+          }
+        } else {
+          for (let i = a; i > b; i += step6) {
+            yield i;
+          }
+        }
+      }
+      return helper10();
+    }
+    drop(limit2) {
+      return new _RangeIterator(this.a + limit2 * this.step, this.b);
+    }
+    every(fn3) {
+      for (const pair of this.pairIterator) {
+        if (!fn3(...pair)) {
+          return false;
+        }
+      }
+      return true;
+    }
+    filter(fn3) {
+      const out = [];
+      for (const pair of this.pairIterator) {
+        if (fn3(...pair)) {
+          out.push(pair[0]);
+        }
+      }
+      return out;
+    }
+    find(fn3) {
+      for (const pair of this.pairIterator) {
+        if (fn3(...pair)) {
+          return pair[0];
+        }
+      }
+    }
+    flatMap() {
+      throw new Error("The `RangeIterator.flatMap` method has no implementation!");
+    }
+    forEach(fn3) {
+      for (const pair of this.pairIterator) {
+        fn3(...pair);
+      }
+    }
+    map(fn3) {
+      const out = [];
+      for (const pair of this.pairIterator) {
+        out.push(fn3(...pair));
+      }
+      return out;
+    }
+    reduce(fn3, out) {
+      for (const pair of this.pairIterator) {
+        out = fn3(pair[0], out, pair[1]);
+      }
+      return out;
+    }
+    some(fn3) {
+      for (const pair of this.pairIterator) {
+        if (fn3(...pair)) {
+          return true;
+        }
+      }
+      return false;
+    }
+    take(limit2) {
+      return new _RangeIterator(this.a, this.a + limit2 * this.step);
+    }
+    toArray() {
+      const out = [];
+      for (const i of this) {
+        out.push(i);
+      }
+      return out;
+    }
+  };
   function range8(a, b, step6 = 1) {
     assert6(
       !isUndefined3(a) && !isUndefined3(b) && !isUndefined3(step6),
@@ -142478,37 +142618,13 @@ return a / b;`;
       "You must pass two numbers and optionally a step value to the `range` function!"
     );
     assert6(
-      step6 > 0,
+      step6 !== 0,
       "The step value must be greater than 0! (NOTE: The step value is a magnitude; it does not indicate direction.)"
     );
-    let shouldReverse = false;
-    const shouldIncludeBigInts = typeof a === "bigint" || typeof b === "bigint" || typeof step6 === "bigint";
-    a = Number(a);
-    b = Number(b);
-    step6 = Number(step6);
-    if (a > b) {
-      shouldReverse = true;
-      const buffer3 = a;
-      a = b + step6;
-      b = buffer3 + step6;
-    }
-    let out = [];
-    for (let i = a; i < b; i += step6) {
-      if (shouldIncludeBigInts) {
-        try {
-          out.push(BigInt(i));
-        } catch (e) {
-          out.push(i);
-        }
-      } else {
-        out.push(i);
-      }
-    }
-    if (shouldReverse) out = reverse6(out);
-    return out;
+    return new RangeIterator(a, b, step6);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/set.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/set.mjs
   function makeKey10(n) {
     const alpha = "abcdefg1234567890";
     let out = "";
@@ -142538,7 +142654,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/shape.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/shape.mjs
   function helper8(x2) {
     if (isArray4(x2)) {
       const childShapes = helper8(x2[0]);
@@ -142558,7 +142674,7 @@ return a / b;`;
     return helper8(x2);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-append.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-append.mjs
   function dfAppend3(df, x2, axis) {
     if (isUndefined3(axis)) {
       axis = 0;
@@ -142593,7 +142709,7 @@ return a / b;`;
         } else {
           const maxColLength = Math.max(df.shape[0], xShape[0]);
           const out = df.copy();
-          forEach(range8(0, maxColLength), (i) => {
+          range8(0, maxColLength).forEach((i) => {
             if (i >= out._values.length) {
               out._values.push(ndarray3(df.shape[1]));
             }
@@ -142630,7 +142746,7 @@ return a / b;`;
           const maxRowLength = Math.max(...map2(x2, (row) => row.length)) + df.shape[1];
           const maxColLength = Math.max(df.shape[0], xShape[0]);
           const out = df.copy();
-          forEach(range8(0, maxColLength), (i) => {
+          range8(0, maxColLength).forEach((i) => {
             if (i >= out._values.length) {
               out._values.push(ndarray3(df.shape[1]));
             }
@@ -142723,7 +142839,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-apply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-apply.mjs
   function dfApply3(DataFrame4, Series4, df, fn3, axis) {
     axis = axis || 0;
     assert6(
@@ -142789,12 +142905,12 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-string.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-string.mjs
   function isString5(s4) {
     return typeof s4 === "string";
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-assign.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-assign.mjs
   function dfAssign3(DataFrame4, Series4, df, p1, p22) {
     const isDataFrame4 = (x2) => x2 instanceof DataFrame4;
     const isSeries4 = (x2) => x2 instanceof Series4;
@@ -142846,7 +142962,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-copy.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-copy.mjs
   function dfCopy3(DataFrame4, df) {
     if (df.isEmpty) return new DataFrame4();
     const out = new DataFrame4(copy3(df.values));
@@ -142855,7 +142971,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop.mjs
   function dfDrop3(DataFrame4, Series4, df, rows, cols) {
     if (isUndefined3(rows)) rows = [];
     if (isUndefined3(cols)) cols = [];
@@ -142900,17 +143016,17 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/helpers/is-integer.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/helpers/is-integer.mjs
   function isInteger4(x2) {
     return isNumber4(x2) && (x2 >= 0 ? Math.floor(x2) === x2 : Math.ceil(x2) === x2);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/helpers/is-whole-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/helpers/is-whole-number.mjs
   function isWholeNumber3(x2) {
     return isInteger4(x2) && x2 >= 0;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-missing.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-missing.mjs
   function dfDropMissing3(DataFrame4, Series4, df, axis, condition, threshold3) {
     axis = axis || 0;
     assert6(
@@ -142981,7 +143097,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/drop-nan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/drop-nan.mjs
   function dropNaN3(x2) {
     if (isDataFrame3(x2) || isSeries3(x2)) {
       return x2.dropNaN(...Object.values(arguments).slice(1));
@@ -143003,7 +143119,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-nan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-drop-nan.mjs
   function dfDropNaN3(DataFrame4, df, axis, condition, threshold3) {
     axis = axis || 0;
     assert6(
@@ -143046,7 +143162,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-filter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-filter.mjs
   function arrayToObject3(x2) {
     const out = {};
     forEach(flatten5(x2), (value, i) => {
@@ -143127,7 +143243,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get.mjs
   function dfGet3(df, rows, cols) {
     if (isString5(rows) || isNumber4(rows)) rows = [rows];
     if (isString5(cols) || isNumber4(cols)) cols = [cols];
@@ -143193,7 +143309,7 @@ return a / b;`;
     return df.getSubsetByNames(rows, cols);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/sort.mjs
   function alphaSort4(a, b) {
     try {
       if (a < b) return -1;
@@ -143225,7 +143341,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-dummies.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-dummies.mjs
   function camelify6(text) {
     const temp = text.toLowerCase();
     let out = "";
@@ -143281,11 +143397,11 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-indices.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-indices.mjs
   function dfGetSubsetByIndices3(df, rowIndices, colIndices) {
     const dataShape = df.shape;
-    if (isUndefined3(rowIndices)) rowIndices = range8(0, dataShape[0]);
-    if (isUndefined3(colIndices)) colIndices = range8(0, dataShape[1]);
+    if (isUndefined3(rowIndices)) rowIndices = range8(0, dataShape[0]).toArray();
+    if (isUndefined3(colIndices)) colIndices = range8(0, dataShape[1]).toArray();
     if (isNumber4(rowIndices)) rowIndices = [rowIndices];
     if (isNumber4(colIndices)) colIndices = [colIndices];
     assert6(
@@ -143329,7 +143445,7 @@ return a / b;`;
     return df.getSubsetByNames(rows, cols);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-names.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-get-subset-by-names.mjs
   function dfGetSubsetByNames3(DataFrame4, Series4, df, rows, cols) {
     if (isUndefined3(rows)) rows = df.index;
     if (isUndefined3(cols)) cols = df.columns;
@@ -143397,7 +143513,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-print.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-print.mjs
   function dfPrint3(DataFrame4, Series4, df) {
     function truncate2(s4, maxLength2) {
       if (isString5(s4)) {
@@ -143419,11 +143535,14 @@ return a / b;`;
     const halfMaxRows = Math.floor(maxRows / 2);
     const maxColumns = 4;
     const halfMaxColumns = Math.floor(maxColumns / 2);
-    const tempRows = maxRows > df.index.length ? null : range8(0, halfMaxRows).concat(
-      range8(df.index.length - halfMaxRows, df.index.length)
+    const tempRows = maxRows > df.index.length ? null : range8(0, halfMaxRows).toArray().concat(
+      range8(df.index.length - halfMaxRows, df.index.length).toArray()
     );
-    const tempColumns = maxColumns > df.columns.length ? null : range8(0, halfMaxColumns).concat(
-      range8(df.columns.length - halfMaxColumns, df.columns.length)
+    const tempColumns = maxColumns > df.columns.length ? null : range8(0, halfMaxColumns).toArray().concat(
+      range8(
+        df.columns.length - halfMaxColumns,
+        df.columns.length
+      ).toArray()
     );
     let temp = df.get(tempRows, tempColumns);
     if (temp instanceof Series4) {
@@ -143442,7 +143561,7 @@ return a / b;`;
       temp._values.splice(
         halfMaxRows,
         0,
-        map2(range8(0, temp.columns.length), () => "...")
+        range8(0, temp.columns.length).map(() => "...")
       );
     }
     if (maxColumns <= df.columns.length) {
@@ -143469,24 +143588,17 @@ return a / b;`;
     return df;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/helpers/left-pad.mjs
-  function leftPad4(x2, maxLength) {
-    assert6(isNumber4(x2), "The `leftPad` function only works on numbers!");
-    let out = x2.toString();
-    while (out.length < maxLength) out = "0" + out;
-    return out;
-  }
-
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-reset-index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-reset-index.mjs
   function dfResetIndex3(df, shouldSkipCopying) {
     const out = shouldSkipCopying ? df : df.copy();
-    out.index = map2(range8(0, df.shape[0]), (i) => {
-      return "row" + leftPad4(i, (out.index.length - 1).toString().length);
+    const n = (out.index.length - 1).toString().length;
+    out.index = range8(0, df.shape[0]).map((i) => {
+      return "row" + i.toString().padStart(n, "0");
     });
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/product.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/product.mjs
   function product3(arr, shouldDropNaNs) {
     if (isDataFrame3(arr) || isSeries3(arr)) {
       return product3(arr.values, shouldDropNaNs);
@@ -143526,12 +143638,12 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/helpers/is-natural-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/helpers/is-natural-number.mjs
   function isNaturalNumber4(x2) {
     return isInteger4(x2) && x2 > 0;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/reshape.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/reshape.mjs
   function reshape6(x2, newShape) {
     if (isDataFrame3(x2) || isSeries3(x2)) {
       return reshape6(x2.values, newShape);
@@ -143579,7 +143691,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/random.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/random.mjs
   var MAX3 = Math.pow(2, 64);
   var s3 = [];
   seed3(Math.floor(Math.random() * MAX3));
@@ -143639,7 +143751,7 @@ return a / b;`;
     return reshape6(map2(ndarray3(product3(shape4)), next4), shape4);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/shuffle.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/shuffle.mjs
   function shuffle4(arr) {
     if (isDataFrame3(arr) || isSeries3(arr)) {
       return arr.shuffle(...Object.values(arguments).slice(1));
@@ -143657,7 +143769,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-shuffle.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-shuffle.mjs
   function dfShuffle3(df, axis) {
     if (isUndefined3(axis)) axis = 0;
     assert6(
@@ -143670,12 +143782,12 @@ return a / b;`;
     );
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/is-boolean.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/is-boolean.mjs
   function isBoolean5(x2) {
     return typeof x2 === "boolean";
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-sort.mjs
   function dfSort3(df, a, b) {
     if (isFunction5(a)) {
       return dfSortByFunction3(df, a, b);
@@ -143726,7 +143838,7 @@ return a / b;`;
       "The first parameter of the `sort` method must be (1) a string or index representing a column name or index, respectively; (2) a 1-dimensional array of strings and/or indices; or (3) null."
     );
     if (isUndefined3(directions)) {
-      directions = map2(range8(0, cols.length), () => true);
+      directions = range8(0, cols.length).map(() => true);
     }
     assert6(
       isArray4(directions),
@@ -143789,7 +143901,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-detailed-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-detailed-object.mjs
   function dfToDetailedObject3(df, axis) {
     if (isUndefined3(axis)) {
       axis = 0;
@@ -143820,17 +143932,17 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json-string.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json-string.mjs
   function dfToJSONString3(df, axis) {
     return JSON.stringify(df.toObject(axis));
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-json.mjs
   async function dfToJSON3(df, axis) {
     return JSON.parse(dfToJSONString3(df, axis));
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/df-to-object.mjs
   function dfToObject3(df) {
     const out = {};
     forEach(df.columns, (col) => {
@@ -143839,7 +143951,24 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/transpose.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/reverse.mjs
+  function reverse6(arr) {
+    if (isDataFrame3(arr) || isSeries3(arr)) {
+      const out2 = arr.copy();
+      out2.values = reverse6(out2.values);
+      out2.index = reverse6(out2.index);
+      return out2;
+    }
+    assert6(
+      isArray4(arr),
+      "The `reverse` function only works on arrays, Series, and DataFrames!"
+    );
+    const out = [];
+    for (let i = arr.length - 1; i >= 0; i--) out.push(arr[i]);
+    return out;
+  }
+
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/transpose.mjs
   function transpose6(arr) {
     if (isDataFrame3(arr) || isSeries3(arr)) {
       return arr.transpose();
@@ -143866,7 +143995,7 @@ return a / b;`;
     }
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-append.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-append.mjs
   function seriesAppend3(Series4, series, x2) {
     if (isSeries3(x2)) {
       return new Series4(series.values.concat(x2.values));
@@ -143887,7 +144016,7 @@ return a / b;`;
     return seriesAppend3(series, [x2]);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-apply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-apply.mjs
   function seriesApply3(series, fn3) {
     assert6(
       isFunction5(fn3),
@@ -143898,7 +144027,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-drop-missing.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-drop-missing.mjs
   function seriesDropMissing3(series) {
     const out = series.copy();
     const outIndex = [];
@@ -143914,7 +144043,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-drop-nan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-drop-nan.mjs
   function seriesDropNaN3(Series4, series) {
     const index = [];
     const values = [];
@@ -143930,7 +144059,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-filter.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-filter.mjs
   function seriesFilter3(Series4, series, fn3) {
     let out = series.copy();
     const index = copy3(out.index);
@@ -143953,7 +144082,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-get.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-get.mjs
   function seriesGet3(series, indices) {
     if (isString5(indices) || isNumber4(indices)) indices = [indices];
     for (const i in indices) {
@@ -143999,10 +144128,10 @@ return a / b;`;
     return series.getSubsetByNames(indices);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-indices.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-indices.mjs
   function seriesGetSubsetByIndices3(series, indices) {
     const dataShape = series.shape;
-    if (isUndefined3(indices)) indices = range8(0, dataShape[0]);
+    if (isUndefined3(indices)) indices = range8(0, dataShape[0]).toArray();
     assert6(
       isArray4(indices),
       "The `indices` array must be 1-dimensional array of whole numbers."
@@ -144029,7 +144158,7 @@ return a / b;`;
     return series.getSubsetByNames(rows);
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-names.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-get-subset-by-names.mjs
   function seriesGetSubsetByNames3(Series4, series, indices) {
     if (isUndefined3(indices)) indices = series.index;
     assert6(
@@ -144061,14 +144190,14 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-print.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-print.mjs
   function seriesPrint3(series) {
     let temp = series.copy();
     const maxRows = typeof window === "undefined" ? 20 : 10;
     if (temp.index.length > maxRows) {
       temp = temp.get(
-        range8(0, maxRows / 2).concat(
-          range8(temp.index.length - maxRows / 2, temp.index.length)
+        range8(0, maxRows / 2).toArray().concat(
+          range8(temp.index.length - maxRows / 2, temp.index.length).toArray()
         )
       );
       const tempIndex = copy3(temp.index);
@@ -144088,13 +144217,13 @@ return a / b;`;
     return series;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-shuffle.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-shuffle.mjs
   function seriesShuffle3(series) {
     const out = series.copy();
     return out.get(shuffle4(out.index));
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-sort.mjs
   function seriesSort3(Series4, series, fn3) {
     fn3 = fn3 || ((a, b) => a < b ? -1 : 1);
     assert6(
@@ -144118,7 +144247,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-sort-by-index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-sort-by-index.mjs
   function seriesSortByIndex3(Series4, series) {
     let temp = transpose6([series.values, series.index]);
     temp = transpose6(
@@ -144134,7 +144263,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/series-to-object.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/series-to-object.mjs
   function seriesToObject3(series) {
     const out = {};
     out[series.name] = {};
@@ -144144,7 +144273,7 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/series/index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/series/index.mjs
   var SERIES_SYMBOL3 = Symbol.for("@jrc03c/js-math-tools/series");
   function createSeriesClass3(DataFrame4) {
     class Series4 {
@@ -144185,9 +144314,10 @@ return a / b;`;
             if (dataShape[0] < this._index.length) {
               this._index = this._index.slice(0, dataShape[0]);
             } else if (dataShape[0] > this._index.length) {
+              const n = (x2.length - 1).toString().length;
               this._index = this._index.concat(
-                map2(range8(this._index.length, dataShape[0]), (i) => {
-                  return "item" + leftPad4(i, (x2.length - 1).toString().length);
+                range8(this._index.length, dataShape[0]).map((i) => {
+                  return "item" + i.toString().padStart(n, "0");
                 })
               );
             }
@@ -144296,8 +144426,9 @@ return a / b;`;
       }
       resetIndex() {
         const out = this.copy();
-        out.index = map2(range8(0, this.shape[0]), (i) => {
-          return "item" + leftPad4(i, (out.index.length - 1).toString().length);
+        const n = (out.index.length - 1).toString().length;
+        out.index = range8(0, this.shape[0]).map((i) => {
+          return "item" + i.toString().padStart(n, "0");
         });
         return out;
       }
@@ -144363,7 +144494,7 @@ return a / b;`;
     return Series4;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/dataframe/index.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/dataframe/index.mjs
   var DATAFRAME_SYMBOL3 = Symbol.for("@jrc03c/js-math-tools/dataframe");
   function makeKey11(n) {
     const alpha = "abcdefghijklmnopqrstuvwxyz1234567890";
@@ -144411,18 +144542,20 @@ return a / b;`;
           if (dataShape[0] < this._index.length) {
             this._index = this._index.slice(0, dataShape[0]);
           } else if (dataShape[0] > this._index.length) {
+            const n = (dataShape[0] - 1).toString().length;
             this._index = this._index.concat(
-              map2(range8(this._index.length, dataShape[0]), (i) => {
-                return "row" + leftPad4(i, (dataShape[0] - 1).toString().length);
+              range8(this._index.length, dataShape[0]).map((i) => {
+                return "row" + i.toString().padStart(n, "0");
               })
             );
           }
           if (dataShape[1] < this._columns.length) {
             this._columns = this._columns.slice(0, dataShape[1]);
           } else if (dataShape[1] > this._columns.length) {
+            const n = (dataShape[1] - 1).toString().length;
             this._columns = this._columns.concat(
-              map2(range8(this._columns.length, dataShape[1]), (i) => {
-                return "col" + leftPad4(i, (dataShape[1] - 1).toString().length);
+              range8(this._columns.length, dataShape[1]).map((i) => {
+                return "col" + i.toString().padStart(n, "0");
               })
             );
           }
@@ -144574,8 +144707,9 @@ return a / b;`;
           });
           this._values = transpose6(temp);
           const dataShape = shape3(this.values);
-          this._index = map2(range8(0, dataShape[0]), (i) => {
-            return "row" + leftPad4(i, (dataShape[0] - 1).toString().length);
+          const n = (dataShape[0] - 1).toString().length;
+          this._index = range8(0, dataShape[0]).map((i) => {
+            return "row" + i.toString().padStart(n, "0");
           });
         }
       }
@@ -144707,12 +144841,12 @@ return a / b;`;
   };
   var Series3 = createSeriesClass3(DataFrame3);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/max.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/max.mjs
   function max7(arr, shouldDropNaNs) {
     return stats3(arr, { shouldDropNaNs }).max;
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/vectorize.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/vectorize.mjs
   function vectorize3(fn3) {
     assert6(
       isFunction5(fn3),
@@ -144723,25 +144857,22 @@ return a / b;`;
       const series = [];
       const dataframes = [];
       const childArrays = map2(
-        filter(
-          Object.keys(arguments),
-          (key) => {
-            const arg = arguments[key];
-            if (isArray4(arg)) {
-              return true;
-            } else if (isSeries3(arg)) {
-              hasSeries = true;
-              series.push(arg);
-              return true;
-            } else if (isDataFrame3(arg)) {
-              hasDataFrames = true;
-              dataframes.push(arg);
-              return true;
-            } else {
-              return false;
-            }
+        filter(Object.keys(arguments), (key) => {
+          const arg = arguments[key];
+          if (isArray4(arg)) {
+            return true;
+          } else if (isSeries3(arg)) {
+            hasSeries = true;
+            series.push(arg);
+            return true;
+          } else if (isDataFrame3(arg)) {
+            hasDataFrames = true;
+            dataframes.push(arg);
+            return true;
+          } else {
+            return false;
           }
-        ),
+        }),
         (key) => arguments[key]
       );
       forEach(childArrays.slice(0, -1), (s4, i) => {
@@ -144757,7 +144888,7 @@ return a / b;`;
         const maxLength = max7(
           map2(childArrays, (a) => a.length ? a.length : a.values.length)
         );
-        const out = map2(range8(0, maxLength), (i) => {
+        const out = range8(0, maxLength).map((i) => {
           const args = map2(Object.keys(arguments), (key) => {
             if (isArray4(arguments[key])) {
               return arguments[key][i];
@@ -144806,7 +144937,7 @@ return a / b;`;
     };
   }
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/abs.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/abs.mjs
   function abs6(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -144821,7 +144952,7 @@ return a / b;`;
   }
   var vabs3 = vectorize3(abs6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/add.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/add.mjs
   function add6() {
     try {
       let out = 0;
@@ -144848,7 +144979,7 @@ return a / b;`;
   }
   var vadd3 = vectorize3(add6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/apply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/apply.mjs
   function apply4(x2, fn3) {
     try {
       return fn3(x2);
@@ -144858,7 +144989,7 @@ return a / b;`;
   }
   var vapply3 = vectorize3(apply4);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/arccos.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/arccos.mjs
   function arccos3(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -144872,7 +145003,7 @@ return a / b;`;
   }
   var varccos3 = vectorize3(arccos3);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/arcsin.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/arcsin.mjs
   function arcsin3(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -144886,7 +145017,7 @@ return a / b;`;
   }
   var varcsin3 = vectorize3(arcsin3);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/arctan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/arctan.mjs
   function arctan3(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -144900,7 +145031,7 @@ return a / b;`;
   }
   var varctan3 = vectorize3(arctan3);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/ceil.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/ceil.mjs
   function ceil6(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -144912,7 +145043,7 @@ return a / b;`;
   }
   var vceil3 = vectorize3(ceil6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/chop.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/chop.mjs
   function chop3(x2, threshold3) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -144929,7 +145060,7 @@ return a / b;`;
   }
   var vchop3 = vectorize3(chop3);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/int.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/int.mjs
   function int4(x2) {
     if (isDataFrame3(x2) || isSeries3(x2)) {
       const out = x2.copy();
@@ -144952,7 +145083,7 @@ return a / b;`;
   }
   var vint3 = vectorize3(int4);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/clamp.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/clamp.mjs
   function clamp4(x2, a, b) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -144970,7 +145101,7 @@ return a / b;`;
   }
   var vclamp3 = vectorize3(clamp4);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/cos.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/cos.mjs
   function cos6(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -144984,7 +145115,7 @@ return a / b;`;
   }
   var vcos3 = vectorize3(cos6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/helpers/data-types.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/helpers/data-types.mjs
   var dataTypes3 = Object.freeze({
     boolean: "boolean",
     date: "date",
@@ -144994,7 +145125,7 @@ return a / b;`;
     string: "string"
   });
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/pow.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/pow.mjs
   function pow6(x2, p4) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -145014,7 +145145,7 @@ return a / b;`;
   }
   var vpow3 = vectorize3(pow6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/sqrt.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/sqrt.mjs
   function sqrt6(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -145033,7 +145164,7 @@ return a / b;`;
   }
   var vsqrt3 = vectorize3(sqrt6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/multiply.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/multiply.mjs
   function multiply5() {
     try {
       const x2 = Object.values(arguments);
@@ -145061,7 +145192,7 @@ return a / b;`;
   }
   var vmultiply3 = vectorize3(multiply5);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/exp.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/exp.mjs
   function exp6(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -145079,7 +145210,7 @@ return a / b;`;
   }
   var vexp3 = vectorize3(exp6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/factorial.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/factorial.mjs
   function factorial3(n) {
     try {
       if (typeof n === "bigint") {
@@ -145094,7 +145225,7 @@ return a / b;`;
   }
   var vfactorial3 = vectorize3(factorial3);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/float.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/float.mjs
   function float3(x2) {
     try {
       if (x2 === "Infinity") {
@@ -145112,7 +145243,7 @@ return a / b;`;
   }
   var vfloat3 = vectorize3(float3);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/floor.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/floor.mjs
   function floor6(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -145126,7 +145257,7 @@ return a / b;`;
   }
   var vfloor3 = vectorize3(floor6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/lerp.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/lerp.mjs
   function lerp3(a, b, f) {
     try {
       if (!isNumber4(a)) return NaN;
@@ -145147,7 +145278,7 @@ return a / b;`;
   }
   var vlerp3 = vectorize3(lerp3);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/log.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/log.mjs
   function log7(x2, base) {
     try {
       base = isUndefined3(base) ? Math.E : base;
@@ -145168,7 +145299,7 @@ return a / b;`;
   }
   var vlog3 = vectorize3(log7);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/mod.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/mod.mjs
   function mod6(a, b) {
     try {
       if (!isNumber4(a)) return NaN;
@@ -145188,7 +145319,7 @@ return a / b;`;
   }
   var vmod3 = vectorize3(mod6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/remap.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/remap.mjs
   var helper9 = vectorize3((x2, a, b, c, d) => {
     try {
       let resultShouldBeABigInt = false;
@@ -145223,7 +145354,7 @@ return a / b;`;
     }
   });
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/round.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/round.mjs
   function round7(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -145235,7 +145366,7 @@ return a / b;`;
   }
   var vround3 = vectorize3(round7);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/sign.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/sign.mjs
   function sign6(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -145249,7 +145380,7 @@ return a / b;`;
   }
   var vsign3 = vectorize3(sign6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/sin.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/sin.mjs
   function sin6(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -145263,7 +145394,7 @@ return a / b;`;
   }
   var vsin3 = vectorize3(sin6);
 
-  // node_modules/@jrc03c/base-web-component/node_modules/@jrc03c/js-math-tools/src/tan.mjs
+  // node_modules/.pnpm/@jrc03c+js-math-tools@0.0.99/node_modules/@jrc03c/js-math-tools/src/tan.mjs
   function tan6(x2) {
     try {
       if (!isNumber4(x2)) return NaN;
@@ -145277,7 +145408,16 @@ return a / b;`;
   }
   var vtan3 = vectorize3(tan6);
 
-  // node_modules/@jrc03c/base-web-component/src/index.mjs
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.88/node_modules/@jrc03c/js-text-tools/src/punctuation.mjs
+  var punctuation3 = "$\\!\"#%&'()*+,-./:;<=>?@[]^_`{|}~\xA0\xA1\xA4\xA7\xA9\xAA\xAB\xAE\xB0\xB1\xB6\xB7\xBA\xBB\xBF\xD7\xF7\u0254\u0300\u0301\u0302\u0303\u037E\u0387\u055A\u055B\u055C\u055D\u055E\u055F\u0589\u058A\u05BE\u05C0\u05C3\u05C6\u05F3\u05F4\u0609\u060A\u060C\u060D\u061B\u061E\u061F\u066A\u066B\u066C\u066D\u06D4\u0700\u0701\u0702\u0703\u0704\u0705\u0706\u0707\u0708\u0709\u070A\u070B\u070C\u070D\u07F7\u07F8\u07F9\u0830\u0831\u0832\u0833\u0834\u0835\u0836\u0837\u0838\u0839\u083A\u083B\u083C\u083D\u083E\u085E\u0964\u0965\u0970\u09FD\u0A76\u0AF0\u0C77\u0C84\u0DF4\u0E4F\u0E5A\u0E5B\u0F04\u0F05\u0F06\u0F07\u0F08\u0F09\u0F0A\u0F0B\u0F0C\u0F0D\u0F0E\u0F0F\u0F10\u0F11\u0F12\u0F14\u0F3A\u0F3B\u0F3C\u0F3D\u0F85\u0FD0\u0FD1\u0FD2\u0FD3\u0FD4\u0FD9\u0FDA\u104A\u104B\u104C\u104D\u104E\u104F\u10FB\u1360\u1361\u1362\u1363\u1364\u1365\u1366\u1367\u1368\u1400\u166E\u169B\u169C\u16EB\u16EC\u16ED\u1735\u1736\u17D4\u17D5\u17D6\u17D8\u17D9\u17DA\u1800\u1801\u1802\u1803\u1804\u1805\u1806\u1807\u1808\u1809\u180A\u1944\u1945\u1A1E\u1A1F\u1AA0\u1AA1\u1AA2\u1AA3\u1AA4\u1AA5\u1AA6\u1AA8\u1AA9\u1AAA\u1AAB\u1AAC\u1AAD\u1B5A\u1B5B\u1B5C\u1B5D\u1B5E\u1B5F\u1B60\u1BFC\u1BFD\u1BFE\u1BFF\u1C3B\u1C3C\u1C3D\u1C3E\u1C3F\u1C7E\u1C7F\u1CC0\u1CC1\u1CC2\u1CC3\u1CC4\u1CC5\u1CC6\u1CC7\u1CD3\u2010\u2011\u2012\u2013\u2014\u2015\u2016\u2017\u2018\u2019\u201A\u201B\u201C\u201D\u201E\u201F\u2020\u2021\u2022\u2023\u2024\u2025\u2026\u2027\u2030\u2031\u2032\u2033\u2034\u2035\u2036\u2037\u2038\u2039\u203A\u203B\u203C\u203D\u203E\u203F\u2040\u2041\u2042\u2043\u2045\u2046\u2047\u2048\u2049\u204A\u204B\u204C\u204D\u204E\u204F\u2050\u2051\u2052\u2053\u2054\u2055\u2056\u2057\u2058\u2059\u205A\u205B\u205C\u205D\u205E\u207D\u207E\u208D\u208E\u2116\u2117\u2120\u2122\u212E\u2212\u2234\u2235\u2248\u2300\u2308\u2309\u230A\u230B\u2311\u2329\u232A\u2380\u25CA\u25CC\u261E\u2640\u2642\u26A5\u2766\u2767\u2768\u2769\u276A\u276B\u276C\u276D\u276E\u276F\u2770\u2771\u2772\u2773\u2774\u2775\u27C5\u27C6\u27E6\u27E7\u27E8\u27E9\u27EA\u27EB\u27EC\u27ED\u27EE\u27EF\u2983\u2984\u2985\u2986\u2987\u2988\u2989\u298A\u298B\u298C\u298D\u298E\u298F\u2990\u2991\u2992\u2993\u2994\u2995\u2996\u2997\u2998\u29D8\u29D9\u29DA\u29DB\u29FC\u29FD\u2CF9\u2CFA\u2CFB\u2CFC\u2CFE\u2CFF\u2D70\u2E00\u2E01\u2E02\u2E03\u2E04\u2E05\u2E06\u2E07\u2E08\u2E09\u2E0A\u2E0B\u2E0C\u2E0D\u2E0E\u2E0F\u2E10\u2E11\u2E12\u2E13\u2E14\u2E15\u2E16\u2E17\u2E18\u2E19\u2E1A\u2E1B\u2E1C\u2E1D\u2E1E\u2E1F\u2E20\u2E21\u2E22\u2E23\u2E24\u2E25\u2E26\u2E27\u2E28\u2E29\u2E2A\u2E2B\u2E2C\u2E2D\u2E2E\u2E30\u2E31\u2E32\u2E33\u2E34\u2E35\u2E36\u2E37\u2E38\u2E39\u2E3A\u2E3B\u2E3C\u2E3D\u2E3E\u2E3F\u2E40\u2E41\u2E42\u2E43\u2E44\u2E45\u2E46\u2E47\u2E48\u2E49\u2E4A\u2E4B\u2E4C\u2E4D\u2E4E\u2E4F\u2E52\u3001\u3002\u3003\u3008\u3009\u300A\u300B\u300C\u300D\u300E\u300F\u3010\u3011\u3014\u3015\u3016\u3017\u3018\u3019\u301A\u301B\u301C\u301D\u301E\u301F\u3030\u303D\u30A0\u30FB\uA4FE\uA4FF\uA60D\uA60E\uA60F\uA673\uA67E\uA6F2\uA6F3\uA6F4\uA6F5\uA6F6\uA6F7\uA874\uA875\uA876\uA877\uA8CE\uA8CF\uA8F8\uA8F9\uA8FA\uA8FC\uA92E\uA92F\uA95F\uA9C1\uA9C2\uA9C3\uA9C4\uA9C5\uA9C6\uA9C7\uA9C8\uA9C9\uA9CA\uA9CB\uA9CC\uA9CD\uA9DE\uA9DF\uAA5C\uAA5D\uAA5E\uAA5F\uAADE\uAADF\uAAF0\uAAF1\uABEB\uD800\uD801\uD802\uD803\uD804\uD805\uD806\uD807\uD809\uD81A\uD81B\uD82F\uD836\uD83A\u{1F03B}\uDC41\uDC42\uDC43\uDC44\uDC45\uDC47\uDC48\uDC49\uDC4A\uDC4B\uDC4C\uDC4D\uDC4E\uDC4F\uDC57\uDC5A\uDC5B\uDC5D\uDC70\uDC71\uDC72\uDC73\uDC74\uDC9F\uDCBB\uDCBC\uDCBE\uDCBF\uDCC0\uDCC1\uDCC6\uDD00\uDD01\uDD02\uDD1F\uDD2F\uDD3F\uDD40\uDD41\uDD42\uDD43\uDD44\uDD45\uDD46\uDD5E\uDD5F\uDD6F\uDD74\uDD75\uDDC1\uDDC2\uDDC3\uDDC4\uDDC5\uDDC6\uDDC7\uDDC8\uDDC9\uDDCA\uDDCB\uDDCC\uDDCD\uDDCE\uDDCF\uDDD0\uDDD1\uDDD2\uDDD3\uDDD4\uDDD5\uDDD6\uDDD7\uDDDB\uDDDD\uDDDE\uDDDF\uDDE2\uDE38\uDE39\uDE3A\uDE3B\uDE3C\uDE3D\uDE3F\uDE40\uDE41\uDE42\uDE43\uDE44\uDE45\uDE46\uDE50\uDE51\uDE52\uDE53\uDE54\uDE55\uDE56\uDE57\uDE58\uDE60\uDE61\uDE62\uDE63\uDE64\uDE65\uDE66\uDE67\uDE68\uDE69\uDE6A\uDE6B\uDE6C\uDE6E\uDE6F\uDE7F\uDE87\uDE88\uDE89\uDE8A\uDE8B\uDE97\uDE98\uDE99\uDE9A\uDE9B\uDE9C\uDE9E\uDE9F\uDEA0\uDEA1\uDEA2\uDEA9\uDEAD\uDEF0\uDEF1\uDEF2\uDEF3\uDEF4\uDEF5\uDEF6\uDEF7\uDEF8\uDF37\uDF38\uDF39\uDF3A\uDF3B\uDF3C\uDF3D\uDF3E\uDF3F\uDF44\uDF55\uDF56\uDF57\uDF58\uDF59\uDF99\uDF9A\uDF9B\uDF9C\uDF9F\uDFD0\uDFE2\uDFFF\uFD3F\uFE10\uFE11\uFE12\uFE13\uFE14\uFE15\uFE16\uFE17\uFE18\uFE19\uFE30\uFE31\uFE32\uFE33\uFE34\uFE35\uFE36\uFE37\uFE38\uFE39\uFE3A\uFE3B\uFE3C\uFE3D\uFE3E\uFE3F\uFE40\uFE41\uFE42\uFE43\uFE44\uFE45\uFE46\uFE47\uFE48\uFE49\uFE4A\uFE4B\uFE4C\uFE4D\uFE4E\uFE4F\uFE50\uFE51\uFE52\uFE54\uFE55\uFE56\uFE57\uFE58\uFE59\uFE5A\uFE5B\uFE5C\uFE5D\uFE5E\uFE5F\uFE60\uFE61\uFE63\uFE68\uFE6A\uFE6B\uFF01\uFF02\uFF03\uFF05\uFF06\uFF07\uFF08\uFF09\uFF0A\uFF0C\uFF0D\uFF0E\uFF0F\uFF1A\uFF1B\uFF1F\uFF20\uFF3B\uFF3C\uFF3D\uFF3F\uFF5B\uFF5D\uFF5F\uFF60\uFF61\uFF62\uFF63\uFF64\uFF65";
+
+  // node_modules/.pnpm/@jrc03c+js-text-tools@0.0.88/node_modules/@jrc03c/js-text-tools/src/strip.mjs
+  var punctuationDict = punctuation3.split("").reduce((dict, v) => {
+    dict[v] = true;
+    return dict;
+  }, {});
+
+  // node_modules/.pnpm/@jrc03c+base-web-component@0.0.17/node_modules/@jrc03c/base-web-component/src/index.mjs
   var BaseComponent = class extends HTMLElement {
     static css = ``;
     static observedAttributes = [];
@@ -145415,7 +145555,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/create-high-dpi-canvas/src/index.mjs
+  // node_modules/.pnpm/@jrc03c+create-high-dpi-canvas@1.0.32/node_modules/@jrc03c/create-high-dpi-canvas/src/index.mjs
   var HighDPICanvasElementResizeEvent = class extends Event {
     constructor(width2, height2, options2) {
       super("resize", options2);
@@ -145585,7 +145725,7 @@ return a / b;`;
   } catch (e) {
   }
 
-  // node_modules/@jrc03c/pause/src/index.mjs
+  // node_modules/.pnpm/@jrc03c+pause@0.0.10/node_modules/@jrc03c/pause/src/index.mjs
   function pauseAsync(ms3) {
     return new Promise((resolve3, reject2) => {
       try {
@@ -145899,10 +146039,10 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/js-csv-helpers/src/parse.mjs
+  // node_modules/.pnpm/@jrc03c+js-csv-helpers@0.0.34/node_modules/@jrc03c/js-csv-helpers/src/parse.mjs
   var import_papaparse = __toESM(require_papaparse_min(), 1);
 
-  // node_modules/@jrc03c/js-csv-helpers/src/unparse.mjs
+  // node_modules/.pnpm/@jrc03c+js-csv-helpers@0.0.34/node_modules/@jrc03c/js-csv-helpers/src/unparse.mjs
   var import_papaparse2 = __toESM(require_papaparse_min(), 1);
   function unparse(df, config) {
     const defaults3 = {
@@ -145959,7 +146099,7 @@ return a / b;`;
     return import_papaparse2.default.unparse(values, config).trim();
   }
 
-  // node_modules/@jrc03c/js-csv-helpers/src/save-csv-in-browser.mjs
+  // node_modules/.pnpm/@jrc03c+js-csv-helpers@0.0.34/node_modules/@jrc03c/js-csv-helpers/src/save-csv-in-browser.mjs
   async function saveCSVInBrowser(filename, df, config) {
     const raw = unparse(df, config);
     const a = document.createElement("a");
@@ -146068,8 +146208,6 @@ return a / b;`;
 			</div>
 
 			<div ref="container" class="hvis-canvas-container"></div>
-
-			<br />
 
 			<hvis-floating-label
 				:content="topFloatingLabel.content"
@@ -146661,7 +146799,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/cytoscape/dist/cytoscape.esm.mjs
+  // node_modules/.pnpm/cytoscape@3.32.1/node_modules/cytoscape/dist/cytoscape.esm.mjs
   function _arrayLikeToArray(r, a) {
     (null == a || a > r.length) && (a = r.length);
     for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e];
@@ -146936,6 +147074,9 @@ return a / b;`;
       return str;
     }
     return str.charAt(0).toUpperCase() + str.substring(1);
+  };
+  var endsWith = function endsWith2(string3, suffix) {
+    return string3.slice(-1 * suffix.length) === suffix;
   };
   var number2 = "(?:[-+]?(?:(?:\\d+|\\d*\\.\\d+)(?:[Ee][+-]?\\d+)?))";
   var rgba = "rgb[a]?\\((" + number2 + "[%]?)\\s*,\\s*(" + number2 + "[%]?)\\s*,\\s*(" + number2 + "[%]?)(?:\\s*,\\s*(" + number2 + "))?\\)";
@@ -149135,6 +149276,7 @@ return a / b;`;
       return ret;
     }
   };
+  var _Math$hypot;
   var copyPosition = function copyPosition2(p4) {
     return {
       x: p4.x,
@@ -149354,16 +149496,6 @@ return a / b;`;
     bb.w = 0;
     bb.h = 0;
   };
-  var shiftBoundingBox = function shiftBoundingBox2(bb, dx, dy) {
-    return {
-      x1: bb.x1 + dx,
-      x2: bb.x2 + dx,
-      y1: bb.y1 + dy,
-      y2: bb.y2 + dy,
-      w: bb.w,
-      h: bb.h
-    };
-  };
   var updateBoundingBox = function updateBoundingBox2(bb1, bb2) {
     bb1.x1 = Math.min(bb1.x1, bb2.x1);
     bb1.x2 = Math.max(bb1.x2, bb2.x2);
@@ -149457,6 +149589,106 @@ return a / b;`;
   var boundingBoxInBoundingBox = function boundingBoxInBoundingBox2(bb1, bb2) {
     return inBoundingBox(bb1, bb2.x1, bb2.y1) && inBoundingBox(bb1, bb2.x2, bb2.y2);
   };
+  var hypot = (_Math$hypot = Math.hypot) !== null && _Math$hypot !== void 0 ? _Math$hypot : function(x2, y2) {
+    return Math.sqrt(x2 * x2 + y2 * y2);
+  };
+  function inflatePolygon(polygon2, d) {
+    if (polygon2.length < 3) {
+      throw new Error("Need at least 3 vertices");
+    }
+    var add9 = function add10(a, b) {
+      return {
+        x: a.x + b.x,
+        y: a.y + b.y
+      };
+    };
+    var sub4 = function sub5(a, b) {
+      return {
+        x: a.x - b.x,
+        y: a.y - b.y
+      };
+    };
+    var scale6 = function scale7(v, s4) {
+      return {
+        x: v.x * s4,
+        y: v.y * s4
+      };
+    };
+    var cross = function cross2(u, v) {
+      return u.x * v.y - u.y * v.x;
+    };
+    var normalize4 = function normalize5(v) {
+      var len = hypot(v.x, v.y);
+      return len === 0 ? {
+        x: 0,
+        y: 0
+      } : {
+        x: v.x / len,
+        y: v.y / len
+      };
+    };
+    var signedArea = function signedArea2(pts3) {
+      var A = 0;
+      for (var i2 = 0; i2 < pts3.length; i2++) {
+        var p5 = pts3[i2], q2 = pts3[(i2 + 1) % pts3.length];
+        A += p5.x * q2.y - q2.x * p5.y;
+      }
+      return A / 2;
+    };
+    var intersectLines = function intersectLines2(p1, p22, p32, p42) {
+      var r = sub4(p22, p1);
+      var s4 = sub4(p42, p32);
+      var denom = cross(r, s4);
+      if (Math.abs(denom) < 1e-9) {
+        return add9(p1, scale6(r, 0.5));
+      }
+      var t = cross(sub4(p32, p1), s4) / denom;
+      return add9(p1, scale6(r, t));
+    };
+    var pts2 = polygon2.map(function(p5) {
+      return {
+        x: p5.x,
+        y: p5.y
+      };
+    });
+    if (signedArea(pts2) < 0) pts2.reverse();
+    var n = pts2.length;
+    var normals = [];
+    for (var i = 0; i < n; i++) {
+      var p4 = pts2[i], q = pts2[(i + 1) % n];
+      var edge = sub4(q, p4);
+      var out = normalize4({
+        x: edge.y,
+        y: -edge.x
+      });
+      normals.push(out);
+    }
+    var offsetEdges = normals.map(function(nrm, i2) {
+      var p1 = add9(pts2[i2], scale6(nrm, d));
+      var p22 = add9(pts2[(i2 + 1) % n], scale6(nrm, d));
+      return {
+        p1,
+        p2: p22
+      };
+    });
+    var inflated = [];
+    for (var _i2 = 0; _i2 < n; _i2++) {
+      var prevEdge = offsetEdges[(_i2 - 1 + n) % n];
+      var currEdge = offsetEdges[_i2];
+      var ip = intersectLines(prevEdge.p1, prevEdge.p2, currEdge.p1, currEdge.p2);
+      inflated.push(ip);
+    }
+    return inflated;
+  }
+  function miterBox(pts2, centerX, centerY, width2, height2, strokeWidth) {
+    var tpts = transformPoints(pts2, centerX, centerY, width2, height2);
+    var offsetPoints = inflatePolygon(tpts, strokeWidth);
+    var bb = makeBoundingBox();
+    offsetPoints.forEach(function(pt) {
+      return expandBoundingBoxByPoint(bb, pt.x, pt.y);
+    });
+    return bb;
+  }
   var roundRectangleIntersectLine = function roundRectangleIntersectLine2(x2, y2, nodeX, nodeY, width2, height2, padding) {
     var radius2 = arguments.length > 7 && arguments[7] !== void 0 ? arguments[7] : "auto";
     var cornerRadius = radius2 === "auto" ? getRoundRectangleRadius(width2, height2) : radius2;
@@ -149899,6 +150131,24 @@ return a / b;`;
       }
     }
   };
+  var transformPoints = function transformPoints2(points, centerX, centerY, width2, height2) {
+    var ret = [];
+    var halfW = width2 / 2;
+    var halfH = height2 / 2;
+    var x2 = centerX;
+    var y2 = centerY;
+    ret.push({
+      x: x2 + halfW * points[0],
+      y: y2 + halfH * points[1]
+    });
+    for (var i = 1; i < points.length / 2; i++) {
+      ret.push({
+        x: x2 + halfW * points[i * 2],
+        y: y2 + halfH * points[i * 2 + 1]
+      });
+    }
+    return ret;
+  };
   var polygonIntersectLine = function polygonIntersectLine2(x2, y2, basePoints, centerX, centerY, width2, height2, padding) {
     var intersections = [];
     var intersection2;
@@ -149923,12 +150173,12 @@ return a / b;`;
       points = basePoints;
     }
     var currentX, currentY, nextX, nextY;
-    for (var _i2 = 0; _i2 < points.length / 2; _i2++) {
-      currentX = points[_i2 * 2];
-      currentY = points[_i2 * 2 + 1];
-      if (_i2 < points.length / 2 - 1) {
-        nextX = points[(_i2 + 1) * 2];
-        nextY = points[(_i2 + 1) * 2 + 1];
+    for (var _i3 = 0; _i3 < points.length / 2; _i3++) {
+      currentX = points[_i3 * 2];
+      currentY = points[_i3 * 2 + 1];
+      if (_i3 < points.length / 2 - 1) {
+        nextX = points[(_i3 + 1) * 2];
+        nextY = points[(_i3 + 1) * 2 + 1];
       } else {
         nextX = points[0];
         nextY = points[1];
@@ -149968,11 +150218,11 @@ return a / b;`;
     if (intersections.length > 2) {
       var lowestIntersection = [intersections[0], intersections[1]];
       var lowestSquaredDistance = Math.pow(lowestIntersection[0] - x2, 2) + Math.pow(lowestIntersection[1] - y2, 2);
-      for (var _i3 = 1; _i3 < intersections.length / 2; _i3++) {
-        var squaredDistance = Math.pow(intersections[_i3 * 2] - x2, 2) + Math.pow(intersections[_i3 * 2 + 1] - y2, 2);
+      for (var _i4 = 1; _i4 < intersections.length / 2; _i4++) {
+        var squaredDistance = Math.pow(intersections[_i4 * 2] - x2, 2) + Math.pow(intersections[_i4 * 2 + 1] - y2, 2);
         if (squaredDistance <= lowestSquaredDistance) {
-          lowestIntersection[0] = intersections[_i3 * 2];
-          lowestIntersection[1] = intersections[_i3 * 2 + 1];
+          lowestIntersection[0] = intersections[_i4 * 2];
+          lowestIntersection[1] = intersections[_i4 * 2 + 1];
           lowestSquaredDistance = squaredDistance;
         }
       }
@@ -150008,17 +150258,17 @@ return a / b;`;
     }
     var sx = 2 / (maxX - minX);
     var sy = 2 / (maxY - minY);
-    for (var _i4 = 0; _i4 < sides; _i4++) {
-      x2 = points[2 * _i4] = points[2 * _i4] * sx;
-      y2 = points[2 * _i4 + 1] = points[2 * _i4 + 1] * sy;
+    for (var _i5 = 0; _i5 < sides; _i5++) {
+      x2 = points[2 * _i5] = points[2 * _i5] * sx;
+      y2 = points[2 * _i5 + 1] = points[2 * _i5 + 1] * sy;
       minX = Math.min(minX, x2);
       maxX = Math.max(maxX, x2);
       minY = Math.min(minY, y2);
       maxY = Math.max(maxY, y2);
     }
     if (minY < -1) {
-      for (var _i5 = 0; _i5 < sides; _i5++) {
-        y2 = points[2 * _i5 + 1] = points[2 * _i5 + 1] + (-1 - minY);
+      for (var _i6 = 0; _i6 < sides; _i6++) {
+        y2 = points[2 * _i6 + 1] = points[2 * _i6 + 1] + (-1 - minY);
       }
     }
     return points;
@@ -155537,11 +155787,11 @@ return a / b;`;
             break;
         }
       }
-      var leftPad5 = marginX - Math.max(outlineWidth, halfBorderWidth) - padding - marginOfError;
+      var leftPad4 = marginX - Math.max(outlineWidth, halfBorderWidth) - padding - marginOfError;
       var rightPad2 = marginX + Math.max(outlineWidth, halfBorderWidth) + padding + marginOfError;
       var topPad = marginY - Math.max(outlineWidth, halfBorderWidth) - padding - marginOfError;
       var botPad = marginY + Math.max(outlineWidth, halfBorderWidth) + padding + marginOfError;
-      lx1 += leftPad5;
+      lx1 += leftPad4;
       lx2 += rightPad2;
       ly1 += topPad;
       ly2 += botPad;
@@ -155554,7 +155804,7 @@ return a / b;`;
       bb.y2 = ly2;
       bb.w = lx2 - lx1;
       bb.h = ly2 - ly1;
-      bb.leftPad = leftPad5;
+      bb.leftPad = leftPad4;
       bb.rightPad = rightPad2;
       bb.topPad = topPad;
       bb.botPad = botPad;
@@ -155620,40 +155870,38 @@ return a / b;`;
     }
     var outlineOpacity = ele.pstyle("outline-opacity").value;
     var outlineWidth = ele.pstyle("outline-width").value;
-    if (outlineOpacity > 0 && outlineWidth > 0) {
-      var outlineOffset = ele.pstyle("outline-offset").value;
-      var nodeShape = ele.pstyle("shape").value;
-      var outlineSize = outlineWidth + outlineOffset;
-      var scaleX = (bounds2.w + outlineSize * 2) / bounds2.w;
-      var scaleY = (bounds2.h + outlineSize * 2) / bounds2.h;
-      var xOffset = 0;
-      var yOffset = 0;
-      if (["diamond", "pentagon", "round-triangle"].includes(nodeShape)) {
-        scaleX = (bounds2.w + outlineSize * 2.4) / bounds2.w;
-        yOffset = -outlineSize / 3.6;
-      } else if (["concave-hexagon", "rhomboid", "right-rhomboid"].includes(nodeShape)) {
-        scaleX = (bounds2.w + outlineSize * 2.4) / bounds2.w;
-      } else if (nodeShape === "star") {
-        scaleX = (bounds2.w + outlineSize * 2.8) / bounds2.w;
-        scaleY = (bounds2.h + outlineSize * 2.6) / bounds2.h;
-        yOffset = -outlineSize / 3.8;
-      } else if (nodeShape === "triangle") {
-        scaleX = (bounds2.w + outlineSize * 2.8) / bounds2.w;
-        scaleY = (bounds2.h + outlineSize * 2.4) / bounds2.h;
-        yOffset = -outlineSize / 1.4;
-      } else if (nodeShape === "vee") {
-        scaleX = (bounds2.w + outlineSize * 4.4) / bounds2.w;
-        scaleY = (bounds2.h + outlineSize * 3.8) / bounds2.h;
-        yOffset = -outlineSize * 0.5;
-      }
-      var hDelta = bounds2.h * scaleY - bounds2.h;
-      var wDelta = bounds2.w * scaleX - bounds2.w;
-      expandBoundingBoxSides(bounds2, [Math.ceil(hDelta / 2), Math.ceil(wDelta / 2)]);
-      if (xOffset != 0 || yOffset !== 0) {
-        var oBounds = shiftBoundingBox(bounds2, xOffset, yOffset);
-        updateBoundingBox(bounds2, oBounds);
-      }
+    var outlineOffset = ele.pstyle("outline-offset").value;
+    var expansion = outlineWidth + outlineOffset;
+    updateBoundsFromMiter(bounds2, ele, outlineOpacity, expansion, "outside", expansion / 2);
+  };
+  var updateBoundsFromMiter = function updateBoundsFromMiter2(bounds2, ele, opacity, expansionSize, expansionPosition, useFallbackValue) {
+    if (opacity === 0 || expansionSize <= 0 || expansionPosition === "inside") {
+      return;
     }
+    var cy = ele.cy();
+    var shape4 = ele.pstyle("shape").value;
+    var rshape = cy.renderer().nodeShapes[shape4];
+    var _ele$position = ele.position(), x2 = _ele$position.x, y2 = _ele$position.y;
+    var w = ele.width();
+    var h2 = ele.height();
+    if (rshape.hasMiterBounds) {
+      if (expansionPosition === "center") {
+        expansionSize /= 2;
+      }
+      var mbb = rshape.miterBounds(x2, y2, w, h2, expansionSize);
+      updateBoundsFromBox(bounds2, mbb);
+    } else if (useFallbackValue != null && useFallbackValue > 0) {
+      expandBoundingBoxSides(bounds2, [useFallbackValue, useFallbackValue, useFallbackValue, useFallbackValue]);
+    }
+  };
+  var updateBoundsFromMiterBorder = function updateBoundsFromMiterBorder2(bounds2, ele) {
+    if (ele.cy().headless()) {
+      return;
+    }
+    var borderOpacity = ele.pstyle("border-opacity").value;
+    var borderWidth = ele.pstyle("border-width").pfValue;
+    var borderPosition = ele.pstyle("border-position").value;
+    updateBoundsFromMiter(bounds2, ele, borderOpacity, borderWidth, borderPosition);
   };
   var boundingBoxImpl = function boundingBoxImpl2(ele, options2) {
     var cy = ele._private.cy;
@@ -155708,8 +155956,14 @@ return a / b;`;
         ey1 = y2 - halfH;
         ey2 = y2 + halfH;
         updateBounds(bounds2, ex1, ey1, ex2, ey2);
-        if (styleEnabled2 && options2.includeOutlines) {
+        if (styleEnabled2) {
           updateBoundsFromOutline(bounds2, ele);
+        }
+        if (styleEnabled2 && options2.includeOutlines && !headless2) {
+          updateBoundsFromOutline(bounds2, ele);
+        }
+        if (styleEnabled2) {
+          updateBoundsFromMiterBorder(bounds2, ele);
         }
       } else if (isEdge2 && options2.includeEdges) {
         if (styleEnabled2 && !headless2) {
@@ -155742,7 +155996,7 @@ return a / b;`;
               }
               updateBounds(bounds2, ex1 - wHalf, ey1 - wHalf, ex2 + wHalf, ey2 + wHalf);
             }
-          } else if (curveStyle === "bezier" || curveStyle === "unbundled-bezier" || curveStyle.endsWith("segments") || curveStyle.endsWith("taxi")) {
+          } else if (curveStyle === "bezier" || curveStyle === "unbundled-bezier" || endsWith(curveStyle, "segments") || endsWith(curveStyle, "taxi")) {
             var pts2;
             switch (curveStyle) {
               case "bezier":
@@ -156772,7 +157026,7 @@ return a / b;`;
       return elements;
     },
     // in place merge on calling collection
-    merge: function merge(toAdd) {
+    merge: function merge2(toAdd) {
       var _p = this._private;
       var cy = _p.cy;
       if (!toAdd) {
@@ -165326,7 +165580,7 @@ return a / b;`;
         y: yTranslated
       };
     };
-    var transformPoints = function transformPoints2(pts2, size3, angle2, translation) {
+    var transformPoints3 = function transformPoints4(pts2, size3, angle2, translation) {
       var retPts = [];
       for (var i = 0; i < pts2.length; i += 2) {
         var x2 = pts2[i];
@@ -165354,13 +165608,13 @@ return a / b;`;
         name,
         points: [-0.15, -0.3, 0.15, -0.3, 0.15, 0.3, -0.15, 0.3],
         collide: function collide(x2, y2, size3, angle2, translation, padding) {
-          var points = pointsToArr(transformPoints(this.points, size3 + 2 * padding, angle2, translation));
+          var points = pointsToArr(transformPoints3(this.points, size3 + 2 * padding, angle2, translation));
           var inside = pointInsidePolygonPoints(x2, y2, points);
           return inside;
         },
         roughCollide: bbCollide,
         draw: function draw2(context2, size3, angle2, translation) {
-          var points = transformPoints(this.points, size3, angle2, translation);
+          var points = transformPoints3(this.points, size3, angle2, translation);
           renderer4.arrowShapeImpl("polygon")(context2, points);
         },
         spacing: function spacing(edge) {
@@ -165385,7 +165639,7 @@ return a / b;`;
       controlPoint: [0, -0.15],
       roughCollide: bbCollide,
       draw: function draw2(context2, size3, angle2, translation, edgeWidth) {
-        var ptsTrans = transformPoints(this.points, size3, angle2, translation);
+        var ptsTrans = transformPoints3(this.points, size3, angle2, translation);
         var ctrlPt = this.controlPoint;
         var ctrlPtTrans = transform11(ctrlPt[0], ctrlPt[1], size3, angle2, translation);
         renderer4.arrowShapeImpl(this.name)(context2, ptsTrans, ctrlPtTrans);
@@ -165398,14 +165652,14 @@ return a / b;`;
       points: [0, 0, 0.15, -0.3, -0.15, -0.3, 0, 0],
       pointsTee: [-0.15, -0.4, -0.15, -0.5, 0.15, -0.5, 0.15, -0.4],
       collide: function collide(x2, y2, size3, angle2, translation, edgeWidth, padding) {
-        var triPts = pointsToArr(transformPoints(this.points, size3 + 2 * padding, angle2, translation));
-        var teePts = pointsToArr(transformPoints(this.pointsTee, size3 + 2 * padding, angle2, translation));
+        var triPts = pointsToArr(transformPoints3(this.points, size3 + 2 * padding, angle2, translation));
+        var teePts = pointsToArr(transformPoints3(this.pointsTee, size3 + 2 * padding, angle2, translation));
         var inside = pointInsidePolygonPoints(x2, y2, triPts) || pointInsidePolygonPoints(x2, y2, teePts);
         return inside;
       },
       draw: function draw2(context2, size3, angle2, translation, edgeWidth) {
-        var triPts = transformPoints(this.points, size3, angle2, translation);
-        var teePts = transformPoints(this.pointsTee, size3, angle2, translation);
+        var triPts = transformPoints3(this.points, size3, angle2, translation);
+        var teePts = transformPoints3(this.pointsTee, size3, angle2, translation);
         renderer4.arrowShapeImpl(this.name)(context2, triPts, teePts);
       }
     });
@@ -165415,11 +165669,11 @@ return a / b;`;
       collide: function collide(x2, y2, size3, angle2, translation, edgeWidth, padding) {
         var t = translation;
         var circleInside = Math.pow(t.x - x2, 2) + Math.pow(t.y - y2, 2) <= Math.pow((size3 + 2 * padding) * this.radius, 2);
-        var triPts = pointsToArr(transformPoints(this.points, size3 + 2 * padding, angle2, translation));
+        var triPts = pointsToArr(transformPoints3(this.points, size3 + 2 * padding, angle2, translation));
         return pointInsidePolygonPoints(x2, y2, triPts) || circleInside;
       },
       draw: function draw2(context2, size3, angle2, translation, edgeWidth) {
-        var triPts = transformPoints(this.pointsTr, size3, angle2, translation);
+        var triPts = transformPoints3(this.pointsTr, size3, angle2, translation);
         renderer4.arrowShapeImpl(this.name)(context2, triPts, translation.x, translation.y, this.radius * size3);
       },
       spacing: function spacing(edge) {
@@ -165450,14 +165704,14 @@ return a / b;`;
         return p4;
       },
       collide: function collide(x2, y2, size3, angle2, translation, edgeWidth, padding) {
-        var triPts = pointsToArr(transformPoints(this.points, size3 + 2 * padding, angle2, translation));
-        var teePts = pointsToArr(transformPoints(this.crossLinePts(size3, edgeWidth), size3 + 2 * padding, angle2, translation));
+        var triPts = pointsToArr(transformPoints3(this.points, size3 + 2 * padding, angle2, translation));
+        var teePts = pointsToArr(transformPoints3(this.crossLinePts(size3, edgeWidth), size3 + 2 * padding, angle2, translation));
         var inside = pointInsidePolygonPoints(x2, y2, triPts) || pointInsidePolygonPoints(x2, y2, teePts);
         return inside;
       },
       draw: function draw2(context2, size3, angle2, translation, edgeWidth) {
-        var triPts = transformPoints(this.points, size3, angle2, translation);
-        var crossLinePts = transformPoints(this.crossLinePts(size3, edgeWidth), size3, angle2, translation);
+        var triPts = transformPoints3(this.points, size3, angle2, translation);
+        var crossLinePts = transformPoints3(this.crossLinePts(size3, edgeWidth), size3, angle2, translation);
         renderer4.arrowShapeImpl(this.name)(context2, triPts, crossLinePts);
       }
     });
@@ -165794,6 +166048,9 @@ return a / b;`;
       var prefixDash = "";
       ele2.boundingBox();
       var bb = _p2.labelBounds["main"];
+      if (!bb) {
+        return null;
+      }
       var lx = preprop(_p2.rscratch, "labelX", prefix3);
       var ly = preprop(_p2.rscratch, "labelY", prefix3);
       var theta = preprop(_p2.rscratch, "labelAngle", prefix3);
@@ -165857,7 +166114,7 @@ return a / b;`;
             x: boxBb.x1,
             y: boxBb.y2
           }];
-          if (satPolygonIntersection(rotatedLabelBox, selectionBox)) {
+          if (!rotatedLabelBox || satPolygonIntersection(rotatedLabelBox, selectionBox)) {
             box.push(node);
           }
         }
@@ -166675,7 +166932,7 @@ return a / b;`;
         haystackEdges.push(edge);
         continue;
       }
-      var edgeIsUnbundled = curveStyle === "unbundled-bezier" || curveStyle.endsWith("segments") || curveStyle === "straight" || curveStyle === "straight-triangle" || curveStyle.endsWith("taxi");
+      var edgeIsUnbundled = curveStyle === "unbundled-bezier" || endsWith(curveStyle, "segments") || curveStyle === "straight" || curveStyle === "straight-triangle" || endsWith(curveStyle, "taxi");
       var edgeIsBezier = curveStyle === "unbundled-bezier" || curveStyle === "bezier";
       var src = _p.source;
       var tgt = _p.target;
@@ -166753,7 +167010,7 @@ return a / b;`;
         var _edge = pairInfo.eles[_i2];
         var rs = _edge[0]._private.rscratch;
         var _curveStyle = _edge.pstyle("curve-style").value;
-        var _edgeIsUnbundled = _curveStyle === "unbundled-bezier" || _curveStyle.endsWith("segments") || _curveStyle.endsWith("taxi");
+        var _edgeIsUnbundled = _curveStyle === "unbundled-bezier" || endsWith(_curveStyle, "segments") || endsWith(_curveStyle, "taxi");
         var edgeIsSwapped = !src2.same(_edge.source());
         if (!pairInfo.calculatedIntersection && src2 !== tgt2 && (pairInfo.hasBezier || pairInfo.hasUnbundled)) {
           pairInfo.calculatedIntersection = true;
@@ -166938,6 +167195,7 @@ return a / b;`;
     }
   };
   BRp$b.findEndpoints = function(edge) {
+    var _ref, _tgtManEndpt$pfValue, _ref2, _srcManEndpt$pfValue;
     var r = this;
     var intersect5;
     var source = edge.source()[0];
@@ -166953,7 +167211,7 @@ return a / b;`;
     var curveStyle = edge.pstyle("curve-style").value;
     var rs = edge._private.rscratch;
     var et = rs.edgeType;
-    var taxi = curveStyle === "taxi";
+    var taxi = endsWith(curveStyle, "taxi");
     var self2 = et === "self" || et === "compound";
     var bezier = et === "bezier" || et === "multibezier" || self2;
     var multi = et !== "bezier";
@@ -166973,14 +167231,16 @@ return a / b;`;
     var p22;
     var p1_i;
     var p2_i;
+    var tgtManEndptPt = (_ref = (tgtManEndpt === null || tgtManEndpt === void 0 || (_tgtManEndpt$pfValue = tgtManEndpt.pfValue) === null || _tgtManEndpt$pfValue === void 0 ? void 0 : _tgtManEndpt$pfValue.length) === 2 ? tgtManEndpt.pfValue : null) !== null && _ref !== void 0 ? _ref : [0, 0];
+    var srcManEndptPt = (_ref2 = (srcManEndpt === null || srcManEndpt === void 0 || (_srcManEndpt$pfValue = srcManEndpt.pfValue) === null || _srcManEndpt$pfValue === void 0 ? void 0 : _srcManEndpt$pfValue.length) === 2 ? srcManEndpt.pfValue : null) !== null && _ref2 !== void 0 ? _ref2 : [0, 0];
     if (bezier) {
       var cpStart = [rs.ctrlpts[0], rs.ctrlpts[1]];
       var cpEnd = multi ? [rs.ctrlpts[rs.ctrlpts.length - 2], rs.ctrlpts[rs.ctrlpts.length - 1]] : cpStart;
       p1 = cpEnd;
       p22 = cpStart;
     } else if (lines) {
-      var srcArrowFromPt = !segments ? [tgtPos.x, tgtPos.y] : rs.segpts.slice(0, 2);
-      var tgtArrowFromPt = !segments ? [srcPos.x, srcPos.y] : rs.segpts.slice(rs.segpts.length - 2);
+      var srcArrowFromPt = !segments ? [tgtPos.x + tgtManEndptPt[0], tgtPos.y + tgtManEndptPt[1]] : rs.segpts.slice(0, 2);
+      var tgtArrowFromPt = !segments ? [srcPos.x + srcManEndptPt[0], srcPos.y + srcManEndptPt[1]] : rs.segpts.slice(rs.segpts.length - 2);
       p1 = tgtArrowFromPt;
       p22 = srcArrowFromPt;
     }
@@ -168210,6 +168470,16 @@ return a / b;`;
       var draggedElements = r.dragData.possibleDragElements;
       r.hoverData.mdownPos = pos;
       r.hoverData.mdownGPos = gpos;
+      var makeEvent = function makeEvent2(type) {
+        return {
+          originalEvent: e,
+          type,
+          position: {
+            x: pos[0],
+            y: pos[1]
+          }
+        };
+      };
       var checkForTaphold = function checkForTaphold2() {
         r.hoverData.tapholdCancelled = false;
         clearTimeout(r.hoverData.tapholdTimeout);
@@ -168219,23 +168489,9 @@ return a / b;`;
           } else {
             var ele = r.hoverData.down;
             if (ele) {
-              ele.emit({
-                originalEvent: e,
-                type: "taphold",
-                position: {
-                  x: pos[0],
-                  y: pos[1]
-                }
-              });
+              ele.emit(makeEvent("taphold"));
             } else {
-              cy.emit({
-                originalEvent: e,
-                type: "taphold",
-                position: {
-                  x: pos[0],
-                  y: pos[1]
-                }
-              });
+              cy.emit(makeEvent("taphold"));
             }
           }
         }, r.tapholdDuration);
@@ -168266,16 +168522,6 @@ return a / b;`;
         {
           if (near != null) {
             if (r.nodeIsGrabbable(near)) {
-              var makeEvent = function makeEvent2(type) {
-                return {
-                  originalEvent: e,
-                  type,
-                  position: {
-                    x: pos[0],
-                    y: pos[1]
-                  }
-                };
-              };
               var triggerGrab = function triggerGrab2(ele) {
                 ele.emit(makeEvent("grab"));
               };
@@ -168375,17 +168621,20 @@ return a / b;`;
         x: pos[0],
         y: pos[1]
       });
+      var makeEvent = function makeEvent2(type) {
+        return {
+          originalEvent: e,
+          type,
+          position: {
+            x: pos[0],
+            y: pos[1]
+          }
+        };
+      };
       var goIntoBoxMode = function goIntoBoxMode2() {
         r.data.bgActivePosistion = void 0;
         if (!r.hoverData.selecting) {
-          cy.emit({
-            originalEvent: e,
-            type: "boxstart",
-            position: {
-              x: pos[0],
-              y: pos[1]
-            }
-          });
+          cy.emit(makeEvent("boxstart"));
         }
         select4[4] = 1;
         r.hoverData.selecting = true;
@@ -168394,14 +168643,7 @@ return a / b;`;
       };
       if (r.hoverData.which === 3) {
         if (isOverThresholdDrag) {
-          var cxtEvt = {
-            originalEvent: e,
-            type: "cxtdrag",
-            position: {
-              x: pos[0],
-              y: pos[1]
-            }
-          };
+          var cxtEvt = makeEvent("cxtdrag");
           if (down) {
             down.emit(cxtEvt);
           } else {
@@ -168410,25 +168652,11 @@ return a / b;`;
           r.hoverData.cxtDragged = true;
           if (!r.hoverData.cxtOver || near !== r.hoverData.cxtOver) {
             if (r.hoverData.cxtOver) {
-              r.hoverData.cxtOver.emit({
-                originalEvent: e,
-                type: "cxtdragout",
-                position: {
-                  x: pos[0],
-                  y: pos[1]
-                }
-              });
+              r.hoverData.cxtOver.emit(makeEvent("cxtdragout"));
             }
             r.hoverData.cxtOver = near;
             if (near) {
-              near.emit({
-                originalEvent: e,
-                type: "cxtdragover",
-                position: {
-                  x: pos[0],
-                  y: pos[1]
-                }
-              });
+              near.emit(makeEvent("cxtdragover"));
             }
           }
         }
@@ -168450,7 +168678,7 @@ return a / b;`;
             };
           }
           cy.panBy(deltaP);
-          cy.emit("dragpan");
+          cy.emit(makeEvent("dragpan"));
           r.hoverData.dragged = true;
         }
         pos = r.projectIntoViewport(e.clientX, e.clientY);
@@ -168497,11 +168725,11 @@ return a / b;`;
             if (cy.boxSelectionEnabled() && multSelKeyDown) {
               if (down && down.grabbed()) {
                 freeDraggedElements(draggedElements);
-                down.emit("freeon");
-                draggedElements.emit("free");
+                down.emit(makeEvent("freeon"));
+                draggedElements.emit(makeEvent("free"));
                 if (r.dragData.didDrag) {
-                  down.emit("dragfreeon");
-                  draggedElements.emit("dragfree");
+                  down.emit(makeEvent("dragfreeon"));
+                  draggedElements.emit(makeEvent("dragfree"));
                 }
               }
               goIntoBoxMode();
@@ -168532,7 +168760,7 @@ return a / b;`;
                 }
               }
               r.hoverData.draggingEles = true;
-              draggedElements.silentShift(totalShift).emit("position drag");
+              draggedElements.silentShift(totalShift).emit(makeEvent("position")).emit(makeEvent("drag"));
               r.redrawHint("drag", true);
               r.redraw();
             }
@@ -168576,29 +168804,25 @@ return a / b;`;
       if (down) {
         down.unactivate();
       }
-      if (r.hoverData.which === 3) {
-        var cxtEvt = {
+      var makeEvent = function makeEvent2(type) {
+        return {
           originalEvent: e,
-          type: "cxttapend",
+          type,
           position: {
             x: pos[0],
             y: pos[1]
           }
         };
+      };
+      if (r.hoverData.which === 3) {
+        var cxtEvt = makeEvent("cxttapend");
         if (down) {
           down.emit(cxtEvt);
         } else {
           cy.emit(cxtEvt);
         }
         if (!r.hoverData.cxtDragged) {
-          var cxtTap = {
-            originalEvent: e,
-            type: "cxttap",
-            position: {
-              x: pos[0],
-              y: pos[1]
-            }
-          };
+          var cxtTap = makeEvent("cxttap");
           if (down) {
             down.emit(cxtTap);
           } else {
@@ -168671,24 +168895,17 @@ return a / b;`;
           if (box.length > 0) {
             r.redrawHint("eles", true);
           }
-          cy.emit({
-            type: "boxend",
-            originalEvent: e,
-            position: {
-              x: pos[0],
-              y: pos[1]
-            }
-          });
+          cy.emit(makeEvent("boxend"));
           var eleWouldBeSelected = function eleWouldBeSelected2(ele) {
             return ele.selectable() && !ele.selected();
           };
           if (cy.selectionType() === "additive") {
-            box.emit("box").stdFilter(eleWouldBeSelected).select().emit("boxselect");
+            box.emit(makeEvent("box")).stdFilter(eleWouldBeSelected).select().emit(makeEvent("boxselect"));
           } else {
             if (!multSelKeyDown) {
               cy.$(isSelected).unmerge(box).unselect();
             }
-            box.emit("box").stdFilter(eleWouldBeSelected).select().emit("boxselect");
+            box.emit(makeEvent("box")).stdFilter(eleWouldBeSelected).select().emit(makeEvent("boxselect"));
           }
           r.redraw();
         }
@@ -168704,11 +168921,11 @@ return a / b;`;
           var downWasGrabbed = down && down.grabbed();
           freeDraggedElements(draggedElements);
           if (downWasGrabbed) {
-            down.emit("freeon");
-            draggedElements.emit("free");
+            down.emit(makeEvent("freeon"));
+            draggedElements.emit(makeEvent("free"));
             if (r.dragData.didDrag) {
-              down.emit("dragfreeon");
-              draggedElements.emit("dragfree");
+              down.emit(makeEvent("dragfreeon"));
+              draggedElements.emit(makeEvent("dragfree"));
             }
           }
         }
@@ -168823,7 +169040,14 @@ return a / b;`;
             y: rpos[1]
           }
         });
-        cy.emit(e.type === "gesturechange" ? "pinchzoom" : "scrollzoom");
+        cy.emit({
+          type: e.type === "gesturechange" ? "pinchzoom" : "scrollzoom",
+          originalEvent: e,
+          position: {
+            x: pos[0],
+            y: pos[1]
+          }
+        });
       }
     };
     r.registerBinding(r.container, "wheel", wheelHandler, true);
@@ -168906,6 +169130,16 @@ return a / b;`;
         now2[4] = pos[0];
         now2[5] = pos[1];
       }
+      var makeEvent = function makeEvent2(type) {
+        return {
+          originalEvent: e,
+          type,
+          position: {
+            x: now2[0],
+            y: now2[1]
+          }
+        };
+      };
       if (e.touches[1]) {
         r.touchData.singleTouchMoved = true;
         freeDraggedElements(r.dragData.touchDragEles);
@@ -168931,34 +169165,13 @@ return a / b;`;
           var near1 = r.findNearestElement(now2[0], now2[1], true, true);
           var near2 = r.findNearestElement(now2[2], now2[3], true, true);
           if (near1 && near1.isNode()) {
-            near1.activate().emit({
-              originalEvent: e,
-              type: "cxttapstart",
-              position: {
-                x: now2[0],
-                y: now2[1]
-              }
-            });
+            near1.activate().emit(makeEvent("cxttapstart"));
             r.touchData.start = near1;
           } else if (near2 && near2.isNode()) {
-            near2.activate().emit({
-              originalEvent: e,
-              type: "cxttapstart",
-              position: {
-                x: now2[0],
-                y: now2[1]
-              }
-            });
+            near2.activate().emit(makeEvent("cxttapstart"));
             r.touchData.start = near2;
           } else {
-            cy.emit({
-              originalEvent: e,
-              type: "cxttapstart",
-              position: {
-                x: now2[0],
-                y: now2[1]
-              }
-            });
+            cy.emit(makeEvent("cxttapstart"));
           }
           if (r.touchData.start) {
             r.touchData.start._private.grabbed = false;
@@ -169000,16 +169213,6 @@ return a / b;`;
               });
             }
             setGrabTarget(near);
-            var makeEvent = function makeEvent2(type) {
-              return {
-                originalEvent: e,
-                type,
-                position: {
-                  x: now2[0],
-                  y: now2[1]
-                }
-              };
-            };
             near.emit(makeEvent("grabon"));
             if (selectedNodes) {
               selectedNodes.forEach(function(n) {
@@ -169079,6 +169282,16 @@ return a / b;`;
         now2[4] = pos[0];
         now2[5] = pos[1];
       }
+      var makeEvent = function makeEvent2(type) {
+        return {
+          originalEvent: e,
+          type,
+          position: {
+            x: now2[0],
+            y: now2[1]
+          }
+        };
+      };
       var startGPos = r.touchData.startGPosition;
       var isOverThresholdDrag;
       if (capture && e.touches[0] && startGPos) {
@@ -169107,14 +169320,7 @@ return a / b;`;
           r.touchData.cxt = false;
           r.data.bgActivePosistion = void 0;
           r.redrawHint("select", true);
-          var cxtEvt = {
-            originalEvent: e,
-            type: "cxttapend",
-            position: {
-              x: now2[0],
-              y: now2[1]
-            }
-          };
+          var cxtEvt = makeEvent("cxttapend");
           if (r.touchData.start) {
             r.touchData.start.unactivate().emit(cxtEvt);
             r.touchData.start = null;
@@ -169124,14 +169330,7 @@ return a / b;`;
         }
       }
       if (capture && r.touchData.cxt) {
-        var cxtEvt = {
-          originalEvent: e,
-          type: "cxtdrag",
-          position: {
-            x: now2[0],
-            y: now2[1]
-          }
-        };
+        var cxtEvt = makeEvent("cxtdrag");
         r.data.bgActivePosistion = void 0;
         r.redrawHint("select", true);
         if (r.touchData.start) {
@@ -169146,25 +169345,11 @@ return a / b;`;
         var near = r.findNearestElement(now2[0], now2[1], true, true);
         if (!r.touchData.cxtOver || near !== r.touchData.cxtOver) {
           if (r.touchData.cxtOver) {
-            r.touchData.cxtOver.emit({
-              originalEvent: e,
-              type: "cxtdragout",
-              position: {
-                x: now2[0],
-                y: now2[1]
-              }
-            });
+            r.touchData.cxtOver.emit(makeEvent("cxtdragout"));
           }
           r.touchData.cxtOver = near;
           if (near) {
-            near.emit({
-              originalEvent: e,
-              type: "cxtdragover",
-              position: {
-                x: now2[0],
-                y: now2[1]
-              }
-            });
+            near.emit(makeEvent("cxtdragover"));
           }
         }
       } else if (capture && e.touches[2] && cy.boxSelectionEnabled()) {
@@ -169172,14 +169357,7 @@ return a / b;`;
         r.data.bgActivePosistion = void 0;
         this.lastThreeTouch = +/* @__PURE__ */ new Date();
         if (!r.touchData.selecting) {
-          cy.emit({
-            originalEvent: e,
-            type: "boxstart",
-            position: {
-              x: now2[0],
-              y: now2[1]
-            }
-          });
+          cy.emit(makeEvent("boxstart"));
         }
         r.touchData.selecting = true;
         r.touchData.didSelect = true;
@@ -169234,11 +169412,11 @@ return a / b;`;
             freeDraggedElements(draggedEles);
             r.redrawHint("drag", true);
             r.redrawHint("eles", true);
-            _start.unactivate().emit("freeon");
-            draggedEles.emit("free");
+            _start.unactivate().emit(makeEvent("freeon"));
+            draggedEles.emit(makeEvent("free"));
             if (r.dragData.didDrag) {
-              _start.emit("dragfreeon");
-              draggedEles.emit("dragfree");
+              _start.emit(makeEvent("dragfreeon"));
+              draggedEles.emit(makeEvent("dragfree"));
             }
           }
           cy.viewport({
@@ -169246,7 +169424,7 @@ return a / b;`;
             pan: pan2,
             cancelOnFailedZoom: true
           });
-          cy.emit("pinchzoom");
+          cy.emit(makeEvent("pinchzoom"));
           distance1 = distance22;
           f1x1 = f1x2;
           f1y1 = f1y2;
@@ -169306,7 +169484,7 @@ return a / b;`;
               }
             }
             r.hoverData.draggingEles = true;
-            draggedEles.silentShift(totalShift).emit("position drag");
+            draggedEles.silentShift(totalShift).emit(makeEvent("position")).emit(makeEvent("drag"));
             r.redrawHint("drag", true);
             if (r.touchData.startPosition[0] == earlier[0] && r.touchData.startPosition[1] == earlier[1]) {
               r.redrawHint("eles", true);
@@ -169330,24 +169508,10 @@ return a / b;`;
           });
           if ((!start || !start.grabbed()) && near != last2) {
             if (last2) {
-              last2.emit({
-                originalEvent: e,
-                type: "tapdragout",
-                position: {
-                  x: now2[0],
-                  y: now2[1]
-                }
-              });
+              last2.emit(makeEvent("tapdragout"));
             }
             if (near) {
-              near.emit({
-                originalEvent: e,
-                type: "tapdragover",
-                position: {
-                  x: now2[0],
-                  y: now2[1]
-                }
-              });
+              near.emit(makeEvent("tapdragover"));
             }
           }
           r.touchData.last = near;
@@ -169371,14 +169535,14 @@ return a / b;`;
                 x: disp[0] * zoom2,
                 y: disp[1] * zoom2
               });
-              cy.emit("dragpan");
+              cy.emit(makeEvent("dragpan"));
             } else if (isOverThresholdDrag) {
               r.swipePanning = true;
               cy.panBy({
                 x: dx * zoom2,
                 y: dy * zoom2
               });
-              cy.emit("dragpan");
+              cy.emit(makeEvent("dragpan"));
               if (start) {
                 start.unactivate();
                 r.redrawHint("select", true);
@@ -169442,33 +169606,29 @@ return a / b;`;
         now2[4] = pos[0];
         now2[5] = pos[1];
       }
-      if (start) {
-        start.unactivate();
-      }
-      var ctxTapend;
-      if (r.touchData.cxt) {
-        ctxTapend = {
+      var makeEvent = function makeEvent2(type) {
+        return {
           originalEvent: e,
-          type: "cxttapend",
+          type,
           position: {
             x: now2[0],
             y: now2[1]
           }
         };
+      };
+      if (start) {
+        start.unactivate();
+      }
+      var ctxTapend;
+      if (r.touchData.cxt) {
+        ctxTapend = makeEvent("cxttapend");
         if (start) {
           start.emit(ctxTapend);
         } else {
           cy.emit(ctxTapend);
         }
         if (!r.touchData.cxtDragged) {
-          var ctxTap = {
-            originalEvent: e,
-            type: "cxttap",
-            position: {
-              x: now2[0],
-              y: now2[1]
-            }
-          };
+          var ctxTap = makeEvent("cxttap");
           if (start) {
             start.emit(ctxTap);
           } else {
@@ -169492,18 +169652,11 @@ return a / b;`;
         select4[3] = void 0;
         select4[4] = 0;
         r.redrawHint("select", true);
-        cy.emit({
-          type: "boxend",
-          originalEvent: e,
-          position: {
-            x: now2[0],
-            y: now2[1]
-          }
-        });
+        cy.emit(makeEvent("boxend"));
         var eleWouldBeSelected = function eleWouldBeSelected2(ele) {
           return ele.selectable() && !ele.selected();
         };
-        box.emit("box").stdFilter(eleWouldBeSelected).select().emit("boxselect");
+        box.emit(makeEvent("box")).stdFilter(eleWouldBeSelected).select().emit(makeEvent("boxselect"));
         if (box.nonempty()) {
           r.redrawHint("eles", true);
         }
@@ -169527,11 +169680,11 @@ return a / b;`;
           r.redrawHint("drag", true);
           r.redrawHint("eles", true);
           if (startWasGrabbed) {
-            start.emit("freeon");
-            draggedEles.emit("free");
+            start.emit(makeEvent("freeon"));
+            draggedEles.emit(makeEvent("free"));
             if (r.dragData.didDrag) {
-              start.emit("dragfreeon");
-              draggedEles.emit("dragfree");
+              start.emit(makeEvent("dragfreeon"));
+              draggedEles.emit(makeEvent("dragfree"));
             }
           }
           triggerEvents(start, ["touchend", "tapend", "vmouseup", "tapdragout"], e, {
@@ -169715,6 +169868,10 @@ return a / b;`;
       },
       checkPoint: function checkPoint(x2, y2, padding, width2, height2, centerX, centerY, cornerRadius) {
         return pointInsidePolygon(x2, y2, this.points, centerX, centerY, width2, height2, [0, -1], padding);
+      },
+      hasMiterBounds: name !== "rectangle",
+      miterBounds: function miterBounds(centerX, centerY, width2, height2, strokeWidth, strokePosition) {
+        return miterBox(this.points, centerX, centerY, width2, height2, strokeWidth);
       }
     };
   };
@@ -174640,7 +174797,7 @@ return a / b;`;
        * @property { string } collection - name of atlas collection to render textures to
        * @property { function } getKey - returns the "style key" for an element, may be a single value or an array for multi-line lables
        * @property { function } drawElement - uses a canvas renderer to draw the element to the texture atlas
-       * @property { boolean  } drawClipped - if true the context will be clipped to the bounding box before drawElement() is called, may affect performance 
+       * @property { boolean  } drawClipped - if true the context will be clipped to the bounding box before drawElement() is called, may affect performance
        * @property { function } getBoundingBox - returns the bounding box for an element
        * @property { function } getRotation
        * @property { function } getRotationPoint
@@ -174774,7 +174931,7 @@ return a / b;`;
         var _this = this;
         if (!this._buffers) {
           this._buffers = Object.keys(this).filter(function(k) {
-            return k.endsWith("Buffer");
+            return endsWith(k, "Buffer");
           }).map(function(k) {
             return _this[k];
           });
@@ -176706,7 +176863,7 @@ return a / b;`;
     }
     return style3;
   };
-  var version9 = "3.32.0";
+  var version9 = "3.32.1";
   var cytoscape2 = function cytoscape3(options2) {
     if (options2 === void 0) {
       options2 = {};
@@ -177199,7 +177356,11 @@ return a / b;`;
           this.cy = cytoscape2({
             container: this.$refs.container,
             elements: this.helper.getElements(),
-            wheelSensitivity: 0.5,
+            wheelSensitivity: 2,
+            minZoom: 0.2,
+            // set your desired minimum zoom
+            maxZoom: 1.5,
+            // set your desired maximum zoom
             style: [
               {
                 selector: "node",
@@ -177980,7 +178141,7 @@ return a / b;`;
     return app;
   }
 
-  // node_modules/@jrc03c/js-convex-hull/src/index.mjs
+  // node_modules/.pnpm/@jrc03c+js-convex-hull@0.0.25/node_modules/@jrc03c/js-convex-hull/src/index.mjs
   function getConvexHull(points) {
     if (points.length < 3) {
       throw new Error("A minimum of 3 points are needed to compute a hull!");
@@ -179680,7 +179841,7 @@ return a / b;`;
     return reshape(xValuesClipped, xShape);
   });
 
-  // node_modules/@jrc03c/tf-k-means/src/helpers/accuracy.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/helpers/accuracy.mjs
   function accuracy(a, b) {
     if (a instanceof Tensor) {
       a = a.arraySync();
@@ -179705,7 +179866,7 @@ return a / b;`;
     return correct / a.length;
   }
 
-  // node_modules/@jrc03c/tf-k-means/src/helpers/pairwise-distances.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/helpers/pairwise-distances.mjs
   function pairwiseDistances(a, b) {
     if (!b) {
       b = a;
@@ -179745,7 +179906,7 @@ return a / b;`;
     return tensor(out);
   }
 
-  // node_modules/@jrc03c/tf-k-means/src/helpers/silhouette.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/helpers/silhouette.mjs
   function silhouette(distances2, labels) {
     return tidy(() => {
       if (labels instanceof Tensor) {
@@ -179777,7 +179938,7 @@ return a / b;`;
     });
   }
 
-  // node_modules/@jrc03c/tf-k-means/src/helpers/sort-by-column.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/helpers/sort-by-column.mjs
   function sortByColumn(x2, j) {
     return tidy(() => {
       if (x2 instanceof Tensor) {
@@ -179796,14 +179957,14 @@ return a / b;`;
     });
   }
 
-  // node_modules/@jrc03c/tf-k-means/src/helpers/sort-centroids.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/helpers/sort-centroids.mjs
   function sortCentroids(ctrue, cpred) {
     return tidy(() => {
       return cpred.gather(pairwiseDistances(ctrue, cpred).argMin(-1));
     });
   }
 
-  // node_modules/@jrc03c/tf-k-means/src/helpers/standard-scaler.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/helpers/standard-scaler.mjs
   var StandardScaler = class {
     means = null;
     stdevs = null;
@@ -179872,7 +180033,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/tf-k-means/src/helpers/tensor-length-property.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/helpers/tensor-length-property.mjs
   globalThis.WARN_ON_TENSOR_LENGTH_PROPERTY_ACCESS = true;
   Object.defineProperty(Tensor.prototype, "length", {
     configurable: false,
@@ -179895,7 +180056,7 @@ return a / b;`;
     }
   });
 
-  // node_modules/@jrc03c/tf-k-means/src/models/k-means.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/models/k-means.mjs
   var KMeans = class _KMeans {
     static Initialization = {
       PLUS_PLUS: "PLUS_PLUS",
@@ -180140,7 +180301,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/tf-k-means/src/models/k-means-meta.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/models/k-means-meta.mjs
   var KMeansMeta = class _KMeansMeta {
     static Initialization = KMeans.Initialization;
     static Method = {
@@ -180324,7 +180485,7 @@ return a / b;`;
     }
   };
 
-  // node_modules/@jrc03c/tf-k-means/src/models/t-sne.mjs
+  // node_modules/.pnpm/@jrc03c+tf-k-means@0.0.8_seedrandom@3.0.5/node_modules/@jrc03c/tf-k-means/src/models/t-sne.mjs
   var import_karpathy_tsne_js = __toESM(require_tsne(), 1);
   var TSNE = class {
     dimensions = 2;
@@ -180476,7 +180637,7 @@ return a / b;`;
     });
   }
 
-  // node_modules/@jrc03c/js-data-science-helpers/src/get-one-hot-encodings.mjs
+  // node_modules/.pnpm/@jrc03c+js-data-science-helpers@0.0.86/node_modules/@jrc03c/js-data-science-helpers/src/get-one-hot-encodings.mjs
   function simpleStringify(x2) {
     if (typeof x2 === "bigint") {
       return x2.toString() + "n";
@@ -180520,12 +180681,12 @@ return a / b;`;
     return out;
   }
 
-  // node_modules/@jrc03c/js-data-science-helpers/src/is-whole-number.mjs
+  // node_modules/.pnpm/@jrc03c+js-data-science-helpers@0.0.86/node_modules/@jrc03c/js-data-science-helpers/src/is-whole-number.mjs
   function isWholeNumber4(x2) {
     return isNumber(x2) && x2 >= 0 && Math.floor(x2) === x2 && x2 < Infinity;
   }
 
-  // node_modules/@jrc03c/js-data-science-helpers/src/z-table.mjs
+  // node_modules/.pnpm/@jrc03c+js-data-science-helpers@0.0.86/node_modules/@jrc03c/js-data-science-helpers/src/z-table.mjs
   var zTable = [
     0.5,
     0.49601,
@@ -180939,7 +181100,7 @@ return a / b;`;
     2e-5
   ];
 
-  // node_modules/@jrc03c/js-data-science-helpers/src/p-value.mjs
+  // node_modules/.pnpm/@jrc03c+js-data-science-helpers@0.0.86/node_modules/@jrc03c/js-data-science-helpers/src/p-value.mjs
   function probability(z) {
     if (vabs(z) > 4.1) return 0;
     return zTable[vround(remap(vabs(z), 0, 4.1, 0, zTable.length))];
@@ -180971,7 +181132,7 @@ return a / b;`;
     return 2 * probability(t);
   }
 
-  // node_modules/@jrc03c/js-data-science-helpers/src/hunter-chain-sort.mjs
+  // node_modules/.pnpm/@jrc03c+js-data-science-helpers@0.0.86/node_modules/@jrc03c/js-data-science-helpers/src/hunter-chain-sort.mjs
   function hunterChainSort(c) {
     if (isArray2(c)) {
       assert2(
@@ -181052,7 +181213,7 @@ return a / b;`;
     }
   });
 
-  // node_modules/ml-matrix/matrix.mjs
+  // node_modules/.pnpm/ml-matrix@6.12.1/node_modules/ml-matrix/matrix.mjs
   var matrix = __toESM(require_matrix(), 1);
   var SVD2 = matrix.SVD;
   var matrix_default = matrix.default.Matrix ? matrix.default.Matrix : matrix.Matrix;
@@ -182298,7 +182459,7 @@ papaparse/papaparse.min.js:
 
 @vue/shared/dist/shared.esm-bundler.js:
   (**
-  * @vue/shared v3.5.15
+  * @vue/shared v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
@@ -182306,14 +182467,14 @@ papaparse/papaparse.min.js:
 
 @vue/reactivity/dist/reactivity.esm-bundler.js:
   (**
-  * @vue/reactivity v3.5.15
+  * @vue/reactivity v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
 
 @vue/runtime-core/dist/runtime-core.esm-bundler.js:
   (**
-  * @vue/runtime-core v3.5.15
+  * @vue/runtime-core v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
@@ -182321,7 +182482,7 @@ papaparse/papaparse.min.js:
 
 @vue/runtime-dom/dist/runtime-dom.esm-bundler.js:
   (**
-  * @vue/runtime-dom v3.5.15
+  * @vue/runtime-dom v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
@@ -182329,21 +182490,21 @@ papaparse/papaparse.min.js:
 
 @vue/compiler-core/dist/compiler-core.esm-bundler.js:
   (**
-  * @vue/compiler-core v3.5.15
+  * @vue/compiler-core v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
 
 @vue/compiler-dom/dist/compiler-dom.esm-bundler.js:
   (**
-  * @vue/compiler-dom v3.5.15
+  * @vue/compiler-dom v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)
 
 vue/dist/vue.esm-bundler.js:
   (**
-  * vue v3.5.15
+  * vue v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
   * @license MIT
   **)

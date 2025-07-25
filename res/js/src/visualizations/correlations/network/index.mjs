@@ -557,7 +557,9 @@ async function CorrelationsNetworkVisualization(options) {
         this.cy = cytoscape({
           container: this.$refs.container,
           elements: this.helper.getElements(),
-          wheelSensitivity: 0.5,
+          wheelSensitivity: 2,
+          minZoom: 0.2, // set your desired minimum zoom
+          maxZoom: 1.5, // set your desired maximum zoom
 
           style: [
             {
