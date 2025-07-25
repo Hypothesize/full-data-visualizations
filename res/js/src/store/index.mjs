@@ -22,7 +22,7 @@ class Store {
   static VARIABLE_DISTRIBUTIONS_KEY = "/data/variable-distributions"
 
   baseURL = "/"
-  imageDir = "res/img"
+  imageDir = "static"
   isComputingCoreDataTypes = false
   isComputingKMeansResults = false
   isComputingNumbersOnlyCoreData = false
@@ -33,7 +33,7 @@ class Store {
   isComputingVariableDistributions = false
   globalQueen = null
   settings = DEFAULT_SETTINGS
-  workerBundleDir = "dist/worker-bundles"
+  workerBundleDir = "static"
 
   constructor(options) {
     options = options || {}

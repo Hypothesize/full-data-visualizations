@@ -44,7 +44,6 @@ const css = /* css */ `
 
 	.hvis-correlations-grid-vis .hvis-correlations-legend-container {
 		position: absolute;
-		top: 100px;
 		right: 24px;
 		z-index: 999;
 	}
@@ -63,6 +62,7 @@ const template = /* html */ `
 		@mousedown="onMouseDown"
 		@mousemove="onMouseMove"
 		class="hvis-correlations-grid-vis"
+    style="text-align: left"
 		ref="root">
     	<div v-if="typeof error === 'string'" class="hvis-card is-warning" style="margin-bottom: 2rem">
 				<div class="hvis-card-content">
@@ -78,7 +78,7 @@ const template = /* html */ `
 			</hvis-progress>
 		</div>
 
-		<div v-else>
+		<div v-else style="position: relative; display: inline-block">
 			<div v-if="modeOptions.length > 1" class="hvis-mode-options-container">
 				<button
 					:class="{ 'is-primary': option === chosenModeOption }"
@@ -367,9 +367,9 @@ async function CorrelationsGridVisualization(options) {
         const height = int(tempWidth)
         const padding = int(tempPadding)
 
-        const gridTop = padding
+        const gridTop = 0
         const gridBottom = height - padding - labelLength - blockSize
-        const gridLeft = padding + labelLength + blockSize
+        const gridLeft = 0 + labelLength + blockSize
         const horizontalLabels = []
         const verticalLabels = []
 
@@ -390,7 +390,7 @@ async function CorrelationsGridVisualization(options) {
             truncate(row, 64, store.settings.truncationMode),
             row,
             int(gridLeft + i * blockSize + blockSize / 2),
-            int(gridBottom + blockSize),
+            int(gridBottom + blockSize) - padding,
             Label.VERTICAL,
           )
 
@@ -402,13 +402,15 @@ async function CorrelationsGridVisualization(options) {
         await pause(10)
 
         const containerWidth =
-          padding +
+          0 +
           labelLength +
-          padding +
+          0 +
           correlations.shape[1] * blockSize
+          // If there are not enough columns to fill the screen, we add some width, so the floating legend don't overflow into the matrix
+          + (correlations.shape[1] * blockSize >= 450 ? 0 : blockSize * 5)
 
         const containerHeight =
-          padding +
+          0 +
           labelLength +
           padding +
           correlations.shape[0] * blockSize
@@ -482,7 +484,11 @@ async function CorrelationsGridVisualization(options) {
                 onscreenContext.globalAlpha = abs(value)
 
                 onscreenContext.fillStyle =
-                  value < 0 ? this.colors.negative : this.colors.positive
+                  Number.isNaN(value)
+                    ? "#ddd"
+                    : value < 0
+                      ? this.colors.negative
+                      : this.colors.positive
 
                 onscreenContext.fillRect(x, y, blockSize, blockSize)
 
@@ -582,6 +588,7 @@ async function CorrelationsGridVisualization(options) {
               this.bottomFloatingLabel.x = x + blockSize / 2
               this.bottomFloatingLabel.y = y + 2 * blockSize
             } else if (this.highlightedRValue) {
+
               correlations.values.forEach((row, i) => {
                 if (i < startRow) return
                 if (i > startRow + blocksPerScreen) return
@@ -590,7 +597,7 @@ async function CorrelationsGridVisualization(options) {
                   if (j < startCol) return
                   if (j > startCol + blocksPerScreen) return
                   if (j + 1 > i) return
-                  if (abs(value - this.highlightedRValue) > 0.025) return
+                  if (Number.isNaN(value) || abs(value - this.highlightedRValue) > 0.025) return
 
                   if (horizontalLabelsToHighlight.indexOf(i) < 0) {
                     horizontalLabelsToHighlight.push(i)
