@@ -102,8 +102,6 @@ const template = /* html */ `
 
 			<div ref="container" class="hvis-canvas-container"></div>
 
-			<br />
-
 			<hvis-floating-label
 				:content="topFloatingLabel.content"
 				:v-align="topFloatingLabel.vAlign"
