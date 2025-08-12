@@ -549,7 +549,11 @@ async function CorrelationsNetworkVisualization(options) {
         }
 
         const containerRect = this.$refs.container.getBoundingClientRect()
-        this.$refs.container.style.height = `${containerRect.width}px`
+
+        // this.$refs.container.style.height = `${containerRect.width}px`
+        const networkContainer = document.getElementById("vue-network").getBoundingClientRect()
+
+        this.$refs.container.style.height = `${networkContainer.bottom - containerRect.top}px`
         this.$refs.container.style["max-height"] = `75vh`
 
         if (this.cy) this.cy.destroy()

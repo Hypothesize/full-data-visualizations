@@ -370,9 +370,9 @@ class Store {
       await this.set(Store.NUMBERS_ONLY_CORE_DATA_KEY, numbersOnlyCoreData)
     }
 
-    if (await this.shouldRecompute(coreData, customHash)) {
-      await recompute()
-    }
+    // if (await this.shouldRecompute(coreData, customHash)) {
+    // }
+    await recompute()
 
     const temp = await this.get(Store.NUMBERS_ONLY_CORE_DATA_KEY)
 
