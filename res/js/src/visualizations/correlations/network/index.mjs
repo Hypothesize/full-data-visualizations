@@ -45,6 +45,20 @@ const css = /* css */ `
 // <template> -------------------------------------------------------------- //
 // ========================================================================= //
 
+const modeSelector =`
+			<div class="hvis-field" style="text-align: left">
+				<label class="hvis-label">Mode</label>
+
+				<div class="hvis-select">
+					<select v-model="chosenModeOption" style="height: 3rem;">
+						<option :key="modeOption.value" :value="modeOption.value" v-for="modeOption in modeOptions">
+							{{ modeOption.name }}
+						</option>
+					</select>
+				</div>
+			</div>
+`
+
 const template = /* html */ `
 <div class="hvis-correlations-network-vis">
 	<div v-if="typeof error === 'string'" class="hvis-card is-warning" style="margin-bottom: 2rem">
@@ -62,17 +76,10 @@ const template = /* html */ `
 	<div v-else>
 		<hvis-notification :can-be-closed="false" style="display: flex; align-items: start; padding: 1rem 1rem 0; gap: 1rem">
     	<div style="display: flex; flex-direction: row; align-items: center; gap: 1rem;">
-			<div class="hvis-field" style="text-align: left">
-				<label class="hvis-label">Mode</label>
 
-				<div class="hvis-select">
-					<select v-model="chosenModeOption" style="height: 3rem;">
-						<option :key="modeOption.value" :value="modeOption.value" v-for="modeOption in modeOptions">
-							{{ modeOption.name }}
-						</option>
-					</select>
-				</div>
-			</div>
+
+      
+
 
 			<div class="hvis-field" style="text-align: left">
 				<label class="hvis-label">Node layout algorithm</label>
@@ -177,13 +184,15 @@ cytoscape.warnings(false)
 async function CorrelationsNetworkVisualization(options) {
   options = options || {}
 
-  if (options.data) {
-    await store.setCoreData(options.data, options.customHash)
-  }
+  // if (options.data) {
+  //   await store.setCoreData(options.data, options.customHash)
+  // }
 
-  if (options.dataTypes) {
-    await store.setCoreDataTypes(options.dataTypes)
-  }
+  // if (options.dataTypes) {
+  //   await store.setCoreDataTypes(options.dataTypes)
+  // }
+
+
 
   const component = createVueComponentWithCSS({
     name: "hvis-correlations-network-vis",
@@ -263,6 +272,8 @@ async function CorrelationsNetworkVisualization(options) {
           message: "Computing...",
           percent: 0,
         },
+        pValues: options.pValues ?? null,
+        regularCorrelations: options.regularCorrelations ?? null,
         error: null,
       }
     },
@@ -432,10 +443,11 @@ async function CorrelationsNetworkVisualization(options) {
         ElementsHelper.COLOR_NEGATIVE = this.colors.negative
         ElementsHelper.COLOR_POSITIVE = this.colors.positive
 
-        const mode =
-          this.chosenModeOption === "partialCorrelationMode"
-            ? ElementsHelper.PARTIAL_CORRELATION_MODE
-            : ElementsHelper.REGULAR_PAIRWISE_CORRELATION_MODE
+        // const mode =
+        //   this.chosenModeOption === "partialCorrelationMode"
+        //     ? ElementsHelper.PARTIAL_CORRELATION_MODE
+        //     : ElementsHelper.REGULAR_PAIRWISE_CORRELATION_MODE
+        const mode = ElementsHelper.REGULAR_PAIRWISE_CORRELATION_MODE
 
         this.helper = new ElementsHelper(mode)
 
@@ -496,22 +508,13 @@ async function CorrelationsNetworkVisualization(options) {
             })
           })
         } else if (this.chosenModeOption === "regularPairwiseCorrelationMode") {
-          const pValues = await store.getPValues(null, p => {
-            this.progress.message = p.message
-            this.progress.percent = (p.progress * 100) / 2
-          })
+          const pValues = this.pValues
 
           if (!pValues) {
             return
           }
 
-          const regularCorrelations = await store.getRegularCorrelations(
-            null,
-            p => {
-              this.progress.message = p.message
-              this.progress.percent = (p.progress * 100) / 2 + 1 / 2
-            },
-          )
+          const regularCorrelations = this.regularCorrelations
 
           if (!regularCorrelations) {
             return
@@ -692,7 +695,8 @@ async function CorrelationsNetworkVisualization(options) {
     async mounted() {
       await pause(100)
 
-      this.chosenModeOption = "partialCorrelationMode"
+      // this.chosenModeOption = "partialCorrelationMode"
+      this.chosenModeOption = "regularPairwiseCorrelationMode"
       this.chosenNodeLayoutAlgorithm = "cola"
 
       this.nodeLayoutAlgorithms.sort((a, b) => {
