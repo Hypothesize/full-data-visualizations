@@ -15,7 +15,7 @@ const css = /* css */ `
 		position: absolute;
 		top: calc(var(--padding) / 2);
 		left: calc(var(--padding) / 2);
-		z-index: 999;
+		z-index: 1;
 	}
 
 	.hvis-correlations-network-vis .hvis-field {
@@ -32,7 +32,7 @@ const css = /* css */ `
 		position: absolute;
 		top: calc(var(--padding) / 2);
 		right: calc(var(--padding) / 2);
-		z-index: 999;
+		z-index: 1;
 	}
 
 	.hvis-correlations-network-vis .hvis-cytoscape-container {
