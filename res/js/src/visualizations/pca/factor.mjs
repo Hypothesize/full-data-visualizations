@@ -48,23 +48,6 @@ const template = /* html */ `
 		</div>
 
 		<div ref="container"></div>
-
-		<hvis-modal-with-prompt
-			:is-active="renameModalIsVisible"
-			@cancel="cancelRename"
-			@confirm="confirmRename"
-			title="Rename">
-			<p>Rename factor "{{ title }}" to:</p>
-
-			<div>
-				<input
-					@keydown.enter="confirmRename"
-					@keydown.escape="cancelRename"
-					ref="renameInput"
-					type="text"
-					v-model="newFactorTitle" />
-			</div>
-		</hvis-modal-with-prompt>
 	</div>
 `
 
@@ -130,6 +113,12 @@ async function PCAFactorVisualization(options) {
         required: false,
         default: () => options.loadings || null,
       },
+
+      onClickFactor: {
+        type: Function,
+        required: false,
+        default: () => () => {},
+      },
     },
 
     data() {
@@ -138,7 +127,7 @@ async function PCAFactorVisualization(options) {
         newFactorTitle: "",
         renameModalIsVisible: false,
         title: "Factor 1",
-        truncationMode: "end",
+        truncationMode: "end"
       }
     },
 
@@ -415,13 +404,7 @@ async function PCAFactorVisualization(options) {
       },
 
       startRename() {
-        this.renameModalIsVisible = true
-        this.newFactorTitle = this.title
-
-        setTimeout(() => {
-          this.$refs.renameInput.focus()
-          this.$refs.renameInput.select()
-        }, 100)
+        this.onClickFactor(this.title)
       },
     },
 

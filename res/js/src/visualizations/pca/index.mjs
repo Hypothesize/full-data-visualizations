@@ -23,6 +23,7 @@ const template = /* html */ `
 			<hvis-pca-factor-vis
 				:color-negative="colors.negative"
 				:color-positive="colors.positive"
+        :onClickFactor="onClickFactor"
 				:key="col"
 				:loadings="loadings.get(null,col)"
 				@rename="onRename(col, $event)"
@@ -86,6 +87,7 @@ async function PCAVisualization(options) {
         css,
         loadings: options.loadings || null,
         percent: 0,
+        onClickFactor: options.onClickFactor || function () {}
       }
     },
 
@@ -109,7 +111,7 @@ async function PCAVisualization(options) {
         (await store.getPCALoadings(null, progress => {
           this.percent = progress.progress * 100
         }, options.customHash))
-
+        
       if (!loadings) {
         return
       }
