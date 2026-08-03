@@ -178851,7 +178851,7 @@ return a / b;`;
     `
 	.hvis-pca-factor-vis {
 		border-radius: 4px;
-		margin-bottom: 1.5em;
+		margin-bottom: 2rem;
 	}
 
 	.hvis-pca-factor-vis .hvis-title {
