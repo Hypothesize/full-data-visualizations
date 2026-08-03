@@ -146012,7 +146012,7 @@ return a / b;`;
 	.hvis-correlations-grid-vis .hvis-correlations-legend-container {
 		position: absolute;
 		right: 24px;
-		z-index: 999;
+		z-index: 1;
 	}
 
 	.hvis-correlations-grid-vis .hvis-buttons-row {
@@ -176746,7 +176746,7 @@ return a / b;`;
 		position: absolute;
 		top: calc(var(--padding) / 2);
 		left: calc(var(--padding) / 2);
-		z-index: 999;
+		z-index: 1;
 	}
 
 	.hvis-correlations-network-vis .hvis-field {
@@ -176763,7 +176763,7 @@ return a / b;`;
 		position: absolute;
 		top: calc(var(--padding) / 2);
 		right: calc(var(--padding) / 2);
-		z-index: 999;
+		z-index: 1;
 	}
 
 	.hvis-correlations-network-vis .hvis-cytoscape-container {
@@ -178892,23 +178892,6 @@ return a / b;`;
 		</div>
 
 		<div ref="container"></div>
-
-		<hvis-modal-with-prompt
-			:is-active="renameModalIsVisible"
-			@cancel="cancelRename"
-			@confirm="confirmRename"
-			title="Rename">
-			<p>Rename factor "{{ title }}" to:</p>
-
-			<div>
-				<input
-					@keydown.enter="confirmRename"
-					@keydown.escape="cancelRename"
-					ref="renameInput"
-					type="text"
-					v-model="newFactorTitle" />
-			</div>
-		</hvis-modal-with-prompt>
 	</div>
 `
   );
@@ -178938,6 +178921,12 @@ return a / b;`;
           type: Object,
           required: false,
           default: () => options2.loadings || null
+        },
+        onClickFactor: {
+          type: Function,
+          required: false,
+          default: () => () => {
+          }
         }
       },
       data() {
@@ -179146,12 +179135,7 @@ return a / b;`;
           loop();
         },
         startRename() {
-          this.renameModalIsVisible = true;
-          this.newFactorTitle = this.title;
-          setTimeout(() => {
-            this.$refs.renameInput.focus();
-            this.$refs.renameInput.select();
-          }, 100);
+          this.onClickFactor(this.title);
         }
       },
       mounted() {
@@ -179196,6 +179180,7 @@ return a / b;`;
 			<hvis-pca-factor-vis
 				:color-negative="colors.negative"
 				:color-positive="colors.positive"
+        :onClickFactor="onClickFactor"
 				:key="col"
 				:loadings="loadings.get(null,col)"
 				@rename="onRename(col, $event)"
@@ -179233,7 +179218,9 @@ return a / b;`;
           },
           css: css18,
           loadings: options2.loadings || null,
-          percent: 0
+          percent: 0,
+          onClickFactor: options2.onClickFactor || function() {
+          }
         };
       },
       methods: {
@@ -179327,7 +179314,7 @@ return a / b;`;
     `
 	<div class="hvis-snapshot-vis">
     <div class="hvis-content" style="display: flex; flex-direction: column; gap: 1rem"> 
-      <h3 style="margin: auto" v-if="cutMiddleValues">Since the table contains too many rows, only 1000 are shown here: the first and last 500</h3>
+      <h3 v-if="cutMiddleValues">Since the table contains too many rows, only 1000 are shown here: the first and last 500</h3>
     </div>
     <div>
 			<div class="hvis-legend hvis-row-centered">

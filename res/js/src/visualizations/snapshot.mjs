@@ -54,7 +54,7 @@ const css = /* css */ `
 const template = /* html */ `
 	<div class="hvis-snapshot-vis">
     <div class="hvis-content" style="display: flex; flex-direction: column; gap: 1rem"> 
-      <h3 style="margin: auto" v-if="cutMiddleValues">Since the table contains too many rows, only 1000 are shown here: the first and last 500</h3>
+      <h3 v-if="cutMiddleValues">Since the table contains too many rows, only 1000 are shown here: the first and last 500</h3>
     </div>
     <div>
 			<div class="hvis-legend hvis-row-centered">
