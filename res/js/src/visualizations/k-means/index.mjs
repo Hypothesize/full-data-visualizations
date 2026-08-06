@@ -210,6 +210,12 @@ async function KMeansVisualization(options) {
         await pause(100)
         this.shouldStop = false
 
+        // NOTE: `shouldStop` alone can't reliably retire the previous render
+        // loop, because we clear it again right afterwards. This generation
+        // number does it deterministically: any loop from an earlier `redraw`
+        // sees a newer generation and bails.
+        const generation = ++this._loopGeneration
+
         if (!this.tsneData) {
           return
         }
@@ -319,10 +325,10 @@ async function KMeansVisualization(options) {
         let clusterUnderMouse = null
 
         const loop = () => {
-          if (this.shouldStop) {
+          if (this.shouldStop || generation !== this._loopGeneration) {
             return
           } else {
-            window.requestAnimationFrame(loop)
+            this._rafHandle = window.requestAnimationFrame(loop)
           }
 
           document.body.style.cursor = "default"
@@ -519,12 +525,19 @@ async function KMeansVisualization(options) {
 
       stop() {
         this.shouldStop = true
+
+        if (this._rafHandle) {
+          window.cancelAnimationFrame(this._rafHandle)
+          this._rafHandle = null
+        }
       },
 
       truncate,
     },
 
     async mounted() {
+      this._loopGeneration = 0
+      this._rafHandle = null
       this.redraw = debounce(this.redraw, 100, this)
       await this.startKMeans()
     },
