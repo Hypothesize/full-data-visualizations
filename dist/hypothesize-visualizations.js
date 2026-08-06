@@ -145968,7 +145968,12 @@ return a / b;`;
 		max-width: 100%;
 		overflow: hidden;
 		position: relative;
+    height: 100%;
 	}
+
+  .hvis-correlations-grid-vis > div {
+		height: 100%;
+ 	}
 
 	.hvis-correlations-grid-vis .hvis-mode-options-container {
 		display: flex;
@@ -145995,6 +146000,7 @@ return a / b;`;
 
 	.hvis-correlations-grid-vis .hvis-canvas-container {
 		max-width: 100%;
+    height: 100%;
 		max-height: 75vh;
 		overflow: auto;
 		border-radius: 4px;
