@@ -177152,7 +177152,7 @@ return a / b;`;
               convergenceThreshold: 0.1
             };
           }
-          return { ...base, animate: false };
+          return { ...base, animate: true };
         }
       },
       methods: {

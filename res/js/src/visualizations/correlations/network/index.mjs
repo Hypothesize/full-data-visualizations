@@ -336,7 +336,7 @@ async function CorrelationsNetworkVisualization(options) {
           }
         }
 
-        return { ...base, animate: false }
+        return { ...base, animate: true }
       },
     },
 
