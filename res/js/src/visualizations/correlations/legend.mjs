@@ -95,7 +95,6 @@ async function CorrelationsLegendComponent(options) {
         const context = canvas.getContext("2d")
         const resolution = parseInt((height - 2 * padding) / 20)
         const mouse = { x: -1, y: -1 }
-        let isPaused = false
 
         // filter points to a manageable list
         let points = sort(set(this.points))
@@ -114,13 +113,11 @@ async function CorrelationsLegendComponent(options) {
 
         await pause(10)
 
-        const loop = () => {
+        // NOTE: The legend is static apart from the mouse line, so instead of
+        // running an animation loop forever we just draw when something
+        // actually changes.
+        const draw = () => {
           try {
-            if (isPaused) {
-              window.requestAnimationFrame(loop)
-              return
-            }
-
             // clear canvas
             context.clearRect(0, 0, width, height)
 
@@ -215,8 +212,6 @@ async function CorrelationsLegendComponent(options) {
 
               context.fillText(label, x, y)
             })
-
-            window.requestAnimationFrame(loop)
           } catch (e) {
             throw new Error(e)
           }
@@ -233,21 +228,17 @@ async function CorrelationsLegendComponent(options) {
           )
 
           this.$emit("hovered-over-value", r)
+          draw()
         })
 
         canvas.addEventListener("mouseleave", () => {
           mouse.x = -1
           mouse.y = -1
           this.$emit("hovered-over-value", null)
-          loop()
-          isPaused = true
+          draw()
         })
 
-        canvas.addEventListener("mouseenter", () => {
-          isPaused = false
-        })
-
-        loop()
+        draw()
       },
     },
 
@@ -259,6 +250,12 @@ async function CorrelationsLegendComponent(options) {
 
     beforeUnmount() {
       window.removeEventListener("resize", this.redraw)
+
+      // drop the canvas (and its event listeners) rather than leaving it
+      // attached to a detached container
+      if (this.$refs.container) {
+        this.$refs.container.innerHTML = ""
+      }
     },
   })
 

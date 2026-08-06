@@ -145661,7 +145661,6 @@ return a / b;`;
           const context2 = canvas.getContext("2d");
           const resolution = parseInt((height2 - 2 * padding) / 20);
           const mouse = { x: -1, y: -1 };
-          let isPaused = false;
           let points = sort(set(this.points));
           await pauseAsync(10);
           const stepSize = 2 / (height2 - 2 * padding);
@@ -145672,12 +145671,8 @@ return a / b;`;
           });
           points = Object.keys(dict).map((key) => dict[key]);
           await pauseAsync(10);
-          const loop = () => {
+          const draw2 = () => {
             try {
-              if (isPaused) {
-                window.requestAnimationFrame(loop);
-                return;
-              }
               context2.clearRect(0, 0, width2, height2);
               for (let i = 0; i < resolution; i++) {
                 const x2 = padding;
@@ -145743,7 +145738,6 @@ return a / b;`;
                 );
                 context2.fillText(label, x2, y2);
               });
-              window.requestAnimationFrame(loop);
             } catch (e) {
               throw new Error(e);
             }
@@ -145757,18 +145751,15 @@ return a / b;`;
               1
             );
             this.$emit("hovered-over-value", r);
+            draw2();
           });
           canvas.addEventListener("mouseleave", () => {
             mouse.x = -1;
             mouse.y = -1;
             this.$emit("hovered-over-value", null);
-            loop();
-            isPaused = true;
+            draw2();
           });
-          canvas.addEventListener("mouseenter", () => {
-            isPaused = false;
-          });
-          loop();
+          draw2();
         }
       },
       mounted() {
@@ -145778,6 +145769,9 @@ return a / b;`;
       },
       beforeUnmount() {
         window.removeEventListener("resize", this.redraw);
+        if (this.$refs.container) {
+          this.$refs.container.innerHTML = "";
+        }
       }
     });
     if (options2.shouldReturnComponentOnly) {
@@ -146001,12 +145995,28 @@ return a / b;`;
 
 	.hvis-correlations-grid-vis .hvis-canvas-container {
 		max-width: 100%;
+		max-height: 75vh;
 		overflow: auto;
 		border-radius: 4px;
+		position: relative;
 	}
 
 	.hvis-correlations-grid-vis canvas {
 		max-width: unset !important;
+	}
+
+	.hvis-correlations-grid-vis .hvis-canvas-spacer {
+		max-width: unset !important;
+		max-height: unset !important;
+		flex-shrink: 0;
+	}
+
+	/* pinned over the visible part of the spacer as the container scrolls */
+	.hvis-correlations-grid-vis .hvis-canvas-spacer > high-dpi-canvas {
+		position: sticky;
+		top: 0;
+		left: 0;
+		display: block;
 	}
 
 	.hvis-correlations-grid-vis .hvis-correlations-legend-container {
@@ -146043,7 +146053,7 @@ return a / b;`;
 			</hvis-progress>
 		</div>
 
-		<div v-else style="position: relative; display: inline-block">
+		<div v-else style="position: relative; display: inline-block; max-width: 100%">
 			<div v-if="modeOptions.length > 1" class="hvis-mode-options-container">
 				<button
 					:class="{ 'is-primary': option === chosenModeOption }"
@@ -146088,6 +146098,7 @@ return a / b;`;
   );
   var CSS_VARIABLE_NEGATIVE_COLOR = "--vis-corr-grid-color-negative";
   var CSS_VARIABLE_POSITIVE_COLOR = "--vis-corr-grid-color-positive";
+  var MIN_GRID_WIDTH = 240;
   async function CorrelationsGridVisualization(options2) {
     options2 = options2 || {};
     if (options2.data) {
@@ -146138,15 +146149,15 @@ return a / b;`;
             x: 0,
             y: 0
           },
-          partialCorrelations: options2.partialCorrelations ?? null,
+          partialCorrelations: options2.partialCorrelations ? markRaw(options2.partialCorrelations) : null,
           points: [],
           progress: {
             message: "Computing...",
             percent: 0
           },
           error: null,
-          pValues: options2.pValues ?? null,
-          regularCorrelations: options2.regularCorrelations ?? null,
+          pValues: options2.pValues ? markRaw(options2.pValues) : null,
+          regularCorrelations: options2.regularCorrelations ? markRaw(options2.regularCorrelations) : null,
           shouldStop: false,
           topFloatingLabel: {
             content: "",
@@ -146175,7 +146186,8 @@ return a / b;`;
           }
         },
         async downloadImage() {
-          const canvas = this.$refs.container.querySelector("high-dpi-canvas");
+          const canvas = this._renderFull ? this._renderFull() : this.$refs.container.querySelector("high-dpi-canvas");
+          if (!canvas) return;
           const a = document.createElement("a");
           a.href = canvas.toDataURL();
           a.download = "correlation-grid.png";
@@ -146183,12 +146195,14 @@ return a / b;`;
         },
         highlightRValue(r) {
           this.highlightedRValue = r;
+          if (this._scheduleDraw) this._scheduleDraw();
         },
         onMouseDown(event3) {
           this.mouse.buttonIsDown = true;
           this.mouse.x = event3.clientX;
           this.mouse.y = event3.clientY;
           document.body.style.cursor = "grabbing";
+          if (this._scheduleDraw) this._scheduleDraw();
         },
         onMouseMove(event3) {
           if (this.mouse.buttonIsDown) {
@@ -146202,11 +146216,13 @@ return a / b;`;
         onMouseUp() {
           this.mouse.buttonIsDown = false;
           document.body.style.cursor = "";
+          if (this._scheduleDraw) this._scheduleDraw();
         },
         async redraw() {
           this.stop();
           await pauseAsync(10);
           this.shouldStop = false;
+          const generation = ++this._loopGeneration;
           await pauseAsync(10);
           this.isComputing = true;
           if (this.regularCorrelations === null || this.modeOptions.length === 2 && this.partialCorrelations === null || this.pValues === null) {
@@ -146219,9 +146235,9 @@ return a / b;`;
             } else if (!results) {
               return;
             }
-            this.regularCorrelations = results.regularCorrelations;
-            this.partialCorrelations = results.partialCorrelations;
-            this.pValues = results.pValues;
+            this.regularCorrelations = results.regularCorrelations ? markRaw(results.regularCorrelations) : results.regularCorrelations;
+            this.partialCorrelations = results.partialCorrelations ? markRaw(results.partialCorrelations) : results.partialCorrelations;
+            this.pValues = results.pValues ? markRaw(results.pValues) : results.pValues;
           }
           this.isComputing = false;
           const correlations = this.chosenModeOption.value === "regularPairwiseCorrelationMode" ? this.regularCorrelations : this.partialCorrelations;
@@ -146250,7 +146266,6 @@ return a / b;`;
           const blockSize = vint(characterHeight * 2);
           const tempPadding = 2 * blockSize;
           const tempWidth = 2 * tempPadding + labelLength + blockSize + blockSize * correlations.columns.length;
-          const width2 = vint(tempWidth);
           const height2 = vint(tempWidth);
           const padding = vint(tempPadding);
           const gridTop = 0;
@@ -146282,62 +146297,129 @@ return a / b;`;
           await pauseAsync(10);
           const containerWidth = 0 + labelLength + 0 + correlations.shape[1] * blockSize + (correlations.shape[1] * blockSize >= 450 ? 0 : blockSize * 5);
           const containerHeight = 0 + labelLength + padding + correlations.shape[0] * blockSize;
-          const onscreenCanvas = createHighDPICanvas(
-            containerWidth,
+          container2.style.width = "";
+          const rootWidth = this.$refs.root ? this.$refs.root.clientWidth : 0;
+          const roomToViewportEdge = document.documentElement.clientWidth - container2.getBoundingClientRect().left;
+          const availableWidth = Math.max(
+            MIN_GRID_WIDTH,
+            Math.min(rootWidth || Infinity, roomToViewportEdge)
+          );
+          const viewWidth = Math.min(availableWidth, containerWidth);
+          container2.style.width = `${viewWidth}px`;
+          const spacer = document.createElement("div");
+          spacer.className = "hvis-canvas-spacer";
+          spacer.style.width = `${containerWidth}px`;
+          spacer.style.height = `${containerHeight}px`;
+          container2.appendChild(spacer);
+          const viewHeight = Math.min(
+            container2.clientHeight || window.innerHeight,
             containerHeight
           );
-          container2.appendChild(onscreenCanvas);
+          const onscreenCanvas = createHighDPICanvas(viewWidth, viewHeight);
+          spacer.appendChild(onscreenCanvas);
           const onscreenContext = onscreenCanvas.getContext("2d");
           const innerMouse = {
             position: new Vector2(0, 0),
             isOverCanvas: false
           };
+          const containerBackgroundColor = getComputedStyle(
+            container2
+          ).getPropertyValue("background-color");
           await pauseAsync(10);
-          const loop = () => {
-            try {
-              if (this.shouldStop) {
-                return;
+          const rowCount = correlations.values.length;
+          const colCount = correlations.columns.length;
+          const paintCells = (context2, startRow, endRow, startCol, endCol) => {
+            for (let i = startRow; i < endRow; i++) {
+              const tempRow = correlations.values[i];
+              for (let j = startCol; j < endCol; j++) {
+                if (j + 1 > i) continue;
+                const value = tempRow[j];
+                const x2 = gridLeft + j * blockSize;
+                const y2 = gridTop + i * blockSize;
+                context2.globalAlpha = Math.abs(value);
+                context2.fillStyle = Number.isNaN(value) ? "#ddd" : value < 0 ? this.colors.negative : this.colors.positive;
+                context2.fillRect(x2, y2, blockSize, blockSize);
+                context2.globalAlpha = 1;
+                context2.strokeStyle = "rgb(200, 200, 200)";
+                context2.lineWidth = 1;
+                context2.strokeRect(x2, y2, blockSize, blockSize);
               }
+            }
+          };
+          const paintLabels = (context2, labels, start, end, highlighted, activeIndex) => {
+            const last2 = Math.min(end, labels.length);
+            for (let i = start; i < last2; i++) {
+              if (highlighted) {
+                context2.fillStyle = highlighted.has(i) ? "black" : "rgb(235, 235, 235)";
+              } else {
+                context2.fillStyle = i === activeIndex ? "black" : "gray";
+              }
+              labels[i].display(context2, fontSize);
+            }
+          };
+          this._renderFull = () => {
+            const canvas = createHighDPICanvas(containerWidth, containerHeight);
+            const context2 = canvas.getContext("2d");
+            context2.fillStyle = "white";
+            context2.fillRect(0, 0, containerWidth, containerHeight);
+            paintCells(context2, 0, rowCount, 0, colCount);
+            context2.font = `${fontSize}px monospace`;
+            context2.textAlign = "right";
+            context2.textBaseline = "middle";
+            if (gridLeft > 0) {
+              paintLabels(context2, horizontalLabels, 0, rowCount, null, -1);
+            }
+            if (gridBottom < containerWidth) {
+              paintLabels(context2, verticalLabels, 0, colCount, null, -1);
+            }
+            return canvas;
+          };
+          const draw2 = () => {
+            try {
+              const scrollLeft = container2.scrollLeft;
+              const scrollTop = container2.scrollTop;
               onscreenContext.fillStyle = "white";
-              onscreenContext.fillRect(0, 0, onscreenCanvas.width, onscreenCanvas.height);
+              onscreenContext.fillRect(0, 0, viewWidth, viewHeight);
               onscreenContext.save();
-              const row = vint((innerMouse.position.y - gridTop) / blockSize);
-              const col = vint((innerMouse.position.x - gridLeft) / blockSize);
-              const horizontalLabelsToHighlight = [];
-              const verticalLabelsToHighlight = [];
-              const blocksPerScreen = Math.ceil(containerWidth / blockSize);
+              onscreenContext.translate(-scrollLeft, -scrollTop);
+              const row = vint(
+                (innerMouse.position.y + scrollTop - gridTop) / blockSize
+              );
+              const col = vint(
+                (innerMouse.position.x + scrollLeft - gridLeft) / blockSize
+              );
+              const horizontalLabelsToHighlight = /* @__PURE__ */ new Set();
+              const verticalLabelsToHighlight = /* @__PURE__ */ new Set();
               const startRow = vclamp(
-                vint(-gridTop / blockSize),
+                Math.floor((scrollTop - gridTop) / blockSize),
                 0,
-                correlations.values.length
+                rowCount
+              );
+              const endRow = vclamp(
+                Math.ceil((scrollTop + viewHeight - gridTop) / blockSize) + 1,
+                0,
+                rowCount
               );
               const startCol = vclamp(
-                vint(-gridLeft / blockSize),
+                Math.floor((scrollLeft - gridLeft) / blockSize),
                 0,
-                correlations.values.length
+                colCount
               );
-              for (let i = startRow; i < min([startRow + blocksPerScreen, correlations.values.length]); i++) {
-                const tempRow = correlations.values[i];
-                for (let j = startCol; j < min([startCol + blocksPerScreen, correlations.values.length]); j++) {
-                  if (j + 1 > i) continue;
-                  const value = tempRow[j];
-                  const x2 = gridLeft + j * blockSize;
-                  const y2 = gridTop + i * blockSize;
-                  onscreenContext.globalAlpha = vabs(value);
-                  onscreenContext.fillStyle = Number.isNaN(value) ? "#ddd" : value < 0 ? this.colors.negative : this.colors.positive;
-                  onscreenContext.fillRect(x2, y2, blockSize, blockSize);
-                  onscreenContext.globalAlpha = 1;
-                  onscreenContext.strokeStyle = "rgb(200, 200, 200)";
-                  onscreenContext.lineWidth = 1;
-                  onscreenContext.strokeRect(x2, y2, blockSize, blockSize);
-                }
-              }
+              const endCol = vclamp(
+                Math.ceil((scrollLeft + viewWidth - gridLeft) / blockSize) + 1,
+                0,
+                colCount
+              );
+              paintCells(onscreenContext, startRow, endRow, startCol, endCol);
               if (this.highlightedRValue) {
-                onscreenContext.fillStyle = getComputedStyle(
-                  this.$refs.container
-                ).getPropertyValue("background-color");
+                onscreenContext.fillStyle = containerBackgroundColor;
                 onscreenContext.globalAlpha = 0.5;
-                onscreenContext.fillRect(0, 0, width2, height2);
+                onscreenContext.fillRect(
+                  scrollLeft,
+                  scrollTop,
+                  viewWidth,
+                  viewHeight
+                );
               }
               if (innerMouse.isOverCanvas && row >= 0 && row < correlations.values.length && col >= 0 && col < correlations.columns.length) {
                 onscreenContext.strokeStyle = "black";
@@ -146383,97 +146465,132 @@ return a / b;`;
                 this.bottomFloatingLabel.x = x2 + blockSize / 2;
                 this.bottomFloatingLabel.y = y2 + 2 * blockSize;
               } else if (this.highlightedRValue) {
-                correlations.values.forEach((row2, i) => {
-                  if (i < startRow) return;
-                  if (i > startRow + blocksPerScreen) return;
-                  row2.forEach((value, j) => {
-                    if (j < startCol) return;
-                    if (j > startCol + blocksPerScreen) return;
-                    if (j + 1 > i) return;
-                    if (Number.isNaN(value) || vabs(value - this.highlightedRValue) > 0.025) return;
-                    if (horizontalLabelsToHighlight.indexOf(i) < 0) {
-                      horizontalLabelsToHighlight.push(i);
+                for (let i = startRow; i < endRow; i++) {
+                  const tempRow = correlations.values[i];
+                  for (let j = startCol; j < endCol; j++) {
+                    if (j + 1 > i) continue;
+                    const value = tempRow[j];
+                    if (Number.isNaN(value) || Math.abs(value - this.highlightedRValue) > 0.025) {
+                      continue;
                     }
-                    if (verticalLabelsToHighlight.indexOf(j) < 0) {
-                      verticalLabelsToHighlight.push(j);
-                    }
+                    horizontalLabelsToHighlight.add(i);
+                    verticalLabelsToHighlight.add(j);
                     const x2 = gridLeft + j * blockSize;
                     const y2 = gridTop + i * blockSize;
-                    onscreenContext.globalAlpha = vabs(value);
+                    onscreenContext.globalAlpha = Math.abs(value);
                     onscreenContext.fillStyle = value < 0 ? this.colors.negative : this.colors.positive;
                     onscreenContext.fillRect(x2, y2, blockSize, blockSize);
                     onscreenContext.globalAlpha = 1;
                     onscreenContext.strokeStyle = "rgb(200, 200, 200)";
                     onscreenContext.lineWidth = 1;
                     onscreenContext.strokeRect(x2, y2, blockSize, blockSize);
-                  });
-                });
+                  }
+                }
               }
               onscreenContext.font = `${fontSize}px monospace`;
               onscreenContext.textAlign = "right";
               onscreenContext.textBaseline = "middle";
+              const highlighting = this.highlightedRValue ? true : false;
               if (gridLeft > 0) {
-                horizontalLabels.forEach((label, i) => {
-                  if (this.highlightedRValue) {
-                    onscreenContext.fillStyle = horizontalLabelsToHighlight.indexOf(i) > -1 ? "black" : "rgb(235, 235, 235)";
-                  } else {
-                    onscreenContext.fillStyle = i === row ? "black" : "gray";
-                  }
-                  label.display(onscreenContext, fontSize);
-                });
+                paintLabels(
+                  onscreenContext,
+                  horizontalLabels,
+                  startRow,
+                  endRow,
+                  highlighting ? horizontalLabelsToHighlight : null,
+                  row
+                );
               }
               if (gridBottom < containerWidth) {
-                verticalLabels.forEach((label, i) => {
-                  if (this.highlightedRValue) {
-                    onscreenContext.fillStyle = verticalLabelsToHighlight.indexOf(i) > -1 ? "black" : "rgb(235, 235, 235)";
-                  } else {
-                    onscreenContext.fillStyle = i === col ? "black" : "gray";
-                  }
-                  label.display(onscreenContext, fontSize);
-                });
+                paintLabels(
+                  onscreenContext,
+                  verticalLabels,
+                  startCol,
+                  endCol,
+                  highlighting ? verticalLabelsToHighlight : null,
+                  col
+                );
               }
               onscreenContext.restore();
-              window.requestAnimationFrame(loop);
             } catch (e) {
               throw new Error(e);
             }
           };
+          const scheduleDraw = () => {
+            if (this.shouldStop || generation !== this._loopGeneration) return;
+            if (this._rafHandle) return;
+            this._rafHandle = window.requestAnimationFrame(() => {
+              this._rafHandle = null;
+              if (this.shouldStop || generation !== this._loopGeneration) return;
+              draw2();
+            });
+          };
+          this._scheduleDraw = scheduleDraw;
           await pauseAsync(10);
           onscreenCanvas.addEventListener("mouseenter", () => {
             innerMouse.isOverCanvas = true;
+            scheduleDraw();
           });
           onscreenCanvas.addEventListener("mousemove", (event3) => {
             if (!this.mouse.buttonIsDown) {
               innerMouse.isOverCanvas = true;
               innerMouse.position.x = event3.offsetX;
               innerMouse.position.y = event3.offsetY;
+              scheduleDraw();
             }
           });
           onscreenCanvas.addEventListener("mouseleave", () => {
             innerMouse.isOverCanvas = false;
             this.topFloatingLabel.isVisible = false;
             this.bottomFloatingLabel.isVisible = false;
+            scheduleDraw();
           });
+          if (this._scrollTarget && this._onScroll) {
+            this._scrollTarget.removeEventListener("scroll", this._onScroll);
+          }
+          this._scrollTarget = container2;
+          this._onScroll = scheduleDraw;
+          container2.addEventListener("scroll", scheduleDraw);
           await pauseAsync(10);
-          loop();
+          scheduleDraw();
           await pauseAsync(10);
           const cShape = correlations.shape;
+          const seen2 = /* @__PURE__ */ new Set();
           const temp = [];
           for (let i = 0; i < cShape[0]; i++) {
+            const tempRow = correlations.values[i];
             for (let j = 0; j < cShape[1]; j++) {
-              if (i !== j) {
-                temp.push(correlations.values[i][j]);
+              if (i === j) continue;
+              const value = tempRow[j];
+              if (!Number.isFinite(value)) continue;
+              const key = Math.round(value * 1e3);
+              if (!seen2.has(key)) {
+                seen2.add(key);
+                temp.push(value);
               }
             }
           }
-          this.points = sort(set(temp));
+          this.points = temp.sort((a, b) => a - b);
           this.canDownload = true;
         },
         stop() {
           this.shouldStop = true;
+          this._scheduleDraw = null;
+          this._renderFull = null;
+          if (this._rafHandle) {
+            window.cancelAnimationFrame(this._rafHandle);
+            this._rafHandle = null;
+          }
+          if (this._scrollTarget && this._onScroll) {
+            this._scrollTarget.removeEventListener("scroll", this._onScroll);
+            this._scrollTarget = null;
+            this._onScroll = null;
+          }
         }
       },
       async mounted() {
+        this._loopGeneration = 0;
+        this._rafHandle = null;
         await pauseAsync(100);
         this.redraw = debounce(this.redraw, 100, this);
         window.addEventListener("mouseup", this.onMouseUp);
@@ -146513,10 +146630,19 @@ return a / b;`;
     _maxEdgeCount = 40;
     _maxPValue = 0.05;
     _minEdgeWeight = 0;
-    data = {
-      edges: {},
-      nodes: {}
-    };
+    // the candidate edges, stored columnar-style; `_count` is how many of the
+    // preallocated slots are actually in use
+    _count = 0;
+    _pValue = new Float64Array(0);
+    _src = new Int32Array(0);
+    _tgt = new Int32Array(0);
+    _weight = new Float64Array(0);
+    // node names, indexed by the values in `_src` / `_tgt`
+    _colNames = [];
+    _rowNames = [];
+    _truncationMode = null;
+    // the edges materialized by the most recent `getElements` call
+    _lastEdges = [];
     filtrationMode = null;
     constructor(correlationMode) {
       this.correlationMode = correlationMode;
@@ -146549,111 +146675,150 @@ return a / b;`;
       this._minEdgeWeight = weight8;
       this.filtrationMode = _ElementsHelper.EDGE_WEIGHT_MODE;
     }
-    createEdge(node1, node2, weight8, weightFlipped, pValue) {
-      if (Math.abs(weight8) < 1e-3) return;
-      const name = node1.data.id + "-" + node2.data.id;
-      const reverseName = node2.data.id + "-" + node1.data.id;
-      if (this.data.edges[name]) return this.data.edges[name];
-      if (this.data.edges[reverseName]) return this.data.edges[reverseName];
+    // Loads a whole correlation matrix at once. Only the upper triangle is
+    // walked, so each pair is recorded exactly once and we never have to build
+    // (and then discard) a reversed edge name to deduplicate.
+    addMatrix(values, rowNames, colNames, pValues, truncationMode) {
+      const n = Math.min(rowNames.length, colNames.length);
+      const capacity = n * (n - 1) / 2;
+      this._rowNames = rowNames;
+      this._colNames = colNames;
+      this._truncationMode = truncationMode;
+      this._pValue = new Float64Array(capacity);
+      this._src = new Int32Array(capacity);
+      this._tgt = new Int32Array(capacity);
+      this._weight = new Float64Array(capacity);
+      let k = 0;
+      for (let i = 0; i < n; i++) {
+        const row = values[i];
+        const pRow = pValues ? pValues[i] : null;
+        for (let j = i + 1; j < n; j++) {
+          const weight8 = row[j];
+          if (!Number.isFinite(weight8) || Math.abs(weight8) < 1e-3) continue;
+          this._src[k] = i;
+          this._tgt[k] = j;
+          this._weight[k] = weight8;
+          this._pValue[k] = pRow ? pRow[j] : NaN;
+          k++;
+        }
+      }
+      this._count = k;
+      this._lastEdges = [];
+      return this;
+    }
+    // Sorts and filters the candidate edges according to the current filtration
+    // mode, returning the indices of the survivors. Sorting an array of indices
+    // (rather than an array of edge objects) keeps this cheap even when there
+    // are hundreds of thousands of candidates.
+    _selectIndices() {
+      const byPValue = (a, b) => this._pValue[a] - this._pValue[b];
+      const byWeight = (a, b) => Math.abs(this._weight[b]) - Math.abs(this._weight[a]);
+      const isPartial = this.correlationMode === _ElementsHelper.PARTIAL_CORRELATION_MODE;
+      let indices = new Int32Array(this._count);
+      for (let i = 0; i < this._count; i++) indices[i] = i;
+      if (this.filtrationMode === _ElementsHelper.P_VALUE_MODE) {
+        indices.sort(byPValue);
+        indices = indices.filter((i) => this._pValue[i] <= this.maxPValue);
+      } else if (this.filtrationMode === _ElementsHelper.EDGE_WEIGHT_MODE) {
+        indices.sort(byWeight);
+        indices = indices.filter(
+          (i) => Math.abs(this._weight[i]) > this.minEdgeWeight
+        );
+      } else if (this.filtrationMode === _ElementsHelper.EDGE_COUNT_MODE) {
+        indices.sort(isPartial ? byWeight : byPValue);
+      } else {
+        indices.sort(isPartial ? byWeight : byPValue);
+        if (!isPartial) {
+          indices = indices.filter((i) => this._pValue[i] <= this.maxPValue);
+        }
+      }
+      if (indices.length > this.maxEdgeCount) {
+        indices = indices.slice(0, this.maxEdgeCount);
+      }
+      this._recordStats(indices);
+      return indices;
+    }
+    // Records the settings implied by the edges we're about to return, so that
+    // the other inputs in the UI describe what's actually on screen. The setting
+    // the user just changed is deliberately left alone.
+    _recordStats(indices) {
+      let maxPValue = -Infinity;
+      let minEdgeWeight = Infinity;
+      for (const i of indices) {
+        const p4 = this._pValue[i];
+        const weight8 = Math.abs(this._weight[i]);
+        if (p4 > maxPValue) maxPValue = p4;
+        if (weight8 < minEdgeWeight) minEdgeWeight = weight8;
+      }
+      if (Number.isFinite(maxPValue) && this.filtrationMode !== _ElementsHelper.P_VALUE_MODE) {
+        this._maxPValue = maxPValue;
+      }
+      if (Number.isFinite(minEdgeWeight) && this.filtrationMode !== _ElementsHelper.EDGE_WEIGHT_MODE) {
+        this._minEdgeWeight = minEdgeWeight;
+      }
+      this._maxEdgeCount = indices.length;
+    }
+    _makeEdge(sourceName, targetName, weight8, pValue) {
       const a = Math.abs(weight8) * 0.85 + 0.15;
-      weightFlipped = weightFlipped || weight8;
-      const weightsDoNotMatch = weight8 !== weightFlipped;
-      const edge = {
+      return {
         type: "edge",
         data: {
-          id: name,
-          source: node1.data.id,
-          target: node2.data.id,
+          id: sourceName + "-" + targetName,
+          source: sourceName,
+          target: targetName,
           weight: weight8,
-          weightLabel: parseFloat(weight8).toNonZeroFixed(2),
+          weightLabel: weight8.toNonZeroFixed(2),
           pValue
         },
         style: {
           width: Math.abs(weight8) * 20 + 1,
           "line-color": weight8 < 0 ? _ElementsHelper.COLOR_NEGATIVE : _ElementsHelper.COLOR_POSITIVE,
           "line-opacity": a,
-          "line-style": weightsDoNotMatch ? "dashed" : "solid",
+          "line-style": "solid",
           "line-dash-pattern": [10, 10]
         }
       };
-      this.data.edges[name] = edge;
-      return edge;
     }
-    createNode(name, truncationMode) {
-      if (this.data.nodes[name]) return this.data.nodes[name];
-      const node = {
+    _makeNode(name) {
+      return {
         type: "node",
         data: {
           id: name,
-          longName: truncate(name, 32, truncationMode),
-          shortName: truncate(name, 16, truncationMode),
+          longName: truncate(name, 32, this._truncationMode),
+          shortName: truncate(name, 16, this._truncationMode),
           fullName: name
         }
       };
-      this.data.nodes[name] = node;
-      return node;
     }
+    // Returns the edges produced by the most recent `getElements` call. (It
+    // doesn't recompute anything; `getElements` is what does the work.)
     getEdges() {
-      let edges3 = Object.keys(this.data.edges).map((name) => this.data.edges[name]);
-      if (this.filtrationMode === _ElementsHelper.P_VALUE_MODE) {
-        edges3 = sort(edges3, (a, b) => a.data.pValue - b.data.pValue);
-        edges3 = edges3.filter((edge) => edge.data.pValue <= this.maxPValue);
-        this._minEdgeWeight = min(edges3.map((edge) => vabs(edge.data.weight)));
-        this._maxEdgeCount = edges3.length;
-      } else if (this.filtrationMode === _ElementsHelper.EDGE_WEIGHT_MODE) {
-        edges3 = sort(edges3, (a, b) => vabs(b.data.weight) - vabs(a.data.weight));
-        edges3 = edges3.filter((edge) => vabs(edge.data.weight) > this.minEdgeWeight);
-        this._maxPValue = max(edges3.map((edge) => edge.data.pValue));
-        this._maxEdgeCount = edges3.length;
-      } else if (this.filtrationMode === _ElementsHelper.EDGE_COUNT_MODE) {
-        if (this.correlationMode === _ElementsHelper.PARTIAL_CORRELATION_MODE) {
-          edges3 = sort(edges3, (a, b) => vabs(b.data.weight) - vabs(a.data.weight));
-        } else if (this.correlationMode === _ElementsHelper.REGULAR_PAIRWISE_CORRELATION_MODE) {
-          edges3 = sort(edges3, (a, b) => a.data.pValue - b.data.pValue);
-        }
-        edges3 = edges3.slice(0, this.maxEdgeCount);
-        this._maxPValue = max(edges3.map((edge) => edge.data.pValue));
-        this._minEdgeWeight = min(edges3.map((edge) => vabs(edge.data.weight)));
-        this._maxEdgeCount = edges3.length;
-      } else if (this.filtrationMode === null) {
-        if (this.correlationMode === _ElementsHelper.PARTIAL_CORRELATION_MODE) {
-          edges3 = sort(edges3, (a, b) => vabs(b.data.weight) - vabs(a.data.weight));
-        } else if (this.correlationMode === _ElementsHelper.REGULAR_PAIRWISE_CORRELATION_MODE) {
-          edges3 = sort(edges3, (a, b) => a.data.pValue - b.data.pValue);
-          edges3 = edges3.filter((edge) => edge.data.pValue <= this.maxPValue);
-        }
-        edges3 = edges3.slice(0, this.maxEdgeCount);
-        this._maxPValue = max(edges3.map((edge) => edge.data.pValue));
-        this._minEdgeWeight = min(edges3.map((edge) => vabs(edge.data.weight)));
-        this._maxEdgeCount = edges3.length;
-      }
-      return edges3;
+      return this._lastEdges;
     }
     getElements() {
-      const edges3 = this.getEdges();
-      const nodes3 = this.getNodes(edges3);
-      return nodes3.concat(edges3);
-    }
-    getNodes(edges3) {
-      const nodes3 = Object.keys(this.data.nodes).map(
-        (name) => this.data.nodes[name]
-      );
-      return nodes3.filter((node) => {
-        return edges3.some(
-          (edge) => edge.data.source === node.data.id || edge.data.target === node.data.id
+      const indices = this._selectIndices();
+      const nodes3 = /* @__PURE__ */ new Map();
+      const edges3 = [];
+      for (const i of indices) {
+        const sourceName = this._rowNames[this._src[i]];
+        const targetName = this._colNames[this._tgt[i]];
+        if (!nodes3.has(sourceName)) {
+          nodes3.set(sourceName, this._makeNode(sourceName));
+        }
+        if (!nodes3.has(targetName)) {
+          nodes3.set(targetName, this._makeNode(targetName));
+        }
+        edges3.push(
+          this._makeEdge(
+            sourceName,
+            targetName,
+            this._weight[i],
+            this._pValue[i]
+          )
         );
-      });
-    }
-    removeEdge(edge) {
-      const name = edge.data.id;
-      const reverseName = edge.data.target + "-" + edge.data.source;
-      delete this.data.edges[name];
-      delete this.data.edges[reverseName];
-      return this;
-    }
-    removeNode(node) {
-      delete this.data.nodes[node.data.id];
-      return this;
+      }
+      this._lastEdges = edges3;
+      return Array.from(nodes3.values()).concat(edges3);
     }
   };
 
@@ -176942,8 +177107,8 @@ return a / b;`;
             message: "Computing...",
             percent: 0
           },
-          pValues: options2.pValues ?? null,
-          regularCorrelations: options2.regularCorrelations ?? null,
+          pValues: options2.pValues ? markRaw(options2.pValues) : null,
+          regularCorrelations: options2.regularCorrelations ? markRaw(options2.regularCorrelations) : null,
           error: null
         };
       },
@@ -176954,20 +177119,21 @@ return a / b;`;
         chosenNodeLayoutAlgorithm() {
           if (!this.cy) return;
           if (this.layout) this.layout.stop();
-          this.layout = this.cy.elements().layout(this.layoutSettings);
+          this.layout = markRaw(this.cy.elements().layout(this.layoutSettings));
           this.layout.run();
         }
       },
       computed: {
         layoutSettings() {
+          const self2 = this;
           return {
             name: this.chosenNodeLayoutAlgorithm,
             randomize: true,
             nodeDimensionsIncludeLabels: true,
             animate: false,
             stop() {
-              if (!this.cy.width) return;
-              this.resetView();
+              if (!self2.cy) return;
+              self2.resetView();
             }
           };
         }
@@ -177075,6 +177241,25 @@ return a / b;`;
             event3.target.select();
           }, 100);
         },
+        updateContainerHeight() {
+          const container2 = this.$refs.container;
+          if (!container2) return;
+          const containerRect = container2.getBoundingClientRect();
+          const networkElement = document.getElementById("vue-network");
+          if (networkElement) {
+            const networkRect = networkElement.getBoundingClientRect();
+            container2.style.height = `${networkRect.bottom - containerRect.top}px`;
+          }
+          container2.style["max-height"] = `75vh`;
+        },
+        // Resizing doesn't change the data, so there's no reason to rebuild the
+        // graph; we just need to let Cytoscape know that its canvas moved.
+        onResize() {
+          if (!this.cy) return;
+          this.updateContainerHeight();
+          this.cy.resize();
+          this.resetView();
+        },
         recomputeViewportBounds() {
           if (!this.cy) return;
           this.cy.unmount();
@@ -177087,7 +177272,7 @@ return a / b;`;
           ElementsHelper.COLOR_NEGATIVE = this.colors.negative;
           ElementsHelper.COLOR_POSITIVE = this.colors.positive;
           const mode4 = ElementsHelper.REGULAR_PAIRWISE_CORRELATION_MODE;
-          this.helper = new ElementsHelper(mode4);
+          this.helper = markRaw(new ElementsHelper(mode4));
           if (this.justUpdatedMaxPValue) {
             this.helper.maxPValue = this.maxPValue;
           }
@@ -177118,23 +177303,13 @@ return a / b;`;
             if (!partialCorrelations) {
               return;
             }
-            partialCorrelations.values.forEach((row, i) => {
-              const rowName = partialCorrelations.index[i];
-              row.forEach((value, j) => {
-                if (i !== j) {
-                  const colName = partialCorrelations.columns[j];
-                  const node1 = this.helper.createNode(
-                    rowName,
-                    store.settings.truncationMode
-                  );
-                  const node2 = this.helper.createNode(
-                    colName,
-                    store.settings.truncationMode
-                  );
-                  this.helper.createEdge(node1, node2, value, value);
-                }
-              });
-            });
+            this.helper.addMatrix(
+              partialCorrelations.values,
+              partialCorrelations.index,
+              partialCorrelations.columns,
+              null,
+              store.settings.truncationMode
+            );
           } else if (this.chosenModeOption === "regularPairwiseCorrelationMode") {
             const pValues = this.pValues;
             if (!pValues) {
@@ -177144,36 +177319,25 @@ return a / b;`;
             if (!regularCorrelations) {
               return;
             }
-            regularCorrelations.values.forEach((row, i) => {
-              const rowName = regularCorrelations.index[i];
-              row.forEach((value, j) => {
-                if (i !== j) {
-                  const colName = regularCorrelations.columns[j];
-                  const weight9 = value;
-                  const pValue = pValues.values[i][j];
-                  const node1 = this.helper.createNode(
-                    rowName,
-                    store.settings.truncationMode
-                  );
-                  const node2 = this.helper.createNode(
-                    colName,
-                    store.settings.truncationMode
-                  );
-                  this.helper.createEdge(node1, node2, weight9, weight9, pValue);
-                }
-              });
-            });
+            this.helper.addMatrix(
+              regularCorrelations.values,
+              regularCorrelations.index,
+              regularCorrelations.columns,
+              pValues.values,
+              store.settings.truncationMode
+            );
           }
           this.isComputing = false;
           while (!this.$refs.container) {
             await pauseAsync(10);
           }
-          const containerRect = this.$refs.container.getBoundingClientRect();
-          const networkContainer = document.getElementById("vue-network").getBoundingClientRect();
-          this.$refs.container.style.height = `${networkContainer.bottom - containerRect.top}px`;
-          this.$refs.container.style["max-height"] = `75vh`;
+          this.updateContainerHeight();
+          if (this.layout) {
+            this.layout.stop();
+            this.layout = null;
+          }
           if (this.cy) this.cy.destroy();
-          this.cy = cytoscape2({
+          const cy = cytoscape2({
             container: this.$refs.container,
             elements: this.helper.getElements(),
             wheelSensitivity: 2,
@@ -177225,7 +177389,8 @@ return a / b;`;
               }
             ]
           });
-          this.layout = this.cy.elements().layout(this.layoutSettings);
+          this.cy = markRaw(cy);
+          this.layout = markRaw(this.cy.elements().layout(this.layoutSettings));
           this.layout.run();
           let selectedNode, selectedEdge;
           this.cy.on("mousedown", "node", (event3) => {
@@ -177276,6 +177441,7 @@ return a / b;`;
           );
         },
         resetView() {
+          if (!this.cy) return;
           this.cy.fit(this.cy.width() * 0.15);
         }
       },
@@ -177291,15 +177457,20 @@ return a / b;`;
           return 0;
         });
         this.redraw = debounce(this.redraw, 100, this);
+        this.onResize = debounce(this.onResize, 100, this);
         this.redraw();
-        window.addEventListener("resize", this.redraw);
+        window.addEventListener("resize", this.onResize);
       },
       beforeUnmount() {
+        if (this.layout) {
+          this.layout.stop();
+          this.layout = null;
+        }
         if (this.cy) {
           this.cy.destroy();
           this.cy = null;
         }
-        window.removeEventListener("resize", this.redraw);
+        window.removeEventListener("resize", this.onResize);
       }
     });
     if (options2.shouldReturnComponentOnly) {
@@ -178517,6 +178688,7 @@ return a / b;`;
           this.stop();
           await pauseAsync(100);
           this.shouldStop = false;
+          const generation = ++this._loopGeneration;
           if (!this.tsneData) {
             return;
           }
@@ -178608,10 +178780,10 @@ return a / b;`;
           const mouse = { x: 0, y: 0, isClicked: false };
           let clusterUnderMouse = null;
           const loop = () => {
-            if (this.shouldStop) {
+            if (this.shouldStop || generation !== this._loopGeneration) {
               return;
             } else {
-              window.requestAnimationFrame(loop);
+              this._rafHandle = window.requestAnimationFrame(loop);
             }
             document.body.style.cursor = "default";
             context2.fillStyle = this.background;
@@ -178753,10 +178925,16 @@ return a / b;`;
         },
         stop() {
           this.shouldStop = true;
+          if (this._rafHandle) {
+            window.cancelAnimationFrame(this._rafHandle);
+            this._rafHandle = null;
+          }
         },
         truncate
       },
       async mounted() {
+        this._loopGeneration = 0;
+        this._rafHandle = null;
         this.redraw = debounce(this.redraw, 100, this);
         await this.startKMeans();
       },

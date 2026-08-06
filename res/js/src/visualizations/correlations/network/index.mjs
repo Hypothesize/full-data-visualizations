@@ -159,7 +159,7 @@ const template = /* html */ `
 import { clamp, set, sort } from "@jrc03c/js-math-tools"
 import { CollapsibleComponent } from "../../../components/collapsible.mjs"
 import { CorrelationsLegendComponent } from "../legend.mjs"
-import { createApp } from "vue/dist/vue.esm-bundler.js"
+import { createApp, markRaw } from "vue/dist/vue.esm-bundler.js"
 import { createVueComponentWithCSS } from "@jrc03c/vue-component-with-css"
 import { debounce, getCSSVariableValue } from "../../../utils/index.mjs"
 import { ElementsHelper } from "./elements-helper.mjs"
@@ -272,8 +272,10 @@ async function CorrelationsNetworkVisualization(options) {
           message: "Computing...",
           percent: 0,
         },
-        pValues: options.pValues ?? null,
-        regularCorrelations: options.regularCorrelations ?? null,
+        pValues: options.pValues ? markRaw(options.pValues) : null,
+        regularCorrelations: options.regularCorrelations
+          ? markRaw(options.regularCorrelations)
+          : null,
         error: null,
       }
     },
@@ -286,13 +288,17 @@ async function CorrelationsNetworkVisualization(options) {
       chosenNodeLayoutAlgorithm() {
         if (!this.cy) return
         if (this.layout) this.layout.stop()
-        this.layout = this.cy.elements().layout(this.layoutSettings)
+        this.layout = markRaw(this.cy.elements().layout(this.layoutSettings))
         this.layout.run()
       },
     },
 
     computed: {
       layoutSettings() {
+        // NOTE: Cytoscape registers `stop` via `layout.one("layoutstop", ...)`,
+        // so `this` inside it is the layout, not this component. Hence `self`.
+        const self = this
+
         return {
           name: this.chosenNodeLayoutAlgorithm,
           randomize: true,
@@ -300,8 +306,8 @@ async function CorrelationsNetworkVisualization(options) {
           animate: false,
 
           stop() {
-            if (!this.cy.width) return
-            this.resetView()
+            if (!self.cy) return
+            self.resetView()
           },
         }
       },
@@ -428,6 +434,30 @@ async function CorrelationsNetworkVisualization(options) {
         }, 100)
       },
 
+      updateContainerHeight() {
+        const container = this.$refs.container
+        if (!container) return
+
+        const containerRect = container.getBoundingClientRect()
+        const networkElement = document.getElementById("vue-network")
+
+        if (networkElement) {
+          const networkRect = networkElement.getBoundingClientRect()
+          container.style.height = `${networkRect.bottom - containerRect.top}px`
+        }
+
+        container.style["max-height"] = `75vh`
+      },
+
+      // Resizing doesn't change the data, so there's no reason to rebuild the
+      // graph; we just need to let Cytoscape know that its canvas moved.
+      onResize() {
+        if (!this.cy) return
+        this.updateContainerHeight()
+        this.cy.resize()
+        this.resetView()
+      },
+
       recomputeViewportBounds() {
         if (!this.cy) return
         this.cy.unmount()
@@ -449,7 +479,7 @@ async function CorrelationsNetworkVisualization(options) {
         //     : ElementsHelper.REGULAR_PAIRWISE_CORRELATION_MODE
         const mode = ElementsHelper.REGULAR_PAIRWISE_CORRELATION_MODE
 
-        this.helper = new ElementsHelper(mode)
+        this.helper = markRaw(new ElementsHelper(mode))
 
         if (this.justUpdatedMaxPValue) {
           this.helper.maxPValue = this.maxPValue
@@ -486,27 +516,13 @@ async function CorrelationsNetworkVisualization(options) {
             return
           }
 
-          partialCorrelations.values.forEach((row, i) => {
-            const rowName = partialCorrelations.index[i]
-
-            row.forEach((value, j) => {
-              if (i !== j) {
-                const colName = partialCorrelations.columns[j]
-
-                const node1 = this.helper.createNode(
-                  rowName,
-                  store.settings.truncationMode,
-                )
-
-                const node2 = this.helper.createNode(
-                  colName,
-                  store.settings.truncationMode,
-                )
-
-                this.helper.createEdge(node1, node2, value, value)
-              }
-            })
-          })
+          this.helper.addMatrix(
+            partialCorrelations.values,
+            partialCorrelations.index,
+            partialCorrelations.columns,
+            null,
+            store.settings.truncationMode,
+          )
         } else if (this.chosenModeOption === "regularPairwiseCorrelationMode") {
           const pValues = this.pValues
 
@@ -520,29 +536,13 @@ async function CorrelationsNetworkVisualization(options) {
             return
           }
 
-          regularCorrelations.values.forEach((row, i) => {
-            const rowName = regularCorrelations.index[i]
-
-            row.forEach((value, j) => {
-              if (i !== j) {
-                const colName = regularCorrelations.columns[j]
-                const weight = value
-                const pValue = pValues.values[i][j]
-
-                const node1 = this.helper.createNode(
-                  rowName,
-                  store.settings.truncationMode,
-                )
-
-                const node2 = this.helper.createNode(
-                  colName,
-                  store.settings.truncationMode,
-                )
-
-                this.helper.createEdge(node1, node2, weight, weight, pValue)
-              }
-            })
-          })
+          this.helper.addMatrix(
+            regularCorrelations.values,
+            regularCorrelations.index,
+            regularCorrelations.columns,
+            pValues.values,
+            store.settings.truncationMode,
+          )
         }
 
         this.isComputing = false
@@ -551,17 +551,16 @@ async function CorrelationsNetworkVisualization(options) {
           await pause(10)
         }
 
-        const containerRect = this.$refs.container.getBoundingClientRect()
+        this.updateContainerHeight()
 
-        // this.$refs.container.style.height = `${containerRect.width}px`
-        const networkContainer = document.getElementById("vue-network").getBoundingClientRect()
-
-        this.$refs.container.style.height = `${networkContainer.bottom - containerRect.top}px`
-        this.$refs.container.style["max-height"] = `75vh`
+        if (this.layout) {
+          this.layout.stop()
+          this.layout = null
+        }
 
         if (this.cy) this.cy.destroy()
 
-        this.cy = cytoscape({
+        const cy = cytoscape({
           container: this.$refs.container,
           elements: this.helper.getElements(),
           wheelSensitivity: 2,
@@ -618,7 +617,9 @@ async function CorrelationsNetworkVisualization(options) {
           ],
         })
 
-        this.layout = this.cy.elements().layout(this.layoutSettings)
+        this.cy = markRaw(cy)
+
+        this.layout = markRaw(this.cy.elements().layout(this.layoutSettings))
         this.layout.run()
 
         let selectedNode, selectedEdge
@@ -688,6 +689,7 @@ async function CorrelationsNetworkVisualization(options) {
       },
 
       resetView() {
+        if (!this.cy) return
         this.cy.fit(this.cy.width() * 0.15)
       },
     },
@@ -708,18 +710,24 @@ async function CorrelationsNetworkVisualization(options) {
       })
 
       this.redraw = debounce(this.redraw, 100, this)
+      this.onResize = debounce(this.onResize, 100, this)
       this.redraw()
 
-      window.addEventListener("resize", this.redraw)
+      window.addEventListener("resize", this.onResize)
     },
 
     beforeUnmount() {
+      if (this.layout) {
+        this.layout.stop()
+        this.layout = null
+      }
+
       if (this.cy) {
         this.cy.destroy()
         this.cy = null
       }
 
-      window.removeEventListener("resize", this.redraw)
+      window.removeEventListener("resize", this.onResize)
     },
   })
 
