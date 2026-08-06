@@ -177044,6 +177044,9 @@ return a / b;`;
   cytoscape2.use(import_cytoscape_fcose.default);
   cytoscape2.use(import_cytoscape_klay.default);
   cytoscape2.warnings(false);
+  var MIN_CONTAINER_HEIGHT = 500;
+  var VIEW_PADDING = 30;
+  var ZOOM_FLOOR = 0.02;
   async function CorrelationsNetworkVisualization(options2) {
     options2 = options2 || {};
     const component2 = createVueComponentWithCSS({
@@ -177123,25 +177126,33 @@ return a / b;`;
           this.redraw();
         },
         chosenNodeLayoutAlgorithm() {
-          if (!this.cy) return;
-          if (this.layout) this.layout.stop();
-          this.layout = markRaw(this.cy.elements().layout(this.layoutSettings));
-          this.layout.run();
+          this.runLayout();
         }
       },
       computed: {
         layoutSettings() {
           const self2 = this;
-          return {
-            name: this.chosenNodeLayoutAlgorithm,
+          const name = this.chosenNodeLayoutAlgorithm;
+          const base = {
+            name,
             randomize: true,
             nodeDimensionsIncludeLabels: true,
-            animate: false,
             stop() {
               if (!self2.cy) return;
               self2.resetView();
             }
           };
+          if (name === "cola") {
+            return {
+              ...base,
+              animate: true,
+              refresh: 4,
+              // ticks per frame; fewer frames, same total work
+              maxSimulationTime: 2e3,
+              convergenceThreshold: 0.1
+            };
+          }
+          return { ...base, animate: false };
         }
       },
       methods: {
@@ -177252,11 +177263,34 @@ return a / b;`;
           if (!container2) return;
           const containerRect = container2.getBoundingClientRect();
           const networkElement = document.getElementById("vue-network");
+          let height2 = 0;
           if (networkElement) {
             const networkRect = networkElement.getBoundingClientRect();
-            container2.style.height = `${networkRect.bottom - containerRect.top}px`;
+            height2 = networkRect.bottom - containerRect.top;
           }
+          container2.style.height = `${Math.max(height2, MIN_CONTAINER_HEIGHT)}px`;
           container2.style["max-height"] = `75vh`;
+        },
+        // Starts (or restarts) the layout. The layouts seed node positions
+        // inside the viewport, so running one before the container has been laid
+        // out squashes every node into the same spot; wait for real dimensions
+        // first.
+        async runLayout() {
+          const cy = this.cy;
+          if (!cy) return;
+          if (this.layout) {
+            this.layout.stop();
+            this.layout = null;
+          }
+          while (this.cy === cy && (!cy.width() || !cy.height())) {
+            this.updateContainerHeight();
+            cy.resize();
+            if (cy.width() && cy.height()) break;
+            await pauseAsync(10);
+          }
+          if (this.cy !== cy) return;
+          this.layout = markRaw(cy.elements().layout(this.layoutSettings));
+          this.layout.run();
         },
         // Resizing doesn't change the data, so there's no reason to rebuild the
         // graph; we just need to let Cytoscape know that its canvas moved.
@@ -177347,9 +177381,10 @@ return a / b;`;
             container: this.$refs.container,
             elements: this.helper.getElements(),
             wheelSensitivity: 2,
-            minZoom: 0.2,
-            // set your desired minimum zoom
-            maxZoom: 1.5,
+            // `resetView` raises this to the zoom level that frames the whole
+            // graph once the layout has settled
+            minZoom: ZOOM_FLOOR,
+            maxZoom: 2,
             // set your desired maximum zoom
             style: [
               {
@@ -177396,8 +177431,7 @@ return a / b;`;
             ]
           });
           this.cy = markRaw(cy);
-          this.layout = markRaw(this.cy.elements().layout(this.layoutSettings));
-          this.layout.run();
+          this.runLayout();
           let selectedNode, selectedEdge;
           this.cy.on("mousedown", "node", (event3) => {
             this.cy.nodes().forEach((node) => node.addClass("semitransparent-node"));
@@ -177448,7 +177482,13 @@ return a / b;`;
         },
         resetView() {
           if (!this.cy) return;
-          this.cy.fit(this.cy.width() * 0.15);
+          if (this.cy.elements().length === 0) return;
+          this.cy.minZoom(ZOOM_FLOOR);
+          this.cy.fit(VIEW_PADDING);
+          const fittedZoom = this.cy.zoom();
+          if (Number.isFinite(fittedZoom) && fittedZoom > 0) {
+            this.cy.minZoom(Math.min(fittedZoom, 1));
+          }
         }
       },
       async mounted() {

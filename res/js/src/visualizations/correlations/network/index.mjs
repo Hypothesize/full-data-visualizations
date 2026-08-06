@@ -181,6 +181,18 @@ cytoscape.use(CytoscapeFcose)
 cytoscape.use(CytoscapeKlay)
 cytoscape.warnings(false)
 
+// the height the Cytoscape container falls back to when the page doesn't give
+// it one; see `updateContainerHeight`
+const MIN_CONTAINER_HEIGHT = 500
+
+// padding, in pixels, left around the graph when fitting it to the viewport
+const VIEW_PADDING = 30
+
+// How far out `fit` is allowed to zoom. This is deliberately generous: it's
+// only the room `fit` needs to frame a big network, and `resetView` raises the
+// real floor back up to the fitted zoom afterwards.
+const ZOOM_FLOOR = 0.02
+
 async function CorrelationsNetworkVisualization(options) {
   options = options || {}
 
@@ -286,10 +298,7 @@ async function CorrelationsNetworkVisualization(options) {
       },
 
       chosenNodeLayoutAlgorithm() {
-        if (!this.cy) return
-        if (this.layout) this.layout.stop()
-        this.layout = markRaw(this.cy.elements().layout(this.layoutSettings))
-        this.layout.run()
+        this.runLayout()
       },
     },
 
@@ -298,18 +307,36 @@ async function CorrelationsNetworkVisualization(options) {
         // NOTE: Cytoscape registers `stop` via `layout.one("layoutstop", ...)`,
         // so `this` inside it is the layout, not this component. Hence `self`.
         const self = this
+        const name = this.chosenNodeLayoutAlgorithm
 
-        return {
-          name: this.chosenNodeLayoutAlgorithm,
+        const base = {
+          name,
           randomize: true,
           nodeDimensionsIncludeLabels: true,
-          animate: false,
 
           stop() {
             if (!self.cy) return
             self.resetView()
           },
         }
+
+        // NOTE: cytoscape-cola runs `while (!tick()) {}` synchronously when
+        // `animate` is false, and cola's non-overlap constraints can keep the
+        // system from ever converging. Its `maxSimulationTime` cutoff is a
+        // `setTimeout`, so it can only fire if we leave the event loop free —
+        // i.e., only if the layout is animated. Never set `animate: false`
+        // here, or the tab freezes with no way to recover.
+        if (name === "cola") {
+          return {
+            ...base,
+            animate: true,
+            refresh: 4, // ticks per frame; fewer frames, same total work
+            maxSimulationTime: 2000,
+            convergenceThreshold: 0.1,
+          }
+        }
+
+        return { ...base, animate: false }
       },
     },
 
@@ -440,13 +467,48 @@ async function CorrelationsNetworkVisualization(options) {
 
         const containerRect = container.getBoundingClientRect()
         const networkElement = document.getElementById("vue-network")
+        let height = 0
 
         if (networkElement) {
           const networkRect = networkElement.getBoundingClientRect()
-          container.style.height = `${networkRect.bottom - containerRect.top}px`
+          height = networkRect.bottom - containerRect.top
         }
 
+        // The container is styled `height: auto`, so without the element above
+        // it collapses to nothing. A zero-height viewport makes Cytoscape seed
+        // every node on the same line, which is a terrible starting point for
+        // the force-directed layouts (and makes `fit` meaningless), so fall
+        // back to a usable height instead.
+        container.style.height = `${Math.max(height, MIN_CONTAINER_HEIGHT)}px`
         container.style["max-height"] = `75vh`
+      },
+
+      // Starts (or restarts) the layout. The layouts seed node positions
+      // inside the viewport, so running one before the container has been laid
+      // out squashes every node into the same spot; wait for real dimensions
+      // first.
+      async runLayout() {
+        const cy = this.cy
+        if (!cy) return
+
+        if (this.layout) {
+          this.layout.stop()
+          this.layout = null
+        }
+
+        while (this.cy === cy && (!cy.width() || !cy.height())) {
+          this.updateContainerHeight()
+          cy.resize()
+
+          if (cy.width() && cy.height()) break
+          await pause(10)
+        }
+
+        // the graph may have been rebuilt or torn down while we waited
+        if (this.cy !== cy) return
+
+        this.layout = markRaw(cy.elements().layout(this.layoutSettings))
+        this.layout.run()
       },
 
       // Resizing doesn't change the data, so there's no reason to rebuild the
@@ -564,8 +626,10 @@ async function CorrelationsNetworkVisualization(options) {
           container: this.$refs.container,
           elements: this.helper.getElements(),
           wheelSensitivity: 2,
-          minZoom: 0.2, // set your desired minimum zoom
-          maxZoom: 1.5, // set your desired maximum zoom
+          // `resetView` raises this to the zoom level that frames the whole
+          // graph once the layout has settled
+          minZoom: ZOOM_FLOOR,
+          maxZoom: 2, // set your desired maximum zoom
 
           style: [
             {
@@ -619,8 +683,7 @@ async function CorrelationsNetworkVisualization(options) {
 
         this.cy = markRaw(cy)
 
-        this.layout = markRaw(this.cy.elements().layout(this.layoutSettings))
-        this.layout.run()
+        this.runLayout()
 
         let selectedNode, selectedEdge
 
@@ -690,7 +753,22 @@ async function CorrelationsNetworkVisualization(options) {
 
       resetView() {
         if (!this.cy) return
-        this.cy.fit(this.cy.width() * 0.15)
+        if (this.cy.elements().length === 0) return
+
+        // `fit` is clamped by `minZoom`, so a network that needs to zoom out
+        // further than the floor gets cropped rather than framed. Open the
+        // floor up first, fit, and then pin the floor to the zoom level that
+        // shows the whole graph — that way "fully zoomed out" and "everything
+        // visible" are the same thing, and the user can't get lost panning
+        // around empty space.
+        this.cy.minZoom(ZOOM_FLOOR)
+        this.cy.fit(VIEW_PADDING)
+
+        const fittedZoom = this.cy.zoom()
+
+        if (Number.isFinite(fittedZoom) && fittedZoom > 0) {
+          this.cy.minZoom(Math.min(fittedZoom, 1))
+        }
       },
     },
 
