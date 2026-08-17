@@ -179500,7 +179500,7 @@ return a / b;`;
 	.hvis-snapshot-vis .hvis-legend-item.hvis-row-centered {
 		flex-wrap: wrap;
 		align-content: stretch;
-		align-items: stretch;
+		align-items: center;
 		gap: calc(var(--padding) / 4);
 	}
 
